@@ -1,0 +1,109 @@
+//about hero style
+.about-hero-section{
+   background-color: $primary-color;
+   .about-hero-content{
+       height: 250px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       color: $base-color;
+   }
+}
+
+// about hero style
+.about-section{
+   // background-color: $section-bg-alt-2;
+   padding: 100px 0px;
+   .about-content{
+       height: 100%;
+    
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   img{
+       padding: 20px;
+   }
+}
+
+
+//whyus style
+.home-whyus-section {
+
+    background-color: $primary-color;
+    padding: 100px 0px;
+
+    .home-whyus-content {
+
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        color: $base-color;
+    }
+
+    .home-whyus-boxes {
+
+
+        .home-whyus-box {
+            background-color: $secondary-color;
+            padding: 30px 40px;
+            margin: 20px;
+            text-align: center;
+            
+
+            h5 {
+                color: $base-color;
+               
+            }
+
+            h3 {
+                color: $accent-color;
+                font-weight:600;
+            }
+
+        }
+    }
+}
+
+
+//team section style
+
+.about-team-section{
+   // background-color: $section-bg-alt-2;
+   padding: 100px 0px;
+   .about-team-box{
+
+       padding-bottom: 20px;
+       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+       .about-team-content{
+            text-align: start;
+           padding-left: 20px;
+           margin-top: 20px;
+           img{
+            width: 100%;
+           }
+           h6{
+               font-weight: 700;
+             
+        
+           }
+           span{
+              
+               color: $secondary-color;
+               font-size: 600;
+               font-size: 14px;
+               line-height: 100%;
+           }
+       }
+
+   }
+
+}
+
+

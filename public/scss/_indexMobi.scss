@@ -1,0 +1,259 @@
+.footer1 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    li {
+      padding: 10px;
+      a {
+        i {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+.innerContent {
+  position: relative;
+  top: 75px;
+  
+  background-color: #F7F7F7;
+  //   ===================================  homePage 
+  p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color :  black;
+    word-wrap: break-word;
+  }
+  a{color: black;}
+  h6 {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .Banner {
+    width: 100%;
+    .carousel-item {
+    border-radius: 10px;
+    }
+    .carousel-inner {
+        border-radius: 10px;
+    }
+  }
+
+  .colleges {
+    position: relative;
+    h6 {
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+    .collegesCat {
+      margin: auto;
+
+      border-radius: 10px;
+      text-align: center;
+      a {
+        display: block;
+        padding: 10px 0px;
+        color: black;
+        img {
+          width: 40px;
+
+          object-fit: contain;
+        }
+        p {
+          margin: 5px 0;
+          font-size: 1.2rem;
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
+
+  .recentCollegList {
+    .recentColleges {
+      display: flex;
+      overflow-x: auto;
+      overflow-y: hidden;
+      height: max-content;
+      .recentColleges_collegeView {
+        height: max-content;
+        margin: 10px;
+        border: 1px solid #0000002e;
+        border-radius: 10px;
+        border: 1px solid #00000038;
+
+        padding: 0;
+        padding-bottom: 14px;
+        button{
+            margin: 0;
+    font-size: 1.2rem;
+    margin-left: 11px;
+    padding: 5px 10px;
+        }
+       & > p {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          -webkit-line-clamp: 2; /* Limit to two lines */
+          white-space: normal; /* Allow wrapping within the lines */
+
+          overflow: hidden;
+          text-overflow: ellipsis;
+          
+            font-weight: 500;
+            font-size: 1.6rem;
+          padding: 9px 8px 20px;
+
+        }
+        img {
+            width: 200px;
+            object-fit: cover;
+            height: 150px;
+            border-radius: 10px;
+
+        }
+      }
+    }
+  }
+
+  .studyAbroad{
+
+     .studyAbroad_card{
+        background: rgb(47,32,125);
+        background: radial-gradient(circle, rgba(47,32,125,0.6923144257703081) 0%, rgba(47,32,125,0.7511379551820728) 34%, rgba(47,32,125,1) 100%);
+        border-radius: 20px;
+        padding: 20px;
+        h5{
+            color: white;
+        }
+        p{
+            color: white;
+            font-weight: 100;
+    letter-spacing: .5px;
+        }
+        button{
+            font-size: 1.2rem;
+              padding:  10px 30px;
+            border: 1px solid white;
+            background-color: transparent;
+         
+            margin-left: auto;
+        }
+    }
+  }
+  //   ===================================  CollegeMobileList
+  .CollegeMobileList {
+    .CollegeMobileList_filter{
+ 
+      display: flex;
+      overflow-x: auto;
+      overflow-y: hidden;
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content;
+     .CollegeMobileList_filterList {
+      height: max-content;
+      border: 1px solid rgba(0, 0, 0, 0.116);
+      text-align: center;
+      margin: 0 5px;
+      background-color: #F7F7F7;
+      p{display: block;
+        white-space: nowrap;
+        line-height: 30px;
+        padding: 0 10px;
+        font-size: 1.4rem;
+        font-weight: 500;
+        i{
+          font-size: 1.2rem;
+        }
+      }
+    }
+   
+  }
+  .CollegeMobileList_list{
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    padding: 20px ;
+    background-color: white;
+    border-radius: 10px;
+    .CollegeMobileList_listData{
+
+     .image{
+      
+      height: 100px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+     }
+      .CollegeMobileList_data{
+        height: 100%;
+         
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h6{
+          overflow: hidden;
+          
+          max-width: 90%;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+
+        }
+        ul{
+       
+          li{
+            display: flex;
+            margin: 5px 0;
+            button{
+              font-size: 1.2rem;
+              padding: 2px;
+            }
+            
+          }
+     
+        }
+        i{
+          color: var(--accent-color);
+        }
+        .bi-geo-alt-fill{
+          color: black;
+        }
+       
+      }
+      .callNow {
+        button{
+          background-color: var(--primary-color);
+          padding: 10px ;
+          margin: 0;
+          width: 100%;
+          font-size: 1.4rem;
+        }
+      }
+      .Enquiry {
+        button{
+          background-color:transparent;
+          border: 1px solid #2f207d;
+          padding: 10px ;
+          color: black;
+          margin: 0;
+          width: 100%;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+  }
+  
+
+}
+::-webkit-scrollbar {
+    width: 0.1em; /* Set the width to a very small value */
+}
+

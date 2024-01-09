@@ -1,0 +1,60 @@
+$color_1: #fff;
+$color_2: #eee;
+
+.cta {
+	padding-top: 62px;
+	background: #F8F8F8;
+	background-position: 50% -212.914px;
+	.cta-inner {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		padding: 30px 0;
+	}
+	.text-content {
+ 		z-index: 1;
+		position: relative;
+		border-radius: 5px;
+ 		@media #{$tab}{
+			padding: 20px;
+		  }
+		h2 {
+ 			margin-bottom: 20px;
+			color: black;
+		
+			span {
+				font-weight: 900;
+ 				border-bottom: 2px solid;
+				color: blue;
+			}
+		}
+		p {
+			color:rgb(0, 0, 0);
+ 		}
+	}
+	.button {
+		margin-top: 20px;
+		.white {
+		    background: #ebb830;
+    padding: 13px 60px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgba(0,0,0,0);
+    color: #000000;
+    border-radius: 4px;
+	font-weight: 600;
+    text-transform: uppercase;
+			&:last-child 
+		 
+{
+				margin: 0;
+			}
+		}
+	}
+	.cta-image {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}

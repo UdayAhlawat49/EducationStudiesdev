@@ -1,0 +1,359 @@
+ 
+ <%- include('partials/header') %>
+   
+
+    <section>
+      <div class="container mietViewPage">
+        <% collegeData.forEach(college => { %>
+          <div class="row">
+            <div class="col">
+              <div class="collegeViewImage">
+                <img src="<%= college.collegeDetails.imageSrc %>" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="collgeViewHeading">
+                <div class="collegeViewMainHead">
+                  <div class="collegeLogo">
+                    <img width="70" src="<%= college.collegeDetails.logoSrc %>" alt="" />
+                  </div>
+                  <div class="subheading">
+                    <h3><%= college.collegeDetails.name %></h3>
+                    <p><%= college.collegeDetails.description %></p>
+                  </div>0
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-md-5">
+            <!-- ... Other content ... -->
+            <div class="col-md-4 border p-md-4 pt-4">
+              <p class="bold">Address</p>
+              <div class="address">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p><%= college.collegeDetails.address %></p>
+              </div>
+            </div>
+            <div class="col-md-4 border p-md-4 pt-4">
+              <p class="bold">Website</p>
+              <div class="address">
+                <i class="bi bi-browser-edge"></i>
+                <p><%= college.collegeDetails.website %></p>
+              </div>
+            </div>
+            <div class="col-md-4 border p-md-4 pt-4">
+              <p class="bold">Business Hours</p>
+              <div class="address">
+                <i class="bi bi-alarm"></i>
+                <p><%= college.collegeDetails.businessHours %></p>
+              </div>
+            </div>
+          </div>
+          <!-- ... Other content ... -->
+        <% }); %>
+        
+        <!-- tabs -->
+        <% console.log(tabLinksDataForAllColleges) %>
+
+     <!-- Nav tabs -->
+     <div class="row tabLinks">
+      <div class="col">
+        <div class="innerTabs">
+     
+
+     <% tabLinksDataForAllColleges.forEach(tabData => {  %>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+        <% tabData.forEach(tab => { %>
+         <%  console.log("tabId" ,tab.id) %>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link <%= tab.active ? 'active' : '' %>"
+              id="<%= tab.id %>-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#<%= tab.id %>"
+              type="button"
+              role="tab"
+              aria-controls="<%= tab.id %>"
+              aria-selected="<%= tab.active %>"
+            >
+              <%= tab.label %>
+            </button>
+          </li>
+        <% }); %>
+      </ul>
+      
+      <%   }) %>
+    </div>
+  </div>
+  </div>
+<!-- Tab panes -->
+<% tabLinksDataForAllColleges.forEach(tabData => {  %>
+  <div class="tab-content">
+    <% tabData.forEach(tab => { %>
+      <%  console.log("tabId22" ,tab.id) %>
+      <div
+        class="tab-pane <%= tab.active ? 'active' : '' %>"
+        id="<%= tab.id %>"
+        role="tabpanel"
+        aria-labelledby="<%= tab.id %>-tab"
+        tabindex="0"
+      >
+      <div class="CollegeViewtabConent"> 
+        <!-- Check if innerContent is an array (for dynamic content) -->
+        <% if (Array.isArray(tab.innerContent)) { %>
+          <% console.log("data",tab.innerContent) %>
+          <!-- Iterate over innerContent array -->
+          <% tab.innerContent.forEach(innerContentItem => { %>
+            <!-- Check the type of innerContentItem (overview, admission, courses, etc.) -->
+            <div class="row">
+              <div class="col-md-8">
+            <% if (innerContentItem.type === 'latestUpdate') { %>
+               <!-- Iterate over innerContentItem.sections if needed -->
+               <div id="latestUpdate" class="overview1 card card-body">
+             
+                <h3><%= innerContentItem.title %></h3>
+                  <div class="innerOverview1">
+                    <div class="subContent">
+                      <p>
+                        MIET Meerut</p>
+                        <p><%= innerContentItem.content %></p>
+                    </div>
+                  
+                  </div>
+  
+               </div>
+   
+              <% } else if (innerContentItem.type === 'overview') { %>
+                <!-- -=========================================================== overview-->
+  
+                <div class="overview card card-body mt-5">
+  
+                 <% if(Array.isArray(innerContentItem.content)) { %> 
+                  <% innerContentItem.content.forEach(section => { %>
+                    <h3><%= section.childTitle %></h3>
+                
+                    <p> <%= section.childContent %> </p>
+                <%  }) %>
+  
+                  <% } else { %>
+                    <h3><%= innerContentItem.title %></h3>
+                
+                    <p> <%= innerContentItem.content %> </p>
+                    <%  } %>
+            
+              </div>
+              <% } else if (innerContentItem.type === 'criteria') { %>
+                <!-- -=========================================================== criteria-->
+      
+                    
+                  <div   class="Reservation card card-body mt-5">
+                    <h3><%= innerContentItem.title %></h3>
+                  <div class="row">
+                    <div class="col">
+                      <table class="table table-bordered table-striped my-4 ">
+                        
+                        <thead>
+                          <tr>
+                 
+                            <th scope="col">Course Name</th>
+                            <th scope="col">Eligibility</th>
+                            
+                           </tr>
+                        </thead>
+                        <tbody>
+                      <% innerContentItem.cutOffs.forEach(section => { %>
+                   
+                            <tr>
+                              <th scope="row"><p><%= section.course%></p>
+                             </th>
+                              <td><p><%= section.Eligibility%> </p></td>
+                         
+                        <% }); %>
+                      </tr>
+                    </tbody>
+                </table>
+      
+                  </div>
+                </div>
+              </div>
+              <% } else if (innerContentItem.type === 'CourseEligibility') { %>
+                <!-- -=========================================================== CourseEligibility-->
+      
+                    
+                  <div   class="Reservation card card-body mt-5">
+                    <h3><%= innerContentItem.title %></h3>
+                  <div class="row">
+                    <div class="col">
+                      <table class="table table-bordered table-striped my-4 ">
+                        
+                        <thead>
+                          <tr>
+                 
+                            <th scope="col">Course Name</th>
+                            <th scope="col">Tuition Fees</th>
+                            <th scope="col">Eligibility</th>
+                            
+                           </tr>
+                        </thead>
+                        <tbody>
+                      <% innerContentItem.cutOffs.forEach(section => { %>
+                   
+                            <tr>
+                              <th scope="row"><p><%= section.course%></p>
+                             </th>
+                              <td><p><%= section.TuitionFees %> </p></td>
+                              <td><p><%= section.Eligibility%> </p></td>
+                        <% }); %>
+                      </tr>
+                    </tbody>
+                </table>
+      
+                  </div>
+                </div>
+              </div>
+            <% } else if (innerContentItem.type === 'courses') { %>
+  
+              <!-- -=========================================================== courses-->
+            
+                
+            
+              <div   class="feesStructure card card-body mt-5">
+                <h3><%= innerContentItem.title %></h3>
+              <div class="row">
+                <div class="col">
+              <% innerContentItem.courses.forEach(section => { %>
+                
+                    <!-- btech -->
+                    <div class="courseFees">
+                      <div class="courseName">
+                        <span><%= section.name %> </span>
+                        <span><%= section.count %></span>
+                      </div>
+                      <div class="annualFee">
+                        <span>Annual Fee</span>
+                        <span><i class="bi bi-currency-rupee"></i> &nbsp;<%= section.fee %></span>
+                      </div>
+                      <div class="Apply">
+                        <span>
+                          Apply
+                        </span>
+                      </div>
+                    </div>
+                   
+                     
+                
+                <% }); %>
+              </div>
+            </div>
+          </div>
+            <% } else if (innerContentItem.type === 'admission') { %>
+            <!-- -=========================================================== admission-->
+  
+              <div   class="Ranking card card-body mt-5">
+                <h3><%= innerContentItem.title %></h3>
+              <div class="row">
+                <div class="col">
+                  <p class="h1">Eligibility</p>
+              <% innerContentItem.eligibility.forEach(section => { %>
+                
+                <ul>
+                 <li><%= section %>
+                 </li>
+                </ul>
+              
+                <% }); %>
+                <h3>Important dates
+                  <table class="table table-bordered table-striped my-4 ">
+                    
+                    <thead>
+                      <tr>
+             
+                        <th scope="col">Dates</th>
+                        <th scope="col">Events</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                  <% innerContentItem.importantDates.forEach(section => { %>
+               
+                        <tr>
+                          <th scope="row"><p><%= section.date%></p>
+                         </th>
+                          <td><p><%= section.event%> </p></td>
+                          
+                     
+                    <% }); %>
+                  </tr>
+                </tbody>
+            </table>
+  
+                </h3>
+              </div>
+            </div>
+          </div>
+            <% } else if (innerContentItem.type === 'cutoffs') { %>
+            <!-- -=========================================================== cutoffs-->
+  
+                
+              <div   class="Reservation card card-body mt-5">
+                <h3><%= innerContentItem.title %></h3>
+              <div class="row">
+                <div class="col">
+                  <table class="table table-bordered table-striped my-4 ">
+                    
+                    <thead>
+                      <tr>
+             
+                        <th scope="col">Course</th>
+                        <th scope="col">2021</th>
+                        <th scope="col">2022</th>
+                        <th scope="col">2023</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                  <% innerContentItem.cutOffs.forEach(section => { %>
+               
+                        <tr>
+                          <th scope="row"><p><%= section.course%></p>
+                         </th>
+                          <td><p><%= section.year2021%> </p></td>
+                          <td><p><%= section.year2022%> </p></td>
+                          <td><p><%= section.year2023%> </p></td>
+                          
+                     
+                    <% }); %>
+                  </tr>
+                </tbody>
+            </table>
+  
+              </div>
+            </div>
+          </div>
+     
+            <% } %>
+  
+          </div>
+        </div>
+          <% }); %>
+        <% } else { %>
+          <!-- If innerContent is a string, display it as is -->
+          <%= tab.innerContent %>
+        <% } %>
+         </div>
+      </div>
+    <% }); %>
+  </div>
+  
+  <%   }) %>
+
+        
+        </div>
+      </div>
+    </section>
+    
+    <!-- regsitration form  -->
+
+    <!-- regustration form end  -->
+    <%- include('partials/footer') %>

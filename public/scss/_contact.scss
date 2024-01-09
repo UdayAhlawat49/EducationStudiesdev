@@ -1,0 +1,76 @@
+//about hero style
+.contact-hero-section{
+    background-color: $primary-color;
+    .contact-hero-content{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $base-color;
+    }
+ }
+
+ //contact iconbox style
+ .contact-iconbox-section{
+   padding: 100px 0px;
+   .contact-iconbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+       background-color: $secondary-color;
+       height: 300px;
+       color: $base-color;
+       text-align: center;
+       i{
+        font-size: 40px;
+       }
+       h4{
+        margin-top: 16px;
+       }
+       p{
+        margin: 16px 0px;
+       }
+       
+  
+    
+ }
+}
+
+//contact form style
+.contact-contact-form-section{
+    padding: 100px 0px;
+    form{
+     label{
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 14px;
+     }
+     .form-text{
+        color: $secondary-color;
+        font-size: 12px;
+        font-weight: 500;
+     }
+     input{
+        padding: 10px;
+      
+     }
+     button{
+        background-color: $primary-color;
+        color: $base-color;
+        border-radius: 0px;
+        font-size: 12px;
+        padding: 10px 20px;
+
+
+        &:hover{
+            background-color: $secondary-color;
+            border-color: $secondary-color;
+        }
+     }
+
+    }
+}
+ 
