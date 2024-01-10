@@ -93,7 +93,7 @@ a {
 }
 
 h1 {
-  font-size: 9.6rem;
+  font-size: 6.5rem;
   letter-spacing: -1.5px;
 }
 
@@ -376,6 +376,14 @@ button:hover {
       -ms-flex-pack: end;
           justify-content: end;
 }
+.socialContact .Appointment .book_btn {
+  display: inline-block;
+  font-size: 14px;
+  color: black;
+  text-transform: capitalize;
+  padding: 10px 25px;
+  background-color: var(--accent-color);
+}
 .socialContact ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,14 +398,6 @@ button:hover {
   display: flex;
   font-weight: 800;
   margin: 0 10px;
-}
-.socialContact > button {
-  background-color: var(--accent-color);
-  border: none;
-  padding: 12px 10px;
-  color: white;
-  font-weight: 500;
-  font-size: 1.6rem;
 }
 
 .heroSection1 {
@@ -478,6 +478,14 @@ button:hover {
     font-weight: 300;
     line-height: 18px;
   }
+}
+.heroSection1 .middleContent .subHead {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 150%;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: center;
 }
 @media (max-width: 991px) {
   .heroSection1 .middleContent .subHead {
@@ -3097,7 +3105,7 @@ button.accordion-button.border-0.bg-white {
 }
 
 .about-hero-section {
-  background-color: #2f207d;
+  background-color: #0e70a1;
 }
 .about-hero-section .about-hero-content {
   height: 250px;
@@ -3157,6 +3165,10 @@ button.accordion-button.border-0.bg-white {
           justify-content: center;
   color: white;
 }
+.home-whyus-section .home-whyus-boxes {
+  height: 100%;
+  padding-top: 30px;
+}
 .home-whyus-section .home-whyus-boxes .home-whyus-box {
   background-color: #00671e;
   padding: 30px 40px;
@@ -3167,7 +3179,7 @@ button.accordion-button.border-0.bg-white {
   color: white;
 }
 .home-whyus-section .home-whyus-boxes .home-whyus-box h3 {
-  color: #47c341;
+  color: white;
   font-weight: 600;
 }
 
@@ -3198,10 +3210,13 @@ button.accordion-button.border-0.bg-white {
 }
 
 .contact-hero-section {
-  background-color: #2f207d;
+  padding: 50px 0;
+  margin: 0;
+  background-color: #0e70a1;
 }
 .contact-hero-section .contact-hero-content {
-  height: 250px;
+  padding-top: 0px;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3215,47 +3230,54 @@ button.accordion-button.border-0.bg-white {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: #0e70a1;
 }
 
 .contact-iconbox-section {
-  padding: 100px 0px;
+  padding: 30px;
+  margin: 70px;
 }
 .contact-iconbox-section .contact-iconbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.103);
+  padding: 30px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0px 20px;
-  background-color: #00671e;
-  height: 300px;
-  color: white;
-  text-align: center;
 }
 .contact-iconbox-section .contact-iconbox i {
-  font-size: 40px;
+  font-size: 25px;
 }
-.contact-iconbox-section .contact-iconbox h4 {
-  margin-top: 16px;
+.contact-iconbox-section a {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.contact-iconbox-section .contact-iconbox p {
-  margin: 16px 0px;
+.contact-iconbox-section a h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 25px;
 }
 
 .contact-contact-form-section {
-  padding: 100px 0px;
+  padding: 50px;
+  margin-top: 50px;
+  background-color: #00671e;
+  max-width: 700px;
+  color: white;
+}
+.contact-contact-form-section h2 {
+  color: white;
 }
 .contact-contact-form-section form label {
-  color: #2f207d;
+  color: white;
   font-weight: 600;
   font-size: 14px;
 }
@@ -3273,8 +3295,72 @@ button.accordion-button.border-0.bg-white {
   border-radius: 0px;
   font-size: 12px;
   padding: 10px 20px;
+  border: none;
 }
 .contact-contact-form-section form button:hover {
-  background-color: #00671e;
+  border: none;
+  background-color: #47c341;
   border-color: #00671e;
+}
+
+.counseling-hero-section {
+  background-color: #00671e;
+}
+.counseling-hero-section .counseling-hero-content {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.counseling-section {
+  padding: 100px 0px;
+}
+.counseling-section .counseling-content-box {
+  padding: 20px 20px 20px 20px;
+  background-color: #2f207d;
+  margin-bottom: 10px;
+  color: white;
+}
+.counseling-section .counseling-work-box {
+  padding: 20px 20px 20px 20px;
+  margin-top: 10px;
+  background-color: #00671e;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  background-color: green;
+}
+.counseling-section .counseling-work-box .counseling-no-box {
+  margin-right: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  display: inline-block;
+}
+.counseling-section .counseling-work-box .counseling-no-box span {
+  font-size: 30px;
+  line-height: 100%;
+  color: black;
+}
+.counseling-form {
+  padding: 100px 0px;
 }/*# sourceMappingURL=style.css.map */

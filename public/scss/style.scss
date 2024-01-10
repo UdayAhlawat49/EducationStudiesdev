@@ -1,5 +1,6 @@
 @import "responsive.scss";
-
+//colors
+@import "colors";
 @import "index";
 
 @import "service";
@@ -34,11 +35,14 @@
 // blog page
 @import "mietMobile";
 
-//colors
-@import "colors";
+
 
 // about page
 @import "about";
 
 //contact page
-@import "contact"
+@import "contact";
+
+
+//counseling page
+@import "counseling";

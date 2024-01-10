@@ -27,7 +27,7 @@
     <div class="container-fluid">
       <!-- desktop viw -->
       <div class="row d-none d-md-block">
-        <div class="col">
+        <div class="col m-0 p-0">
           <div id="desktopView ">
             <section>
               <header>
@@ -39,10 +39,10 @@
                         <ul>
                           <li>
                             <i class="bi bi-envelope"></i>
-                            <span> contact@educationstudies.com </span>
+                            <span> <a href="mailto:">contact@educationstudies.com</a> </span>
                           </li>
                           <li>
-                            <i class="bi bi-telephone"></i> <span>8449511111</span>
+                            <i class="bi bi-telephone"></i> <span><a href="tel:">+ 918449511111</a></span>
                           </li>
                         </ul>
                       </div>
@@ -68,7 +68,8 @@
                   <!-- Navigation -->
                   <div class="row navigation p-2 px-5">
                     <div class="col-10 col-lg-7 col-md-8">
-                      <div class="logo">
+                    <a href="/">
+                        <div class="logo">
                         <img
                           width="60"
                           src="/assets/images/LOGO.png"
@@ -78,11 +79,12 @@
         
                         <span class="ms-3">EDUCATION STUDIES</span>
                       </div>
+                    </a>
                     </div>
                     <div class="col-2 col-lg-5 col-md-4">
                       <!-- social contact-->
                       <div class="socialContact">
-                        <ul>
+                        <!-- <ul>
                           <li>
                             <a>HOME</a>
                           </li>
@@ -95,8 +97,12 @@
                           <li>
                             <a>CONTACT</a>
                           </li>
-                        </ul>
-                     
+                        </ul> -->
+                        <div class="Appointment" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          <div class="book_btn d-none d-lg-block">
+                              <a data-scroll-nav="1" href="#">Apply NOw</a>
+                          </div>
+            </div>
                       </div>
         
                       
@@ -109,9 +115,10 @@
               <div class="container-fluid hero">
                 <!-- desktop menu -->
                 <div class="row">
-                  <div class="col">
+                  <div class="col m-0 p-0">
                     <div id="stickyMenu" class="menu">
                       <ul>
+                        <li><a href="/">Home</a></li>
                         <li>
                           <a href="#">Courses <i class="bi bi-caret-down-fill"></i></a>
                           <ul>
@@ -124,28 +131,23 @@
                           <a href="#">Colleges <i class="bi bi-caret-down-fill"></i></a>
                           <ul>
                             <li>
-                              <a href="#"
-                                >Engineering <i class="bi bi-caret-right-fill"></i
-                              ></a>
-                              <ul>
-                                <li><a href="./College.html">Top Ranked</a></li>
-                              </ul>
+                              <a href="/collegeslist"
+                                >Engineering  
+                               </a>
+                              
                             </li>
-                            <li><a href="#">Management</a></li>
-                            <li><a href="#">Medical</a></li>
+                            <li><a href="/collegeslist">Management</a></li>
+                            <li><a href="/collegeslist">Medical</a></li>
                           </ul>
                         </li>
+                        <li><a href="/counseling">Counseling</a></li>
                         <li>
-                          <a href="#">Study Abroad</a>
-                          <ul>
-                            <li><a href="#">Countries</a></li>
-                            <li><a href="#">Offering</a></li>
-                            <li><a href="#">Exam</a></li>
-                          </ul>
+                          <a href="/abroad">Study Abroad  </a>
+                        
                         </li>
-                        <li><a href="#">Counseling</a></li>
-                        <li><a href="#">Exam</a></li>
-                        <li><a href="#">Updates</a></li>
+                      
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
                       </ul>
                     </div>
                   </div>
@@ -392,5 +394,101 @@
     </div>
  
 
+          <!-- registration modal -->
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body p-0">
+                  <!-- latest_coures_area_start  -->
+                  <div class="admission_area">
+                    <div class="admission_inner">
+                      <div class="container">
+                        <div class="row justify-content-end">
+                          <div class="col-lg-12">
+                            <div class="admission_form">
+                              <h3>Apply for Admission</h3>
+                              <form action="#">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="single_input">
+                                      <input type="text" placeholder="First Name" />
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="single_input">
+                                      <input type="text" placeholder="Last Name" />
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="single_input">
+                                      <input type="text" placeholder="Phone Number" />
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="single_input">
+                                      <input
+                                        type="text"
+                                        placeholder="Email Address"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="single_input">
+                                      <textarea
+                                        cols="30"
+                                        placeholder="Write an Application"
+                                        rows="10"
+                                      ></textarea>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12 mx-auto text-center">
+                                    <div class="apply_btn">
+                                      <button class="boxed-btn3" type="submit">
+                                        Apply Now
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <div class="col-lg-12 mt-3 mx-auto w-100">
+                            <div class="terms text-center">
+                              <p>
+                                By submitting this form, you accept and agree to our ,
+                                <a href="@">Term and Conditions</a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/ latest_coures_area_end -->
+                </div>
+                <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+              </div>
+            </div>
+          </div>
+        
     
  

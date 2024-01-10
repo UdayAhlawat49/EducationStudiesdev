@@ -94,8 +94,8 @@
             </div>
           </div>
 
-          <% console.log("hii",collegeData) %>
-          <% collegeData.forEach(college => { %>
+          <% console.log("hii",collegeListData) %>
+          <% collegeListData.forEach(college => { %>
             <div class="row my-4">
               <div class="col">
                 <div class="CollegeMobileList_list shadow">
@@ -103,28 +103,28 @@
                     <div class="row">
                       <div class="col-3">
                         <div class="image">
-                          <img src="<%= college.collegeDetails.imageSrc %>" alt="logo" />
+                          <img src="<%= college.logoSrc %>" alt="logo" />
                         </div>
                       </div>
                       <div class="col-9">
                         <div class="CollegeMobileList_data">
-                          <% if (college.collegeDetails.topRated) { %>
+                          <% if (college.topRated) { %>
                             <p class="border px-2 mb-1"><i class="bi bi-star-fill"></i> &nbsp; Top Rated</p>
                           <% } %>
-                          <h6><%= college.collegeDetails.name %></h6>
+                          <h6><%= college.name %></h6>
                           <ul>
                             <li class="d-flex align-items-center">
-                              <p>( <%= college.collegeDetails.rating %> )&nbsp; </p>
+                              <p>( <%= college.rating %> )&nbsp; </p>
                               <div>
-                                <% for (let i = 0; i < college.collegeDetails.star; i++) { %>
+                                <% for (let i = 0; i < college.star; i++) { %>
                                   <i class="bi bi-star-fill"></i>
                                 <% } %>
                               </div>
-                              <p>&nbsp;&nbsp; <%= college.collegeDetails.reviewCount %></p>
+                              <p>&nbsp;&nbsp; <%= college.reviewCount %></p>
                             </li>
                             <li>
                               <div><i class="bi bi-geo-alt-fill"></i> </div>
-                              <div><p> <%= college.collegeDetails.address %></p></div>
+                              <div><p> <%= college.location %></p></div>
                             </li>
                           </ul>
                         </div>
@@ -133,7 +133,7 @@
                     <div class="row mt-4">
                       <div class="col-6">
                         <div class="callNow">
-                          <button><i class="bi bi-telephone-fill"></i> &nbsp; Call Now</button>
+                          <button><a href="tel"><i class="bi bi-telephone-fill"></i> &nbsp; Call Now</a></button>
                         </div>
                       </div>
                       <div class="col-6">

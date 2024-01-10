@@ -4,7 +4,15 @@ const { collegeData, tabData  , tabLinksDataForAllColleges } = require('../datab
 
 router.get("/collegeView/:collegeCode", (req, res) => {
   const collegeCode = req.params.collegeCode;
-  res.render('CollegeView', { collegeData, tabLinksDataForAllColleges , collegeCode  });
+   // Assuming tabLinksDataForAllColleges is the array you provided
+   const tabData = tabLinksDataForAllColleges.find(
+    (collegeTabLinks) => collegeTabLinks.some((tab) => tab.id.includes(collegeCode))
+  );
+  
+  const collegeViewData =   collegeData.find((college) => college.collegeCode === collegeCode);
+
+
+  res.render('CollegeView', { collegeViewData, tabData , collegeCode  });
 });
 
 module.exports = router;

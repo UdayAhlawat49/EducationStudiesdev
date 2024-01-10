@@ -1,0 +1,67 @@
+//counseling hero style
+.counseling-hero-section{
+    background-color: $secondary-color;
+    .counseling-hero-content{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $base-color;
+    }
+ }
+
+ //counseling section
+
+ .counseling-section{
+    padding: 100px 0px;
+    .counseling-content-box{
+      padding: 20px 20px 20px 20px;
+      background-color: $primary-color;
+      margin-bottom: 10px;
+      color: $base-color;
+
+
+      
+    }
+
+
+    .counseling-work-box{
+        padding: 20px 20px 20px 20px;
+        margin-top: 10px;
+        background-color: $secondary-color;
+        color: $base-color;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        background-color: green;
+        .counseling-no-box{
+           
+           margin-right: 20px;
+           padding: 10px 20px;
+            background-color: $base-color;
+            display: inline-block;
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+           
+            span{
+                font-size: 30px;
+                line-height: 100%;
+                color: black;
+            }
+        }
+        .counseling-work-content{
+          
+        }
+        
+      }
+ }
+
+
+ //counsling form
+
+ .counseling-form{
+    padding: 100px 0px;
+ }
+
