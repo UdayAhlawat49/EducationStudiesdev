@@ -20,9 +20,14 @@
 
 .innerContent {
   position: relative;
-  top: 75px;
+  top: 0;
   
   background-color: #F7F7F7;
+  @media #{$tab}{
+    top: 75px;
+  }
+
+  
   //   ===================================  homePage 
   p {
     font-size: 1.2rem;
@@ -243,6 +248,9 @@
           margin: 0;
           width: 100%;
           font-size: 1.4rem;
+          a{
+            color: white;
+          }
         }
       }
       .Enquiry {

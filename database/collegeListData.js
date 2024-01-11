@@ -1,6 +1,18 @@
 const collegeListData = [
   {
     collegeCode: "074",
+    logoSrc: "./assets/images/College/miet-thumb.webp",
+    topRated: true,
+    name: "Meerut Institute and Engineering Technology",
+    rating: 4.5,
+    totalRatings: 245,
+    star: 5,
+    reviewCount: 243,
+    location: "Behind D-Mart, Ghodbunder Road, Thane West, Thane - 400610",
+    contactNum: "849554111"
+  },
+  {
+    collegeCode: "075",
     logoSrc: "./assets/images/College/dewan-thumb.jpeg",
     topRated: true,
     name: "Dewan VS Group of Institutions India",
@@ -12,7 +24,7 @@ const collegeListData = [
     contactNum: "849554111"
   },
   {
-    collegeCode: "075",
+    collegeCode: "076",
     logoSrc: "./assets/images/College/jp-logo.jpg",
     topRated: true,
     name: "JP Institute of Engineering and Technology",
@@ -24,8 +36,8 @@ const collegeListData = [
     contactNum: ""  // Assuming not provided in the original data
   },
   {
-    collegeCode: "",  // Missing in the original data
-    logoSrc: "./assets/images/College/iimt-logo.jpg",
+    collegeCode: "127",  // Missing in the original data
+    logoSrc: "./assets/images/College/iimt-logo.png",
     topRated: true,
     name: "IIMT Group of Colleges, Meerut",
     rating: 4.5,
@@ -36,7 +48,7 @@ const collegeListData = [
     contactNum: ""  // Assuming not provided in the original data
   },
   {
-    collegeCode: "",  // Missing in the original data
+    collegeCode: "080",  // Missing in the original data
     logoSrc: "./assets/images/College/sanskriti-logo.jpeg",
     topRated: true,
     name: "Sanskriti University",
@@ -48,7 +60,7 @@ const collegeListData = [
     contactNum: ""  // Assuming not provided in the original data
   },
   {
-    collegeCode: "",  // Missing in the original data
+    collegeCode: "081",  // Missing in the original data
     logoSrc: "./assets/images/College/asia-logo.jpeg",
     topRated: true,
     name: "Asia-Pacific Institute of Management, New Delhi",
@@ -60,8 +72,8 @@ const collegeListData = [
     contactNum: ""  // Assuming not provided in the original data
   },
   {
-    collegeCode: "",  // Missing in the original data
-    logoSrc: "./assets/images/College/maharishi-logo.jpeg",
+    collegeCode: "082",  // Missing in the original data
+    logoSrc: "./assets/images/College/maharishi-thumb.jpeg",
     topRated: true,
     name: "Maharishi University of Information Technology - Noida Campus",
     rating: 3.8,
@@ -72,7 +84,7 @@ const collegeListData = [
     contactNum: ""  // Assuming not provided in the original data
   },
   {
-    collegeCode: "",  // Missing in the original data
+    collegeCode: "083",  // Missing in the original data
     logoSrc: "./assets/images/College/iamr-logo.jpeg",
     topRated: true,
     name: "IAMR Group of Institutions",

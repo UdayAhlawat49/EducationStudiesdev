@@ -1684,6 +1684,11 @@ button.accordion-button.border-0.bg-white {
   margin-right: 9px;
 }
 
+.blog_right_sidebar {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
 .blog_right_sidebar .list li {
   padding: 5px 10px;
   margin: 10px;
@@ -2970,8 +2975,13 @@ button.accordion-button.border-0.bg-white {
 
 .innerContent {
   position: relative;
-  top: 75px;
+  top: 0;
   background-color: #F7F7F7;
+}
+@media (max-width: 991px) {
+  .innerContent {
+    top: 75px;
+  }
 }
 .innerContent p {
   font-size: 1.2rem;
@@ -3187,6 +3197,9 @@ button.accordion-button.border-0.bg-white {
   margin: 0;
   width: 100%;
   font-size: 1.4rem;
+}
+.innerContent .CollegeMobileList .CollegeMobileList_list .CollegeMobileList_listData .callNow button a {
+  color: white;
 }
 .innerContent .CollegeMobileList .CollegeMobileList_list .CollegeMobileList_listData .Enquiry button {
   background-color: transparent;
