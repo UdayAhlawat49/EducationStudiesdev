@@ -22,6 +22,9 @@
             -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.02);
             box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.02); 
             border: 1px solid rgba(0, 0, 0, 0.055);
+            
+            height: 350px;
+
             &::before{
                 position: absolute;
                 right: 0;
@@ -65,13 +68,13 @@
         display: inline-flex;
         background: #f8fafe;
         // margin-bottom: 80px;
-         margin-top: 33px;
+   
         @media #{$mobile_device} {
             margin-bottom: 40px;
         }
         a{
            
-            color: #234262;
+            color: rgba(0, 0, 0, 0.945);
         
             display: inline-block;
             padding: 8px 22px;
@@ -79,7 +82,7 @@
                 padding:  14px;
             }
             &.active{
-                background: #60d3e4;
+                background: var(--primary-color);
                 color: #fff;
              }
         }

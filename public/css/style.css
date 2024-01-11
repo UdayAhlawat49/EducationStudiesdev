@@ -316,6 +316,9 @@ button:hover {
   padding: 5px 0;
   color: white;
 }
+.topBar marquee {
+  font-size: 16px;
+}
 .topBar ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,7 +326,7 @@ button:hover {
   padding: 0 10px;
 }
 .topBar ul li {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   margin: 0 10px;
 }
@@ -340,23 +343,35 @@ button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px 0;
+  padding: 0;
 }
 .logo img {
   -o-object-fit: contain;
      object-fit: contain;
 }
 .logo span {
-  font-size: 3.2rem;
+  font-size: 6rem;
   font-weight: 700;
-  /* line-height: 100%; */
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: black;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.9725490196);
   display: -webkit-box;
   display: -ms-flexbox;
+  line-height: 58px;
   display: flex;
+  letter-spacing: -2px;
+  word-spacing: 7px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .logo span {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 991px) {
+  .logo span {
+    font-size: 4rem;
+  }
 }
 @media (max-width: 576px) {
   .logo span {
@@ -376,6 +391,35 @@ button:hover {
       -ms-flex-pack: end;
           justify-content: end;
 }
+.socialContact ul {
+  border-right: 2px solid rgba(0, 0, 0, 0.144);
+  border-left: 2px solid rgba(0, 0, 0, 0.144);
+}
+.socialContact ul .num i {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+.socialContact ul .num a {
+  font-size: 2.5rem;
+}
+.socialContact ul .email i {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+}
+.socialContact ul .email a {
+  font-size: 1.4rem;
+}
+.socialContact ul li span i {
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+.socialContact ul li span a {
+  color: rgba(0, 0, 0, 0.705);
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  margin-left: 5px;
+}
 .socialContact .Appointment .book_btn {
   display: inline-block;
   font-size: 14px;
@@ -384,10 +428,11 @@ button:hover {
   padding: 10px 25px;
   background-color: var(--accent-color);
 }
+.socialContact .Appointment .book_btn a {
+  font-size: 2rem;
+}
 .socialContact ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -401,12 +446,38 @@ button:hover {
 }
 
 .heroSection1 {
-  background-image: url("../assets/images/bgImage.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 700px;
   position: relative;
+}
+.heroSection1 .Banner {
+  position: relative;
+}
+.heroSection1 .Banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(0, 0, 0)), color-stop(92.71%, rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 92.71%);
+  /* Adjust the gradient stops and colors as needed */
+}
+.heroSection1 .Banner #carouselExampleIndicators {
+  height: 620px;
+  overflow: hidden;
+}
+.heroSection1 .Banner #carouselExampleIndicators .carousel-inner {
+  height: 620px;
+}
+.heroSection1 .Banner #carouselExampleIndicators .carousel-inner .carousel-item {
+  height: 620px;
+}
+.heroSection1 .Banner #carouselExampleIndicators .carousel-inner .carousel-item img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media (max-width: 991px) {
   .heroSection1 {
@@ -415,19 +486,8 @@ button:hover {
     padding-bottom: 0;
   }
 }
-.heroSection1::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), color-stop(92.71%, rgba(0, 0, 0, 0.295)));
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.295) 92.71%);
-  /* Adjust the gradient stops and colors as needed */
-}
 .heroSection1 .middleContent {
-  position: relative;
+  position: absolute;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -439,10 +499,13 @@ button:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   height: 100%;
+  top: 0;
+  z-index: 3;
+  max-width: 75%;
 }
 @media (max-width: 991px) {
   .heroSection1 .middleContent {
@@ -456,12 +519,20 @@ button:hover {
   }
 }
 .heroSection1 .middleContent .upperHead {
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 0%;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 65px;
 }
 .heroSection1 .middleContent .mainHead {
-  font-size: 8rem;
+  font-size: 5rem;
+  line-height: 70px;
+  font-weight: 700;
+}
+.heroSection1 .middleContent .mainHead span {
+  font-size: 9rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: var(--accent-color);
 }
 @media (max-width: 991px) {
   .heroSection1 .middleContent .mainHead h1 {
@@ -482,10 +553,10 @@ button:hover {
 .heroSection1 .middleContent .subHead {
   font-size: 1.6rem;
   font-weight: 300;
-  line-height: 150%;
   font-style: normal;
-  letter-spacing: 1px;
-  text-align: center;
+  letter-spacing: 0.2px;
+  text-align: start;
+  margin-top: 42px;
 }
 @media (max-width: 991px) {
   .heroSection1 .middleContent .subHead {
@@ -545,12 +616,28 @@ button:hover {
     display: none;
   }
 }
+.heroSection1 .rightConent {
+  position: absolute;
+  z-index: 33;
+}
+.heroSection1 .rightConent form .formField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.heroSection1 .rightConent form .formField label {
+  color: white;
+}
 
 .heroSection {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 4;
 }
 .heroSection .hero {
   background-color: var(--primary-color);
@@ -827,7 +914,7 @@ button:hover {
 }
 .service_area {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 .service_area .single_service {
   background: var(--primary-color);
@@ -888,6 +975,7 @@ button:hover {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.02);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.02);
   border: 1px solid rgba(0, 0, 0, 0.055);
+  height: 350px;
 }
 .popular_program_area .single__program .program__content::before {
   position: absolute;
@@ -926,7 +1014,6 @@ button:hover {
   display: -ms-inline-flexbox;
   display: inline-flex;
   background: #f8fafe;
-  margin-top: 33px;
 }
 @media (max-width: 767px) {
   .popular_program_area .nav {
@@ -934,7 +1021,7 @@ button:hover {
   }
 }
 .popular_program_area .nav a {
-  color: #234262;
+  color: rgba(0, 0, 0, 0.945);
   display: inline-block;
   padding: 8px 22px;
 }
@@ -944,7 +1031,7 @@ button:hover {
   }
 }
 .popular_program_area .nav a.active {
-  background: #60d3e4;
+  background: var(--primary-color);
   color: #fff;
 }
 .popular_program_area.program__page .single__program {
@@ -2636,11 +2723,13 @@ button.accordion-button.border-0.bg-white {
 @media (max-width: 767px) {
   .footer .footer_top {
     margin-bottom: 30px;
+    margin-top: 100px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .footer .footer_top {
     margin-bottom: 30px;
+    margin-top: 100px;
   }
 }
 .footer .footer_top .footer_title {
@@ -2899,12 +2988,21 @@ button.accordion-button.border-0.bg-white {
 }
 .innerContent .Banner {
   width: 100%;
+  height: 200px;
 }
 .innerContent .Banner .carousel-item {
   border-radius: 10px;
+  height: 200px;
 }
 .innerContent .Banner .carousel-inner {
   border-radius: 10px;
+  height: 200px;
+}
+.innerContent .Banner .carousel-inner img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .innerContent .colleges {
   position: relative;
