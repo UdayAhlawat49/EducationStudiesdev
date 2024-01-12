@@ -3,6 +3,8 @@
 const generateTabLinksData = require('./generateTabLinks');
 const collegeData = require('./collegeData');
 const collegeListData = require('./collegeListData');
+const courseListData = require('./courseListData');
+
 
 // courses data
 const courseGenerateTabLinksData = require('./courseGenerateTabLinks');
@@ -19,8 +21,12 @@ module.exports = {
   collegeData,
   tabLinksDataForAllColleges,
   collegeListData,
+<<<<<<< HEAD
 
   //courses
   courseTabLinksDataForAllColleges,
   courseData
+=======
+  courseListData
+>>>>>>> b626100957307e51e39343af29f6692dd52d7cc4
 };
