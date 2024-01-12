@@ -14,6 +14,7 @@ app.set('views', path.join(__dirname, 'views'));
 // Import route files
 const indexRoute = require('./routes/indexRoute');
 const collegesListRoute = require('./routes/collegesListRoute');
+const coursesListRoute = require('./routes/coursesListRoute');
 const collegeViewRoute = require('./routes/collegeViewRoute');
 const aboutRoute = require('./routes/aboutRoute');
 const contactRoute = require('./routes/contactRoute');
@@ -29,6 +30,7 @@ app.use('/', aboutRoute);
 app.use('/', contactRoute);
 app.use('/', abroadRoute);
 app.use('/', counselingRoute);
+app.use('/', coursesListRoute);
 app.use('/', notfoundRoute);
 
 
