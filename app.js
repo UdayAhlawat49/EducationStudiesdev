@@ -20,6 +20,7 @@ const aboutRoute = require('./routes/aboutRoute');
 const contactRoute = require('./routes/contactRoute');
 const abroadRoute = require('./routes/abroadRoute');
 const counselingRoute = require('./routes/counselingRoute');
+const coursesViewRoute = require('./routes/coursesViewRoute');
 const notfoundRoute = require('./routes/notfoundRoute');
 
 // Use routes
@@ -31,6 +32,7 @@ app.use('/', contactRoute);
 app.use('/', abroadRoute);
 app.use('/', counselingRoute);
 app.use('/', coursesListRoute);
+app.use('/', coursesViewRoute);
 app.use('/', notfoundRoute);
 
 

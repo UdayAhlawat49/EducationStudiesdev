@@ -4,6 +4,7 @@
 /* small mobile :320px. */
 /* Large Mobile :480px. */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -3414,6 +3415,10 @@ button.accordion-button.border-0.bg-white {
   border-color: #00671e;
 }
 
+#counselling {
+  font-family: "Lora", serif;
+}
+
 .counseling-hero-section {
   background-color: #0e70a1;
 }
@@ -3473,8 +3478,75 @@ button.accordion-button.border-0.bg-white {
   line-height: 100%;
   color: black;
 }
-.counseling-form {
-  padding: 100px 0px;
+.counsellingForm {
+  padding: 30px;
+  padding-top: 20px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  background-color: white;
+}
+.counsellingForm p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+.counsellingForm select {
+  width: 100%;
+  height: 30px;
+  font-size: 1.4rem;
+}
+.counsellingForm h4 {
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.counsellingForm form .formField {
+  margin: 10px 0;
+}
+.counsellingForm form .formField .gender ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.counsellingForm form .formField .gender ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.counsellingForm form .formField .gender ul li input {
+  margin-left: 10px;
+}
+.counsellingForm form .formField .gender ul li label {
+  margin-left: 10px;
+}
+.counsellingForm form label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.counsellingForm form input {
+  height: 30px;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.counsellingForm .head {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.counsellingForm .head h1 {
+  font-size: 4rem;
 }
 
 #why-choose-us {

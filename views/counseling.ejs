@@ -1,5 +1,9 @@
 <%- include('partials/header') %>
 <!-- counseling hero section start -->
+
+<div id="counselling" style="background-color: #F7F7F7;">
+
+
 <section class="container-fluid counseling-hero-section">
   <div class="row">
     <div class="Counseling">
@@ -14,56 +18,108 @@
 
 <section>
   <div class="container">
+ 
     <div class="row">
       <div class="col">
-        <div class="counselingForm">
-          <div class="head">
-            <h2>Education Studies</h2>
-          </div>
+        <div class="counsellingForm shadow ">
+         
           <form action="">
-            <h3>Personal Info</h3>
+            <div class="head">
+                <h2 class="bold">Education Studies</h2>
+                <hr>
+                <h4 class="bold p-4">REGISTRATION FORM</h4>
+              </div>
+
+
+            <div class="row formField">
+                <div class="col-md-10">
+                    <p class="semibold">To, <br> The Director <br> Sir, <br> I request you to admit myself/ my ward in your Academy.
+                    I agree to abide by the rules and regulations of the Academy. My details are as follows...</p>
+                </div>
+
+                <div class="col-md-2">
+                    <input type="file">
+                </div>
+            </div>
             <!-- first , middle , last name -->
-            <div class="row">
-              <div class="col-md-4">
+            <div class="row formField">
+                <div class="col">
+                    <h4>Personal Profile :-</h4>
+                    <hr>
+                </div>
+            </div>
+            <div class="row formField">
+              <div class="col-md-6">
                 <div class="filedForm">
-                  <label for="FirstName">FirstName</label> : <br />
+                  <label for="FirstName">First Name :</label>    <br />
                   <input id="FirstName" type="text" />
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="MiddleForm">
-                  <label for="MiddleForm">MiddleForm</label> :<br />
-                  <input id="MiddleForm" type="text" />
-                </div>
-              </div>
-              <div class="col-md-4">
+       
+              <div class="col-md-6">
                 <div class="LastName">
-                  <label for="LastName">LastName :</label> <br />
+                  <label for="LastName">Last Name :</label> <br />
                   <input id="LastName" type="text" />
                 </div>
               </div>
             </div>
  
-            <!-- gender and data -->
-            <div class="row">
+               <!-- mobile , parent NO -->
+
+               <div class="row formField">
                 <div class="col-md-6">
-                    <label for="sex">Sex</label> <br>
-                    <input name="gender" id="male" type="radio" value="Male">
-                    <label for="male">Male</label>
-
-                    <input name="gender" id="Female" type="radio" value="Female">
-                    <label for="Female">Female</label>
+                    <label for="mobileNo">Mobile No :   </label> <br>
+                    <input id="mobileNo" type="number">
                 </div>
-
+            
                 <div class="col-md-6">
                     <label for="Dob">DOB : </label> <br>
                     <input type="date">
                 </div>
             </div>
 
-            <!-- Blood Group and hostel required  -->
-            <div class="row">
+                  <!-- father and mother name     -->
+                  <div class="row formField">
+                    <div class="col-md-6 ">
+                        <label for="fatherName">Father's Name :  </label> <br>
+                        <input id="fatherName" type="text">
+                    </div>
+    
+                    <div class="col-md-6 ">
+                        <label for="motherName">Mother's Name :  </label> <br>
+                        <input id="motherName" type="text">
+                    </div>
+                </div>
+
+            <!-- gender and data -->
+            <div class="row formField">
                 <div class="col-md-6">
+                 
+                    <div class="gender">
+                        <label for="sex">Sex :</label> <br>
+                      <ul>
+                        <li>
+                            <input name="gender" id="male" type="radio" value="Male">
+                            <label for="male">Male</label>
+        
+                        </li>
+                   <li>     <input name="gender" id="Female" type="radio" value="Female">
+                    <label for="Female">Female</label>
+                </li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="parentNo">Parent's No :   </label> <br>
+                    <input id="parentNo" type="number">
+                </div>
+              
+            </div>
+
+            <!-- Blood Group and hostel required  -->
+            <div class="row formField">
+                <div class="col-md-6">
+                    <label for="bloodGroup">Blood Group</label> <br>
                     <select id="bloodGroup" name="bloodGroup">
                         <option value="A+">A+</option>
                         <option value="A-">A-</option>
@@ -76,55 +132,45 @@
                       </select>
                     
                 </div>
-
                 <div class="col-md-6">
-                    <label for="">Hostel Required</label> <br>
-
-                    <input id="yes" name="hostel" type="radio">
-                    <label for="yes">Yes</label>
-                    <input id="no" name="hostel" type="radio">
+                 
+                    <div class="gender">
+                        <label for="sex">Hostel Required :</label> <br>
+                      <ul>
+                        <li>
+                            <input name="yes" id="yes" type="radio" value="yes">
+                            <label for="yes">Yes</label>
+        
+                        </li>
+                   <li>     <input name="no" id="no" type="radio" value="no">
                     <label for="no">No</label>
-
+                </li>
+                      </ul>
+                    </div>
                 </div>
+          
             </div>
         
-            <!-- mobile , parent NO -->
+         
 
-            <div class="row">
-                <div class="col-md-6">
-                    <label for="mobileNo">Mobile No :   </label> <br>
-                    <input id="mobileNo" type="number">
-                </div>
-                <div class="col-md-6">
-                    <label for="parentNo">Parent's No :   </label> <br>
-                    <input id="parentNo" type="number">
-                </div>
-            </div>
-
-            <!-- father and mother name     -->
-            <div class="row">
-                <div class="col-md-6 ">
-                    <label for="fatherName">Father's Name :  </label> <br>
-                    <input id="fatherName" type="text">
-                </div>
-
-                <div class="col-md-6 ">
-                    <label for="motherName">Mother's Name :  </label> <br>
-                    <input id="motherName" type="text">
-                </div>
-            </div>
+      
 
             <!-- Permanent Address -->
-            <div class="row">
+            <div class="row formField">
                 <div class="col">
                     <label for="permanentAddress">Permanent Address</label> <br>
                     <textarea id="permanentAddress" name="permanentAddress" rows="4" cols="50"></textarea>
                 </div>
             </div>
 
-            <h3>Local Guardian</h3>
+            <div class="row formField">
+                <div class="col">
+                    <h4>Local Guardian :-</h4>
+                    <hr>
+                </div>
+            </div>
             <!-- local guardian -->
-            <div class="row">
+            <div class="row formField">
                 <div class="col-md-6">
                     <label for="guardian">Local Guardian :</label> <br>
                     <input id="guardian" type="text">
@@ -135,7 +181,7 @@
                 </div>
             </div>
             <!-- guardian mobile number , address -->
-            <div class="row">
+            <div class="row formField">
                 <div class="col-md-6">
                     <label for="guardianMobile"> Mobile :</label> <br>
                     <input id="guardianMobile" type="text">
@@ -145,11 +191,16 @@
                     <input id="guardianAddress" type="text">
                 </div>
             </div>
-
-            <h3>Academic Profile</h3>
+            
+            <div class="row formField">
+                <div class="col">
+                    <h4>Academic Profile :-</h4>
+                    <hr>
+                </div>
+            </div>
 
             <!-- program applied for  -->
-            <div class="row">
+            <div class="row formField">
                 <div class="col">
                     <label for="programApplied">Program Applied For :</label> <br>
                     <textarea id="programApplied" name="programApplied" rows="1" cols="50"></textarea>
@@ -173,7 +224,7 @@
 
             <!-- date and sign  -->
 
-            <div class="row">
+            <div class="row formField">
                 <div class="col-md-6">
                     <label for="submitDate">Date :</label> <br>
                     <input id="submitDate" type="date">
@@ -185,7 +236,7 @@
             </div>
 
             <!-- declaration -->
-            <div class="row">
+            <div class="row formField">
                 <div class="col-12">
                     <input type="checkbox">
                      <p class="semibold"><strong>Deceleration:</strong> By submitting this form, I declare that the provided information is accurate and has been provided by me.</p>
@@ -194,7 +245,7 @@
             </div>
 
             <!-- submit button -->
-            <div class="row">
+            <div class="row ">
                 <div class="col-12">
                     <button>submit</button>
                 </div>
@@ -323,5 +374,5 @@
         </div>
     </section>
  -->
-
+</div>
 <%- include('partials/footer') %>
