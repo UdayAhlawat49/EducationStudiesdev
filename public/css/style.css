@@ -350,7 +350,7 @@ button:hover {
      object-fit: contain;
 }
 .logo span {
-  font-size: 6rem;
+  font-size: 4.5rem;
   font-weight: 700;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3415,7 +3415,7 @@ button.accordion-button.border-0.bg-white {
 }
 
 .counseling-hero-section {
-  background-color: #00671e;
+  background-color: #0e70a1;
 }
 .counseling-hero-section .counseling-hero-content {
   height: 250px;
@@ -3433,6 +3433,7 @@ button.accordion-button.border-0.bg-white {
       -ms-flex-align: center;
           align-items: center;
   color: white;
+  background-color: #0e70a1;
 }
 
 .counseling-section {
@@ -3474,4 +3475,19 @@ button.accordion-button.border-0.bg-white {
 }
 .counseling-form {
   padding: 100px 0px;
+}
+
+#why-choose-us {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #0e70a1;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=style.css.map */
