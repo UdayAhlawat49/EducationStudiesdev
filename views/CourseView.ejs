@@ -1,360 +1,108 @@
  
  <%- include('partials/header') %>
-   
-
-    <section>
-      <div class="container mietViewPage">
-        <%  console.log("courseViewData" ,courseViewData) %>
-           <div class="row">
-            <div class="col">
-              <div class="collegeViewImage">
-                <img src="<%= courseViewData.collegeDetails.imageSrc %>" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <div class="collgeViewHeading">
-                <div class="collegeViewMainHead">
-                  <div class="collegeLogo">
-                    <img width="70" src="<%= courseViewData.collegeDetails.logoSrc %>" alt="" />
-                  </div>
-                  <div class="subheading">
-                    <h3><%= courseViewData.collegeDetails.name %></h3>
-                    <p><%= courseViewData.collegeDetails.description %></p>
-                  </div>0
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-md-5">
-            <!-- ... Other content ... -->
-            <div class="col-md-4 border p-md-4 pt-4">
-              <p class="bold">Address</p>
-              <div class="address">
-                <i class="bi bi-geo-alt-fill"></i>
-                <p><%= courseViewData.collegeDetails.address %></p>
-              </div>
-            </div>
-            <div class="col-md-4 border p-md-4 pt-4">
-              <p class="bold">Website</p>
-              <div class="address">
-                <i class="bi bi-browser-edge"></i>
-                <p><%= courseViewData.collegeDetails.website %></p>
-              </div>
-            </div>
-            <div class="col-md-4 border p-md-4 pt-4">
-              <p class="bold">Business Hours</p>
-              <div class="address">
-                <i class="bi bi-alarm"></i>
-                <p><%= courseViewData.collegeDetails.businessHours %></p>
-              </div>
-            </div>
-          </div>
-  
-        
-        <!-- tabs -->
     
-
-     <!-- Nav tabs -->
-     <div class="row tabLinks">
-      <div class="col">
-        <div class="innerTabs">
-     
-
-     
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-
-        <% tabData.forEach(tab => { %>
-      
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link <%= tab.active ? 'active' : '' %>"
-              id="<%= tab.id %>-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#<%= tab.id %>"
-              type="button"
-              role="tab"
-              aria-controls="<%= tab.id %>"
-              aria-selected="<%= tab.active %>"
-            >
-              <%= tab.label %>
-            </button>
-          </li>
-        <% }); %>
-      </ul>
-      
-    
-    </div>
-  </div>
-  </div>
-<!-- Tab panes -->
- 
- 
-  
-  <div class="tab-content">
-    <% tabData.forEach(tab => { %>
- 
-      <div
-        class="tab-pane <%= tab.active ? 'active' : '' %>"
-        id="<%= tab.id %>"
-        role="tabpanel"
-        aria-labelledby="<%= tab.id %>-tab"
-        tabindex="0"
-      >
-      <div class="CollegeViewtabConent"> 
-        <!-- Check if innerContent is an array (for dynamic content) -->
-        <% if (Array.isArray(tab.innerContent)) { %>
-        
-          <!-- Iterate over innerContent array -->
-          <% tab.innerContent.forEach(innerContentItem => { %>
-            <!-- Check the type of innerContentItem (overview, admission, courses, etc.) -->
-            <div class="row">
-              <div class="col ">
-            <% if (innerContentItem.type === 'latestUpdate') { %>
-               <!-- Iterate over innerContentItem.sections if needed -->
-               <div id="latestUpdate" class="overview1 card card-body">
-             
-                <h3><%= innerContentItem.title %></h3>
-                  <div class="innerOverview1">
-                    <div class="subContent">
-                      <p>
-                        MIET Meerut</p>
-                        <p><%= innerContentItem.content %></p>
-                    </div>
-                  
-                  </div>
-  
-               </div>
-   
-              <% } else if (innerContentItem.type === 'overview') { %>
-                <!-- -=========================================================== overview-->
-  
-                <div class="overview card card-body mt-5">
-  
-                 <% if(Array.isArray(innerContentItem.content)) { %> 
-                  <% innerContentItem.content.forEach(section => { %>
-                    <h3><%= section.childTitle %></h3>
-                
-                    <p> <%= section.childContent %> </p>
-                <%  }) %>
-  
-                  <% } else { %>
-                    <h3><%= innerContentItem.title %></h3>
-                
-                    <p> <%= innerContentItem.content %> </p>
-                    <%  } %>
-            
-              </div>
-              <% } else if (innerContentItem.type === 'criteria') { %>
-                <!-- -=========================================================== criteria-->
-      
-                    
-                  <div   class="Reservation card card-body mt-5">
-                    <h3><%= innerContentItem.title %></h3>
-                  <div class="row">
-                    <div class="col">
-                      <table class="table table-bordered table-striped my-4 ">
-                        
-                        <thead>
-                          <tr>
-                 
-                            <th scope="col">Course Name</th>
-                            <th scope="col">Eligibility</th>
-                            
-                           </tr>
-                        </thead>
-                        <tbody>
-                      <% innerContentItem.cutOffs.forEach(section => { %>
-                   
-                            <tr>
-                              <th scope="row"><p><%= section.course%></p>
-                             </th>
-                              <td><p><%= section.Eligibility%> </p></td>
-                         
-                        <% }); %>
-                      </tr>
-                    </tbody>
-                </table>
-      
-                  </div>
-                </div>
-              </div>
-              <% } else if (innerContentItem.type === 'CourseEligibility') { %>
-                <!-- -=========================================================== CourseEligibility-->
-      
-                    
-                  <div   class="Reservation card card-body mt-5">
-                    <h3><%= innerContentItem.title %></h3>
-                  <div class="row">
-                    <div class="col">
-                      <table class="table table-bordered table-striped my-4 ">
-                        
-                        <thead>
-                          <tr>
-                 
-                            <th scope="col">Course Name</th>
-                            <th scope="col">Tuition Fees</th>
-                            <th scope="col">Eligibility</th>
-                            
-                           </tr>
-                        </thead>
-                        <tbody>
-                      <% innerContentItem.cutOffs.forEach(section => { %>
-                   
-                            <tr>
-                              <th scope="row"><p><%= section.course%></p>
-                             </th>
-                              <td><p><%= section.TuitionFees %> </p></td>
-                              <td><p><%= section.Eligibility%> </p></td>
-                        <% }); %>
-                      </tr>
-                    </tbody>
-                </table>
-      
-                  </div>
-                </div>
-              </div>
-            <% } else if (innerContentItem.type === 'courses') { %>
-  
-              <!-- -=========================================================== courses-->
-            
-                
-            
-              <div   class="feesStructure card card-body mt-5">
-                <h3><%= innerContentItem.title %></h3>
-              <div class="row">
-                <div class="col">
-              <% innerContentItem.courses.forEach(section => { %>
-                
-                    <!-- btech -->
-                    <div class="courseFees">
-                      <div class="courseName">
-                        <span><%= section.name %> </span>
-                        <span><%= section.count %></span>
-                      </div>
-                      <div class="annualFee">
-                        <span>Annual Fee</span>
-                        <span><i class="bi bi-currency-rupee"></i> &nbsp;<%= section.fee %></span>
-                      </div>
-                      <div class="Apply">
-                        <span>
-                          Apply
-                        </span>
-                      </div>
-                    </div>
-                   
-                     
-                
-                <% }); %>
-              </div>
-            </div>
-          </div>
-            <% } else if (innerContentItem.type === 'admission') { %>
-            <!-- -=========================================================== admission-->
-  
-              <div   class="Ranking card card-body mt-5">
-                <h3><%= innerContentItem.title %></h3>
-              <div class="row">
-                <div class="col">
-                  <p class="h1">Eligibility</p>
-              <% innerContentItem.eligibility.forEach(section => { %>
-                
-                <ul>
-                 <li><%= section %>
-                 </li>
-                </ul>
+    <section class="conatiner-fluid section-padding">
+      <div class="container course-hero">
+        <div class="row">
+          <div class="col">
               
-                <% }); %>
-                <h3>Important dates
-                  <table class="table table-bordered table-striped my-4 ">
-                    
-                    <thead>
-                      <tr>
-             
-                        <th scope="col">Dates</th>
-                        <th scope="col">Events</th>
-                       </tr>
-                    </thead>
-                    <tbody>
-                  <% innerContentItem.importantDates.forEach(section => { %>
+              <div class="course-hero-content">
+                <%  console.log("courseData" ,courseViewData) %>
                
-                        <tr>
-                          <th scope="row"><p><%= section.date%></p>
-                         </th>
-                          <td><p><%= section.event%> </p></td>
-                          
-                     
-                    <% }); %>
-                  </tr>
-                </tbody>
-            </table>
-  
-                </h3>
-              </div>
-            </div>
-          </div>
-            <% } else if (innerContentItem.type === 'cutoffs') { %>
-            <!-- -=========================================================== cutoffs-->
-  
-                
-              <div   class="Reservation card card-body mt-5">
-                <h3><%= innerContentItem.title %></h3>
-              <div class="row">
-                <div class="col">
-                  <table class="table table-bordered table-striped my-4 ">
-                    
-                    <thead>
-                      <tr>
+                  <h3><%= courseViewData.collegeDetails.name %></h3>
+                  <p><%= courseViewData.collegeDetails.description %></p>
              
-                        <th scope="col">Course</th>
-                        <th scope="col">2021</th>
-                        <th scope="col">2022</th>
-                        <th scope="col">2023</th>
-                       </tr>
-                    </thead>
-                    <tbody>
-                  <% innerContentItem.cutOffs.forEach(section => { %>
-               
-                        <tr>
-                          <th scope="row"><p><%= section.course%></p>
-                         </th>
-                          <td><p><%= section.year2021%> </p></td>
-                          <td><p><%= section.year2022%> </p></td>
-                          <td><p><%= section.year2023%> </p></td>
-                          
-                     
-                    <% }); %>
-                  </tr>
-                </tbody>
-            </table>
-  
               </div>
-            </div>
-          </div>
-     
-            <% } %>
-  
+        
           </div>
         </div>
-          <% }); %>
-        <% } else { %>
-          <!-- If innerContent is a string, display it as is -->
-          <%= tab.innerContent %>
-        <% } %>
+        <hr>
+        <div class="row">
+          <div class="col">
+            <div class="course-tabs">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="syllabus-tab" data-bs-toggle="tab" data-bs-target="#syllabus" type="button" role="tab" aria-controls="syllabus" aria-selected="false">Syllabus</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="carrer-tab" data-bs-toggle="tab" data-bs-target="#carrer" type="button" role="tab" aria-controls="carrer" aria-selected="false">Carrer</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="admission-tab" data-bs-toggle="tab" data-bs-target="#admission" type="button" role="tab" aria-controls="admission" aria-selected="false">Admission</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="popular-colleges-tab" data-bs-toggle="tab" data-bs-target="#popular-colleges" type="button" role="tab" aria-controls="popular-colleges" aria-selected="false">Popular Colleges</button>
+                </li>
+              </ul>
+            </div>
          </div>
-      </div>
-    <% }); %>
-  </div>
-  
- 
-
-        
         </div>
       </div>
     </section>
     
-    <!-- regsitration form  -->
+    
+    <section class="container-fluid section-padding">
+        <div class="container course-tab-section">
+          <div class="row">
+            <div class="col">
+              <div class="tab-content" id="myTabContent">
+                <!-- Overview Tab Data  -->
+                <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                  <div class="course-overview-content">
+                    <h4>Overview</h4>
+                    <hr>
+                    <p>MBA, or Master of Business Administration, is a sought-after postgraduate course globally. Spanning two years, it enhances leadership, strategic thinking, and problem-solving skills. Applicants typically need over 50% in undergrad studies, with admissions based on exams like CAT, CMAT, XAT, and MAH MBA CET. Renowned institutions like IIMs, XLRI, and ISB offer MBA programs, with fees ranging from INR 10 to 25 lakh. Graduates secure roles like Finance Manager or Marketing Manager, earning salaries from INR 5 to 25 LPA. An MBA is increasingly popular among BTech, BBA, BCom, BA, BSc, and BCA graduates for managerial-level career advancement.</p>
+                  </div>
+                  </div>
 
-    <!-- regustration form end  -->
+                  <div class="course-table-1">
+                     <div class="course-table-content">
+                      <h4>MBA Course Details</h4>
+                      <p>MBA, a two-year postgraduate program, unlocks diverse career prospects. It equips students for leadership across industries. Explore MBA course details in the table below:</p>
+                     </div>
+                    <div class="table-responsive">
+                      <table class="table ">
+                        
+                        <thead >
+                          <tr >
+                            <th class="table-head">Particulars</th>
+                            <th class="table-head">MBA Course Details </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                           
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                          
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+               
+               
+               
+                <div class="tab-pane fade" id="syllabus" role="tabpanel" aria-labelledby="syllabus-tab">Syllabus</div>
+                <div class="tab-pane fade" id="carrer" role="tabpanel" aria-labelledby="carrer-tab">Carrer</div>
+                <div class="tab-pane fade" id="admission" role="tabpanel" aria-labelledby="admission-tab">Admission</div>
+                <div class="tab-pane fade" id="popular-colleges" role="tabpanel" aria-labelledby="popular-colleges-tab">Popular Colleges</div>
+              </div>
+            </div>
+          </div>
+        </div> 
+ 
+      
+    </section>
+      
+    
     <%- include('partials/footer') %>

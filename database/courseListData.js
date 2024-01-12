@@ -1,4 +1,4 @@
-const collegeListData = [
+const courseListData = [
     {
       collegeCode: "01", //courseID
       logoSrc: "./assets/images/Course/b.tech-course.jpg",
@@ -318,4 +318,4 @@ const collegeListData = [
    
   ];
   
-  module.exports = collegeListData
+  module.exports = courseListData

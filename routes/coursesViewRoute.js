@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { courseData, tabData  , courseTabLinksDataForAllColleges } = require('../database/mainApp');
+const { courseData,  courseTabLinksDataForAllColleges } = require('../database/mainApp');
 
 router.get("/CourseView/:collegeCode", (req, res) => {
   const collegeCode = req.params.collegeCode;
@@ -12,7 +12,7 @@ router.get("/CourseView/:collegeCode", (req, res) => {
   const courseViewData =   courseData.find((college) => college.collegeCode === collegeCode);
 
 
-  res.render('CourseView', { courseViewData, tabData , collegeCode  });
+  res.render('CourseView', { courseViewData, courseData , tabData ,collegeCode  });
 });
 
 module.exports = router;
