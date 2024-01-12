@@ -17,10 +17,10 @@
 
  //contact iconbox style
  .contact-iconbox-section{
-      padding: 30px;
-      margin: 70px ;
+   
    .contact-iconbox{
      
+      background-color: white;
       border: 1px solid rgba(0, 0, 0, 0.103);
       padding: 30px;
       i{
@@ -42,21 +42,21 @@
       }
  }
 }
-
+ 
 //contact form style
 .contact-contact-form-section{
     padding: 50px;
-    margin-top: 50px;
-    background-color: $secondary-color;
+     
+    background-color: white;
     max-width: 700px;
-    color: white;
+    color: rgba(0, 0, 0, 0.877);
     h2{
-      color: white;
-    }
+      color: rgba(0, 0, 0, 0.877);
+   }
     form{
      label{
-        color: white;
-        font-weight: 600;
+      color: rgba(0, 0, 0, 0.877);
+      font-weight: 600;
         font-size: 14px;
      }
      .form-text{

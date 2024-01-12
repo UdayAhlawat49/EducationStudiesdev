@@ -41,6 +41,9 @@ body {
   --secondary-color: #00671e;
   --accent-color: #47c341;
   --nutral-color: #0e70a1;
+
+  --background-color : #f7f7f7;
+  --background--second-color : #E2e2e2;
 }
 
 ul,
@@ -727,7 +730,7 @@ position: relative;
   }
 }
 .popular_program_area1 {
-  background-color: white;
+  background-color: var(--background-color);
   padding: 20px 0;
   button{
     width: 100%;

@@ -56,6 +56,8 @@ body {
   --secondary-color: #00671e;
   --accent-color: #47c341;
   --nutral-color: #0e70a1;
+  --background-color: #f7f7f7;
+  --background--second-color: #E2e2e2;
 }
 
 ul,
@@ -824,7 +826,7 @@ button:hover {
 }
 
 .popular_program_area1 {
-  background-color: white;
+  background-color: var(--background-color);
   padding: 20px 0;
 }
 .popular_program_area1 button {
@@ -3346,11 +3348,8 @@ button.accordion-button.border-0.bg-white {
   background-color: #0e70a1;
 }
 
-.contact-iconbox-section {
-  padding: 30px;
-  margin: 70px;
-}
 .contact-iconbox-section .contact-iconbox {
+  background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.103);
   padding: 30px;
   -webkit-box-align: center;
@@ -3380,16 +3379,15 @@ button.accordion-button.border-0.bg-white {
 
 .contact-contact-form-section {
   padding: 50px;
-  margin-top: 50px;
-  background-color: #00671e;
+  background-color: white;
   max-width: 700px;
-  color: white;
+  color: rgba(0, 0, 0, 0.877);
 }
 .contact-contact-form-section h2 {
-  color: white;
+  color: rgba(0, 0, 0, 0.877);
 }
 .contact-contact-form-section form label {
-  color: white;
+  color: rgba(0, 0, 0, 0.877);
   font-weight: 600;
   font-size: 14px;
 }
@@ -3479,28 +3477,36 @@ button.accordion-button.border-0.bg-white {
   color: black;
 }
 .counsellingForm {
-  padding: 30px;
-  padding-top: 20px;
-  width: 70%;
+  padding: 30px 70px;
+  padding-top: 30px;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid rgba(0, 0, 0, 0.11);
+  border: 1px solid rgba(0, 0, 0, 0.377);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto;
+  margin: 50px auto;
   background-color: white;
+}
+.counsellingForm button {
+  background-color: var(--primary-color);
+}
+.counsellingForm button:hover {
+  background-color: var(--accent-color);
 }
 .counsellingForm p {
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 0.7px;
+  color: rgba(0, 0, 0, 0.884);
 }
 .counsellingForm select {
   width: 100%;
   height: 30px;
   font-size: 1.4rem;
+  border: 1px solid rgba(0, 0, 0, 0.158);
 }
 .counsellingForm h4 {
   margin-top: 30px;
@@ -3508,7 +3514,15 @@ button.accordion-button.border-0.bg-white {
   margin-bottom: 15px;
 }
 .counsellingForm form .formField {
-  margin: 10px 0;
+  margin-top: 20px;
+}
+.counsellingForm form .formField .gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .counsellingForm form .formField .gender ul {
   display: -webkit-box;
@@ -3535,11 +3549,47 @@ button.accordion-button.border-0.bg-white {
 .counsellingForm form label {
   font-size: 1.5rem;
   font-weight: 600;
+  color: var(--primary-color);
 }
-.counsellingForm form input {
+.counsellingForm form input:not([type=checkbox]) {
   height: 30px;
   width: 100%;
   font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.747);
+  border: 1px solid rgba(0, 0, 0, 0.158);
+}
+.counsellingForm form input:not([type=checkbox])::-webkit-input-placeholder {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.26);
+  padding-left: 5px;
+}
+.counsellingForm form input:not([type=checkbox])::-moz-placeholder {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.26);
+  padding-left: 5px;
+}
+.counsellingForm form input:not([type=checkbox]):-ms-input-placeholder {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.26);
+  padding-left: 5px;
+}
+.counsellingForm form input:not([type=checkbox])::-ms-input-placeholder {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.26);
+  padding-left: 5px;
+}
+.counsellingForm form input:not([type=checkbox])::placeholder {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.26);
+  padding-left: 5px;
+}
+.counsellingForm form input:not([type=checkbox]):focus {
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  outline: none;
+}
+.counsellingForm form textarea {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.158);
 }
 .counsellingForm .head {
   text-align: center;
@@ -3562,4 +3612,47 @@ button.accordion-button.border-0.bg-white {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.topContent {
+  background-color: white;
+}
+
+#salient-features .icons {
+  background-color: #fff;
+}
+#salient-features h2 {
+  font-size: 3.4rem;
+}
+#salient-features p {
+  font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#salient-features i {
+  font-size: 2.4rem;
+  margin-right: 10px;
+  color: var(--accent-color);
+}
+#salient-features .image {
+  height: 100%;
+  padding: 0 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0;
+}
+#salient-features .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=style.css.map */

@@ -27,17 +27,17 @@
             <div class="head">
                 <h2 class="bold">Education Studies</h2>
                 <hr>
-                <h4 class="bold p-4">REGISTRATION FORM</h4>
+                <h4 class="bold ">REGISTRATION FORM</h4>
               </div>
 
 
             <div class="row formField">
-                <div class="col-md-10">
+                <div class="col-md-9">
                     <p class="semibold">To, <br> The Director <br> Sir, <br> I request you to admit myself/ my ward in your Academy.
                     I agree to abide by the rules and regulations of the Academy. My details are as follows...</p>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <input type="file">
                 </div>
             </div>
@@ -52,14 +52,14 @@
               <div class="col-md-6">
                 <div class="filedForm">
                   <label for="FirstName">First Name :</label>    <br />
-                  <input id="FirstName" type="text" />
+                  <input id="FirstName" placeholder="Enter First Name" type="text" />
                 </div>
               </div>
        
               <div class="col-md-6">
                 <div class="LastName">
                   <label for="LastName">Last Name :</label> <br />
-                  <input id="LastName" type="text" />
+                  <input id="LastName" placeholder="Enter Last Name" type="text" />
                 </div>
               </div>
             </div>
@@ -69,34 +69,22 @@
                <div class="row formField">
                 <div class="col-md-6">
                     <label for="mobileNo">Mobile No :   </label> <br>
-                    <input id="mobileNo" type="number">
+                    <input id="mobileNo" placeholder="Enter Mobile No" type="number">
                 </div>
             
                 <div class="col-md-6">
                     <label for="Dob">DOB : </label> <br>
-                    <input type="date">
+                    <input type="date" placeholder="Select Date">
                 </div>
             </div>
 
-                  <!-- father and mother name     -->
-                  <div class="row formField">
-                    <div class="col-md-6 ">
-                        <label for="fatherName">Father's Name :  </label> <br>
-                        <input id="fatherName" type="text">
-                    </div>
-    
-                    <div class="col-md-6 ">
-                        <label for="motherName">Mother's Name :  </label> <br>
-                        <input id="motherName" type="text">
-                    </div>
-                </div>
-
-            <!-- gender and data -->
-            <div class="row formField">
+              <!-- gender and data -->
+              <div class="row formField">
+                
                 <div class="col-md-6">
                  
                     <div class="gender">
-                        <label for="sex">Sex :</label> <br>
+                        <label for="sex">Sex :</label>  
                       <ul>
                         <li>
                             <input name="gender" id="male" type="radio" value="Male">
@@ -110,12 +98,40 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <label for="parentNo">Parent's No :   </label> <br>
-                    <input id="parentNo" type="number">
+                 
+                    <div class="gender">
+                        <label for="sex">Hostel :</label>  
+                      <ul>
+                        <li>
+                            <input name="Hostel" id="yes" type="radio" value="yes">
+                            <label for="yes">Yes</label>
+        
+                        </li>
+                   <li>     <input name="Hostel" id="no" type="radio" value="no">
+                    <label for="no">No</label>
+                </li>
+                      </ul>
+                    </div>
                 </div>
               
             </div>
 
+            <hr class="my-5">
+
+                  <!-- father and mother name     -->
+                  <div class="row formField ">
+                    <div class="col-md-6 ">
+                        <label for="fatherName">Father's Name :  </label> <br>
+                        <input id="fatherName" placeholder="Enter Father's Name" type="text">
+                    </div>
+    
+                    <div class="col-md-6 ">
+                        <label for="motherName">Mother's Name :  </label> <br>
+                        <input id="motherName" placeholder="Enter Mother's Name" type="text">
+                    </div>
+                </div>
+
+          
             <!-- Blood Group and hostel required  -->
             <div class="row formField">
                 <div class="col-md-6">
@@ -133,20 +149,8 @@
                     
                 </div>
                 <div class="col-md-6">
-                 
-                    <div class="gender">
-                        <label for="sex">Hostel Required :</label> <br>
-                      <ul>
-                        <li>
-                            <input name="yes" id="yes" type="radio" value="yes">
-                            <label for="yes">Yes</label>
-        
-                        </li>
-                   <li>     <input name="no" id="no" type="radio" value="no">
-                    <label for="no">No</label>
-                </li>
-                      </ul>
-                    </div>
+                    <label for="parentNo">Parent's No :   </label> <br>
+                    <input id="parentNo" placeholder="Enter Parent's No" type="number">
                 </div>
           
             </div>
@@ -157,9 +161,9 @@
 
             <!-- Permanent Address -->
             <div class="row formField">
-                <div class="col">
+                <div class="col-6">
                     <label for="permanentAddress">Permanent Address</label> <br>
-                    <textarea id="permanentAddress" name="permanentAddress" rows="4" cols="50"></textarea>
+                    <textarea id="permanentAddress" placeholder="Enter Address" name="permanentAddress" rows="4" cols="50"></textarea>
                 </div>
             </div>
 
@@ -172,23 +176,23 @@
             <!-- local guardian -->
             <div class="row formField">
                 <div class="col-md-6">
-                    <label for="guardian">Local Guardian :</label> <br>
-                    <input id="guardian" type="text">
+                    <label for="guardian">Guardian Name :</label> <br>
+                    <input id="guardian" placeholder="Enter Guardian Name" type="text">
                 </div>
                 <div class="col-md-6">
                     <label for="relationship">Relationship :</label> <br>
-                    <input id="relationship" type="text">
+                    <input id="relationship" placeholder="Enter Relationship" type="text">
                 </div>
             </div>
             <!-- guardian mobile number , address -->
             <div class="row formField">
                 <div class="col-md-6">
                     <label for="guardianMobile"> Mobile :</label> <br>
-                    <input id="guardianMobile" type="text">
+                    <input id="guardianMobile" placeholder="Enter Mobile" type="text">
                 </div>
                 <div class="col-md-6">
                     <label for="guardianAddress">Address :</label> <br>
-                    <input id="guardianAddress" type="text">
+                    <input id="guardianAddress" placeholder="Enter Address" type="text">
                 </div>
             </div>
             
@@ -201,27 +205,30 @@
 
             <!-- program applied for  -->
             <div class="row formField">
-                <div class="col">
+                <div class="col-md-6">
                     <label for="programApplied">Program Applied For :</label> <br>
-                    <textarea id="programApplied" name="programApplied" rows="1" cols="50"></textarea>
+                    <input id="programApplied" placeholder="Enter Program" type="text">
                 </div>
 
-                <div class="col">
+                <div class="col-md-6">
                     <label for="entranceApplied">Entrance Exam Date :</label> <br>
                     <input id="entranceApplied" type="date">
                 </div>
-                <div class="col">
-                    <label for="subjectApplied">Subject Applied For :</label> <br>
-                    <input id="subjectApplied" type="text">
-                </div>
-
-                <div class="col">
-                    <label for="reference">Reference :</label> <br>
-                    <input id="reference" type="text">
-                </div>
+           
             </div>
 
 
+            <div class="row formField">
+                <div class="col-md-6">
+                    <label for="subjectApplied">Subject Applied For :</label> <br>
+                    <input id="subjectApplied" placeholder="Enter Subjects" type="text">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="reference">Reference :</label> <br>
+                    <input id="reference" placeholder="Enter Reference" type="text">
+                </div>
+            </div>
             <!-- date and sign  -->
 
             <div class="row formField">
@@ -229,23 +236,28 @@
                     <label for="submitDate">Date :</label> <br>
                     <input id="submitDate" type="date">
                 </div>
+          
+            </div>
+
+            <hr class="my-5 ">
+            <div class="row formField  ">
                 <div class="col-md-6">
                     <label for="studentSign">Student Signature :</label> <br>
-                    <input id="studentSign" type="file">
+                    <input id="studentSign" placeholder="Enter Signature" type="file">
                 </div>
             </div>
 
             <!-- declaration -->
-            <div class="row formField">
-                <div class="col-12">
-                    <input type="checkbox">
-                     <p class="semibold"><strong>Deceleration:</strong> By submitting this form, I declare that the provided information is accurate and has been provided by me.</p>
+            <div class="row my-5  ">
+                <div class="col-12 d-flex align-items-start   ">
+                    <input class="mt-2" type="checkbox">
+                     <p class="semibold ms-3   "><strong>Deceleration:</strong> By submitting this form, I declare that the provided information is accurate and has been provided by me.</p>
 
                 </div>
             </div>
 
             <!-- submit button -->
-            <div class="row ">
+            <div class="row mt-4 ">
                 <div class="col-12">
                     <button>submit</button>
                 </div>
