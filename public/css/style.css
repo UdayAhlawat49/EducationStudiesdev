@@ -8,8 +8,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -305,15 +304,9 @@ button:hover {
 .topBar {
   background-color: var(--nutral-color);
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   padding: 5px 0;
   color: white;
 }
@@ -321,8 +314,6 @@ button:hover {
   font-size: 16px;
 }
 .topBar ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 0 10px;
 }
@@ -335,20 +326,15 @@ button:hover {
   margin: 0 10px;
 }
 .topBar .socialIcons {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
 }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 0;
 }
 .logo img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .logo span {
   font-size: 4.5rem;
@@ -382,15 +368,9 @@ button:hover {
 
 .socialContact {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  align-items: center;
+  justify-content: end;
 }
 .socialContact ul {
   border-right: 2px solid rgba(0, 0, 0, 0.144);
@@ -434,13 +414,9 @@ button:hover {
 }
 .socialContact ul {
   display: block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
 }
 .socialContact ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-weight: 800;
   margin: 0 10px;
@@ -460,7 +436,6 @@ button:hover {
   bottom: 0;
   left: 0;
   z-index: 1;
-  background: -webkit-gradient(linear, left top, right top, from(rgb(0, 0, 0)), color-stop(92.71%, rgba(0, 0, 0, 0.5)));
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 92.71%);
   /* Adjust the gradient stops and colors as needed */
 }
@@ -477,8 +452,7 @@ button:hover {
 .heroSection1 .Banner #carouselExampleIndicators .carousel-inner .carousel-item img {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media (max-width: 991px) {
   .heroSection1 {
@@ -490,19 +464,10 @@ button:hover {
 .heroSection1 .middleContent {
   position: absolute;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
   height: 100%;
   top: 0;
   z-index: 3;
@@ -510,13 +475,9 @@ button:hover {
 }
 @media (max-width: 991px) {
   .heroSection1 .middleContent {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
     height: 100%;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
+    align-items: start;
   }
 }
 .heroSection1 .middleContent .upperHead {
@@ -622,13 +583,8 @@ button:hover {
   z-index: 33;
 }
 .heroSection1 .rightConent form .formField {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 .heroSection1 .rightConent form .formField label {
   color: white;
@@ -654,23 +610,14 @@ button:hover {
   left: 0;
 }
 .heroSection .menu > ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 .heroSection .menu > ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   position: relative;
   width: 100%;
   border-right: 1px solid white;
@@ -695,9 +642,7 @@ button:hover {
   border: 1px solid rgba(0, 0, 0, 0.034);
 }
 .heroSection .menu > ul li ul > li {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
   padding: 5px 10px;
   padding-right: 15px;
 }
@@ -728,8 +673,7 @@ button:hover {
   }
 }
 .about img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -799,16 +743,9 @@ button:hover {
   color: var(--accent-color);
 }
 .Addsection .features .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
 .Addsection .features .content h6 {
   color: var(--nutral-color);
@@ -860,15 +797,9 @@ button:hover {
   }
   .menuIcon {
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: end;
+    align-items: center;
     margin-right: 27px;
     font-size: 30px;
     width: 100%;
@@ -966,14 +897,14 @@ button:hover {
 .popular_program_area .single__program .program_thumb img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .popular_program_area .single__program .program__content {
   background: white;
   padding: 20px;
   position: relative;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.02);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.02);
   border: 1px solid rgba(0, 0, 0, 0.055);
   height: 350px;
@@ -1130,16 +1061,9 @@ button:hover {
 }
 .testimonial .item .innerTes {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  flex-direction: column;
+  align-items: start;
   padding: 10px;
 }
 .testimonial .item .innerTes .rating {
@@ -1162,34 +1086,22 @@ button:hover {
   word-wrap: break-word;
 }
 .testimonial .item .innerTes .testimonial-author {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .testimonial .item .innerTes .testimonial-author .avatarImg {
   width: 50px;
   height: 50px;
 }
 .testimonial .item .innerTes .testimonial-author .avatarImg img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
 .testimonial .item .innerTes .testimonial-author .intro {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 .testimonial .item .innerTes .testimonial-author .intro .testimonial-author-name {
   font-size: 14px;
@@ -1461,26 +1373,6 @@ button.accordion-button.border-0.bg-white {
   padding-bottom: 15px;
   margin-bottom: 40px;
 }
-.admission_area .admission_form .single_input input::-webkit-input-placeholder, .admission_area .admission_form .single_input textarea::-webkit-input-placeholder {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-}
-.admission_area .admission_form .single_input input::-moz-placeholder, .admission_area .admission_form .single_input textarea::-moz-placeholder {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-}
-.admission_area .admission_form .single_input input:-ms-input-placeholder, .admission_area .admission_form .single_input textarea:-ms-input-placeholder {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-}
-.admission_area .admission_form .single_input input::-ms-input-placeholder, .admission_area .admission_form .single_input textarea::-ms-input-placeholder {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-}
 .admission_area .admission_form .single_input input::placeholder, .admission_area .admission_form .single_input textarea::placeholder {
   color: #fff;
   font-size: 14px;
@@ -1546,6 +1438,7 @@ button.accordion-button.border-0.bg-white {
 }
 .collegeView:hover {
   -webkit-box-shadow: 0px 0px 21px -11px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 0px 21px -11px rgba(0, 0, 0, 0.35);
   box-shadow: 0px 0px 21px -11px rgba(0, 0, 0, 0.35);
 }
 .collegeView .collegeImage {
@@ -1554,30 +1447,22 @@ button.accordion-button.border-0.bg-white {
 }
 .collegeView .collegeImage img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 .collegeView .collegeData {
   display: block;
   padding: 10px 0;
   color: rgb(0, 0, 0);
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   position: relative;
   bottom: 0;
   width: 100%;
 }
 .collegeView .collegeData .collegeRead {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .collegeView .collegeData .collegeRead span {
   margin: 10px;
@@ -1611,15 +1496,9 @@ button.accordion-button.border-0.bg-white {
   color: black;
 }
 .collegeView .collegeData .collegeLogo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  align-items: center;
+  justify-content: start;
 }
 .collegeView .collegeData .collegeLogo img {
   border: 1.5px solid rgba(0, 0, 0, 0.507);
@@ -1631,13 +1510,8 @@ button.accordion-button.border-0.bg-white {
   overflow: hidden;
 }
 .collegeView .collegeData .collegeText {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 10px;
 }
 .collegeView .collegeData .collegeText ul li span {
@@ -1648,15 +1522,9 @@ button.accordion-button.border-0.bg-white {
   font-size: 16px;
 }
 .collegeView .collegeData .collegeText .rating ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: start;
+  align-items: center;
 }
 .collegeView .collegeData .collegeText .rating ul span {
   font-size: 14px;
@@ -1670,12 +1538,8 @@ button.accordion-button.border-0.bg-white {
   font-size: 12px;
 }
 .collegeView .collegeData .collegeText .CollegebottomContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
 }
 .collegeView .collegeData .collegeText .CollegebottomContent li {
   margin: 5px 0;
@@ -1714,8 +1578,6 @@ button.accordion-button.border-0.bg-white {
 }
 
 .media.post_item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 26px 2px;
 }
@@ -1726,315 +1588,20 @@ button.accordion-button.border-0.bg-white {
 .search_widget input {
   height: 50px;
 }
-.search_widget input::-webkit-input-placeholder {
-  font-size: 1.6rem;
-}
-.search_widget input::-moz-placeholder {
-  font-size: 1.6rem;
-}
-.search_widget input:-ms-input-placeholder {
-  font-size: 1.6rem;
-}
-.search_widget input::-ms-input-placeholder {
-  font-size: 1.6rem;
-}
 .search_widget input::placeholder {
   font-size: 1.6rem;
 }
 
 .instagram_feeds ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .newsletter_widget input {
   height: 50px;
 }
-.newsletter_widget input::-webkit-input-placeholder {
-  font-size: 1.6rem;
-}
-.newsletter_widget input::-moz-placeholder {
-  font-size: 1.6rem;
-}
-.newsletter_widget input:-ms-input-placeholder {
-  font-size: 1.6rem;
-}
-.newsletter_widget input::-ms-input-placeholder {
-  font-size: 1.6rem;
-}
 .newsletter_widget input::placeholder {
   font-size: 1.6rem;
-}
-
-.collegeViewPage {
-  margin-top: 30px;
-}
-.collegeViewPage .collegeViewImage {
-  display: block;
-  width: 100%;
-  height: 150px;
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.123);
-}
-.collegeViewPage .collegeViewImage img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-.collegeViewPage .collgeViewHeading {
-  padding: 30px 50px;
-  display: block;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  color: rgb(160, 25, 25);
-  position: relative;
-  z-index: 2;
-  border: 1px solid rgba(0, 0, 0, 0.103);
-  margin: 10px;
-  border-radius: 10px;
-  background-color: white;
-  margin: -15px;
-}
-.collegeViewPage .collgeViewHeading .collegeViewMainHead {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.collegeViewPage .collgeViewHeading .collegeViewMainHead .collegeLogo {
-  margin: 0 10px;
-}
-.collegeViewPage .collgeViewHeading .collegeViewMainHead .subheading h2 {
-  font-size: 5rem;
-  font-weight: 600;
-  line-height: 50px;
-}
-.collegeViewPage .collgeViewHeading .collegeViewMainHead .subheading p {
-  font-size: 1rem;
-  letter-spacing: 1.2px;
-  font-weight: 400;
-}
-.collegeViewPage .CVmiddleContent {
-  color: black;
-  padding: 0 30px;
-}
-.collegeViewPage .CVmiddleContent ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-.collegeViewPage .CVmiddleContent ul li {
-  margin: 0 10px;
-}
-.collegeViewPage .CVmiddleContent ul li span {
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-.collegeViewPage .collegeViewBtn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.collegeViewPage .collegeViewBtn .call span {
-  padding: 10px 15px;
-  background-color: #f37921;
-  margin: 5px;
-  color: white;
-  font-weight: 600;
-  font-size: 16px;
-}
-.collegeViewPage .CollegeViewtabConent {
-  margin: 20px 0;
-}
-.collegeViewPage .CollegeViewtabConent h2 {
-  margin: 10px 0;
-}
-.collegeViewPage .CollegeViewtabConent h3 {
-  margin: 10px 0;
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-.collegeViewPage .CollegeViewtabConent p {
-  font-size: 1.2rem;
-  line-height: 20px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.849);
-  letter-spacing: 0.5px;
-}
-.collegeViewPage .CollegeViewtabConent .overview {
-  margin: 20px 0;
-}
-.collegeViewPage .CollegeViewtabConent .overview h2 {
-  margin: 10px 0;
-}
-.collegeViewPage .CollegeViewtabConent .overview p {
-  font-size: 1.2rem;
-  line-height: 20px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.849);
-  letter-spacing: 0.5px;
-}
-.collegeViewPage .CollegeViewtabConent .overview1 h2 {
-  margin: 10px 0;
-}
-.collegeViewPage .CollegeViewtabConent .overview1 .innerOverview1 {
-  background-color: #E8E3E8;
-  padding: 15px;
-  padding-bottom: 0;
-}
-.collegeViewPage .CollegeViewtabConent .overview1 .innerOverview1 .subContent {
-  padding: 10px;
-}
-.collegeViewPage .CollegeViewtabConent .overview1 .innerOverview1 .subContent p {
-  font-size: 1.3rem;
-  line-height: 19px;
-  font-weight: 300;
-}
-.collegeViewPage .CollegeViewtabConent .overview1 .innerOverview1 .subContent p:first-child {
-  line-height: 19px;
-  font-size: 1.2rem;
-  color: rgba(255, 0, 0, 0.733);
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .allCourses {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  margin: 10px 0;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .allCourses span {
-  background-color: #662974;
-  color: white;
-  font-weight: 600;
-  padding: 5px 30px;
-  font-size: 1.4rem;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .courseFees {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.185);
-  border-width: 50%;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName span:first-child {
-  color: blue;
-  font-size: 1.6rem;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName span:last-child {
-  font-size: 1rem;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee span:first-child {
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee span:last-child {
-  color: orange;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .courseFees .Apply {
-  font-size: 1.4rem;
-  background-color: #f37921;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 2px 20px;
-}
-.collegeViewPage .CollegeViewtabConent .feesStructure .courseFees .Apply span {
-  line-height: 0;
-}
-.collegeViewPage .CollegeViewtabConent a {
-  color: blue;
-}
-.collegeViewPage .CollegeViewtabConent .TableOfContent ol {
-  counter-reset: my-awesome-counter;
-  list-style: none;
-}
-.collegeViewPage .CollegeViewtabConent .TableOfContent ol li {
-  counter-increment: my-awesome-counter;
-  margin: 10px 0;
-  position: relative;
-  padding-right: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
-}
-.collegeViewPage .CollegeViewtabConent .TableOfContent ol li::before {
-  content: counter(my-awesome-counter);
-  background: #662974;
-  width: 2rem;
-  height: 2rem;
-  display: inline-block;
-  line-height: 2rem;
-  color: white;
-  text-align: center;
-  margin-right: 0.5rem;
-  position: absolute;
-  left: 5px;
-}
-.collegeViewPage .CollegeViewtabConent .TableOfContent ol li::marker {
-  font-size: 1.6rem;
-  border: 1px solid black;
-}
-.collegeViewPage .CollegeViewtabConent .TableOfContent ol li a {
-  color: black;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-.collegeViewPage .CollegeViewtabConent .TableOfContent ol li a:hover {
-  color: blue;
-}
-.collegeViewPage .CollegeViewtabConent .Ranking ul {
-  list-style: disc;
-  padding: 0 20px;
-  font-size: 1.2rem;
-}
-.collegeViewPage .tabLinks {
-  margin: 30px 0;
-  margin-bottom: 0;
-}
-.collegeViewPage .tabLinks button {
-  font-size: 1.4rem;
 }
 
 .mietViewPage {
@@ -2060,8 +1627,7 @@ button.accordion-button.border-0.bg-white {
   }
 }
 .mietViewPage .collegeViewImage img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -2074,9 +1640,7 @@ button.accordion-button.border-0.bg-white {
 .mietViewPage .collgeViewHeading {
   padding: 30px 50px;
   display: block;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  justify-content: left;
   color: rgb(160, 25, 25);
   position: relative;
   z-index: 2;
@@ -2091,18 +1655,13 @@ button.accordion-button.border-0.bg-white {
     padding: 0;
     margin: 10px 0 0;
     position: static;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     border: none;
   }
 }
 .mietViewPage .collgeViewHeading .collegeViewMainHead {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .mietViewPage .collgeViewHeading .collegeViewMainHead .collegeLogo {
   margin: 0 10px;
@@ -2125,31 +1684,20 @@ button.accordion-button.border-0.bg-white {
   padding: 0;
 }
 .mietViewPage .CVmiddleContent ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
 }
 @media (max-width: 991px) {
   .mietViewPage .CVmiddleContent ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
 .mietViewPage .CVmiddleContent ul li {
   margin: 0 10px;
 }
 .mietViewPage .CVmiddleContent ul li .term {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .mietViewPage .CVmiddleContent ul li .rating span:first-child {
   border: 1px solid rgba(0, 0, 0, 0.116);
@@ -2247,12 +1795,8 @@ button.accordion-button.border-0.bg-white {
   color: rgba(255, 0, 0, 0.733);
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .allCourses {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
   margin: 10px 0;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .allCourses span {
@@ -2263,24 +1807,15 @@ button.accordion-button.border-0.bg-white {
   font-size: 1.4rem;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.185);
   border-width: 50%;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName span:first-child {
   color: blue;
@@ -2290,13 +1825,8 @@ button.accordion-button.border-0.bg-white {
   font-size: 1rem;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee span:first-child {
   font-size: 1.2rem;
@@ -2311,15 +1841,9 @@ button.accordion-button.border-0.bg-white {
   font-size: 1.4rem;
   background-color: #f37921;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 2px 20px;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .Apply span {
@@ -2370,21 +1894,13 @@ button.accordion-button.border-0.bg-white {
   font-size: 1.2rem;
 }
 .mietViewPage .address {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .mietViewPage .address i {
   border-radius: 5px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-size: 2.6rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
   display: flex;
   color: black;
 }
@@ -2400,16 +1916,10 @@ button.accordion-button.border-0.bg-white {
   overflow-y: hidden;
 }
 .mietViewPage .tabLinks .innerTabs #myTab {
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
 }
 .mietViewPage .tabLinks .innerTabs #myTab li {
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
 }
 .mietViewPage .tabLinks button {
@@ -2427,17 +1937,14 @@ button.accordion-button.border-0.bg-white {
   border: 1px solid rgba(0, 0, 0, 0.123);
 }
 .dewanViewPage .collegeViewImage img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
 .dewanViewPage .collgeViewHeading {
   padding: 30px 50px;
   display: block;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  justify-content: left;
   color: rgb(160, 25, 25);
   position: relative;
   z-index: 2;
@@ -2448,12 +1955,8 @@ button.accordion-button.border-0.bg-white {
   margin: -15px;
 }
 .dewanViewPage .collgeViewHeading .collegeViewMainHead {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .dewanViewPage .collgeViewHeading .collegeViewMainHead .collegeLogo {
   margin: 0 10px;
@@ -2473,12 +1976,8 @@ button.accordion-button.border-0.bg-white {
   padding: 0 30px;
 }
 .dewanViewPage .CVmiddleContent ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
 }
 .dewanViewPage .CVmiddleContent ul li {
   margin: 0 10px;
@@ -2488,8 +1987,6 @@ button.accordion-button.border-0.bg-white {
   font-weight: 600;
 }
 .dewanViewPage .collegeViewBtn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .dewanViewPage .collegeViewBtn .call span {
@@ -2553,12 +2050,8 @@ button.accordion-button.border-0.bg-white {
   color: rgba(255, 0, 0, 0.733);
 }
 .dewanViewPage .CollegeViewtabConent .feesStructure .allCourses {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
   margin: 10px 0;
 }
 .dewanViewPage .CollegeViewtabConent .feesStructure .allCourses span {
@@ -2569,24 +2062,15 @@ button.accordion-button.border-0.bg-white {
   font-size: 1.4rem;
 }
 .dewanViewPage .CollegeViewtabConent .feesStructure .courseFees {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.185);
   border-width: 50%;
 }
 .dewanViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 .dewanViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName span:first-child {
   color: blue;
@@ -2596,13 +2080,8 @@ button.accordion-button.border-0.bg-white {
   font-size: 1rem;
 }
 .dewanViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 .dewanViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee span:first-child {
   font-size: 1.2rem;
@@ -2617,15 +2096,9 @@ button.accordion-button.border-0.bg-white {
   font-size: 1.4rem;
   background-color: #f37921;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 2px 20px;
 }
 .dewanViewPage .CollegeViewtabConent .feesStructure .courseFees .Apply span {
@@ -2703,15 +2176,9 @@ button.accordion-button.border-0.bg-white {
   }
 }
 .footer .footer_top .footer_widget .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: start;
+  align-items: center;
   margin: 20px 0;
 }
 .footer .footer_top .footer_widget .logo h2 {
@@ -2817,26 +2284,6 @@ button.accordion-button.border-0.bg-white {
   background: #fff;
   border-radius: 0px;
   font-family: "Poppins", sans-serif;
-}
-.footer .footer_top .newsletter_form input::-webkit-input-placeholder {
-  font-size: 14px;
-  color: #aeb4ba;
-  font-weight: 300;
-}
-.footer .footer_top .newsletter_form input::-moz-placeholder {
-  font-size: 14px;
-  color: #aeb4ba;
-  font-weight: 300;
-}
-.footer .footer_top .newsletter_form input:-ms-input-placeholder {
-  font-size: 14px;
-  color: #aeb4ba;
-  font-weight: 300;
-}
-.footer .footer_top .newsletter_form input::-ms-input-placeholder {
-  font-size: 14px;
-  color: #aeb4ba;
-  font-weight: 300;
 }
 .footer .footer_top .newsletter_form input::placeholder {
   font-size: 14px;
@@ -2960,12 +2407,8 @@ button.accordion-button.border-0.bg-white {
   width: 100%;
 }
 .footer1 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 .footer1 ul li {
   padding: 10px;
@@ -3012,8 +2455,7 @@ button.accordion-button.border-0.bg-white {
 .innerContent .Banner .carousel-inner img {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .innerContent .colleges {
   position: relative;
@@ -3034,8 +2476,7 @@ button.accordion-button.border-0.bg-white {
 }
 .innerContent .colleges .collegesCat a img {
   width: 40px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .innerContent .colleges .collegesCat a p {
   margin: 5px 0;
@@ -3043,18 +2484,12 @@ button.accordion-button.border-0.bg-white {
   color: var(--primary-color);
 }
 .innerContent .recentCollegList .recentColleges {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
 }
 .innerContent .recentCollegList .recentColleges .recentColleges_collegeView {
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
   margin: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1803921569);
@@ -3083,8 +2518,7 @@ button.accordion-button.border-0.bg-white {
 }
 .innerContent .recentCollegList .recentColleges .recentColleges_collegeView img {
   width: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 150px;
   border-radius: 10px;
 }
@@ -3110,8 +2544,6 @@ button.accordion-button.border-0.bg-white {
   margin-left: auto;
 }
 .innerContent .CollegeMobileList .CollegeMobileList_filter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
@@ -3120,8 +2552,6 @@ button.accordion-button.border-0.bg-white {
   height: max-content;
 }
 .innerContent .CollegeMobileList .CollegeMobileList_filter .CollegeMobileList_filterList {
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
   border: 1px solid rgba(0, 0, 0, 0.116);
   text-align: center;
@@ -3151,24 +2581,14 @@ button.accordion-button.border-0.bg-white {
 .innerContent .CollegeMobileList .CollegeMobileList_list .CollegeMobileList_listData .image img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .innerContent .CollegeMobileList .CollegeMobileList_list .CollegeMobileList_listData .CollegeMobileList_data {
   height: 100%;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: flex-start;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .innerContent .CollegeMobileList .CollegeMobileList_list .CollegeMobileList_listData .CollegeMobileList_data h6 {
   overflow: hidden;
@@ -3177,8 +2597,6 @@ button.accordion-button.border-0.bg-white {
   text-overflow: ellipsis;
 }
 .innerContent .CollegeMobileList .CollegeMobileList_list .CollegeMobileList_listData .CollegeMobileList_data ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 5px 0;
 }
@@ -3221,19 +2639,10 @@ button.accordion-button.border-0.bg-white {
 }
 .about-hero-section .about-hero-content {
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 
@@ -3242,19 +2651,10 @@ button.accordion-button.border-0.bg-white {
 }
 .about-section .about-content {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .about-section img {
   padding: 20px;
@@ -3265,16 +2665,9 @@ button.accordion-button.border-0.bg-white {
   padding: 100px 0px;
 }
 .home-whyus-section .home-whyus-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   color: white;
 }
 .home-whyus-section .home-whyus-boxes {
@@ -3300,8 +2693,7 @@ button.accordion-button.border-0.bg-white {
 }
 .about-team-section .about-team-box {
   padding-bottom: 20px;
-  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .about-team-section .about-team-box .about-team-content {
   text-align: start;
@@ -3329,19 +2721,10 @@ button.accordion-button.border-0.bg-white {
 .contact-hero-section .contact-hero-content {
   padding-top: 0px;
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: rgb(255, 255, 255);
   background-color: #0e70a1;
 }
@@ -3353,25 +2736,17 @@ button.accordion-button.border-0.bg-white {
 .contact-iconbox-section .contact-iconbox {
   border: 1px solid rgba(0, 0, 0, 0.103);
   padding: 30px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .contact-iconbox-section .contact-iconbox i {
   font-size: 25px;
 }
 .contact-iconbox-section a {
   color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .contact-iconbox-section a h4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
@@ -3424,19 +2799,10 @@ button.accordion-button.border-0.bg-white {
 }
 .counseling-hero-section .counseling-hero-content {
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
   background-color: #0e70a1;
 }
@@ -3455,16 +2821,9 @@ button.accordion-button.border-0.bg-white {
   margin-top: 10px;
   background-color: #00671e;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  flex-direction: row;
+  align-items: start;
   background-color: green;
 }
 .counseling-section .counseling-work-box .counseling-no-box {
@@ -3482,13 +2841,9 @@ button.accordion-button.border-0.bg-white {
   padding: 30px;
   padding-top: 20px;
   width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border: 1px solid rgba(0, 0, 0, 0.11);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 0 auto;
   background-color: white;
 }
@@ -3511,20 +2866,12 @@ button.accordion-button.border-0.bg-white {
   margin: 10px 0;
 }
 .counsellingForm form .formField .gender ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .counsellingForm form .formField .gender ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .counsellingForm form .formField .gender ul li input {
   margin-left: 10px;
@@ -3551,15 +2898,11 @@ button.accordion-button.border-0.bg-white {
 
 #why-choose-us {
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #0e70a1;
   color: #fff;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}/*# sourceMappingURL=style.css.map */
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 // collegeData.js
 
-const collegeData = [
+const courseData = [
   {
     collegeCode: "074",
     collegeDetails: {
@@ -8,29 +8,15 @@ const collegeData = [
       logoSrc: "/assets/images/mietLogo.jpg",
       name: "MIET Meerut",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
-      rating: "4.6/5",
-      star : 5,
-      reviewCount: 280,
-      topRated : true,
-      term: "Private",
-      approval: "Approved by: AICTE, Government of Haryana",
-      enquiryButtonText: "Enquiry Now",
-      address: "Behind D-Mart, Ghodbunder Road, Thane West, Thane - 400610",
-      website: "www.miet.ac.com",
-      businessHours: "9:00 AM to 5:00 PM"
     },
-    overviewTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "MIET Meerut admissions 2023 are open to all the courses. Candidates can apply through the official website."
-      },
+   
+   
+    overviewTabData : [
+    
       {
         id: "Overview",
         type : "overview",
-        title: "MIET Highlights 2023",
-        content: "Meerut Institute of Engineering & Technology (MIET) is a prestigious institution Meerut offers a quality education at a higher level. Established in 1997, it is managed and governed by the City Educational & Social Welfare Society. The institute has an affiliation with the Dr. APJ Abdul Kalam University- AKTU (formerly Uttar Pradesh Technical University) and offers courses approved by the All India Council of Technical Education (AICTE), New Delhi. NAAC has accredited it with a 'B++ Grade'. MIET also holds accreditation from the National Board of Accreditation (NBA). MIET offers a total of 28 courses at the undergraduate and postgraduate levels."
+        content: "MBA, or Master of Business Administration, is a sought-after postgraduate course globally. Spanning two years, it enhances leadership, strategic thinking, and problem-solving skills. Applicants typically need over 50% in undergrad studies, with admissions based on exams like CAT, CMAT, XAT, and MAH MBA CET. Renowned institutions like IIMs, XLRI, and ISB offer MBA programs, with fees ranging from INR 10 to 25 lakh. Graduates secure roles like Finance Manager or Marketing Manager, earning salaries from INR 5 to 25 LPA. An MBA is increasingly popular among BTech, BBA, BCom, BA, BSc, and BCA graduates for managerial-level career advancement."
       },
       {
         id: "Fees",
@@ -1828,7 +1814,7 @@ const collegeData = [
   // Add more college objects as needed
 ];
 
-module.exports = collegeData;
+module.exports = courseData;
 
 
 

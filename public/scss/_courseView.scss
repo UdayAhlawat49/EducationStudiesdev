@@ -1,0 +1,63 @@
+.section-padding{
+    padding-top: 50px;
+}
+
+.course-hero{
+    
+    padding: 20px ;
+    // border: 1px solid black;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    .course-tabs{
+        
+        ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    
+        li{
+           margin-right: 8px;
+            button{
+                font-size: 14px;
+                font-weight: 500;
+                color: $primary-color;
+                border-color: $primary-color;
+                border-radius: 0px;
+                &:hover{
+                    background-color: $secondary-color;
+                    color: white;
+                    border-color:  $secondary-color;
+                }
+                &:focus{
+                    background-color: $accent-color;
+                  color: white;
+                  border-color:  $accent-color;
+                }
+            }
+            
+        }
+        }
+    }
+}
+
+.course-tab-section{
+ 
+    padding: 20px ;
+    // border: 1px solid black;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    .course-table-1{
+        margin-top: 20px;
+        
+        .table-responsive{
+           
+            .table-thead{
+                background-color: green;
+                color: white;
+                background-color: $primary-color;
+            }
+        }
+    }
+
+}
+
+
