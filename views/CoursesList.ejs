@@ -122,8 +122,8 @@
             <div class="col-md-9 ">
              
               <div class="row">
-          <% console.log("hii",collegeListData) %>
-          <% collegeListData.forEach(college => { %>
+          
+          <% courseListData.forEach(college => { %>
            
            
               <div class="col-md-6">
@@ -138,9 +138,9 @@
                       </div>
                       <div class="col-9">
                         <div class="CollegeMobileList_data">
-                          <% if (college.topRated) { %>
-                            <p class="border px-2 mb-1"><i class="bi bi-star-fill"></i> &nbsp; Top Rated</p>
-                          <% } %>
+                        
+                            <p class="border px-2 mb-1"><%= college.category%></p>
+                       
                           <h6><%= college.name %></h6>
                           <ul>
                             <li class="d-flex align-items-center">
@@ -153,8 +153,8 @@
                               <p>&nbsp;&nbsp; <%= college.reviewCount %></p>
                             </li>
                             <li>
-                              <div><i class="bi bi-geo-alt-fill"></i> </div>
-                              <div><p> <%= college.location %></p></div>
+                       
+                              <div><p> <%= college.overview %></p></div>
                             </li>
                           </ul>
                         </div>
@@ -163,12 +163,12 @@
                     <div class="row mt-4">
                       <div class="col-6">
                         <div class="callNow">
-                          <button><a href="tel"><i class="bi bi-telephone-fill"></i> &nbsp; Call Now</a></button>
+                          <button><a href="tel:+91 49554111"><i class="bi bi-telephone-fill"></i> &nbsp; Call Now</a></button>
                         </div>
                       </div>
                       <div class="col-6">
                         <div class="Enquiry">
-                          <button><a href="/collegeView/<%= college.collegeCode %>">Send Enquiry</a></button>
+                          <button><a href="/collegeView/<%= college.collegeCode %>">View Colleges</a></button>
                         </div>
                       </div>
                     </div>

@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const { collegeListData } = require('../database/mainApp');
+const { courseListData } = require('../database/mainApp');
 
 router.get('/coursesList', (req, res) => {
-  res.render('coursesList', { collegeListData });
+  res.render('coursesList', { courseListData });
 });
 
 module.exports = router;

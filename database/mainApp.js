@@ -3,6 +3,8 @@
 const generateTabLinksData = require('./generateTabLinks');
 const collegeData = require('./collegeData');
 const collegeListData = require('./collegeListData');
+const courseListData = require('./courseListData');
+
 
 
 // Loop through collegeData and generate tabLinksData for each college
@@ -11,5 +13,6 @@ const tabLinksDataForAllColleges = collegeData.map((college) => generateTabLinks
 module.exports = {
   collegeData,
   tabLinksDataForAllColleges,
-  collegeListData
+  collegeListData,
+  courseListData
 };
