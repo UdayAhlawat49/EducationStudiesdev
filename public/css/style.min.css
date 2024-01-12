@@ -3177,7 +3177,8 @@ button.accordion-button.border-0.bg-white {
 .course-tab-section .course-table-1 {
   margin-top: 20px;
 }
-.course-tab-section .course-table-1 .table-responsive .table-thead {
+.course-tab-section .course-table-1 .table-responsive .table-head {
+  font-size: 14px;
   background-color: green;
   color: white;
   background-color: #2f207d;
