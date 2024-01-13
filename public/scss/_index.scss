@@ -45,7 +45,10 @@ body {
   --background-color : #f7f7f7;
   --background--second-color : #E2e2e2;
 }
-
+$section-bg-alt-1: #ECEFF1;
+$section-bg-alt-2: #FAFAFA;
+$section-bg-alt-3: #F5F5F5;
+$section-bg-alt-4: #EBEBEB;
 ul,
 p {
   margin: 0;
@@ -68,6 +71,7 @@ p {
   margin: 0;
   padding: 0;
   list-style: none;
+  line-height: 30px;
 }
 
 // Common Styles for Inline Elements
@@ -380,12 +384,12 @@ position: relative;
     /* Adjust the gradient stops and colors as needed */
   }
   #carouselExampleIndicators{
- height: 620px;
+ height: 680px;
     overflow: hidden;
     .carousel-inner{
-     height: 620px;
+     height: 680px;
       .carousel-item{
-       height: 620px;
+       height: 680px;
         img{
           height: 100%;
           width: 100%;
@@ -414,9 +418,9 @@ position: relative;
     justify-content: center;
     align-items: start;
     height: 100%;
-    top: 0;
+    top:120px;
     z-index: 3;
-    max-width: 75%;
+     
     @media #{$tab} {
       justify-content: flex-end;
 
@@ -432,12 +436,18 @@ position: relative;
     .mainHead {
       font-size: 5rem;
       line-height: 70px;
-      font-weight: 700;
+      font-weight: 900;
         span{
-          font-size: 9rem;
-          font-weight: 600;
+          font-size: 7.5rem;
+          font-weight: 800;
           letter-spacing: -1px;
-          color: var(--accent-color);
+        
+          color: var(--primary-color);
+          text-shadow:
+          -1px -1px 0 #ffffff,  
+           1px -1px 0 #ffffff,
+          -1px  1px 0 #ffffff,
+           1px  1px 0 #ffffff;
         }
        h1{
         @media #{$tab}{
@@ -478,6 +488,65 @@ position: relative;
       }
     }
 
+    .registerForm{
+    
+      background-color: #2f207d86;
+      margin: auto;
+      width: 90%;
+      position: relative;
+      padding: 30px 10px;
+      top:  -90px;
+      border: 1px solid rgba(0, 0, 0, 0.199);
+      .logo{
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        overflow: hidden;
+        border: 3px solid white;
+        img{
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      form{
+        margin-top: 30px;
+        input{
+          width: 100%;
+          height: 40px;
+          font-size: 1.6rem;
+          margin: 10px  0;
+          &::placeholder{
+            font-size: 1.2rem;
+            color: #00000086;
+            padding-left: 5px;
+          }
+          &:focus{
+            outline: none;
+          }
+        }
+        label{
+          font-size: 1.6rem;
+        }
+        button{
+          background-color: var(--accent-color)!important;
+          font-size: 1.8rem;
+          color: rgb(255, 255, 255);
+          border-radius: 0;
+          font-weight: 600;
+          padding: 5px 40px;
+          display: flex;
+          justify-content: flex-end;
+          letter-spacing: 1px;
+          margin-top: 30px;
+        }
+      }
+    }
     .ctaButton {
       margin: 50px 0;
         @media #{$tab}{
@@ -630,8 +699,7 @@ position: relative;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  border: 1px solid rgba(0, 0, 0, 0.055);
-  padding: 50px;
+ 
   background-color: white;
   @media #{$tab}{
     padding: 10px;
@@ -730,8 +798,10 @@ position: relative;
   }
 }
 .popular_program_area1 {
-  background-color: var(--background-color);
+  background-color: white;
   padding: 20px 0;
+  margin-top: 35px;
+
   button{
     width: 100%;
 

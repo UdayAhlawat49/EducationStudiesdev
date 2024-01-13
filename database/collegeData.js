@@ -1825,6 +1825,1557 @@ const collegeData = [
     ],
     // Add more tab content arrays as needed
   },
+  {
+    collegeCode: "097",
+    collegeDetails: {
+      imageSrc: "/assets/images/miet.jpg",
+      logoSrc: "/assets/images/mietLogo.jpg",
+      name: "IIT Delhi",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "4.5/5",
+      star : 5,
+      reviewCount: 532,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Indian Institute of Technology, IIT Delhi Main Rd, IIT Campus Delhi",
+      website: "home.iitd.ac.in",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024. Below are some of the other important IIT Delhi latest updates: MBA applications for admissions 2024-26 are open; the last date to apply is Jan 31, 2024 (tentative). GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. IIT JAM 2024 online registration window is now closed. IIT JAM 2024 Admit Card will be available online to download from Jan 8, 2024. Further, the IIT JAM 2024 exam will be held on Feb 11, 2024. The UCEED 2024 registration window is now closed. Further, UCEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon). The CEED 2024 registration window is now closed. Further, the CEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon).  JEE Advanced 2024 exam dates are out. IIT Madras will be conducting JEE Advanced 2024 Exam on May 26, 2024. Aspirants will be able to register online for the exam between Apr 21, 2024 and Apr 30, 2024 on the official website at jeeadv.ac.in. According to media reports, a total of 370 international and national companies registered during IIT Delhi placements 2023-24"
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "IIT Delhi Highlights 2023",
+        content: "IIT Delhi is ranked 2nd by NIRF 2023 under the Engineering category, 1st by India Today 2023 under the Engineering category, and 1st by India Today 2023 under the Engineering (Government) category. Indian Institute of Technology Delhi (IIT Delhi) is popular for its flagship MTech and BTech courses. Indian Institute of Technology Delhi (IIT Delhi), through various departments and schools of study, offers UG, PG, and various other courses to students. IIT Delhi is also ranked 197 internationally by the QS World University Rankings 2024. Hence, IIT Delhi is a reputed university present in India. IIT Delhi is one of the twenty-three IITs present in India. Earlier IITD was established in 1961 as the College of Engineering. Later it was declared as the Institution of National Importance under the “Institutes of Technology (Amendment) Act, 1963. Over the years, over 48,000 students have graduated from the Indian Institute of Technology Delhi (IIT Delhi) in several disciplines including Physical Sciences, Engineering, Management, and Humanities and Social Sciences, and various other streams. Over 15,738 students have received their BTech degree from IIT Delhi over the years."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "IIT Delhi Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "18 Courses", fee: "8 L - 8.7 L" },
+          { name: "M.E./M.Tech", count: "49 Courses", fee: "3 L - 8.7 L" },
+          { name: "M.Sc.", count: "22 Courses", fee: "30 K - 3 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 75% aggregate",
+          "Accepting Exams: JEE Main, JEE Advanced"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "100", year2022: "102", year2023: "118" },
+          { course: "B.Tech. in Electrical Engineering", year2021: "553", year2022: "574", year2023: "582" },
+          { course: "Integrated B.Tech. + M.Tech. in Computer Science and Engineering", year2021: "180", year2022: "197", year2023: "185" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024. Below are some of the other important IIT Delhi latest updates: MBA applications for admissions 2024-26 are open; the last date to apply is Jan 31, 2024 (tentative). GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. IIT JAM 2024 online registration window is now closed. IIT JAM 2024 Admit Card will be available online to download from Jan 8, 2024. Further, the IIT JAM 2024 exam will be held on Feb 11, 2024. The UCEED 2024 registration window is now closed. Further, UCEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon). The CEED 2024 registration window is now closed. Further, the CEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon).  JEE Advanced 2024 exam dates are out. IIT Madras will be conducting JEE Advanced 2024 Exam on May 26, 2024. Aspirants will be able to register online for the exam between Apr 21, 2024 and Apr 30, 2024 on the official website at jeeadv.ac.in. According to media reports, a total of 370 international and national companies registered during IIT Delhi placements 2023-24"
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "IIT DELHI ADMISSION PROCESS 2023", childContent: "IIT Delhi admissions 2024 are ongoing. The Indian Institute of Technology offers a list of courses at the undergraduate, postgraduate and PhD levels. IIT Delhi admission to the courses is mostly entrance-based. The seat allotment for BTech, MTech, and MSc courses is carried out through respective counselling bodies. Before applying to a course, the aspirant must carefully check the eligibility requirements. Read further to know more about IIT Delhi course admission 2024." },
+          {childTitle: "IIT DELHI ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "IIT Delhi offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR IIT DELHI COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "IIT Delhi Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "18 Courses", fee: "8 L - 8.7 L" },
+          { name: "M.E./M.Tech", count: "49 Courses", fee: "3 L - 8.7 L" },
+          { name: "M.Sc.", count: "22 Courses", fee: "30 K - 3 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 75% aggregate",
+          "Accepting Exams: JEE Main, JEE Advanced"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "100", year2022: "102", year2023: "118" },
+          { course: "B.Tech. in Electrical Engineering", year2021: "553", year2022: "574", year2023: "582" },
+          { course: "Integrated B.Tech. + M.Tech. in Computer Science and Engineering", year2021: "180", year2022: "197", year2023: "185" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024. Below are some of the other important IIT Delhi latest updates: MBA applications for admissions 2024-26 are open; the last date to apply is Jan 31, 2024 (tentative). GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. IIT JAM 2024 online registration window is now closed. IIT JAM 2024 Admit Card will be available online to download from Jan 8, 2024. Further, the IIT JAM 2024 exam will be held on Feb 11, 2024. The UCEED 2024 registration window is now closed. Further, UCEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon). The CEED 2024 registration window is now closed. Further, the CEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon).  JEE Advanced 2024 exam dates are out. IIT Madras will be conducting JEE Advanced 2024 Exam on May 26, 2024. Aspirants will be able to register online for the exam between Apr 21, 2024 and Apr 30, 2024 on the official website at jeeadv.ac.in. According to media reports, a total of 370 international and national companies registered during IIT Delhi placements 2023-24."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "IIT DELHI ADMISSION PROCESS 2023", childContent: "IIT Delhi admissions 2024 are ongoing. The Indian Institute of Technology offers a list of courses at the undergraduate, postgraduate and PhD levels. IIT Delhi admission to the courses is mostly entrance-based. The seat allotment for BTech, MTech, and MSc courses is carried out through respective counselling bodies. Before applying to a course, the aspirant must carefully check the eligibility requirements. Read further to know more about IIT Delhi course admission 2024." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "IIT Delhi Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "18 Courses", fee: "8 L - 8.7 L" },
+          { name: "M.E./M.Tech", count: "49 Courses", fee: "3 L - 8.7 L" },
+          { name: "M.Sc.", count: "22 Courses", fee: "30 K - 3 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 75% aggregate",
+          "Accepting Exams: JEE Main, JEE Advanced"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "100", year2022: "102", year2023: "118" },
+          { course: "B.Tech. in Electrical Engineering", year2021: "553", year2022: "574", year2023: "582" },
+          { course: "Integrated B.Tech. + M.Tech. in Computer Science and Engineering", year2021: "180", year2022: "197", year2023: "185" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024. Below are some of the other important IIT Delhi latest updates: MBA applications for admissions 2024-26 are open; the last date to apply is Jan 31, 2024 (tentative). GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. IIT JAM 2024 online registration window is now closed. IIT JAM 2024 Admit Card will be available online to download from Jan 8, 2024. Further, the IIT JAM 2024 exam will be held on Feb 11, 2024. The UCEED 2024 registration window is now closed. Further, UCEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon). The CEED 2024 registration window is now closed. Further, the CEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon).  JEE Advanced 2024 exam dates are out. IIT Madras will be conducting JEE Advanced 2024 Exam on May 26, 2024. Aspirants will be able to register online for the exam between Apr 21, 2024 and Apr 30, 2024 on the official website at jeeadv.ac.in. According to media reports, a total of 370 international and national companies registered during IIT Delhi placements 2023-24."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "IIT Delhi Highlights 2023",
+        content: "IIT Delhi is ranked 2nd by NIRF 2023 under the Engineering category, 1st by India Today 2023 under the Engineering category, and 1st by India Today 2023 under the Engineering (Government) category. Indian Institute of Technology Delhi (IIT Delhi) is popular for its flagship MTech and BTech courses. Indian Institute of Technology Delhi (IIT Delhi), through various departments and schools of study, offers UG, PG, and various other courses to students. IIT Delhi is also ranked 197 internationally by the QS World University Rankings 2024. Hence, IIT Delhi is a reputed university present in India. IIT Delhi is one of the twenty-three IITs present in India. Earlier IITD was established in 1961 as the College of Engineering. Later it was declared as the Institution of National Importance under the “Institutes of Technology (Amendment) Act, 1963. Over the years, over 48,000 students have graduated from the Indian Institute of Technology Delhi (IIT Delhi) in several disciplines including Physical Sciences, Engineering, Management, and Humanities and Social Sciences, and various other streams. Over 15,738 students have received their BTech degree from IIT Delhi over the years."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "IIT Delhi Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "18 Courses", fee: "8 L - 8.7 L" },
+          { name: "M.E./M.Tech", count: "49 Courses", fee: "3 L - 8.7 L" },
+          { name: "M.Sc.", count: "22 Courses", fee: "30 K - 3 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 75% aggregate",
+          "Accepting Exams: JEE Main, JEE Advanced"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "100", year2022: "102", year2023: "118" },
+          { course: "B.Tech. in Electrical Engineering", year2021: "553", year2022: "574", year2023: "582" },
+          { course: "Integrated B.Tech. + M.Tech. in Computer Science and Engineering", year2021: "180", year2022: "197", year2023: "185" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
+  {
+    collegeCode: "098",
+    collegeDetails: {
+      imageSrc: "/assets/images/miet.jpg",
+      logoSrc: "/assets/images/mietLogo.jpg",
+      name: "Jamia Millia Islamia (JMI)",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "4.3/5",
+      star : 5,
+      reviewCount: 677,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Jamia Millia Islamia, Jamia Nagar Delhi",
+      website: "www.jmi.ac.in",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CUET UG 2024 exam date announced. The exam will be held from May 15, 2024 to May 31, 2024. CUET 2024 application form is expected to be released in the first week of February 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "Jamia Millia Islamia Highlights 2023",
+        content: "Jamia Millia Islamia (also known as JMI) is a central university located in Delhi. It was established in 1920 by an Act of the Parliament of India and is recognised by the UGC. Some of the courses offered by Jamia Millia are approved by AICTE and NCTE and accredited by the NBA. Jamia Millia Islamia University is accredited with an A ++ Grade by NAAC. The university is ranked 26 by NIRF 2023 under the BTech category, 16 in the Best Universities in India category by US News Rank 2023, and three under the University category by NIRF 2023. Jamia Millia Islamia, through various departments and centres, offers UG, PG, PhD, distance learning, and various other courses to students across Chemistry, Computer Science, and various other streams. Jamia is famous for its flagship BSc, MSc, and PhD courses."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "Jamia Millia Islamia Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "14 Courses", fee: "64.6 K" },
+          { name: "M.E./M.Tech", count: "16 Courses", fee: "31 K - 1.1 L" },
+          { name: "M.Sc.", count: "18 Courses", fee: "14.4 K - 1.8 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 score 55%",
+          "Accepting Exams: JEE Main, JMI Entrance"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Civil Engineering", year2021: "– / –", year2022: "27730", year2023: "49097" },
+          { course: "B.Tech. in Computer Engineering", year2021: "– / –", year2022: "	7216", year2023: "15487" },
+          { course: "B.Tech. in Computer Engineering", year2021: "– / –", year2022: "25361", year2023: "43231" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CUET UG 2024 exam date announced. The exam will be held from May 15, 2024 to May 31, 2024. CUET 2024 application form is expected to be released in the first week of February 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "JMI ADMISSION PROCESS 2023", childContent: "Jamia Millia Islamia admission 2024 is expected to start with the application process for CUET UG. The University released its prospectus for 2023 admissions in March with the schedule for admission to courses accepting national-level and university-level entrance exams. Jamia Millia Islamia offers over 220 courses in both regular and self-financed modes. Additionally, the University also offers distance learning courses at UG, PG and diploma levels." },
+          {childTitle: "JMI ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "JMI offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR JMI COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "JMI Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "14 Courses", fee: "64.6 K" },
+          { name: "M.E./M.Tech", count: "16 Courses", fee: "31 K - 1.1 L" },
+          { name: "M.Sc.", count: "18 Courses", fee: "14.4 K - 1.8 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 score 55%",
+          "Accepting Exams: JEE Main, JMI Entrance"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Civil Engineering", year2021: "– / –", year2022: "27730", year2023: "49097" },
+          { course: "B.Tech. in Computer Engineering", year2021: "– / –", year2022: "	7216", year2023: "15487" },
+          { course: "B.Tech. in Computer Engineering", year2021: "– / –", year2022: "25361", year2023: "43231" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024. Below are some of the other important IIT Delhi latest updates: MBA applications for admissions 2024-26 are open; the last date to apply is Jan 31, 2024 (tentative). GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. IIT JAM 2024 online registration window is now closed. IIT JAM 2024 Admit Card will be available online to download from Jan 8, 2024. Further, the IIT JAM 2024 exam will be held on Feb 11, 2024. The UCEED 2024 registration window is now closed. Further, UCEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon). The CEED 2024 registration window is now closed. Further, the CEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon).  JEE Advanced 2024 exam dates are out. IIT Madras will be conducting JEE Advanced 2024 Exam on May 26, 2024. Aspirants will be able to register online for the exam between Apr 21, 2024 and Apr 30, 2024 on the official website at jeeadv.ac.in. According to media reports, a total of 370 international and national companies registered during IIT Delhi placements 2023-24."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "JMI ADMISSION PROCESS 2023", childContent: "Jamia Millia Islamia admission 2024 is expected to start with the application process for CUET UG. The University released its prospectus for 2023 admissions in March with the schedule for admission to courses accepting national-level and university-level entrance exams. Jamia Millia Islamia offers over 220 courses in both regular and self-financed modes. Additionally, the University also offers distance learning courses at UG, PG and diploma levels." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "JMI Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "14 Courses", fee: "64.6 K" },
+          { name: "M.E./M.Tech", count: "16 Courses", fee: "31 K - 1.1 L" },
+          { name: "M.Sc.", count: "18 Courses", fee: "14.4 K - 1.8 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 score 55%",
+          "Accepting Exams: JEE Main, JMI Entrance"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Civil Engineering", year2021: "– / –", year2022: "27730", year2023: "49097" },
+          { course: "B.Tech. in Computer Engineering", year2021: "– / –", year2022: "	7216", year2023: "15487" },
+          { course: "B.Tech. in Computer Engineering", year2021: "– / –", year2022: "25361", year2023: "43231" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024. Below are some of the other important IIT Delhi latest updates: MBA applications for admissions 2024-26 are open; the last date to apply is Jan 31, 2024 (tentative). GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. IIT JAM 2024 online registration window is now closed. IIT JAM 2024 Admit Card will be available online to download from Jan 8, 2024. Further, the IIT JAM 2024 exam will be held on Feb 11, 2024. The UCEED 2024 registration window is now closed. Further, UCEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon). The CEED 2024 registration window is now closed. Further, the CEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon).  JEE Advanced 2024 exam dates are out. IIT Madras will be conducting JEE Advanced 2024 Exam on May 26, 2024. Aspirants will be able to register online for the exam between Apr 21, 2024 and Apr 30, 2024 on the official website at jeeadv.ac.in. According to media reports, a total of 370 international and national companies registered during IIT Delhi placements 2023-24."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "Jamia Millia Islamia Highlights 2023",
+        content: "Jamia Millia Islamia (also known as JMI) is a central university located in Delhi. It was established in 1920 by an Act of the Parliament of India and is recognised by the UGC. Some of the courses offered by Jamia Millia are approved by AICTE and NCTE and accredited by the NBA. Jamia Millia Islamia University is accredited with an A ++ Grade by NAAC. The university is ranked 26 by NIRF 2023 under the BTech category, 16 in the Best Universities in India category by US News Rank 2023, and three under the University category by NIRF 2023. Jamia Millia Islamia, through various departments and centres, offers UG, PG, PhD, distance learning, and various other courses to students across Chemistry, Computer Science, and various other streams. Jamia is famous for its flagship BSc, MSc, and PhD courses."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "Jamia Millia Islamia Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "14 Courses", fee: "64.6 K" },
+          { name: "M.E./M.Tech", count: "16 Courses", fee: "31 K - 1.1 L" },
+          { name: "M.Sc.", count: "18 Courses", fee: "14.4 K - 1.8 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 score 55%",
+          "Accepting Exams: JEE Main, JMI Entrance"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Civil Engineering", year2021: "– / –", year2022: "27730", year2023: "49097" },
+          { course: "B.Tech. in Computer Engineering", year2021: "– / –", year2022: "	7216", year2023: "15487" },
+          { course: "B.Tech. in Computer Engineering", year2021: "– / –", year2022: "25361", year2023: "43231" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
+  {
+    collegeCode: "099",
+    collegeDetails: {
+      imageSrc: "/assets/images/miet.jpg",
+      logoSrc: "/assets/images/mietLogo.jpg",
+      name: "Delhi Technological University (DTU)",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "4.3/5",
+      star : 5,
+      reviewCount: 2438,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Shahbad Daulatpur, Main Bawana Road, Delhi",
+      website: "www.dtu.ac.in/",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CUET UG 2024 exam date announced. The exam will be held from May 15, 2024 to May 31, 2024. CUET 2024 application form is expected to be released in the first week of February 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "DTU Highlights 2023",
+        content: "Formerly known as Delhi College of Engineering, Delhi Technological University (DTU) was established in 1941. DTU Delhi is accredited by the NAAC with an 'A' grade and NBA and is also approved by the University Grant Commission (UGC) and AICTE. DTU College is ranked 61 under the Overall category by NIRF 2023, 40 under the University category by NIRF 2023, and 29 under the Engineering category by NIRF 2023. The university is ISO-certified and earlier was affiliated with the University of Delhi."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "DTU Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "18 Courses", fee: "3 L - 6.4 L" },
+          { name: "M.E./M.Tech", count: "52 Courses", fee: "1.2 L - 3.3 L" },
+          { name: "M.Sc.", count: "4 Courses", fee: "36 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 score 60%",
+          "JEE Main DASA UG JAC Delhi CBSE 12th ISC"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "9278", year2022: "7608", year2023: "8677" },
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "2445", year2022: "4008", year2023: "4876" },
+          { course: "B.Tech. in Information Technology", year2021: "4142", year2022: "5110", year2023: "6424" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CUET UG 2024 exam date announced. The exam will be held from May 15, 2024 to May 31, 2024. CUET 2024 application form is expected to be released in the first week of February 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "DTU ADMISSION PROCESS 2023", childContent: "Delhi Technological University (DTU) Admission 2024 is open. Candidates must visit the official for admission details. DTU Admission 2024 to its most popular course BTech programme, is based on JEE Main scores and the entire process of counselling is conducted by JAC Delhi. DTU admission to all the remaining courses is based on national/ university-level entrance exams, such as UCEED, GATE, CAT, MAT and CMAT, among others. However, there are a few MBA specialised courses and BBA, admission to which is offered based on the past qualifying exam (UG level) followed by an interview round." },
+          {childTitle: "DTU ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "DTU offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR DTU COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "DTU Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "18 Courses", fee: "3 L - 6.4 L" },
+          { name: "M.E./M.Tech", count: "52 Courses", fee: "1.2 L - 3.3 L" },
+          { name: "M.Sc.", count: "4 Courses", fee: "36 K" },
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 score 60%",
+          "JEE Main DASA UG JAC Delhi CBSE 12th ISC"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "9278", year2022: "7608", year2023: "8677" },
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "2445", year2022: "4008", year2023: "4876" },
+          { course: "B.Tech. in Information Technology", year2021: "4142", year2022: "5110", year2023: "6424" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CUET UG 2024 exam date announced. The exam will be held from May 15, 2024 to May 31, 2024. CUET 2024 application form is expected to be released in the first week of February 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "DTU ADMISSION PROCESS 2023", childContent: "Delhi Technological University (DTU) Admission 2024 is open. Candidates must visit the official for admission details. DTU Admission 2024 to its most popular course BTech programme, is based on JEE Main scores and the entire process of counselling is conducted by JAC Delhi. DTU admission to all the remaining courses is based on national/ university-level entrance exams, such as UCEED, GATE, CAT, MAT and CMAT, among others. However, there are a few MBA specialised courses and BBA, admission to which is offered based on the past qualifying exam (UG level) followed by an interview round." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "DTU Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "18 Courses", fee: "3 L - 6.4 L" },
+          { name: "M.E./M.Tech", count: "52 Courses", fee: "1.2 L - 3.3 L" },
+          { name: "M.Sc.", count: "4 Courses", fee: "36 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 score 60%",
+          "JEE Main DASA UG JAC Delhi CBSE 12th ISC"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "9278", year2022: "7608", year2023: "8677" },
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "2445", year2022: "4008", year2023: "4876" },
+          { course: "B.Tech. in Information Technology", year2021: "4142", year2022: "5110", year2023: "6424" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CUET UG 2024 exam date announced. The exam will be held from May 15, 2024 to May 31, 2024. CUET 2024 application form is expected to be released in the first week of February 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "DTU Highlights 2023",
+        content: "Formerly known as Delhi College of Engineering, Delhi Technological University (DTU) was established in 1941. DTU Delhi is accredited by the NAAC with an 'A' grade and NBA and is also approved by the University Grant Commission (UGC) and AICTE. DTU College is ranked 61 under the Overall category by NIRF 2023, 40 under the University category by NIRF 2023, and 29 under the Engineering category by NIRF 2023. The university is ISO-certified and earlier was affiliated with the University of Delhi."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "DTU Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "18 Courses", fee: "3 L - 6.4 L" },
+          { name: "M.E./M.Tech", count: "52 Courses", fee: "1.2 L - 3.3 L" },
+          { name: "M.Sc.", count: "4 Courses", fee: "36 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 score 60%",
+          "JEE Main DASA UG JAC Delhi CBSE 12th ISC"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "9278", year2022: "7608", year2023: "8677" },
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "2445", year2022: "4008", year2023: "4876" },
+          { course: "B.Tech. in Information Technology", year2021: "4142", year2022: "5110", year2023: "6424" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
+  {
+    collegeCode: "100",
+    collegeDetails: {
+      imageSrc: "/assets/images/miet.jpg",
+      logoSrc: "/assets/images/mietLogo.jpg",
+      name: "National Institute of Technology Delhi (NIT)",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "3.8/5",
+      star : 5,
+      reviewCount: 120,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Plot No. FA7,Zone P1, GT Karnal Road, Delhi",
+      website: "www.nitdelhi.ac.in",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024. "
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "NIT Highlights 2023",
+        content: "NIT Delhi is one of the thirty-one NITs that was established in 2010 by an act of parliament and the college has been declared an Institute of National importance. NIT Delhi functions under the aegis of the Ministry of Education, Government of India. The National Institute of Technology Delhi is ranked 51 by NIRF 2023 for BTech. NIT in Delhi is approved by AICTE and through six departments, offers UG and PG courses to students. These courses are provided across Engineering, Applied Sciences, and various other streams. NIT Delhi is currently functioning through IAMR Campus, Narela."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "NIT Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "7 Courses", fee: "5 L" },
+          { name: "M.E./M.Tech", count: "9 Courses", fee: "2.1 L - 3 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 75% aggregate",
+          "Accepting Exams: JEE Main"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Electrical and Electronics Engineering", year2021: "22118", year2022: "– / –", year2023: "– / –" },
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "7951", year2022: "9906", year2023: "11417" },
+          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "16841", year2022: "17606", year2023: "16952" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "NIT ADMISSION PROCESS 2023", childContent: "NIT Delhi admission 2024 starts with the registration process for JEE Main January session. Admission to NIT Delhi is subject to various national-level entrance exams such as JEE Main and GATE. Consisting of six departments that offer BTech, MTech and PhD across various specialisations, the flagship programme of NIT Delhi is BTech which is offered across three specialisations. Admission to BTech is based on JEE Main scores followed by JoSSA Counselling. Read on to know more on NIT Delhi admissions." },
+          {childTitle: "NIT ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "NIT offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR NIT COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "NIT Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "7 Courses", fee: "5 L" },
+          { name: "M.E./M.Tech", count: "9 Courses", fee: "2.1 L - 3 L" },
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 75% aggregate",
+          "Accepting Exams: JEE Main"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Electrical and Electronics Engineering", year2021: "22118", year2022: "– / –", year2023: "– / –" },
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "7951", year2022: "9906", year2023: "11417" },
+          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "16841", year2022: "17606", year2023: "16952" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "NIT ADMISSION PROCESS 2023", childContent: "NIT Delhi admission 2024 starts with the registration process for JEE Main January session. Admission to NIT Delhi is subject to various national-level entrance exams such as JEE Main and GATE. Consisting of six departments that offer BTech, MTech and PhD across various specialisations, the flagship programme of NIT Delhi is BTech which is offered across three specialisations. Admission to BTech is based on JEE Main scores followed by JoSSA Counselling. Read on to know more on NIT Delhi admissions." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "NIT Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "7 Courses", fee: "5 L" },
+          { name: "M.E./M.Tech", count: "9 Courses", fee: "2.1 L - 3 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 75% aggregate",
+          "Accepting Exams: JEE Main"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Electrical and Electronics Engineering", year2021: "22118", year2022: "– / –", year2023: "– / –" },
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "7951", year2022: "9906", year2023: "11417" },
+          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "16841", year2022: "17606", year2023: "16952" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "NIT Highlights 2023",
+        content: "NIT Delhi is one of the thirty-one NITs that was established in 2010 by an act of parliament and the college has been declared an Institute of National importance. NIT Delhi functions under the aegis of the Ministry of Education, Government of India. The National Institute of Technology Delhi is ranked 51 by NIRF 2023 for BTech. NIT in Delhi is approved by AICTE and through six departments, offers UG and PG courses to students. These courses are provided across Engineering, Applied Sciences, and various other streams. NIT Delhi is currently functioning through IAMR Campus, Narela."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "NIT Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "7 Courses", fee: "5 L" },
+          { name: "M.E./M.Tech", count: "9 Courses", fee: "2.1 L - 3 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 75% aggregate",
+          "Accepting Exams: JEE Main"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Electrical and Electronics Engineering", year2021: "22118", year2022: "– / –", year2023: "– / –" },
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "7951", year2022: "9906", year2023: "11417" },
+          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "16841", year2022: "17606", year2023: "16952" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
+  {
+    collegeCode: "101",
+    collegeDetails: {
+      imageSrc: "/assets/images/miet.jpg",
+      logoSrc: "/assets/images/mietLogo.jpg",
+      name: "All India Institutes of Medical Sciences (AIIMS)",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "4.6/5",
+      star : 5,
+      reviewCount: 95,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Sri Aurobindo Marg, Ansari Nagar East Delhi",
+      website: "www.aiims.edu",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "AIIMS paramedical 2024 exam will be conducted on July 6, 2024. "
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "AIIMS Highlights 2023",
+        content: "AIIMS Delhi is ranked 1st by India Today and NIRF 2023 under the Medical category, 6th by NIRF 2023 under the Overall category, and 12th by US News 2023 under the University (Overall) category. AIIMS is ranked 123rd by the QS WUR Ranking By Subject category 2023. AIIMS Delhi is one of the various AIIMS colleges present in India. At present, there are 23 AIIMS in India out of which 20 are functional and the rest are under construction or yet to be operational. Delhi AIIMS, through more than 40 departments, offers UG, PG, and various other courses to students. These courses are offered across the Medical and various other streams. Located in Gautam Nagar, Delhi, the All-India Institute of Medical Sciences is known as an institution of national importance by an Act of Parliament. The college has more than 600 research publications by its faculty and researchers in a year. Delhi AIIMS has an attached AIIMS Hospital. AIIMS also manages a 60-bedded hospital present in Ballabgarh in Haryana at the Comprehensive Rural Health Centre. The college provides community-based teaching and research and research in medical and related fields. AIIMS Delhi provides a BSc (Hons) in Nursing and a Master in Biotechnology as its flagship courses. This reputed college was established under an Act of Parliament 1956. AIIMS operates autonomously under the Ministry of Health and Family Welfare."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "AIIMS Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "6.1 K" },
+          { name: "MD", count: "24 Courses", fee: "2.1 K - 2.5 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.Sc. Admissions 2024",
+        eligibility: [
+          "10+2 with 50% aggregate",
+          "Accepting Exams: AIIMS paramedical"
+        ],
+        importantDates: [
+          { date: "Feb '24-Apr '24", event: "AIIMS BSc Paramedical Registration (Basic)" },
+          { date: "Mar '24-Apr '24", event: "AIIMS BSc Paramedical Final Registration" },
+          { date: "May '24", event: "AIIMS BSc Paramedical Application Status" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "Bachelor of Medicine and Bachelor of Surgery (MBBS)", year2021: "53", year2022: "61", year2023: "57" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "AIIMS ADMISSION PROCESS 2023", childContent: "AIIMS Delhi admission 2024 is entirely entrance-based for all UG & PG courses. Admission to AIIMS Delhi is completely entrance-based for all the UG and PG courses, namely BSc, MSc, MBBS, MD, MS, among others. Amongst all, the most popular course offered at AIIMS Delhi is MBBS admission to which is subject to the NEET UG exam conducted by NTA. For PG and super-speciality courses, admissions were earlier done based on AIIMS PG Exam scores but are now replaced with INICET and institute-level exams." },
+          {childTitle: "AIIMS ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "AIIMS offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR AIIMS COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "AIIMS Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "6.1 K" },
+          { name: "MD", count: "24 Courses", fee: "2.1 K - 2.5 K" },
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.Sc. Admissions 2024",
+        eligibility: [
+          "10+2 with 50% aggregate",
+          "Accepting Exams: AIIMS paramedical"
+        ],
+        importantDates: [
+          { date: "Feb '24-Apr '24", event: "AIIMS BSc Paramedical Registration (Basic)" },
+          { date: "Mar '24-Apr '24", event: "AIIMS BSc Paramedical Final Registration" },
+          { date: "May '24", event: "AIIMS BSc Paramedical Application Status" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "Bachelor of Medicine and Bachelor of Surgery (MBBS)", year2021: "53", year2022: "61", year2023: "57" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "INI CET Round 2 cutoff for the Jan session is out. Selected candidates must accept the allocated seat, report, and submit a document/ security deposit by Dec 26, 2023 (5 Pm)."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "AIIMS ADMISSION PROCESS 2023", childContent: "AIIMS Delhi admission 2024 is entirely entrance-based for all UG & PG courses. Admission to AIIMS Delhi is completely entrance-based for all the UG and PG courses, namely BSc, MSc, MBBS, MD, MS, among others. Amongst all, the most popular course offered at AIIMS Delhi is MBBS admission to which is subject to the NEET UG exam conducted by NTA. For PG and super-speciality courses, admissions were earlier done based on AIIMS PG Exam scores but are now replaced with INICET and institute-level exams." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "AIIMS Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "6.1 K" },
+          { name: "MD", count: "24 Courses", fee: "2.1 K - 2.5 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.Sc. Admissions 2024",
+        eligibility: [
+          "10+2 with 50% aggregate",
+          "Accepting Exams: AIIMS paramedical"
+        ],
+        importantDates: [
+          { date: "Feb '24-Apr '24", event: "AIIMS BSc Paramedical Registration (Basic)" },
+          { date: "Mar '24-Apr '24", event: "AIIMS BSc Paramedical Final Registration" },
+          { date: "May '24", event: "AIIMS BSc Paramedical Application Status" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "Bachelor of Medicine and Bachelor of Surgery (MBBS)", year2021: "53", year2022: "61", year2023: "57" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "AIIMS Delhi cutoff 2024 for INI CET 2024 Jan session is out for Round 2. As of now, there are no further rounds scheduled for INI CET Jan Session 2024. A few more updates related to AIIMS Delhi cutoff 2024 are mentioned below: NEET UG exam 2024 dates have been announced for admission to the MBBS/ BDS courses. As per the schedule, the NEET UG 2024 exam will be conducted on May 5, 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "AIIMS Highlights 2023",
+        content: "AIIMS Delhi is ranked 1st by India Today and NIRF 2023 under the Medical category, 6th by NIRF 2023 under the Overall category, and 12th by US News 2023 under the University (Overall) category. AIIMS is ranked 123rd by the QS WUR Ranking By Subject category 2023. AIIMS Delhi is one of the various AIIMS colleges present in India. At present, there are 23 AIIMS in India out of which 20 are functional and the rest are under construction or yet to be operational. Delhi AIIMS, through more than 40 departments, offers UG, PG, and various other courses to students. These courses are offered across the Medical and various other streams. Located in Gautam Nagar, Delhi, the All-India Institute of Medical Sciences is known as an institution of national importance by an Act of Parliament. The college has more than 600 research publications by its faculty and researchers in a year. Delhi AIIMS has an attached AIIMS Hospital. AIIMS also manages a 60-bedded hospital present in Ballabgarh in Haryana at the Comprehensive Rural Health Centre. The college provides community-based teaching and research and research in medical and related fields. AIIMS Delhi provides a BSc (Hons) in Nursing and a Master in Biotechnology as its flagship courses. This reputed college was established under an Act of Parliament 1956. AIIMS operates autonomously under the Ministry of Health and Family Welfare."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "AIIMS Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "6.1 K" },
+          { name: "MD", count: "24 Courses", fee: "2.1 K - 2.5 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.Sc. Admissions 2024",
+        eligibility: [
+          "10+2 with 50% aggregate",
+          "Accepting Exams: AIIMS paramedical"
+        ],
+        importantDates: [
+          { date: "Feb '24-Apr '24", event: "AIIMS BSc Paramedical Registration (Basic)" },
+          { date: "Mar '24-Apr '24", event: "AIIMS BSc Paramedical Final Registration" },
+          { date: "May '24", event: "AIIMS BSc Paramedical Application Status" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "Bachelor of Medicine and Bachelor of Surgery (MBBS)", year2021: "53", year2022: "61", year2023: "57" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
+  {
+    collegeCode: "102",
+    collegeDetails: {
+      imageSrc: "/assets/images/miet.jpg",
+      logoSrc: "/assets/images/mietLogo.jpg",
+      name: "Vardhman Mahavir Medical College (VMMC)",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "4.4/5",
+      star : 5,
+      reviewCount: 47,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: " Ansari Nagar, near AIIMS Hospital Delhi",
+      website: "vmmc-sjh.nic.in",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024. The NEET PG 2024 exam has been postponed to July 7, 2024. Further, the NEET PG 2024 application form is expected to be released tentatively in the second week of May.  The NEET SS 2024 application form is expected to be released by NBE in the fourth week of July 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "VMMC Highlights 2023",
+        content: "VMMC & Safdarjung Hospital is associated with Safdarjung Hospital, New Delhi. The college was founded in 2001. VMMC & Safdarjung Hospital is affiliated with Guru Gobind Singh Indraprastha University. The college offers MBBS, BSc (H) Nursing, MD/ MS, Diploma and DNB program."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "VMMC Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "1.6 L" },
+          { name: "MD", count: "17 Courses", fee: "1.5 L" },
+          { name: "MS", count: "5 Courses", fee: "1.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MD Admissions 2024",
+        eligibility: [
+          "Accepting Exams: NEET PG"
+        ],
+        importantDates: [
+          { date: "May '24-Jun '24", event: "NEET PG 2024 registration" },
+          { date: "Jun '24", event: "NEET PG 2024 admit card upload" },
+          { date: "7 Jul '24", event: "NEET PG 2024 exam" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024. The NEET PG 2024 exam has been postponed to July 7, 2024. Further, the NEET PG 2024 application form is expected to be released tentatively in the second week of May.  The NEET SS 2024 application form is expected to be released by NBE in the fourth week of July 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "VMMC ADMISSION PROCESS 2023", childContent: "VMMC & Safdarjung Hospital is associated with Safdarjung Hospital, New Delhi. The college was founded in 2001. VMMC & Safdarjung Hospital is affiliated to Guru Gobind Singh Indraprastha University. Currently, the college offers MBBS, BSc (H) Nursing, MD/ MS, Diploma and DNB program." },
+          {childTitle: "VMMC ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "VMMC offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR VMMC COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "VMMC Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "1.6 L" },
+          { name: "MD", count: "17 Courses", fee: "1.5 L" },
+          { name: "MS", count: "5 Courses", fee: "1.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MD Admissions 2024",
+        eligibility: [
+          "Accepting Exams: NEET PG"
+        ],
+        importantDates: [
+          { date: "May '24-Jun '24", event: "NEET PG 2024 registration" },
+          { date: "Jun '24", event: "NEET PG 2024 admit card upload" },
+          { date: "7 Jul '24", event: "NEET PG 2024 exam" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024. The NEET PG 2024 exam has been postponed to July 7, 2024. Further, the NEET PG 2024 application form is expected to be released tentatively in the second week of May.  The NEET SS 2024 application form is expected to be released by NBE in the fourth week of July 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "VMMC ADMISSION PROCESS 2023", childContent: "VMMC & Safdarjung Hospital is associated with Safdarjung Hospital, New Delhi. The college was founded in 2001. VMMC & Safdarjung Hospital is affiliated to Guru Gobind Singh Indraprastha University. Currently, the college offers MBBS, BSc (H) Nursing, MD/ MS, Diploma and DNB program." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "VMMC Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "1.6 L" },
+          { name: "MD", count: "17 Courses", fee: "1.5 L" },
+          { name: "MS", count: "5 Courses", fee: "1.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MD Admissions 2024",
+        eligibility: [
+          "Accepting Exams: NEET PG"
+        ],
+        importantDates: [
+          { date: "May '24-Jun '24", event: "NEET PG 2024 registration" },
+          { date: "Jun '24", event: "NEET PG 2024 admit card upload" },
+          { date: "7 Jul '24", event: "NEET PG 2024 exam" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024. The NEET PG 2024 exam has been postponed to July 7, 2024. Further, the NEET PG 2024 application form is expected to be released tentatively in the second week of May.  The NEET SS 2024 application form is expected to be released by NBE in the fourth week of July 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "VMMC Highlights 2023",
+        content: "VMMC & Safdarjung Hospital is associated with Safdarjung Hospital, New Delhi. The college was founded in 2001. VMMC & Safdarjung Hospital is affiliated with Guru Gobind Singh Indraprastha University. The college offers MBBS, BSc (H) Nursing, MD/ MS, Diploma and DNB program. "
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "VMMC Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "1.6 L" },
+          { name: "MD", count: "17 Courses", fee: "1.5 L" },
+          { name: "MS", count: "5 Courses", fee: "1.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MD Admissions 2024",
+        eligibility: [
+          "Accepting Exams: NEET PG"
+        ],
+        importantDates: [
+          { date: "May '24-Jun '24", event: "NEET PG 2024 registration" },
+          { date: "Jun '24", event: "NEET PG 2024 admit card upload" },
+          { date: "7 Jul '24", event: "NEET PG 2024 exam" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
   // Add more college objects as needed
 ];
 

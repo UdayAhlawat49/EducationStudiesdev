@@ -32,9 +32,9 @@
  //whyus style
  .home-whyus-section {
  
-     background-color: $primary-color;
-     padding: 100px 0px;
- 
+    //  background-color: $primary-color;
+     padding: 0px;
+    
      .home-whyus-content {
  
   
@@ -46,6 +46,19 @@
  
  
          color: $base-color;
+         color: rgb(0, 0, 0);
+  
+         padding: 50px;
+         padding-top: 30px;
+         i{
+            color: var(--accent-color);
+            font-size: 2rem;
+         }
+         p{
+            strong{
+                font-size: 2rem;
+            }
+         }
      }
  
      .home-whyus-boxes {

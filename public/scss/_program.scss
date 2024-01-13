@@ -1,13 +1,15 @@
 .popular_program_area{
     // single__programstart__start 
     .single__program{
+        position: relative;
+        border: 5px solid white;
         // margin-bottom: 100px;
         @media #{$mobile_device} {
             margin-bottom: 50px;
         }
         .program_thumb{
           height: 200px;
-
+          
             img{
                 width: 100%;
                 height: 100%;
@@ -15,30 +17,53 @@
             }
         }
         .program__content{
-            background: white;
-            padding: 20px;
+            background: #0000009c;
+            padding:10px;
             position: relative;
-            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.02);
-            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.02);
-            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.02); 
-            border: 1px solid rgba(0, 0, 0, 0.055);
-            
-            height: 350px;
-
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,.02);
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,.02);
+            border: 1px solid rgba(0,0,0,.055);
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            color: white;
+            width: 100%;
+            border-top: none;
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            justify-content: end;
             &::before{
-                position: absolute;
-                right: 0;
-                bottom: 0;
-                width: 100px;
-                height: 100px;
-                background-image: url(../img/program/shape.png);
-                content: '';
-                z-index: 1;
-                background-size: cover;
-                background-repeat: no-repeat;
+                
             }
             @media #{$mobile_device} {
                 margin-bottom: 30px;
+            }
+            .logo{
+                width: 40px;
+                height: 40px;
+                margin-bottom: 5px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            button{
+                padding: 5px 10px;
+                width: max-content;
+                font-size: 1.4rem;
+                font-weight: 300;
+                background-color: transparent;
+                border: 1px solid white;
+                &:hover{
+                    background-color: var(--primary-color);
+                     
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                }
             }
             span{
                 display: block;
@@ -46,18 +71,35 @@
                 color: #232637;
                 font-weight: 400;
             }
-            h5{
-                 color: #232637;
+            h3{
+                 color: #fafafa;
                
-            
-                margin-top: 10px;
+                font-size: 2.5rem;
+                
             }
             p{
-                color: #000000;
-                 margin-top: 23px;
+                color: #ffffff;
+                ;
+                font-size: 1.4rem;
                 margin-bottom: 10px;
             }
-            
+            h5{
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 292px;
+            }
+        }
+        .program__content2 {
+            justify-content: center;
+            align-items: center;
+            h5{
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                 width: 100%;
+                 text-align: center;
+            }
         }
     }
     // single__programstart__end

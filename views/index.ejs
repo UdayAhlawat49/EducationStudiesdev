@@ -1,6 +1,6 @@
 <%- include('partials/header') %>
 
-<div id="index" style="background-color: #F7F7F7;">
+<div id="index" style="background-color:   white;">
 
 
 <!-- Your specific page content goes here -->
@@ -48,7 +48,9 @@
 
                   <!-- middle content -->
                   <div class="middleContent">
-                    
+                    <div class="row">
+                      <div class="col-md-8">
+                          
                     <div class="upperHead">
              
                     </div>
@@ -58,9 +60,47 @@
                     </div>
                     <div class="subHead">
                       Education Studies is dedicated to guiding you on your educational journey with expert support and services. Our commitment to excellence ensures you access the best study options, both in India and abroad. We strive for success by providing seamless admission processes and facilitating scholarship opportunities.
+                      
+                    </div>
+                      </div>
 
-        
-     
+                      <div class="col-md-4">
+                        <!-- forms -->
+
+                        <div class="registerForm">
+                          <div class="container">
+                           <div class="logo">
+                            <img   src="/assets/images/LOGO.png" alt="">
+                           </div>
+                          <form action=" " method="POST" id="addRegisterForm">
+                            <div>
+                              <label for="firstName">First Name</label>  <br>
+                              <input id="firstName" name="firstName" placeholder="Enter First Name" type="text">
+                            </div>
+
+                            <div>
+                              <label for="lastName">Last Name</label> <br>
+                              <input id="lastName" name="lastName" placeholder="Enter Last Name" type="text">
+                            </div>
+
+                            <div>
+                              <label for="emailId">Email</label> <br>
+                              <input id="emailId" name="emailId" placeholder="Enter Email" type="text">
+                            </div>
+
+                            <div >
+                              <label for="mobileNum">Mobile No</label>  <br>
+                              <input id="mobileNum" placeholder="Enter Phone" name="mobileNum" type="number">
+                            </div>
+                            <div>
+                              <button type="submit" class="btn bg-primary">Register</button>
+                            </div>
+                           
+                          </form>
+                          </div>
+                        </div>
+
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -73,11 +113,11 @@
       
           <!-- Stat Section Start -->
           <!-- service_area_start(College Section header Start)  -->
-          <div class="service_area gray_bg">
+          <div class="service_area gray_bg">  
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
-                  <div class="single_service d-flex align-items-center">
+                  <div class="single_service shadow shadow    d-flex align-items-center">
                     <div class="icon">
                       <i class="bi bi-bookmark-check"></i>
                     </div>
@@ -88,7 +128,7 @@
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <div class="single_service d-flex align-items-center">
+                  <div class="single_service shadow d-flex align-items-center">
                     <div class="icon">
                       <i class="bi bi-bookmark-check"></i>
                     </div>
@@ -99,7 +139,7 @@
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <div class="single_service d-flex align-items-center">
+                  <div class="single_service shadow d-flex align-items-center">
                     <div class="icon">
                       <i class="bi bi-bookmark-check"></i>
                     </div>
@@ -114,11 +154,13 @@
           </div>
           <!--/ service_area_start(College Section Header End)  -->
           
+        
           <!-- College Section Start -->
           <div
             class="popular_program_area section__padding  popular_program_area1"
           >
             <div class="container ">
+              < >
               <div class="row mb-3">
                 <div class="col-md-6 text-center d-flex align-items-center   ">
                   <div class="section_title text-center">
@@ -128,21 +170,10 @@
                 <div class="col-md-6">
                   <nav class="custom_tabs text-end ">
                     <div class="nav nav-tabs" id="myTab" role="tablist">
-                      <a
-                        class="nav-item active"
-                        role="presentation"
-                        id="all-tab"
-                        data-bs-toggle="tab"
-                        data-bs-target="#all"
-                        type="button"
-                        role="tab"
-                        aria-controls="all"
-                        aria-selected="true"
-                        >All</a
-                      >
+                     
       
                       <a
-                        class="nav-item"
+                        class="nav-item active "
                         role="presentation"
                         id="engineering-tab"
                         data-bs-toggle="tab"
@@ -150,7 +181,7 @@
                         type="button"
                         role="tab"
                         aria-controls="engineering"
-                        aria-selected="false"
+                        aria-selected="true"
                         >Engineering</a
                       >
       
@@ -185,15 +216,15 @@
               </div>
       
               <!-- Tab panes -->
-              <div class="tab-content border p-4">
+              <div class="tab-content shadow    p-4">
                 <!-- All -->
                 <div
-                  class="tab-pane active"
+                  class="tab-pane "
                   id="all"
                   role="tabpanel"
                   aria-labelledby="all-tab"
                 >
-                  <div class="row">
+                  <!-- <div class="row">
                     <div class="col-lg-4 col-md-6">
                       <div class="single__program">
                         <div class="program_thumb">
@@ -253,12 +284,12 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
       
                 <!-- Engineering -->
                 <div
-                  class="tab-pane"
+                  class="tab-pane active"
                   id="engineering"
                   role="tabpanel"
                   aria-labelledby="engineering"
@@ -270,17 +301,22 @@
                           <img src="assets/images/College/miet-thumb.webp" alt="" />
                         </div>
                         <div class="program__content">
-                          <h2 class="bold">Management</h2>
-                          <h4 class="semi-bold">
-                            Meerut Institute of Engineering and Technology
-                          </h4>
-                          <p class="light">
+                            <div class="logo">
+                              <!-- <img width="20" src="assets/images/1.Dewan/Dewan Logo.jpeg" alt=""> -->
+                            </div>
+                            <div>  
+                               <h3 class="bold">Management</h3>
+                              <h5 class="regular">
+                                Meerut Institute of Engineering and Technology
+                              </h5>
+                              <h6 class="light">Meerut</h6></div>
+                          <!-- <p class="light">
                             Meerut Institute of Engineering & Technology (MIET) is a
                             prestigious institution Meerut offers a quality education
                             at a higher level.
-                          </p>
+                          </p> -->
       
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
+                          <!-- <button><a href="/collegeslist">LEARN MORE</a></button> -->
                         </div>
                       </div>
                     </div>
@@ -290,16 +326,23 @@
                           <img src="assets/images/College/dewan-thumb.jpeg" alt="" />
                         </div>
                         <div class="program__content">
-                          <h2 class="bold">Engineering</h2>
-                          <h4 class="semi-bold">
+                          <div class="logo">
+                            <!-- <img width="20" src="assets/images/1.Dewan/Dewan Logo.jpeg" alt=""> -->
+                          </div>
+                         <div>
+                          <h3 class="bold">Engineering</h3>
+                          <h5 class="semi-bold">
                             Dewan VS Group of Institutions India
-                          </h4>
-                          <p class="light">
+                          </h5>
+                          <h6 class="light">Meerut</h6></div>
+
+                    
+                          <!-- <p class="light">
                             Dewan V.S Group of Institutions is a Private college
                             established in year 1996. The college is located in
                             Meerut, Uttar Pradesh.
                           </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
+                          <button><a href="/collegeslist">LEARN MORE</a></button> -->
                         </div>
                       </div>
                     </div>
@@ -309,14 +352,21 @@
                           <img src="assets/images/College/iimt-thumb.png" alt="" />
                         </div>
                         <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">IIMT Meerut</h4>
-                          <p class="light">
+                          <div class="logo">
+                            <!-- <img width="20" src="assets/images/1.Dewan/Dewan Logo.jpeg" alt=""> -->
+                          </div>
+                         
+                          <div>
+                            <h3 class="bold">Medical</h3>
+                            <h5 class="semi-bold">IIMT Meerut</h5>
+                            <h6>Meerut</h6>
+                          </div>
+                          <!-- <p class="light">
                             IIMT University (IIMTU), Meerut is a private university
                             established in 2016. This university offers undergraduate,
                             postgraduate and doctoral programmes
                           </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
+                          <button><a href="/collegeslist">LEARN MORE</a></button> -->
                         </div>
                       </div>
                     </div>
@@ -337,14 +387,15 @@
                           <img src="assets/images/College/iimt-thumb.png" alt="" />
                         </div>
                         <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">IIMT Meerut</h4>
-                          <p class="light">
+                          <h3 class="bold">Medical</h3>
+                          <h5 class="semi-bold">IIMT Meerut</h5>
+                          <h6>Meerut</h6>
+                          <!-- <h6 class="light">
                             IIMT University (IIMTU), Meerut is a private university
                             established in 2016. This university offers undergraduate,
                             postgraduate and doctoral programmes
-                          </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
+                          </h6>
+                          <button><a href="/collegeslist">LEARN MORE</a></button> -->
                         </div>
                       </div>
                     </div>
@@ -357,16 +408,17 @@
                           />
                         </div>
                         <div class="program__content">
-                          <h2 class="bold">Management</h2>
-                          <h4 class="semi-bold">
+                          <h3 class="bold">Management</h3>
+                          <h5 class="semi-bold">
                             Maharishi University of Information Technology
-                          </h4>
-                          <p class="light">
+                          </h5>
+                          <h6>Meerut</h6>
+                          <!-- <p class="light">
                             Maharishi University of Information Technology, Noida was
                             established in 2001. The university has been recognised by
                             the UGC and AICTE.
                           </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
+                          <button><a href="/collegeslist">LEARN MORE</a></button> -->
                         </div>
                       </div>
                     </div>
@@ -376,16 +428,17 @@
                           <img src="assets/images/College/apim-thumb.png" alt="" />
                         </div>
                         <div class="program__content">
-                          <h2 class="bold">Management</h2>
-                          <h4 class="semi-bold">
+                          <h3 class="bold">Management</h3>
+                          <h5 class="semi-bold">
                             Asia-Pacific Institute of Management, New Delhi
-                          </h4>
-                          <p class="light">
+                          </h5>
+                          <h6>Meerut</h6>
+                          <!-- <p class="light">
                             Established in 1996, the Asia-Pacific Institute of
                             Management is one of the premier management institutes
                             located in Jasola Vihar, New Delhi.
                           </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
+                          <button><a href="/collegeslist">LEARN MORE</a></button> -->
                         </div>
                       </div>
                     </div>
@@ -406,13 +459,14 @@
                           <img src="img/program/2.png" alt="" />
                         </div>
                         <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">Medical College 1</h4>
-                          <p class="light">
+                          <h3 class="bold">Medical</h3>
+                          <h5 class="semi-bold">Medical College 1</h5>
+                          <h6>Meerut</h6>
+                          <!-- <p class="light">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut
                           </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
+                          <button><a href="/collegeslist">LEARN MORE</a></button> -->
                         </div>
                       </div>
                     </div>
@@ -422,13 +476,14 @@
                           <img src="img/program/1.png" alt="" />
                         </div>
                         <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">Medical College 1</h4>
-                          <p class="light">
+                          <h3 class="bold">Medical</h3>
+                          <h5 class="semi-bold">Medical College 1</h5>
+                          <h6>Meerut</h6>
+                          <!-- <p class="light">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut
                           </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
+                          <button><a href="/collegeslist">LEARN MORE</a></button> -->
                         </div>
                       </div>
                     </div>
@@ -438,13 +493,14 @@
                           <img src="img/program/3.png" alt="" />
                         </div>
                         <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">Medical College 1</h4>
-                          <p class="light">
+                          <h3 class="bold">Medical</h3>
+                          <h5 class="semi-bold">Medical College 1</h5>
+                          <h6>Meerut</h6>
+                          <!-- <p class="light">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut
                           </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
+                          <button><a href="/collegeslist">LEARN MORE</a></button> -->
                         </div>
                       </div>
                     </div>
@@ -457,22 +513,23 @@
       
         <!-- courses Section Start -->
           <div
-            class="popular_program_area section__padding   popular_program_area1"
+            class="popular_program_area section__padding   popular_program_area1  "
           >
             <div class="container">
-              <div class="row mb-4">
+              < >
+              <div class="row mb-4 s">
                 <div class="col-md-6 text-center  d-flex align-items-center ">
                   <div class="section_title text-center">
                     <h2 class="bold">Popular Courses</h2>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 s">
                   <nav class="custom_tabs text-end ">
                     <div class="nav nav-tabs" id="myTab" role="tablist">
                      
-      
+                
                       <a
-                        class="nav-item active"
+                        class="nav-item  active"
                         role="presentation"
                         id="profile-tab"
                         data-bs-toggle="tab"
@@ -509,111 +566,38 @@
                         aria-selected="false"
                         >Medical</a
                       >
-                      <a
-                      class="nav-item "
-                      role="presentation"
-                      id="home-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#home"
-                      type="button"
-                      role="tab"
-                      aria-controls="home"
-                      aria-selected="false"
-                      >Other</a
-                    >
+                    
                     </div>
                   </nav>
                 </div>
               </div>
       
               <!-- Tab panes -->
-              <div class="tab-content border p-4">
+              <div class="tab-content p-4">
+          
                 <div
                   class="tab-pane active"
-                  id="home"
-                  role="tabpanel"
-                  aria-labelledby="home-tab"
-                >
-                  <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                      <div class="single__program">
-                        <div class="program_thumb">
-                          <img
-                            src="/assets/images/Course/mba-course.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="program__content">
-                          <h2 class="bold">Management</h2>
-                          <h4 class="semi-bold">MBA</h4>
-                          <p class="light">
-                            Achieve business success with Education Studies: MBA/PGDM excellence, expert guidance, seamless admissions, and scholarship support
-                          </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                      <div class="single__program">
-                        <div class="program_thumb">
-                          <img
-                            src="/assets/images/Course/b.tech-course.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="program__content">
-                          <h2 class="bold">Engineering</h2>
-                          <h4 class="semi-bold">B.E/B.TECH</h4>
-                          <p class="light">
-                            Explore B.Tech excellence with Education Studies: expert guidance, seamless admissions, and scholarship support.
-                          </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                      <div class="single__program">
-                        <div class="program_thumb">
-                          <img
-                            src="/assets/images/Course/mbbs-course.jpg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">MBBS</h4>
-                          <p class="light">
-                            Explore medical excellence with Education Studies: MBBS program, expert guidance, seamless admissions, and scholarship support.
-                          </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="tab-pane"
                   id="profile"
                   role="tabpanel"
                   aria-labelledby="profile-tab"
                 >
-                  <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                  <div class="row d-flex  justify-content-around  ">
+                    <div class="col-lg-4 col-md-6 shadow p-3">
                       <div class="single__program">
                         <div class="program_thumb">
                           <img src="/assets/images/Course/b.tech-course.jpg" alt="" />
                         </div>
-                        <div class="program__content">
-                          <h2 class="bold">Engineering</h2>
-                          <h4 class="semi-bold">B.E/B.TECH</h4>
-                          <p class="light">
+                        <div class="program__content program__content2">
+                          <h5 class="bold">Engineering</h5>
+                          <h3 class="semi-bold">B.E/B.TECH</h3>
+                          <!-- <p class="light">
                             Explore B.Tech excellence with Education Studies: expert guidance, seamless admissions, and scholarship support.
-                          </p>
+                          </p> -->
                           <button><a href="/collegeslist">LEARN MORE</a></button>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 shadow p-3">
                       <div class="single__program">
                         <div class="program_thumb">
                           <img
@@ -621,27 +605,27 @@
                             alt=""
                           />
                         </div>
-                        <div class="program__content">
-                          <h2 class="bold">Engineering</h2>
-                          <h4 class="semi-bold">M.E/M.TECH</h4>
-                          <p class="light">
+                        <div class="program__content program__content2">
+                          <h5 class="bold">Engineering</h5>
+                          <h3 class="semi-bold">M.E/M.TECH</h3>
+                          <!-- <p class="light">
                             Unlock career possibilities with Education Studies: MTech excellence, expert guidance, seamless admissions, and scholarship support
-                          </p>
+                          </p> -->
                           <button><a href="/collegeslist">LEARN MORE</a></button>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 shadow p-3">
                       <div class="single__program">
                         <div class="program_thumb">
                           <img src="/assets/images/Course/ph.d-course.jpg" alt="" />
                         </div>
-                        <div class="program__content">
-                          <h2 class="bold">Engineering</h2>
-                          <h4 class="semi-bold">PH.D</h4>
-                          <p class="light">
+                        <div class="program__content program__content2" >
+                          <h5 class="bold">Engineering</h5>
+                          <h3 class="semi-bold">PH.D</h3>
+                          <!-- <p class="light">
                             Excel in your field with Education Studies: PhD excellence, expert guidance, seamless admissions, and scholarship support.
-                          </p>
+                          </p> -->
                           <button><a href="/collegeslist">LEARN MORE</a></button>
                         </div>
                       </div>
@@ -654,48 +638,48 @@
                   role="tabpanel"
                   aria-labelledby="messages-tab"
                 >
-                  <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                  <div class="row d-flex  justify-content-around  ">
+                    <div class="col-lg-4 col-md-6     shadow p-3    ">
                       <div class="single__program">
                         <div class="program_thumb">
                           <img src="/assets/images/Course/mba-course.jpg" alt="" />
                         </div>
-                        <div class="program__content">
-                          <h2 class="bold">Management</h2>
-                          <h4 class="semi-bold">MBA/PGDM</h4>
-                          <p class="light">
+                        <div class="program__content program__content2">
+                          <h5 class="bold">Management</h5>
+                          <h3 class="semi-bold">MBA/PGDM</h3>
+                          <!-- <p class="light">
                             Achieve business success with Education Studies: MBA/PGDM excellence, expert guidance, seamless admissions, and scholarship support.
-                          </p>
+                          </p> -->
                           <button><a href="/collegeslist">LEARN MORE</a></button>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6     shadow p-3    ">
                       <div class="single__program">
                         <div class="program_thumb">
                           <img src="/assets/images/Course/exicutive-mba.jpg" alt="" />
                         </div>
-                        <div class="program__content">
-                          <h2 class="bold">Management</h2>
-                          <h4 class="semi-bold">Executive MBA</h4>
-                          <p class="light">
+                        <div class="program__content program__content2">
+                          <h5 class="bold">Management</h5>
+                          <h3 class="semi-bold">Executive MBA</h3>
+                          <!-- <p class="light">
                             Advance your career with Education Studies: Executive MBA excellence, expert guidance, seamless admissions, and scholarship support.
-                          </p>
+                          </p> -->
                           <button><a href="/collegeslist">LEARN MORE</a></button>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6     shadow p-3    ">
                       <div class="single__program">
                         <div class="program_thumb">
                           <img src="/assets/images/Course/distance-mba.jpg" alt="" />
                         </div>
-                        <div class="program__content">
-                          <h2 class="bold">Management</h2>
-                          <h4 class="semi-bold">Distance MBA</h4>
-                          <p class="light">
+                        <div class="program__content program__content2">
+                          <h5 class="bold">Management</h5>
+                          <h3 class="semi-bold">Distance MBA</h3>
+                          <!-- <p class="light">
                             Elevate your career with Education Studies: Distance MBA excellence, expert guidance, seamless admissions, and scholarship support
-                          </p>
+                          </p> -->
                           <button><a href="/collegeslist">LEARN MORE</a></button>
                         </div>
                       </div>
@@ -708,48 +692,48 @@
                   role="tabpanel"
                   aria-labelledby="settings-tab"
                 >
-                  <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                  <div class="row d-flex  justify-content-around ">
+                    <div class="col-lg-4 col-md-6      shadow p-3    ">
                       <div class="single__program">
                         <div class="program_thumb">
                           <img src="/assets/images/Course/mbbs-course.jpg" alt="" />
                         </div>
-                        <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">MBBS</h4>
-                          <p class="light">
+                        <div class="program__content program__content2">
+                          <h5 class="bold">Medical</h5>
+                          <h3 class="semi-bold">MBBS</h3>
+                          <!-- <p class="light">
                             Explore medical excellence with Education Studies: MBBS program, expert guidance, seamless admissions, and scholarship support.
-                          </p>
+                          </p> -->
                           <button><a href="/collegeslist">LEARN MORE</a></button>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6      shadow p-3    ">
                       <div class="single__program">
                         <div class="program_thumb">
                           <img src="/assets/images/Course/md-course.jpg" alt="" />
                         </div>
-                        <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">MD</h4>
-                          <p class="light">
+                        <div class="program__content program__content2">
+                          <h5 class="bold">Medical</h5>
+                          <h3 class="semi-bold">MD</h3>
+                          <!-- <p class="light">
                             Navigate medical specialization with Education Studies: MD excellence, expert guidance, seamless admissions, and scholarship support.
-                          </p>
+                          </p> -->
                           <button><a href="/collegeslist">LEARN MORE</a></button>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6      shadow p-3    ">
                       <div class="single__program">
                         <div class="program_thumb">
                           <img src="/assets/images/Course/bmlt-course.jpg" alt="" />
                         </div>
-                        <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">BMLT</h4>
-                          <p class="light">
+                        <div class="program__content program__content2">
+                          <h5 class="bold">Medical</h5>
+                          <h3 class="semi-bold">BMLT</h3>
+                          <!-- <p class="light">
                             Immerse in healthcare excellence with Education Studies: BMLT program, expert guidance, seamless admissions, and scholarship support.
-                          </p>
+                          </p> -->
                           <button><a href="/collegeslist">LEARN MORE</a></button>
                         </div>
                       </div>
@@ -765,7 +749,7 @@
           <!-- study abroad section -->
           <section>
             <!-- recent_event_area_strat(Admission Section Start)  -->
-            <div class="container about my-5">
+            <div class="container about shadow p-5  my-5">
               <div class="row align-items-center h-100">
                 <div class="col-lg-5 col-md-6 ">
                   <img  style="object-fit: cover;"
@@ -779,7 +763,7 @@
                 <div class="col-lg-7 col-md-6">
                   <div class="section-title ms-lg-5 my-5 my-md-0">
                     <h2 class="bold mb-3">Educate Globally, Thrive Locally</h2>
-                    <hr />
+                   
                     <p class="regular">
                       Unlock a world of opportunities with Education Studies Abroad. Our commitment to excellence in international education sets the stage for your global success. Here's why you should consider studying abroad:
                     </p>
@@ -787,18 +771,23 @@
                       Explore direct admissions in renowned institutions and
                       universities globally across various streams:
                     </p>
-                    <div class="row my-3">
+                    <div class="row my-5">
                       <div class="col">
-                        <ul>
-                          <li><p class="bold"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Quality learning</p></li>
-                          <li><p class="bold"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Cutting-edge infrastructure</p></li>
-                          <li><p class="bold"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Scholarships offered</p></li>
-                          <li><p class="bold"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Programs in MBA, B.Tech, MBBS</p></li>
-                          <li><p class="bold"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>NEET mandatory for medical</p></li>
-                          <li><p class="bold"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Affordable MBBS abroad</p></li>
-
-                        </ul>
-                     
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Quality learning</p></li>
+                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Cutting-edge infrastructure</p></li>
+                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Scholarships offered</p></li>
+                            
+                          </div>
+                          <div class="col-md-6">
+                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Programs in MBA, B.Tech</p></li>
+                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>NEET mandatory for medical</p></li>
+                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Affordable MBBS abroad</p></li>
+  
+                          </div>
+                        </div>
+                        
                         
                       </div>
                     </div>
@@ -837,7 +826,7 @@
       
           <!-- admission section -->
           <section
-            class="Addsection bg-light py-5"
+            class="Addsection  py-5"
           
           >
             <div class="container">
@@ -860,8 +849,8 @@
                     <!--end row-->
       
                     <div class="row">
-                      <div class="col-md-6  p-2 ">
-                        <div class="features feature-primary rounded  p-5 d-flex">
+                      <div class="col-md-6 r p-2 ">
+                        <div class="features feature-primary rounded shadow   p-5 d-flex">
                           <i class="bi bi-1-circle-fill" "></i>
       
                           <div class="content flex-1 ms-3">
@@ -876,7 +865,7 @@
                       <!--end col-->
       
                       <div class="col-md-6  p-2 ">
-                        <div class="features feature-primary rounded  p-5 d-flex">
+                        <div class="features feature-primary rounded shadow   p-5 d-flex">
                           <i class="bi bi-2-circle-fill"></i>
       
                           <div class="content flex-1 ms-3">
@@ -890,7 +879,7 @@
                       <!--end col-->
       
                       <div class="col-md-6  p-2 ">
-                        <div class="features feature-primary rounded  p-5 d-flex">
+                        <div class="features feature-primary rounded shadow  p-5 d-flex">
                           <i class="bi bi-3-circle-fill"></i>
       
                           <div class="content flex-1 ms-3">
@@ -903,7 +892,7 @@
                       </div>
                       <!--end col-->
                       <div class="col-md-6  p-2 ">
-                        <div class="features feature-primary rounded  p-5 d-flex">
+                        <div class="features feature-primary rounded shadow   p-5 d-flex">
                           <i class="bi bi-4-circle-fill"></i>
       
                           <div class="content flex-1 ms-3">
@@ -1524,7 +1513,12 @@
   </div>
      
     </div>
-  </div>
+</div>
 
 </div>
+
+
+
 <%- include('partials/footer') %>
+
+
