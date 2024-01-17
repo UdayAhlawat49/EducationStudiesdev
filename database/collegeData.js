@@ -5,8 +5,8 @@ const collegeData = [
     collegeCode: "074",
     category : "management",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/1.miet/miet-cover.jpg",
+      logoSrc: "/assets/images/colleges/1.miet/miet-logo.jpg",
       name: "MIET Meerut",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.6/5",
@@ -269,8 +269,8 @@ const collegeData = [
     collegeCode: "075",
     category : "management",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/2.dewan/dewan-cover.jpeg",
+      logoSrc: "/assets/images/colleges/2.dewan/dewan-logo.jpeg",
       name: "Dewan VS Group of Institutions India",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.5/5",
@@ -529,8 +529,8 @@ const collegeData = [
     collegeCode: "076",
     category : "medical",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/3.jp/jp-cover.jpeg",
+      logoSrc: "/assets/images/colleges/3.jp/jp-logo.jpg",
       name: "JP Institute of Engineering and Technology",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "3.1/5",
@@ -783,8 +783,8 @@ const collegeData = [
   {
     collegeCode: "127",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/4.iimt/iimt-cover.jpeg",
+      logoSrc: "/assets/images/colleges/4.iimt/iimt-logo.jpg",
       name: "IIMT Group of Colleges",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.0/5",
@@ -956,8 +956,8 @@ const collegeData = [
   {
     collegeCode: "080",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/5.sanskriti/cover.jpeg",
+      logoSrc: "/assets/images/colleges/5.sanskriti/logo.jpeg",
       name: "Sanskriti University",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.3/5",
@@ -1134,8 +1134,8 @@ const collegeData = [
   {
     collegeCode: "081",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/6.apim/cover.jpeg",
+      logoSrc: "/assets/images/colleges/6.apim/cover.jpeg",
       name: "Asia-Pacific Institute of Management, New Delhi",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.1/5",
@@ -1382,8 +1382,8 @@ const collegeData = [
   {
     collegeCode: "082",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/7.mharishi/cover.jpeg",
+      logoSrc: "/assets/images/colleges/7.mharishi/logo.jpeg",
       name: "Maharishi University of Information Technology",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "3.8/5",
@@ -1576,8 +1576,8 @@ const collegeData = [
   {
     collegeCode: "083",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/8.iamr/cover.jpeg",
+      logoSrc: "/assets/images/colleges/8.iamr/logo.jpeg",
       name: "IAMR Group of Institutions",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.5/5",
@@ -1831,8 +1831,8 @@ const collegeData = [
   {
     collegeCode: "097",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/9.iit-delhi/cover.jpeg",
+      logoSrc: "/assets/images/colleges/9.iit-delhi/logo.jpeg",
       name: "IIT Delhi",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.5/5",
@@ -2096,8 +2096,8 @@ const collegeData = [
     tag: "popular",
     category : "engineering",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/10.jmi/cover.jpeg",
+      logoSrc: "/assets/images/colleges/10.jmi/logo.jpeg",
       name: "Jamia Millia Islamia (JMI)",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.3/5",
@@ -2361,8 +2361,8 @@ const collegeData = [
     tag: "popular",
     category : "medical",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/11.dtu/cover.jpeg",
+      logoSrc: "/assets/images/colleges/11.dtu/logo.jpeg",
       name: "Delhi Technological University (DTU)",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.3/5",
@@ -2625,8 +2625,8 @@ const collegeData = [
     category : "engineering",
     tag: "popular",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/12.nit-delhi/cover.jpeg",
+      logoSrc: "/assets/images/colleges/12.nit-delhi/logo.jpeg",
       name: "National Institute of Technology Delhi (NIT)",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "3.8/5",
@@ -2884,8 +2884,8 @@ const collegeData = [
     collegeCode: "101",
     category : "engineering",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/13.aiims/cover.jpeg",
+      logoSrc: "/assets/images/colleges/13.aiims/logo.jpeg",
       name: "All India Institutes of Medical Sciences (AIIMS)",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.6/5",
@@ -3135,8 +3135,8 @@ const collegeData = [
     collegeCode: "102",
     category : "engineering",
     collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
+      imageSrc: "/assets/images/colleges/14.vmmc/cover.jpeg",
+      logoSrc: "/assets/images/colleges/14.vmmc/logo.jpg",
       name: "Vardhman Mahavir Medical College (VMMC)",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
       rating: "4.4/5",
