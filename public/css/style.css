@@ -3154,6 +3154,7 @@ button.accordion-button.border-0.bg-white:focus {
   font-weight: 600;
   color: black;
   word-wrap: break-word;
+  line-height: 15px;
 }
 .innerContent a {
   color: black;
