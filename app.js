@@ -1,7 +1,7 @@
 const express = require('express');
 const ejs = require('ejs');
 const path = require('path');
- const db = require("./db/dbConnect")
+ 
 const app = express();
 
  

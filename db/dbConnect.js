@@ -1,10 +1,17 @@
-const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('mydatabase.db', (err) => {
-  if (err) {
-    console.error('Error connecting to the database:', err.message);
-  } else {
-    console.log('Connected to the database');
-  }
+const Sequelize = require("sequelize");
+
+const sequelize = new Sequelize({
+  dialect: "sqlite",
+  storage: "mydatabase.sqlite", // Specify the path to your SQLite file
 });
 
-module.exports = db
+module.exports = sequelize;
+
+
+// mysql
+// const sequelize = new Sequelize("jindaltrading", "root", "4585", {
+//   dialect: "mysql",
+//   host: "localhost",
+// });
+
+// module.exports = sequelize;

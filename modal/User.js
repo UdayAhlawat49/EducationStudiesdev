@@ -1,30 +1,25 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('./sequelize'); // Assuming your Sequelize connection is in a separate file
+const Sequelize = require('sequelize');
 
-const User = sequelize.define('User', {
-  id: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-  },
-  name: {
-    type: DataTypes.STRING,
-    allowNull: false,
-  },
-  email: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    unique: true,
-  },
-});
+const sequelize = require('../db/dbConnect');
 
-// Synchronize the model with the database (create the table if it doesn't exist)
-User.sync()
-  .then(() => {
-    console.log('User model synced with the database');
-  })
-  .catch((err) => {
-    console.error('Error syncing User model:', err.message);
-  });
+const userModel = sequelize.define('usertable',{
+    id:{
+        type: Sequelize.INTEGER,
+        autoIncrement: true,
+        primaryKey: true
+    },
+    name: {
+      type: Sequelize.STRING,
+      allowNull: false
+  },
+    username: {
+        type: Sequelize.STRING,
+        allowNull: false
+    },
+    password: {
+        type: Sequelize.STRING,
+        allowNull: false
+    } 
+}); 
 
-module.exports = User;
+module.exports = userModel; 

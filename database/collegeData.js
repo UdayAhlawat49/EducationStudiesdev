@@ -3,6 +3,7 @@
 const collegeData = [
   {
     collegeCode: "074",
+    category : "management",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
@@ -266,6 +267,7 @@ const collegeData = [
   },
   {
     collegeCode: "075",
+    category : "management",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
@@ -525,6 +527,7 @@ const collegeData = [
   },
   {
     collegeCode: "076",
+    category : "medical",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
@@ -2090,6 +2093,8 @@ const collegeData = [
   },
   {
     collegeCode: "098",
+    tag: "popular",
+    category : "engineering",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
@@ -2353,6 +2358,8 @@ const collegeData = [
   },
   {
     collegeCode: "099",
+    tag: "popular",
+    category : "medical",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
@@ -2615,6 +2622,8 @@ const collegeData = [
   },
   {
     collegeCode: "100",
+    category : "engineering",
+    tag: "popular",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
@@ -2873,6 +2882,7 @@ const collegeData = [
   },
   {
     collegeCode: "101",
+    category : "engineering",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
@@ -3123,6 +3133,7 @@ const collegeData = [
   },
   {
     collegeCode: "102",
+    category : "engineering",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
