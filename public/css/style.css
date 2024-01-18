@@ -3880,12 +3880,22 @@ button.accordion-button.border-0.bg-white:focus {
   -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
           box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.course-tab-section .course-table-1 {
+.course-tab-section .course-table {
   margin-top: 20px;
 }
-.course-tab-section .course-table-1 .table-responsive .table-head {
-  font-size: 14px;
-  background-color: green;
+.course-tab-section table {
+  margin-top: 20px;
+}
+.course-tab-section table thead {
   color: white;
+}
+.course-tab-section table thead th {
   background-color: #2f207d;
+  padding: 10px 10px;
+  font-size: 14px;
+  color: white;
+}
+.course-tab-section table tbody {
+  font-size: 14px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

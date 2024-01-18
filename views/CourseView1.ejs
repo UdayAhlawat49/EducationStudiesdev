@@ -1,0 +1,107 @@
+ 
+ <%- include('partials/header') %>
+    
+    <section class="conatiner-fluid section-padding">
+      <div class="container course-hero">
+        <div class="row">
+          <div class="col">
+              
+              <div class="course-hero-content">
+                
+                  <h3><%= courseViewData.collegeDetails.name %></h3>
+                  <p><%= courseViewData.collegeDetails.description %></p>
+             
+              </div>
+        
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col">
+            <div class="course-tabs">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="syllabus-tab" data-bs-toggle="tab" data-bs-target="#syllabus" type="button" role="tab" aria-controls="syllabus" aria-selected="false">Syllabus</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="carrer-tab" data-bs-toggle="tab" data-bs-target="#carrer" type="button" role="tab" aria-controls="carrer" aria-selected="false">Carrer</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="admission-tab" data-bs-toggle="tab" data-bs-target="#admission" type="button" role="tab" aria-controls="admission" aria-selected="false">Admission</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="popular-colleges-tab" data-bs-toggle="tab" data-bs-target="#popular-colleges" type="button" role="tab" aria-controls="popular-colleges" aria-selected="false">Popular Colleges</button>
+                </li>
+              </ul>
+            </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section class="container-fluid section-padding">
+        <div class="container course-tab-section">
+          <div class="row">
+            <div class="col">
+              <div class="tab-content" id="myTabContent">
+                <!-- Overview Tab Data  -->
+                <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                  <div class="course-overview-content">
+                    <h4>Overview</h4>
+                    <hr>
+                    <p>MBA, or Master of Business Administration, is a sought-after postgraduate course globally. Spanning two years, it enhances leadership, strategic thinking, and problem-solving skills. Applicants typically need over 50% in undergrad studies, with admissions based on exams like CAT, CMAT, XAT, and MAH MBA CET. Renowned institutions like IIMs, XLRI, and ISB offer MBA programs, with fees ranging from INR 10 to 25 lakh. Graduates secure roles like Finance Manager or Marketing Manager, earning salaries from INR 5 to 25 LPA. An MBA is increasingly popular among BTech, BBA, BCom, BA, BSc, and BCA graduates for managerial-level career advancement.</p>
+                  </div>
+                  </div>
+
+                  <div class="course-table-1">
+                     <div class="course-table-content">
+                      <h4>MBA Course Details</h4>
+                      <p>MBA, a two-year postgraduate program, unlocks diverse career prospects. It equips students for leadership across industries. Explore MBA course details in the table below:</p>
+                     </div>
+                    <div class="table-responsive">
+                      <table class="table ">
+                        
+                        <thead >
+                          <tr >
+                            <th class="table-head">Particulars</th>
+                            <th class="table-head">MBA Course Details </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                           
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                          
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+               
+               
+               
+                <div class="tab-pane fade" id="syllabus" role="tabpanel" aria-labelledby="syllabus-tab">Syllabus</div>
+                <div class="tab-pane fade" id="carrer" role="tabpanel" aria-labelledby="carrer-tab">Carrer</div>
+                <div class="tab-pane fade" id="admission" role="tabpanel" aria-labelledby="admission-tab">Admission</div>
+                <div class="tab-pane fade" id="popular-colleges" role="tabpanel" aria-labelledby="popular-colleges-tab">Popular Colleges</div>
+              </div>
+            </div>
+          </div>
+        </div> 
+ 
+      
+    </section>
+      
+    
+    <%- include('partials/footer') %>
