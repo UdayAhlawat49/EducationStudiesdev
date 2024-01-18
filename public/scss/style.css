@@ -2809,6 +2809,7 @@ button.accordion-button.border-0.bg-white:focus {
   font-weight: 600;
   color: black;
   word-wrap: break-word;
+  line-height: 15px;
 }
 .innerContent a {
   color: black;
@@ -3317,48 +3318,72 @@ button.accordion-button.border-0.bg-white:focus {
   font-size: 4rem;
 }
 
-#why-choose-us {
-  height: 250px;
-  display: flex;
-  background-color: #0e70a1;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
+.abroad-hero-section {
+  background-color: #FAFAFA;
+  padding: 100px 0px;
+}
+.abroad-hero-section .abroad-hero-content {
+  text-align: center;
 }
 
-.topContent {
-  background-color: white;
+.aborad-intro-section {
+  padding: 100px 0px;
+  background-color: #ECEFF1;
 }
-
-#salient-features .icons {
-  background-color: #fff;
-}
-#salient-features h2 {
-  font-size: 3.4rem;
-}
-#salient-features p {
-  font-size: 1.6rem;
-  display: flex;
+.aborad-intro-section .abroad-intro-content ul li {
+  color: #00671e;
+  font-size: 16px;
   font-weight: 600;
-  align-items: center;
 }
-#salient-features i {
-  font-size: 2.4rem;
-  margin-right: 10px;
-  color: var(--accent-color);
+.aborad-intro-section .abroad-intro-content ul li i {
+  font-size: 20px;
+  margin-right: 8px;
 }
-#salient-features .image {
-  height: 100%;
-  padding: 0 105px;
-  display: flex;
-  align-items: center;
-  padding-top: 0;
+.aborad-intro-section img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-#salient-features .image img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+
+.abroad-mba-section {
+  padding: 100px 0px;
+  background-color: #ffffff;
+}
+.abroad-mba-section .abroad-mba-content {
+  text-align: center;
+}
+.abroad-mba-section .abroad-mba-item {
+  margin-top: 20px;
+  background-color: #FAFAFA;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px;
+}
+
+.abroad-btech-section {
+  padding: 100px 0px;
+  background-color: #FAFAFA;
+}
+.abroad-btech-section .abroad-btech-content {
+  text-align: center;
+}
+.abroad-btech-section .abroad-btech-item {
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px;
+}
+
+.abroad-mbbs-section {
+  padding: 100px 0px;
+  background-color: #ffffff;
+}
+.abroad-mbbs-section .abroad-mbbs-content {
+  text-align: center;
+}
+.abroad-mbbs-section .abroad-mbbs-item {
+  margin-top: 20px;
+  background-color: #FAFAFA;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px;
 }
 
 .section-padding {
@@ -3400,12 +3425,22 @@ button.accordion-button.border-0.bg-white:focus {
   padding: 20px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.course-tab-section .course-table-1 {
+.course-tab-section .course-table {
   margin-top: 20px;
 }
-.course-tab-section .course-table-1 .table-responsive .table-head {
-  font-size: 14px;
-  background-color: green;
+.course-tab-section table {
+  margin-top: 20px;
+}
+.course-tab-section table thead {
   color: white;
+}
+.course-tab-section table thead th {
   background-color: #2f207d;
+  padding: 10px 10px;
+  font-size: 14px;
+  color: white;
+}
+.course-tab-section table tbody {
+  font-size: 14px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,43 @@
+<% console.log("collegeData", collegeData) %>
+
+
+<table>
+    <thead>
+        <th>
+            image
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            rating
+        </th>
+        <th>
+            website
+        </th>
+        <th>
+            Address
+        </th>
+        <th>
+            View More
+        </th>
+    </thead>
+    <tbody>
+        <% collegeData.forEach( college => { %>
+
+            <tr class="border">
+                <td><img p-3 height="40" width="40" src="<%= college.collegeDetails.logoSrc %>" ></td>
+                <td><p><%= college.collegeDetails.name %></p></td>
+                <td>
+                    <% for(let i=1 ; i<= college.collegeDetails.star ; i++){ %>
+                        <i class="bi bi-star-fill"></i>
+                    <% } %>
+                </td>
+                <td><p><%= college.collegeDetails.website %></p></td>
+                <td><p><%= college.collegeDetails.address %></p></td>
+                <td><a  href="/collegeView/<%= college.collegeCode %>"><button class="px-3 py-1 m-0"><span>View More</span></button></a></td>
+             
+            </tr>
+      <%  })%>
+    </tbody>
+</table>

@@ -1,7 +1,6 @@
 <%- include('partials/header') %>
 
-  <% console.log("courseViewData" ,courseViewData) %>
-    <!-- course hero + tab links start -->
+     <!-- course hero + tab links start -->
     <section class="conatiner-fluid section-padding">
       <div class="container course-hero">
         <div class="row">
@@ -428,7 +427,9 @@
 
 
               <div class="tab-pane fade" id="popular-colleges" role="tabpanel" aria-labelledby="popular-colleges-tab">
-                Popular Colleges</div>
+                  <h3>Popular Colleges</h3>
+                <%- include('partials/popularCollege') %>
+              </div>
             </div>
           </div>
         </div>

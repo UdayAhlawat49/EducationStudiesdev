@@ -1,10 +1,18 @@
 const express = require('express');
 const ejs = require('ejs');
 const path = require('path');
- 
-const app = express();
+ const   collegeData   = require('./database/collegeData'); // Adjust the path accordingly
+ const collegeDataStore = require("./database/collegeDataStore");
 
+
+const app = express();
  
+app.use((req, res, next) => {
+  res.locals.collegeData = collegeData;
+  res.locals.collegeDataStore = collegeDataStore;
+  next();
+});
+
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }))
 app.set('view engine', 'ejs');
