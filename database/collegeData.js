@@ -3391,29 +3391,3 @@ const collegeData = [
 ];
 
 module.exports = collegeData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
