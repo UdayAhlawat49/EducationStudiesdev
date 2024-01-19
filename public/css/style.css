@@ -512,6 +512,7 @@ button:hover {
   height: 100%;
   top: 120px;
   z-index: 3;
+  left: 0;
 }
 @media (max-width: 991px) {
   .heroSection1 .middleContent {
@@ -1043,25 +1044,57 @@ button:hover {
   font-size: 4rem;
 }
 
-.popular_program_area .single__program {
+.popular_program_area .engineeringColleges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
+  cursor: pointer;
+}
+.popular_program_area .engineeringColleges .single__program {
   position: relative;
   border: 5px solid white;
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 @media (max-width: 767px) {
-  .popular_program_area .single__program {
+  .popular_program_area .engineeringColleges .single__program {
     margin-bottom: 50px;
   }
 }
-.popular_program_area .single__program .program_thumb {
+.popular_program_area .engineeringColleges .single__program .program_thumb {
   height: 200px;
 }
-.popular_program_area .single__program .program_thumb img {
+.popular_program_area .engineeringColleges .single__program .program_thumb img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.popular_program_area .single__program .program__content {
+.popular_program_area .engineeringColleges .single__program .rating {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  z-index: 2;
+}
+.popular_program_area .engineeringColleges .single__program .rating i {
+  color: var(--accent-color);
+}
+.popular_program_area .engineeringColleges .single__program .rating .bi-star-fill {
+  color: #FFD700;
+}
+.popular_program_area .engineeringColleges .single__program .program__content {
   background: rgba(0, 0, 0, 0.6117647059);
   padding: 10px;
   position: relative;
@@ -1089,22 +1122,26 @@ button:hover {
           justify-content: end;
 }
 @media (max-width: 767px) {
-  .popular_program_area .single__program .program__content {
+  .popular_program_area .engineeringColleges .single__program .program__content {
     margin-bottom: 30px;
   }
 }
-.popular_program_area .single__program .program__content .logo {
+.popular_program_area .engineeringColleges .single__program .program__content .logo {
   width: 40px;
   height: 40px;
   margin-bottom: 5px;
+  border: 2px solid white;
+  border-radius: 50%;
+  overflow: hidden;
 }
-.popular_program_area .single__program .program__content .logo img {
+.popular_program_area .engineeringColleges .single__program .program__content .logo img {
   width: 100%;
   height: 100%;
+  overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.popular_program_area .single__program .program__content button {
+.popular_program_area .engineeringColleges .single__program .program__content button {
   padding: 5px 10px;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -1114,35 +1151,35 @@ button:hover {
   background-color: transparent;
   border: 1px solid white;
 }
-.popular_program_area .single__program .program__content button:hover {
+.popular_program_area .engineeringColleges .single__program .program__content button:hover {
   background-color: var(--primary-color);
 }
-.popular_program_area .single__program .program__content button a {
+.popular_program_area .engineeringColleges .single__program .program__content button a {
   font-weight: 400;
   font-size: 1.4rem;
 }
-.popular_program_area .single__program .program__content span {
+.popular_program_area .engineeringColleges .single__program .program__content span {
   display: block;
   font-size: 16px;
   color: #232637;
   font-weight: 400;
 }
-.popular_program_area .single__program .program__content h3 {
+.popular_program_area .engineeringColleges .single__program .program__content h3 {
   color: #fafafa;
   font-size: 2.5rem;
 }
-.popular_program_area .single__program .program__content p {
+.popular_program_area .engineeringColleges .single__program .program__content p {
   color: #ffffff;
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
-.popular_program_area .single__program .program__content h5 {
+.popular_program_area .engineeringColleges .single__program .program__content h5 {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   width: 292px;
 }
-.popular_program_area .single__program .program__content2 {
+.popular_program_area .engineeringColleges .single__program .program__content2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1150,12 +1187,15 @@ button:hover {
       -ms-flex-align: center;
           align-items: center;
 }
-.popular_program_area .single__program .program__content2 h5 {
+.popular_program_area .engineeringColleges .single__program .program__content2 h5 {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
   text-align: center;
+}
+.popular_program_area .engineeringColleges .single__program .program__content2 i {
+  color: var(--accent-color);
 }
 .popular_program_area .nav {
   display: -webkit-inline-box;

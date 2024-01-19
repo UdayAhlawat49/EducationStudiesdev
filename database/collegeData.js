@@ -3387,6 +3387,1304 @@ const collegeData = [
     ],
     // Add more tab content arrays as needed
   },
+  {
+    collegeCode: "103",
+    category : "engineering",
+    collegeDetails: {
+      imageSrc: "/assets/images/colleges/IIFT.jpg",
+      logoSrc: "/assets/images/colleges/IIFTLogo.jpg",
+      name: "Indian Institute of Foreign Trade, Delhi",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "4.3/5",
+      star : 5,
+      reviewCount: 40,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Block-II, B-21, NRPC Colony, Block B, Delhi",
+      website: "www.iift.ac.in",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "IIFT Delhi Highlights 2023",
+        content: "Candidates willing to get admission to various courses must apply online on the official website of the Indian Institute of Foreign Trade. At the PG level, the deemed to be university offers an MBA, MA, and various other courses to students. The deemed-to-be university also provides Executive MBA, certificate, PhD, online, MDP, Foundation Training Programmes for ITS probationers, and various other courses to students."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "IIFT Delhi Popular Programmes",
+        courses: [
+          { name: "MBA/PGDM", count: "4 Courses", fee: "4 L - 21.8 L" },
+          { name: "MA", count: "1 Courses", fee: "3.6 L" },
+          { name: "Ph.D.", count: "1 Courses", fee: "2.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MBA/PGDM Admissions 2024",
+        eligibility: [
+          "Undergraduate Degree with 50% aggregate",
+          "Accepting Exams: CAT, IIFT"
+        ],
+        importantDates: [
+          { date: "Mar '24-Apr '24", event: "MBA/PGDM group discussion and PI" },
+          { date: "Jul '24", event: "MBA/PGDM commencement of course" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "IIFT DELHI ADMISSION PROCESS 2023", childContent: "Indian Institute of Foreign Trade (IIFT) Delhi offers PG and doctoral-level courses along with some certificate courses. Admission to all the courses (Except for certificate courses, EMBA & MBA) is through an institute-based entrance exam. Moreover, for MBA (IB) and MBA (BA), IIFT Delhi admission will be through the Common Aptitude Test (CAT) from 2024. IIFT Delhi accepts applications in online mode. Additionally, for PhD, the application shall be submitted offline." },
+          {childTitle: "IIFT DELHI ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "IIFT offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR IIFT COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "IIFT Delhi Popular Programmes",
+        courses: [
+          { name: "MBA/PGDM", count: "4 Courses", fee: "4 L - 21.8 L" },
+          { name: "MA", count: "1 Courses", fee: "3.6 L" },
+          { name: "Ph.D.", count: "1 Courses", fee: "2.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MBA/PGDM Admissions 2024",
+        eligibility: [
+          "Undergraduate Degree with 50% aggregate",
+          "Accepting Exams: CAT, IIFT"
+        ],
+        importantDates: [
+          { date: "Mar '24-Apr '24", event: "MBA/PGDM group discussion and PI" },
+          { date: "Jul '24", event: "MBA/PGDM commencement of course" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          // { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          // { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "IIFT DELHI ADMISSION PROCESS 2023", childContent: "Indian Institute of Foreign Trade (IIFT) Delhi offers PG and doctoral-level courses along with some certificate courses. Admission to all the courses (Except for certificate courses, EMBA & MBA) is through an institute-based entrance exam. Moreover, for MBA (IB) and MBA (BA), IIFT Delhi admission will be through the Common Aptitude Test (CAT) from 2024. IIFT Delhi accepts applications in online mode. Additionally, for PhD, the application shall be submitted offline." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "IIFT Delhi Popular Programmes",
+        courses: [
+          { name: "MBA/PGDM", count: "4 Courses", fee: "4 L - 21.8 L" },
+          { name: "MA", count: "1 Courses", fee: "3.6 L" },
+          { name: "Ph.D.", count: "1 Courses", fee: "2.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MBA/PGDM Admissions 2024",
+        eligibility: [
+          "Undergraduate Degree with 50% aggregate",
+          "Accepting Exams: CAT, IIFT"
+        ],
+        importantDates: [
+          { date: "Mar '24-Apr '24", event: "MBA/PGDM group discussion and PI" },
+          { date: "Jul '24", event: "MBA/PGDM commencement of course" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          // { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          // { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username. "
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "IIFT  Delhi Highlights 2023",
+        content: "Indian Institute of Foreign Trade was established as an autonomous body under the Ministry of Commerce & Industry in 1963. The Deemed-to-be University is accredited by AACSB and with A Grade by NAAC. IIFT Delhi, through various departments, offers PG, doctoral, certificate, and various other courses to students. The courses are offered across Management and various other streams. IIFT College is a member of AMBA, the Academy of International Business, and EFMD. IIFT is ranked 4 by The Times 2023 for MBA. "
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "IIFT Delhi Popular Programmes",
+        courses: [
+          { name: "MBA/PGDM", count: "4 Courses", fee: "4 L - 21.8 L" },
+          { name: "MA", count: "1 Courses", fee: "3.6 L" },
+          { name: "Ph.D.", count: "1 Courses", fee: "2.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MBA/PGDM Admissions 2024",
+        eligibility: [
+          "Undergraduate Degree with 50% aggregate",
+          "Accepting Exams: CAT, IIFT"
+        ],
+        importantDates: [
+          { date: "Mar '24-Apr '24", event: "MBA/PGDM group discussion and PI" },
+          { date: "Jul '24", event: "MBA/PGDM commencement of course" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          // { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          // { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
+  {
+    collegeCode: "105",
+    category : "engineering",
+    collegeDetails: {
+      imageSrc: "/assets/images/colleges/Vardhman.jpg",
+      logoSrc: "/assets/images/colleges/Vardhmanlogo.jpg",
+      name: "Vardhman Mahavir Medical College",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "4.4/5",
+      star : 5,
+      reviewCount: 47,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Ansari Nagar, near AIIMS Hospital Delhi",
+      website: "www.vmmc-sjh.nic.in",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024. The NEET PG 2024 exam has been postponed to July 7, 2024. Further, the NEET PG 2024 application form is expected to be released tentatively in the second week of May. The NEET SS 2024 application form is expected to be released by NBE in the fourth week of July 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "VMMC Highlights 2023",
+        content: "VMMC & Safdarjung Hospital is associated with Safdarjung Hospital, New Delhi. The college was founded in 2001. VMMC & Safdarjung Hospital is affiliated with Guru Gobind Singh Indraprastha University. The college offers MBBS, BSc (H) Nursing, MD/ MS, Diploma and DNB program"
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "VMMC Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "1.6 L" },
+          { name: "MD", count: "17 Courses", fee: "1.5 L" },
+          { name: "MS", count: "5 Courses", fee: "1.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MD Admissions 2024",
+        eligibility: [
+          "Accepting Exams: NEET PG"
+        ],
+        importantDates: [
+          { date: "May '24-Jun '24", event: "NEET PG 2024 registration" },
+          { date: "Jun '24", event: "NEET PG 2024 admit card upload" },
+          { date: "7 Jul '24", event: "NEET PG 2024 exam" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024. The NEET PG 2024 exam has been postponed to July 7, 2024. Further, the NEET PG 2024 application form is expected to be released tentatively in the second week of May. The NEET SS 2024 application form is expected to be released by NBE in the fourth week of July 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "VMMC ADMISSION PROCESS 2023", childContent: "VMMC & Safdarjung Hospital is associated with Safdarjung Hospital, New Delhi. The college was founded in 2001. VMMC & Safdarjung Hospital is affiliated to Guru Gobind Singh Indraprastha University. Currently, the college offers MBBS, BSc (H) Nursing, MD/ MS, Diploma and DNB program." },
+          {childTitle: "VMMC ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "VMMC offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR VMMC COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "VMMC Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "1.6 L" },
+          { name: "MD", count: "17 Courses", fee: "1.5 L" },
+          { name: "MS", count: "5 Courses", fee: "1.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MD Admissions 2024",
+        eligibility: [
+          "Accepting Exams: NEET PG"
+        ],
+        importantDates: [
+          { date: "May '24-Jun '24", event: "NEET PG 2024 registration" },
+          { date: "Jun '24", event: "NEET PG 2024 admit card upload" },
+          { date: "7 Jul '24", event: "NEET PG 2024 exam" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024. The NEET PG 2024 exam has been postponed to July 7, 2024. Further, the NEET PG 2024 application form is expected to be released tentatively in the second week of May. The NEET SS 2024 application form is expected to be released by NBE in the fourth week of July 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "VMMC ADMISSION PROCESS 2023", childContent: "VMMC & Safdarjung Hospital is associated with Safdarjung Hospital, New Delhi. The college was founded in 2001. VMMC & Safdarjung Hospital is affiliated to Guru Gobind Singh Indraprastha University. Currently, the college offers MBBS, BSc (H) Nursing, MD/ MS, Diploma and DNB program." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "VMMC Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "1.6 L" },
+          { name: "MD", count: "17 Courses", fee: "1.5 L" },
+          { name: "MS", count: "5 Courses", fee: "1.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MD Admissions 2024",
+        eligibility: [
+          "Accepting Exams: NEET PG"
+        ],
+        importantDates: [
+          { date: "May '24-Jun '24", event: "NEET PG 2024 registration" },
+          { date: "Jun '24", event: "NEET PG 2024 admit card upload" },
+          { date: "7 Jul '24", event: "NEET PG 2024 exam" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024. The NEET PG 2024 exam has been postponed to July 7, 2024. Further, the NEET PG 2024 application form is expected to be released tentatively in the second week of May. The NEET SS 2024 application form is expected to be released by NBE in the fourth week of July 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "VMMC Highlights 2023",
+        content: "VMMC & Safdarjung Hospital is associated with Safdarjung Hospital, New Delhi. The college was founded in 2001. VMMC & Safdarjung Hospital is affiliated with Guru Gobind Singh Indraprastha University. The college offers MBBS, BSc (H) Nursing, MD/ MS, Diploma and DNB program."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "VMMC Popular Programmes",
+        courses: [
+          { name: "MBBS", count: "1 Courses", fee: "1.6 L" },
+          { name: "MD", count: "17 Courses", fee: "1.5 L" },
+          { name: "MS", count: "5 Courses", fee: "1.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "MD Admissions 2024",
+        eligibility: [
+          "Accepting Exams: NEET PG"
+        ],
+        importantDates: [
+          { date: "May '24-Jun '24", event: "NEET PG 2024 registration" },
+          { date: "Jun '24", event: "NEET PG 2024 admit card upload" },
+          { date: "7 Jul '24", event: "NEET PG 2024 exam" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "MBBS - Bachelor of Medicine and Bachelor of Surgery", year2021: "143", year2022: "129", year2023: "113" },
+          { course: "B.Sc.(Hons.) in Nursing", year2021: "110709", year2022: "152688", year2023: "64302" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
+  {
+    collegeCode: "106",
+    category : "engineering",
+    collegeDetails: {
+      imageSrc: "/assets/images/colleges/Netaji.jpg",
+      logoSrc: "/assets/images/colleges/NetajiLogo.jpg",
+      name: "Netaji Subhas University of Technology",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "4.0/5",
+      star : 5,
+      reviewCount: 923,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Netaji Subhas University of Technology Sector 3 Delhi",
+      website: "www.nsut.ac.in",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username. GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. The UCEED 2024 registration window is now closed. Further, UCEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon)."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "NSIT Highlights 2023",
+        content: "Netaji Subhas University of Technology (NSUT), formerly known as Netaji Subhas Institute of Technology (NSIT) is a state-level university. NSIT was established in 1983 and in 2018 the institute was given university status, hence making it a non-affiliating university. Earlier it was affiliated with the University of Delhi. NSUT is ranked 88 for BTech by NIRF 2021. NSIT Delhi is accredited by NAAC and is approved by AICTE and UGC. NSIT consists of 13 departments offering 11 UG, 15 PG, and 11 PhD courses in various streams of Computer Engineering, Electronic Engineering, etc. The top companies taking part in the NSIT placements drive are Accenture, Amazon, Birlasoft, Honda, HCL, Honda, Microsoft, Birla, Honeywell, Google, IBM, and many more. Since its inception, the institute has grown in size and scope. Every year it tries to bring new courses for the students to diversify their learning experience."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "NIST Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "24 Courses", fee: "3.5 L" },
+          { name: "MBA/PGDM", count: "2 Courses", fee: "1.7 L" },
+          { name: "M.E./M.Tech", count: "28 Courses", fee: "82.5 K - 84.5 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E./B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 55% aggregate",
+          "Accepting Exams: JEE Main, JAC Delhi, CBSE 12th, DASA UG"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Information Technology", year2021: "3705", year2022: "4941", year2023: "6279" },
+          { course: "B.Tech. in Computer Engineering", year2021: "2040", year2022: "2833", year2023: "3994" },
+          { course: "B.Tech. in Computer Science and Engineering (Artificial Intelligence)", year2021: "1300", year2022: "2797", year2023: "3255" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username. GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. The UCEED 2024 registration window is now closed. Further, UCEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon)."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "NIST ADMISSION PROCESS 2023", childContent: "Netaji Subhas Institute of Technology (NSUT) is now known as Netaji Subhas Institute Univeristy of Technology (NSUT). Earlier Netaji Subhas Institute Univeristy of Technology (NSUT) was affiliated to Delhi University back then when it was a college. Now, NSUT had converted into a university by University Grant Commission (UGC). NSUT offers a wide array of UG, PG, and doctoral level courses under various specialisations. Netaji Subhas Institute Univeristy of Technology (NSUT) course admissions are based on various national-level entrance examinations like JEE-Main, GATE, CAT, CUET, and many others." },
+          {childTitle: "NIST ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "Candidates eligible for admissions in courses offered at NSUT can register themselves through the college official website. " },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR NISTCOURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "NIST Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "24 Courses", fee: "3.5 L" },
+          { name: "MBA/PGDM", count: "2 Courses", fee: "1.7 L" },
+          { name: "M.E./M.Tech", count: "28 Courses", fee: "82.5 K - 84.5 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E/B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 55% aggregate",
+          "Accepting Exams: JEE Main, JAC Delhi, CBSE 12th, DASA UG"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Information Technology", year2021: "3705", year2022: "4941", year2023: "6279" },
+          { course: "B.Tech. in Computer Engineering", year2021: "2040", year2022: "2833", year2023: "3994" },
+          { course: "B.Tech. in Computer Science and Engineering (Artificial Intelligence)", year2021: "1300", year2022: "2797", year2023: "3255" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username. GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. The UCEED 2024 registration window is now closed. Further, UCEED exam 2024 will be held on Jan 21, 2024 (9 am - 12 noon)."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "NIST ADMISSION PROCESS 2023", childContent: "Netaji Subhas Institute of Technology (NSUT) is now known as Netaji Subhas Institute Univeristy of Technology (NSUT). Earlier Netaji Subhas Institute Univeristy of Technology (NSUT) was affiliated to Delhi University back then when it was a college. Now, NSUT had converted into a university by University Grant Commission (UGC). NSUT offers a wide array of UG, PG, and doctoral level courses under various specialisations. Netaji Subhas Institute Univeristy of Technology (NSUT) course admissions are based on various national-level entrance examinations like JEE-Main, GATE, CAT, CUET, and many others." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "NIST Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "24 Courses", fee: "3.5 L" },
+          { name: "MBA/PGDM", count: "2 Courses", fee: "1.7 L" },
+          { name: "M.E./M.Tech", count: "28 Courses", fee: "82.5 K - 84.5 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E./B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 55% aggregate",
+          "Accepting Exams: JEE Main, JAC Delhi, CBSE 12th, DASA UG"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Information Technology", year2021: "3705", year2022: "4941", year2023: "6279" },
+          { course: "B.Tech. in Computer Engineering", year2021: "2040", year2022: "2833", year2023: "3994" },
+          { course: "B.Tech. in Computer Science and Engineering (Artificial Intelligence)", year2021: "1300", year2022: "2797", year2023: "3255" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "The NEET 2024 exam date has been announced. The exam will be conducted on May 5, 2024. The NEET PG 2024 exam has been postponed to July 7, 2024. Further, the NEET PG 2024 application form is expected to be released tentatively in the second week of May. The NEET SS 2024 application form is expected to be released by NBE in the fourth week of July 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "NIST Highlights 2023",
+        content: "Netaji Subhas University of Technology (NSUT), formerly known as Netaji Subhas Institute of Technology (NSIT) is a state-level university. NSIT was established in 1983 and in 2018 the institute was given university status, hence making it a non-affiliating university. Earlier it was affiliated with the University of Delhi. NSUT is ranked 88 for BTech by NIRF 2021. NSIT Delhi is accredited by NAAC and is approved by AICTE and UGC. NSIT consists of 13 departments offering 11 UG, 15 PG, and 11 PhD courses in various streams of Computer Engineering, Electronic Engineering, etc. The top companies taking part in the NSIT placements drive are Accenture, Amazon, Birlasoft, Honda, HCL, Honda, Microsoft, Birla, Honeywell, Google, IBM, and many more. Since its inception, the institute has grown in size and scope. Every year it tries to bring new courses for the students to diversify their learning experience."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "NIST Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "24 Courses", fee: "3.5 L" },
+          { name: "MBA/PGDM", count: "2 Courses", fee: "1.7 L" },
+          { name: "M.E./M.Tech", count: "28 Courses", fee: "82.5 K - 84.5 K" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E/B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 55% aggregate",
+          "Accepting Exams: JEE Main, JAC Delhi, CBSE 12th, DASA UG"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Information Technology", year2021: "3705", year2022: "4941", year2023: "6279" },
+          { course: "B.Tech. in Computer Engineering", year2021: "2040", year2022: "2833", year2023: "3994" },
+          { course: "B.Tech. in Computer Science and Engineering (Artificial Intelligence)", year2021: "1300", year2022: "2797", year2023: "3255" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
+  {
+    collegeCode: "108",
+    category : "engineering",
+    collegeDetails: {
+      imageSrc: "/assets/images/colleges/BIT.jpg",
+      logoSrc: "/assets/images/colleges/BITLOGO.jpg",
+      name: "Bharat Institute of Technology",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "3.7/5",
+      star : 5,
+      reviewCount: 81,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Bharat Institute of Technology NH-58 Partapur Bypass Meerut ( Uttar Pradesh)",
+      website: "bitmeerut.edu.in",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "BIT Highlights 2023",
+        content: "Established in 2001Bharat Institute of Technology is a known reputed Institute, located in Meerut, Uttar Pradesh. The span of programs offered 25 courses include Degree and Diploma in Full Time mode. Bharat Institute of Technology offers a range of 17 UG courses. These courses are aimed to provide students with the necessary skills and knowledge in their field of interest. Candidate can pursue in multiple range of courses like MCA, B.E. / B.Tech, MBA/PGDM, M.E./M.Tech, M.Pharma, D.Pharma, BBA, B.Pharma with the stream of IT & Software, Engineering, Business & Management Studies and Medicine & Health Sciences. From introductory courses to more advanced topics, there are a variety of courses to choose from. Students who join Bharat Institute of Technology stand to gain professional level of expertize and proficiency through its highly trained & experienced faculty in the studies of Chemical Engineering, Civil Engineering, Computer Science Engineering, Electronics & Communication Engineering, Electrical Engineering, Information Technology, Mechanical Engineering, Pharmacology. Courses offered by institute are well recognized and acknowlegded by approving body like AICTE. Institute offers this course with intake of 1027 candidates. Most of these courses are offerred at very affordable fees. For students institute has facilities & infrastructure like Auditorium, Boys Hostel, Cafeteria, Girls Hostel, Gym, Hospital / Medical Facilities, Hostel, Labs, Library, Shuttle Service, Sports Complex, Wi-Fi Campus, Others - Computer Centre, Seminar Hall, Guest House."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "BIT Popular Programmes",
+        courses: [
+          { name: "B.Tech", count: "15 Courses", fee: "2.4 L" },
+          { name: "MBA/PGDM", count: "2 Courses", fee: "1.3 L" },
+          { name: "B.Pharma", count: "1 Courses", fee: "2.8 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 45% aggregate",
+          "Accepting Exams: JEE Main, UPTAC"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "271589", year2022: "866344", year2023: "1089016" },
+          { course: "B.Tech. in Electrical and Electronics Engineering", year2021: "– / –", year2022: "– / –", year2023: "551490" },
+          { course: "B.Tech. in Information Technology", year2021: "– / –", year2022: "– / –", year2023: "369847" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "BIT MEERUT ADMISSION PROCESS 2023", childContent: "At the UG level, Bharat Institute of Technology offers a 4-year BE/BTech programme to the students. Candidates who meet the minimum eligibility criteria set by Bharat Institute of Technology with a valid score in JEE Main exam can apply." },
+          {childTitle: "BIT ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "BIT offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR BIT COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "BIT Popular Programmes",
+        courses: [
+          { name: "B.Tech", count: "15 Courses", fee: "2.4 L" },
+          { name: "MBA/PGDM", count: "2 Courses", fee: "1.3 L" },
+          { name: "B.Pharma", count: "1 Courses", fee: "2.8 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 45% aggregate",
+          "Accepting Exams: JEE Main, UPTAC"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "271589", year2022: "866344", year2023: "1089016" },
+          { course: "B.Tech. in Electrical and Electronics Engineering", year2021: "– / –", year2022: "– / –", year2023: "551490" },
+          { course: "B.Tech. in Information Technology", year2021: "– / –", year2022: "– / –", year2023: "369847" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {  childTitle: "BIT ADMISSION PROCESS 2023", childContent: "At the UG level, Bharat Institute of Technology offers a 4-year BE/BTech programme to the students. Candidates who meet the minimum eligibility criteria set by Bharat Institute of Technology with a valid score in JEE Main exam can apply." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "BIT Popular Programmes",
+        courses: [
+          { name: "B.Tech", count: "15 Courses", fee: "2.4 L" },
+          { name: "MBA/PGDM", count: "2 Courses", fee: "1.3 L" },
+          { name: "B.Pharma", count: "1 Courses", fee: "2.8 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 45% aggregate",
+          "Accepting Exams: JEE Main, UPTAC"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "271589", year2022: "866344", year2023: "1089016" },
+          { course: "B.Tech. in Electrical and Electronics Engineering", year2021: "– / –", year2022: "– / –", year2023: "551490" },
+          { course: "B.Tech. in Information Technology", year2021: "– / –", year2022: "– / –", year2023: "369847" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "GATE admit card 2024 is now available for download. Candidates appearing for the GATE exam can download their admit card till Feb 2, 2024. Further, GATE 2024 exam will be conducted on Feb 3, 4, 10, and 11, 2024. The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "BIT Highlights 2023",
+        content: "Established in 2001Bharat Institute of Technology is a known reputed Institute, located in Meerut, Uttar Pradesh. The span of programs offered 25 courses include Degree and Diploma in Full Time mode. Bharat Institute of Technology offers a range of 17 UG courses. These courses are aimed to provide students with the necessary skills and knowledge in their field of interest. Candidate can pursue in multiple range of courses like MCA, B.E. / B.Tech, MBA/PGDM, M.E./M.Tech, M.Pharma, D.Pharma, BBA, B.Pharma with the stream of IT & Software, Engineering, Business & Management Studies and Medicine & Health Sciences. From introductory courses to more advanced topics, there are a variety of courses to choose from. Students who join Bharat Institute of Technology stand to gain professional level of expertize and proficiency through its highly trained & experienced faculty in the studies of Chemical Engineering, Civil Engineering, Computer Science Engineering, Electronics & Communication Engineering, Electrical Engineering, Information Technology, Mechanical Engineering, Pharmacology. Courses offered by institute are well recognized and acknowlegded by approving body like AICTE. Institute offers this course with intake of 1027 candidates. Most of these courses are offerred at very affordable fees. For students institute has facilities & infrastructure like Auditorium, Boys Hostel, Cafeteria, Girls Hostel, Gym, Hospital / Medical Facilities, Hostel, Labs, Library, Shuttle Service, Sports Complex, Wi-Fi Campus, Others - Computer Centre, Seminar Hall, Guest House."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "BIT Popular Programmes",
+        courses: [
+          { name: "B.Tech", count: "15 Courses", fee: "2.4 L" },
+          { name: "MBA/PGDM", count: "2 Courses", fee: "1.3 L" },
+          { name: "B.Pharma", count: "1 Courses", fee: "2.8 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 45% aggregate",
+          "Accepting Exams: JEE Main, UPTAC"
+        ],
+        importantDates: [
+          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
+          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
+          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "B.Tech. in Computer Science and Engineering", year2021: "271589", year2022: "866344", year2023: "1089016" },
+          { course: "B.Tech. in Electrical and Electronics Engineering", year2021: "– / –", year2022: "– / –", year2023: "551490" },
+          { course: "B.Tech. in Information Technology", year2021: "– / –", year2022: "– / –", year2023: "369847" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
+  {
+    collegeCode: "109",
+    category : "engineering",
+    collegeDetails: {
+      imageSrc: "//assets/images/colleges/SUBHARTI.jpg",
+      logoSrc: "/assets/images/colleges/SUBHARTILOGO.jpg",
+      name: "Swami Vivekanad Subharti University",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
+      rating: "3.8/5",
+      star : 5,
+      reviewCount: 162,
+      topRated : true,
+      term: "Private",
+      approval: "Approved by: AICTE, Government of Haryana",
+      enquiryButtonText: "Enquiry Now",
+      address: "Subhartipuram, NH-58, Delhi-Haridwar Bypass Road Meerut ( Uttar Pradesh)",
+      website: "subharti.org",
+      businessHours: "9:00 AM to 5:00 PM"
+    },
+    overviewTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "Swami Vivekanand Subharti University Admission is open to all courses for the academic year 2023-24."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "Subharti University Highlights 2023",
+        content: "Subharti University has been accredited ‘A’ by NAAC and recognised by UGC as a private university. The university was established in the year 2008. The university has been recognised as (SIRO) Scientific and Industrial Research Organisation by DST and a Nodal Centre for ISRO Training initiative. The university offers state-of-the-art-infrastructure and highly qualified faculty, which helps students to grow academically and overall growth and development of the students. Also, the university offers a 24*7, learn anytime and anywhere facility to the students."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "Subharti University Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "20 Courses", fee: "2.2 L - 5.4 L" },
+          { name: "MBA/PGDM", count: "10 Courses", fee: "93.5 K - 3.1 L" },
+          { name: "B.Sc", count: "19 Courses", fee: "58.5 K - 4.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 45% aggregate",
+          "Accepting Exams: CUET"
+        ],
+        importantDates: [
+          { date: "Feb '24-Mar '24", event: "CUET 2024 Application Process" },
+          { date: "15 May '24 - 31 May '24", event: "CUET 2024 Exam" },
+          { date: "May '24-Jun '24", event: "CUET 2024 Admit Card" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "Bachelor of Medicine and Bachelor of Surgery (MBBS)", year2021: "– / –", year2022: "518379", year2023: "– / –" },
+          { course: "Bachelor of Dental Surgery (BDS)", year2021: "– / –", year2022: "518379", year2023: "– / –" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    admissionsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "Swami Vivekanand Subharti University Admission is open to all courses for the academic year 2023-24."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {      childTitle: "SUBHARTI UNIVERSITY ADMISSION PROCESS 2023", childContent: "Swami Vivekanand Subharti University application forms are available online on the official website of the university. SVSU admission is based on the SNET exam. The university offers various UG, PG, diploma, & doctoral-level courses in different disciplines, such as Engineering, Fine Arts, Journalism & Mass Communication, Management, Commerce, Science, Law, Education, and Nursing, etc." },
+          {childTitle: "SUBHARTI UNIVERSITY ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "Candidates willing to get admission to Swami Vivekanand Subharti University can fill out the online application form for SNET on the official website." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "criteria",
+          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR SUBHARTI UNIVERSITY COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
+          cutOffs: [
+            { course: "BTech", Eligibility: "Class 12 with 60% aggregate in Science stream JEE Main/ UPSEE" },
+            { course: "BPharma", Eligibility: "Class 12 with 50% aggregate in Biology, Chemistry and Physics UPSEE" },
+            { course: "MTech", Eligibility: "BTech/ BE OR MSc in a relevant discipline GATE" },
+            { course: "MBA", Eligibility: "Bachelor's degree with 50% aggregate in any discipline CMAT/ MAT/ CAT/ XAT GMAT/ UPSEE" },
+            { course: "MCA", Eligibility: "BCA or equivalent qualification UPSEE" },
+            { course: "MPharma", Eligibility: "	BPharma or equivalent qualification GPAT" },
+            { course: "PhD", Eligibility: "Master's degree in a relevant discipline" },
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "Subharti University Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "20 Courses", fee: "2.2 L - 5.4 L" },
+          { name: "MBA/PGDM", count: "10 Courses", fee: "93.5 K - 3.1 L" },
+          { name: "B.Sc", count: "19 Courses", fee: "58.5 K - 4.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 45% aggregate",
+          "Accepting Exams: CUET"
+        ],
+        importantDates: [
+          { date: "Feb '24-Mar '24", event: "CUET 2024 Application Process" },
+          { date: "15 May '24 - 31 May '24", event: "CUET 2024 Exam" },
+          { date: "May '24-Jun '24", event: "CUET 2024 Admit Card" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "Bachelor of Medicine and Bachelor of Surgery (MBBS)", year2021: "– / –", year2022: "518379", year2023: "– / –" },
+          { course: "Bachelor of Dental Surgery (BDS)", year2021: "– / –", year2022: "518379", year2023: "– / –" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    coursesTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "Swami Vivekanand Subharti University Admission is open to all courses for the academic year 2023-24."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        content : [
+          {  childTitle: "SUBHARTI UNIVERSITY ADMISSION PROCESS 2023", childContent: "Swami Vivekanand Subharti University application forms are available online on the official website of the university. SVSU admission is based on the SNET exam. The university offers various UG, PG, diploma, & doctoral-level courses in different disciplines, such as Engineering, Fine Arts, Journalism & Mass Communication, Management, Commerce, Science, Law, Education, and Nursing, etc." },
+        ]
+      },
+      { 
+          id: "Reservation1",
+          type : "CourseEligibility",
+          title : "COURSE AND FEES 2023",
+          cutOffs: [
+            { course: "B.E / BTech (16 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
+            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUETNTA" },
+            { course: "B.Sc (2 courses )",TuitionFees : "76.3 K - 9.7 L", Eligibility: "10+2 : 50-55 % Exams : CBSE 12thUP 12th" },
+            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTACUET-PG" },
+            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : CUETNTA, CUET, NTA, CUET-PG" },
+            { course: "M.E/M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
+            { course: "M.Pharma ( 3 courses )",TuitionFees : "1.5 L", Eligibility: "	– / –" },
+            { course: "M.Sc (2 courses )",TuitionFees : "91.3 K - 97.3 K", Eligibility: "Graduation : 50 %" },
+        
+            // ... add more cut offs as needed
+          ]
+        },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "Subharti University Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "20 Courses", fee: "2.2 L - 5.4 L" },
+          { name: "MBA/PGDM", count: "10 Courses", fee: "93.5 K - 3.1 L" },
+          { name: "B.Sc", count: "19 Courses", fee: "58.5 K - 4.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 45% aggregate",
+          "Accepting Exams: CUET"
+        ],
+        importantDates: [
+          { date: "Feb '24-Mar '24", event: "CUET 2024 Application Process" },
+          { date: "15 May '24 - 31 May '24", event: "CUET 2024 Exam" },
+          { date: "May '24-Jun '24", event: "CUET 2024 Admit Card" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "Bachelor of Medicine and Bachelor of Surgery (MBBS)", year2021: "– / –", year2022: "518379", year2023: "– / –" },
+          { course: "Bachelor of Dental Surgery (BDS)", year2021: "– / –", year2022: "518379", year2023: "– / –" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    cutOffsTabContentData : [
+      {
+        id: "latestUpdate",
+        type : "latestUpdate",
+        title: "What’s new?",
+        content: "Swami Vivekanand Subharti University Admission is open to all courses for the academic year 2023-24."
+      },
+      {
+        id: "Overview",
+        type : "overview",
+        title: "Subharti University Highlights 2023",
+        content: "Subharti University has been accredited ‘A’ by NAAC and recognised by UGC as a private university. The university was established in the year 2008. The university has been recognised as (SIRO) Scientific and Industrial Research Organisation by DST and a Nodal Centre for ISRO Training initiative. The university offers state-of-the-art-infrastructure and highly qualified faculty, which helps students to grow academically and overall growth and development of the students. Also, the university offers a 24*7, learn anytime and anywhere facility to the students."
+      },
+      {
+        id: "Fees",
+        type : "courses",
+        title: "Subharti University Popular Programmes",
+        courses: [
+          { name: "B.E./B.Tech", count: "20 Courses", fee: "2.2 L - 5.4 L" },
+          { name: "MBA/PGDM", count: "10 Courses", fee: "93.5 K - 3.1 L" },
+          { name: "B.Sc", count: "19 Courses", fee: "58.5 K - 4.5 L" },
+          // ... add more courses as needed
+        ]
+      },
+      {
+        id: "Ranking",
+        type : "admission",
+        title: "B.E. / B.Tech Admissions 2024",
+        eligibility: [
+          "10+2 with 45% aggregate",
+          "Accepting Exams: CUET"
+        ],
+        importantDates: [
+          { date: "Feb '24-Mar '24", event: "CUET 2024 Application Process" },
+          { date: "15 May '24 - 31 May '24", event: "CUET 2024 Exam" },
+          { date: "May '24-Jun '24", event: "CUET 2024 Admit Card" },
+          // ... add more dates as needed
+        ]
+      },
+      { 
+        id: "Reservation",
+        type : "cutoffs",
+        title: "Cut Offs 2023",
+        cutOffs: [
+          { course: "Bachelor of Medicine and Bachelor of Surgery (MBBS)", year2021: "– / –", year2022: "518379", year2023: "– / –" },
+          { course: "Bachelor of Dental Surgery (BDS)", year2021: "– / –", year2022: "518379", year2023: "– / –" },
+          // ... add more cut offs as needed
+        ]
+      }
+      // ... add more sections as needed
+    ],
+    // Add more tab content arrays as needed
+  },
   // Add more college objects as needed
 ];
 

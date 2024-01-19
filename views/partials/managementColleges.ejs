@@ -1,0 +1,48 @@
+<% console.log("collegeDataStore", collegeDataStore) %>
+
+<% let engineeringColleges =  collegeDataStore.getCategoryFilteredData("management")%>
+
+ 
+
+         
+        <% console.log("engineeringColleges", engineeringColleges) %>
+
+        <% engineeringColleges.slice(0, 3).forEach(colleges => { %>
+
+     
+        
+            <div class="single__program">
+              <div class="program_thumb">
+                <img src="<%= colleges.collegeDetails.imageSrc%>" alt="" />
+              </div>
+              <div class="rating p-3">
+                <span><i class="bi bi-award"></i>   <%= colleges.collegeDetails.term %></span>
+                <p> <i class="bi bi-star-fill"></i>   (<%= colleges.collegeDetails.rating %>)</p>
+              </div>
+              <div class="program__content">
+               
+                  <div class="logo">
+                    <img width="20" src="<%= colleges.collegeDetails.logoSrc%>" alt="">
+                  </div>
+                  <div>  
+                     <!-- <h3 class="bold"><%= colleges.collegeDetails.cate%></h3> -->
+                    <h4 class="bold">
+                        <%= colleges.collegeDetails.name%>
+                    </h4>
+                    <div class="d-flex mt-3">
+                        <i class="bi bi-geo-alt-fill"></i> &nbsp;
+                        <h6 class="regular"> <%= colleges.collegeDetails.address%></h6>
+                    </div>
+                </div>
+                 <!-- <p class="light">
+                  Meerut Institute of Engineering & Technology (MIET) is a
+                  prestigious institution Meerut offers a quality education
+                  at a higher level.
+                </p> -->
+
+                <!-- <button><a href="/collegeslist">LEARN MORE</a></button> -->
+              </div>
+            </div>
+         
+
+        <% }) %>
