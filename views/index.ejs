@@ -938,22 +938,29 @@
             <div class="row my-4 ">
              
               <div class="col-4 ">
-                   <div class="collegesCat shadow ">
-                   <a href="#"> <img src="./assets/images/engineers.png" alt="">
-                     <p class="bold">Engineering</p></a>
-                  </div>
+                  <a href="/collegeslist/engineering/1">
+                    <div class="collegesCat shadow ">
+                      <img src="./assets/images/engineers.png" alt="">
+                        <p class="bold">Engineering</p> 
+                     </div>
+                  </a>
               </div>
               <div class="col-4">
-                <div class="collegesCat shadow">
-                <a href="#"> <img src="./assets/images/medical-history.png" alt="">
-                  <p class="bold">Medical</p></a>
-               </div>
+                <a href="collegeslist/medical/1">
+                  <div class="collegesCat shadow">
+                    <img src="./assets/images/medical-history.png" alt="">
+                      <p class="bold">Medical</p> 
+                   </div>
+                </a>
+ 
            </div>
            <div class="col-4">
+            <a href="/collegeslist/management/1">
             <div class="collegesCat shadow">
-            <a href="#"> <img src="./assets/images/project-manager.png" alt="">
-              <p class="bold">Management</p></a>
+    <img src="./assets/images/project-manager.png" alt="">
+              <p class="bold">Management</p> 
            </div>
+          </a>
        </div>
        
              </div>
@@ -964,29 +971,35 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col mx-3 mt-0 ">
-                <h6 class="bold">Coureses By Categories</h6>
+                <h6 class="bold">Coureses</h6>
               </div>
              
             </div>
             <div class="row my-4 ">
              
               <div class="col-4 ">
+                <a href="/courseview/btech"> 
                    <div class="collegesCat shadow ">
-                   <a href="#"> <img src="./assets/images/engineers.png" alt="">
-                     <p class="bold">Engineering</p></a>
+                    <img src="./assets/images/engineers.png" alt="">
+                     <p class="bold">B.Tech</p>
                   </div>
+                </a>
               </div>
               <div class="col-4">
+                <a href="/courseview/mbbs">
                 <div class="collegesCat shadow">
-                <a href="#"> <img src="./assets/images/medical-history.png" alt="">
-                  <p class="bold">Medical</p></a>
+                 <img src="./assets/images/medical-history.png" alt="">
+                  <p class="bold">MBBS</p> 
                </div>
+              </a>
            </div>
            <div class="col-4">
+            <a href="/courseview/management">
             <div class="collegesCat shadow">
-            <a href="#"> <img src="./assets/images/project-manager.png" alt="">
-              <p class="bold">Management</p></a>
+             <img src="./assets/images/project-manager.png" alt="">
+              <p class="bold">MBA</p> 
            </div>
+          </a>
        </div>
        
              </div>
@@ -1002,104 +1015,44 @@
                 <h6 class="bold">Top Colleges</h6>
               </div>
               <div class="col-4   mt-4 text-end  ">
-                <p class="bold"><a href="./CollegeMobiList">See All</a></p>
+                <p class="bold"><a href="/collegeslist/engineering/1">See All</a></p>
               </div>
             </div>
             <div class="row">
               
               <div class="col">
                 <div class="recentColleges">
-                  <div class="recentColleges_collegeView">
-                    <img src="./assets/images/College/dewan-thumb.jpeg" alt="">
-                    <p class="semi-bold">
-                      Dewan VS Group of Institutions India
-                    </p>
-                   
-                    <button>Learn more</button>
-                  </div>
-                  <div class="recentColleges_collegeView">
-                    <img src="./assets/images/College/dewan-thumb.jpeg" alt="">
-                    <p class="semi-bold">
-                      Dewan VS Group of Institutions India
-                    </p>
-                   
-                    <button>Learn more</button>
-                  </div>
-                  <div class="recentColleges_collegeView">
-                    <img src="./assets/images/College/dewan-thumb.jpeg" alt="">
-                    <p class="semi-bold">
-                      Dewan VS Group of Institutions India
-                    </p>
-                   
-                    <button>Learn more</button>
-                  </div>
-                  <div class="recentColleges_collegeView">
-                    <img src="./assets/images/College/dewan-thumb.jpeg" alt="">
-                    <p class="semi-bold">
-                      Dewan VS Group of Institutions India
-                    </p>
-                   
-                    <button>Learn more</button>
-                  </div>
+                  <%- include('partials/engineeringCollegesMobi.ejs')%>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
             <!-- top colleges list -->
-            <div class="recentCollegList">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-8   mt-4 ">
-                    <h6 class="bold">Featured Colleges</h6>
-                  </div>
-                  <div class="col-4  mt-4 text-end  ">
-                    <p class="bold">See All</p>
-                  </div>
-                </div>
-                <div class="row">
-                  
-                  <div class="col">
-                    <div class="recentColleges">
-                      <div class="recentColleges_collegeView">
-                        <img src="./assets/images/College/dewan-thumb.jpeg" alt="">
-                        <p class="semi-bold">
-                          Dewan VS Group of Institutions India
-                        </p>
-                       
-                        <button>Learn more</button>
-                      </div>
-                      <div class="recentColleges_collegeView">
-                        <img src="./assets/images/College/dewan-thumb.jpeg" alt="">
-                        <p class="semi-bold">
-                          Dewan VS Group of Institutions India
-                        </p>
-                       
-                        <button>Learn more</button>
-                      </div>
+           
 
-                      <div class="recentColleges_collegeView">
-                        <img src="./assets/images/College/dewan-thumb.jpeg" alt="">
-                        <p class="semi-bold">
-                          Dewan VS Group of Institutions India
-                        </p>
-                       
-                        <button>Learn more</button>
-                      </div>
-                      <div class="recentColleges_collegeView">
-                        <img src="./assets/images/College/dewan-thumb.jpeg" alt="">
-                        <p class="semi-bold">
-                          Dewan VS Group of Institutions India
-                        </p>
-                       
-                        <button>Learn more</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+<!-- top colleges list -->
+<div class="recentCollegList">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-8   mt-4 ">
+        <h6 class="bold">Featured Colleges</h6>
+      </div>
+      <div class="col-4  mt-4 text-end  ">
+        <p class="bold"><a href="/collegeslist/medical/1">See All</a></p>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col">
+        <div class="recentColleges">
+        <%- include('partials/featuredCollegesMobi')%>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
 
             <!-- study Abroad -->
         <div class="studyAbroad">
@@ -1109,7 +1062,7 @@
                     <div class="studyAbroad_card">
                         <h5>Study Abroad With US</h5>
                         <p class="light">Unlocking Global Opportunities: Your Path to International Education with US Study Abroad</p>
-                        <button>Read More</button>
+                        <a href="/abroad"><button>Read More</button></a>
                     </div iv>
                   </div>
                 </div>
@@ -1242,3 +1195,5 @@
   });
 
 </script>
+
+<%- include('partials/copyright') %>

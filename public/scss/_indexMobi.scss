@@ -71,10 +71,10 @@
 
       border-radius: 10px;
       text-align: center;
-      a {
-        display: block;
-        padding: 10px 0px;
-        color: black;
+      display: block;
+      padding: 10px 0px;
+      color: black;
+       
         img {
           width: 40px;
 
@@ -85,7 +85,7 @@
           font-size: 1.2rem;
           color: var(--primary-color);
         }
-      }
+      
     }
   }
 

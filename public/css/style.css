@@ -3232,18 +3232,16 @@ button.accordion-button.border-0.bg-white:focus {
   margin: auto;
   border-radius: 10px;
   text-align: center;
-}
-.innerContent .colleges .collegesCat a {
   display: block;
   padding: 10px 0px;
   color: black;
 }
-.innerContent .colleges .collegesCat a img {
+.innerContent .colleges .collegesCat img {
   width: 40px;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.innerContent .colleges .collegesCat a p {
+.innerContent .colleges .collegesCat p {
   margin: 5px 0;
   font-size: 1.2rem;
   color: var(--primary-color);

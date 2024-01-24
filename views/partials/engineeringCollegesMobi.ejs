@@ -1,0 +1,13 @@
+<% let engineeringColleges =  collegeDataStore.getCategoryFilteredData("engineering")%>
+   
+         
+     <% engineeringColleges.forEach( college => { %>
+      <div class="recentColleges_collegeView">
+        <img src="<%= college.collegeDetails.logoSrc %>" alt="">
+        <p class="semi-bold">
+            <%= college.collegeDetails.name %>
+        </p>
+       
+        <a  href="/collegeView/<%= college.collegeCode %>"> <button>Learn more</button></a>
+      </div>
+      <%  })%>
