@@ -1,5 +1,6 @@
-  $( document ).ready(function(){
   
+    $(document).ready(function(){
+ 
   //  *************************************** collapse show more and show less 
   $('.owl-carousel').owlCarousel({
     loop:true,

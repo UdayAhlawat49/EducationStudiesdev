@@ -1,16 +1,5 @@
-<% console.log("collegeDataStore", collegeDataStore) %>
-
 <% let engineeringColleges =  collegeDataStore.getCategoryFilteredData("engineering")%>
-
- 
-
-         
-        <% console.log("engineeringColleges", engineeringColleges) %>
-
         <% engineeringColleges.slice(0, 3).forEach(colleges => { %>
-
-     
-        
             <div class="single__program">
               <div class="program_thumb">
                 <img src="<%= colleges.collegeDetails.imageSrc%>" alt="" />
@@ -43,6 +32,4 @@
                 <!-- <button><a href="/collegeslist">LEARN MORE</a></button> -->
               </div>
             </div>
-         
-
         <% }) %>

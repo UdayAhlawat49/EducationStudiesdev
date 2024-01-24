@@ -1,275 +1,237 @@
 <%- include('partials/header') %>
-<!-- counseling hero section start -->
+  <!-- counseling hero section start -->
 
-<div id="counselling" style="background-color: #F7F7F7;">
-
-
-<section class="container-fluid counseling-hero-section">
-  <div class="row">
-    <div class="Counseling">
-      <div class="counseling-hero-content">
-        <h1>Counseling</h1>
-        <p>WE HAVE OVER 20 YEARS OF EXPERIENCE</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- about hero section end -->
-
-<section>
-  <div class="container">
- 
-    <div class="row">
-      <div class="col">
-        <div class="counsellingForm shadow ">
-         
-          <form action="">
-            <div class="head">
-                <h2 class="bold">Education Studies</h2>
-                <hr>
-                <h4 class="bold ">REGISTRATION FORM</h4>
-              </div>
+  <div id="counselling" style="background-color: #F7F7F7;">
 
 
-            <div class="row formField">
-                <div class="col-md-9">
-                    <p class="semibold">To, <br> The Director <br> Sir, <br> I request you to admit myself/ my ward in your Academy.
-                    I agree to abide by the rules and regulations of the Academy. My details are as follows...</p>
-                </div>
-
-                <div class="col-md-3">
-                    <input type="file">
-                </div>
-            </div>
-            <!-- first , middle , last name -->
-            <div class="row formField">
-                <div class="col">
-                    <h4>Personal Profile :-</h4>
-                    <hr>
-                </div>
-            </div>
-            <div class="row formField">
-              <div class="col-md-6">
-                <div class="filedForm">
-                  <label for="FirstName">First Name :</label>    <br />
-                  <input id="FirstName" placeholder="Enter First Name" type="text" />
-                </div>
-              </div>
-       
-              <div class="col-md-6">
-                <div class="LastName">
-                  <label for="LastName">Last Name :</label> <br />
-                  <input id="LastName" placeholder="Enter Last Name" type="text" />
-                </div>
-              </div>
-            </div>
- 
-               <!-- mobile , parent NO -->
-
-               <div class="row formField">
-                <div class="col-md-6">
-                    <label for="mobileNo">Mobile No :   </label> <br>
-                    <input id="mobileNo" placeholder="Enter Mobile No" type="number">
-                </div>
-            
-                <div class="col-md-6">
-                    <label for="Dob">DOB : </label> <br>
-                    <input type="date" placeholder="Select Date">
-                </div>
-            </div>
-
-              <!-- gender and data -->
-              <div class="row formField">
-                
-                <div class="col-md-6">
-                 
-                    <div class="gender">
-                        <label for="sex">Sex :</label>  
-                      <ul>
-                        <li>
-                            <input name="gender" id="male" type="radio" value="Male">
-                            <label for="male">Male</label>
-        
-                        </li>
-                   <li>     <input name="gender" id="Female" type="radio" value="Female">
-                    <label for="Female">Female</label>
-                </li>
-                      </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                 
-                    <div class="gender">
-                        <label for="sex">Hostel :</label>  
-                      <ul>
-                        <li>
-                            <input name="Hostel" id="yes" type="radio" value="yes">
-                            <label for="yes">Yes</label>
-        
-                        </li>
-                   <li>     <input name="Hostel" id="no" type="radio" value="no">
-                    <label for="no">No</label>
-                </li>
-                      </ul>
-                    </div>
-                </div>
-              
-            </div>
-
-            <hr class="my-5">
-
-                  <!-- father and mother name     -->
-                  <div class="row formField ">
-                    <div class="col-md-6 ">
-                        <label for="fatherName">Father's Name :  </label> <br>
-                        <input id="fatherName" placeholder="Enter Father's Name" type="text">
-                    </div>
-    
-                    <div class="col-md-6 ">
-                        <label for="motherName">Mother's Name :  </label> <br>
-                        <input id="motherName" placeholder="Enter Mother's Name" type="text">
-                    </div>
-                </div>
-
-          
-            <!-- Blood Group and hostel required  -->
-            <div class="row formField">
-                <div class="col-md-6">
-                    <label for="bloodGroup">Blood Group</label> <br>
-                    <select id="bloodGroup" name="bloodGroup">
-                        <option value="A+">A+</option>
-                        <option value="A-">A-</option>
-                        <option value="B+">B+</option>
-                        <option value="B-">B-</option>
-                        <option value="AB+">AB+</option>
-                        <option value="AB-">AB-</option>
-                        <option value="O+">O+</option>
-                        <option value="O-">O-</option>
-                      </select>
-                    
-                </div>
-                <div class="col-md-6">
-                    <label for="parentNo">Parent's No :   </label> <br>
-                    <input id="parentNo" placeholder="Enter Parent's No" type="number">
-                </div>
-          
-            </div>
-        
-         
-
-      
-
-            <!-- Permanent Address -->
-            <div class="row formField">
-                <div class="col-6">
-                    <label for="permanentAddress">Permanent Address</label> <br>
-                    <textarea id="permanentAddress" placeholder="Enter Address" name="permanentAddress" rows="4" cols="50"></textarea>
-                </div>
-            </div>
-
-            <div class="row formField">
-                <div class="col">
-                    <h4>Local Guardian :-</h4>
-                    <hr>
-                </div>
-            </div>
-            <!-- local guardian -->
-            <div class="row formField">
-                <div class="col-md-6">
-                    <label for="guardian">Guardian Name :</label> <br>
-                    <input id="guardian" placeholder="Enter Guardian Name" type="text">
-                </div>
-                <div class="col-md-6">
-                    <label for="relationship">Relationship :</label> <br>
-                    <input id="relationship" placeholder="Enter Relationship" type="text">
-                </div>
-            </div>
-            <!-- guardian mobile number , address -->
-            <div class="row formField">
-                <div class="col-md-6">
-                    <label for="guardianMobile"> Mobile :</label> <br>
-                    <input id="guardianMobile" placeholder="Enter Mobile" type="text">
-                </div>
-                <div class="col-md-6">
-                    <label for="guardianAddress">Address :</label> <br>
-                    <input id="guardianAddress" placeholder="Enter Address" type="text">
-                </div>
-            </div>
-            
-            <div class="row formField">
-                <div class="col">
-                    <h4>Academic Profile :-</h4>
-                    <hr>
-                </div>
-            </div>
-
-            <!-- program applied for  -->
-            <div class="row formField">
-                <div class="col-md-6">
-                    <label for="programApplied">Program Applied For :</label> <br>
-                    <input id="programApplied" placeholder="Enter Program" type="text">
-                </div>
-
-                <div class="col-md-6">
-                    <label for="entranceApplied">Entrance Exam Date :</label> <br>
-                    <input id="entranceApplied" type="date">
-                </div>
-           
-            </div>
-
-
-            <div class="row formField">
-                <div class="col-md-6">
-                    <label for="subjectApplied">Subject Applied For :</label> <br>
-                    <input id="subjectApplied" placeholder="Enter Subjects" type="text">
-                </div>
-
-                <div class="col-md-6">
-                    <label for="reference">Reference :</label> <br>
-                    <input id="reference" placeholder="Enter Reference" type="text">
-                </div>
-            </div>
-            <!-- date and sign  -->
-
-            <div class="row formField">
-                <div class="col-md-6">
-                    <label for="submitDate">Date :</label> <br>
-                    <input id="submitDate" type="date">
-                </div>
-          
-            </div>
-
-            <hr class="my-5 ">
-            <div class="row formField  ">
-                <div class="col-md-6">
-                    <label for="studentSign">Student Signature :</label> <br>
-                    <input id="studentSign" placeholder="Enter Signature" type="file">
-                </div>
-            </div>
-
-            <!-- declaration -->
-            <div class="row my-5  ">
-                <div class="col-12 d-flex align-items-start   ">
-                    <input class="mt-2" type="checkbox">
-                     <p class="semibold ms-3   "><strong>Deceleration:</strong> By submitting this form, I declare that the provided information is accurate and has been provided by me.</p>
-
-                </div>
-            </div>
-
-            <!-- submit button -->
-            <div class="row mt-4 ">
-                <div class="col-12">
-                    <button>submit</button>
-                </div>
-            </div>
-        </form>
+    <section class="container-fluid counseling-hero-section">
+      <div class="row">
+        <div class="Counseling">
+          <div class="counseling-hero-content">
+            <h1>Counseling</h1>
+            <p>WE HAVE OVER 20 YEARS OF EXPERIENCE</p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+    <!-- about hero section end -->
 
-<!--  
+    <section>
+      <div class="container">
+
+        <div class="row">
+          <div class="col">
+            <div class="counsellingForm shadow ">
+
+              <form id="addRegisterForm">
+
+                <div class="head">
+                  <h2 class="bold">Education Studies</h2>
+                  <hr>
+                  <h4 class="bold ">REGISTRATION FORM</h4>
+                </div>
+
+                <div class="row formField">
+                  <div class="col">
+                    <h4>Personal Profile :-</h4>
+                    <hr>
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <div class="filedForm">
+                      <label for="FirstName">First Name :</label> <br />
+                      <input id="FirstName" name="firstName" placeholder="Enter First Name" type="text" />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="LastName">
+                      <label for="LastName">Last Name :</label> <br />
+                      <input id="LastName" name="lastName" placeholder="Enter Last Name" type="text" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <label for="mobileNo">Mobile No :</label> <br>
+                    <input id="mobileNo" name="mobileNo" placeholder="Enter Mobile No" type="number">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email">Email :</label> <br>
+                    <input id="email" name="email" type="email" placeholder="email">
+                  </div>
+                  <div class="col-md-6 mt-3">
+                    <label for="Dob">DOB :</label> <br>
+                    <input id="Dob" name="dateOfBirth" type="date" placeholder="Select Date">
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <div id="gender" class="gender">
+                      <label for="sex">Sex :</label>
+                      <ul>
+                        <li>
+                          <input name="gender" id="male" type="radio" value="Male">
+                          <label for="male">Male</label>
+                        </li>
+                        <li>
+                          <input name="gender" id="Female" type="radio" value="Female">
+                          <label for="Female">Female</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="hostel" class="gender">
+                      <label for="hostel">Hostel :</label>
+                      <ul>
+                        <li>
+                          <input name="hostel" id="yes" type="radio" value="yes">
+                          <label for="yes">Yes</label>
+                        </li>
+                        <li>
+                          <input name="hostel" id="no" type="radio" value="no">
+                          <label for="no">No</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <label for="fatherName">Father's Name :</label> <br>
+                    <input id="fatherName" name="fatherName" placeholder="Enter Father's Name" type="text">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="motherName">Mother's Name :</label> <br>
+                    <input id="motherName" name="motherName" placeholder="Enter Mother's Name" type="text">
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <label for="bloodGroup">Blood Group</label> <br>
+                    <select id="bloodGroup" name="bloodGroup">
+                      <option value="A+">A+</option>
+                      <option value="A-">A-</option>
+                      <option value="B+">B+</option>
+                      <option value="B-">B-</option>
+                      <option value="AB+">AB+</option>
+                      <option value="AB-">AB-</option>
+                      <option value="O+">O+</option>
+                      <option value="O-">O-</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="parentNo">Parent's No :</label> <br>
+                    <input id="parentNo" name="parentNo" placeholder="Enter Parent's No" type="number">
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-6">
+                    <label for="permanentAddress">Permanent Address</label> <br>
+                    <textarea id="permanentAddress" name="permanentAddress" placeholder="Enter Address" rows="4"
+                      cols="50"></textarea>
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col">
+                    <h4>Local Guardian :-</h4>
+                    <hr>
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <label for="guardian">Guardian Name :</label> <br>
+                    <input id="guardian" name="guardian" placeholder="Enter Guardian Name" type="text">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="relationship">Relationship :</label> <br>
+                    <input id="relationship" name="relationship" placeholder="Enter Relationship" type="text">
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <label for="guardianMobile">Mobile :</label> <br>
+                    <input id="guardianMobile" name="guardianMobile" placeholder="Enter Mobile" type="text">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="guardianAddress">Address :</label> <br>
+                    <input id="guardianAddress" name="guardianAddress" placeholder="Enter Address" type="text">
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col">
+                    <h4>Academic Profile :-</h4>
+                    <hr>
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <label for="programApplied">Program Applied For :</label> <br>
+                    <input id="programApplied" name="programApplied" placeholder="Enter Program" type="text">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="entranceApplied">Entrance Exam Date :</label> <br>
+                    <input id="entranceApplied" name="entranceApplied" type="date">
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <label for="subjectApplied">Subject Applied For :</label> <br>
+                    <input id="subjectApplied" name="subjectApplied" placeholder="Enter Subjects" type="text">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="reference">Reference :</label> <br>
+                    <input id="reference" name="reference" placeholder="Enter Reference" type="text">
+                  </div>
+                </div>
+
+                <div class="row formField">
+                  <div class="col-md-6">
+                    <label for="submitDate">Date :</label> <br>
+                    <input id="submitDate" name="submitDate" type="date">
+                  </div>
+                </div>
+
+                <div class="row my-5 ">
+                  <div id="declaration" class="col-12 d-flex align-items-start ">
+                    <input class="mt-2" name="declaration" type="checkbox">
+                    <p class="semibold ms-3 "><strong>Deceleration:</strong> By submitting this form, I declare that the
+                      provided information is accurate and has been provided by me.</p>
+                  </div>
+                </div>
+
+                <div class="row mt-4 ">
+                  <div class="col-12">
+                    <button type="submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  
     <section class="container-fluid counseling-section">
         <div class="container">
             <div class="row">
@@ -386,5 +348,260 @@
         </div>
     </section>
  -->
-</div>
-<%- include('partials/footer') %>
+  </div>
+  <%- include('partials/footer') %>
+
+
+    <script>
+      const validationData = "../middlewares/counselling/clientValidation.js"
+      $(document).ready(function () {
+        // Custom email validation using regex
+        $.validator.addMethod("customEmail", function (value, element) {
+          // Modify the regular expression according to your needs
+          return this.optional(element) || /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(value);
+        }, "Please enter a valid email address");
+
+        $("#addRegisterForm").validate({
+          rules: {
+            firstName: {
+              required: true,
+              minlength: 2, // Minimum length of 2 characters
+              maxlength: 50, // Maximum length of 50 characters
+            },
+            lastName: {
+              required: true,
+              minlength: 2,
+              maxlength: 50,
+            },
+            email: {
+                        required: true,
+                        customEmail: true
+                    },
+            mobileNo: {
+              required: true,
+              number: true,
+              minlength: 10,
+              maxlength: 10,
+            },
+            dateOfBirth: {
+              required: true,
+              date: true,
+            },
+            gender: "required",
+            hostel: "required",
+            fatherName: {
+              required: true,
+              minlength: 2,
+              maxlength: 50,
+            },
+            motherName: {
+              required: true,
+              minlength: 2,
+              maxlength: 50,
+            },
+            bloodGroup: "required",
+            parentNo: {
+              required: true,
+              number: true,
+              minlength: 10,
+              maxlength: 10,
+            },
+            permanentAddress: "required",
+            guardian: {
+              required: true,
+              minlength: 2,
+              maxlength: 50,
+            },
+            relationship: {
+              required: true,
+              minlength: 2,
+              maxlength: 50,
+            },
+            guardianMobile: {
+              required: true,
+              number: true,
+              minlength: 10,
+              maxlength: 10,
+            },
+            guardianAddress: "required",
+            programApplied: {
+              required: true,
+              minlength: 2,
+              maxlength: 50,
+            },
+            entranceApplied: "required",
+            subjectApplied: {
+              required: true,
+              minlength: 2,
+              maxlength: 50,
+            },
+            reference: {
+              required: true,
+              minlength: 2,
+              maxlength: 50,
+            },
+            submitDate: "required",
+            declaration: "required",
+          },
+          messages: {
+            firstName: {
+              required: "Please enter your first name",
+              minlength: "First name must be at least 2 characters",
+              maxlength: "First name must not exceed 50 characters",
+            },
+            lastName: {
+              required: "Please enter your last name",
+              minlength: "Last name must be at least 2 characters",
+              maxlength: "Last name must not exceed 50 characters",
+            },
+            email: {
+                        required: "Please enter your email address"
+                    },
+            mobileNo: {
+              required: "Please enter your mobile number",
+              number: "Please enter a valid number",
+              minlength: "Mobile number must be 10 digits",
+              maxlength: "Mobile number must be 10 digits",
+            },
+            dateOfBirth: {
+              required: "Please enter your date of birth",
+              date: "Please enter a valid date",
+            },
+            gender: "Please select your gender",
+            hostel: "Please select whether you need hostel accommodation",
+            fatherName: {
+              required: "Please enter your father's name",
+              minlength: "Father's name must be at least 2 characters",
+              maxlength: "Father's name must not exceed 50 characters",
+            },
+            motherName: {
+              required: "Please enter your mother's name",
+              minlength: "Mother's name must be at least 2 characters",
+              maxlength: "Mother's name must not exceed 50 characters",
+            },
+            bloodGroup: "Please select your blood group",
+            parentNo: {
+              required: "Please enter your parent's mobile number",
+              number: "Please enter a valid number",
+              minlength: "Parent's mobile number must be 10 digits",
+              maxlength: "Parent's mobile number must be 10 digits",
+            },
+            permanentAddress: "Please enter your permanent address",
+            guardian: {
+              required: "Please enter your guardian's name",
+              minlength: "Guardian's name must be at least 2 characters",
+              maxlength: "Guardian's name must not exceed 50 characters",
+            },
+            relationship: {
+              required: "Please enter your relationship with the guardian",
+              minlength: "Relationship must be at least 2 characters",
+              maxlength: "Relationship must not exceed 50 characters",
+            },
+            guardianMobile: {
+              required: "Please enter your guardian's mobile number",
+              number: "Please enter a valid number",
+              minlength: "Guardian's mobile number must be 10 digits",
+              maxlength: "Guardian's mobile number must be 10 digits",
+            },
+            guardianAddress: "Please enter your guardian's address",
+            programApplied: {
+              required: "Please enter the program you are applying for",
+              minlength: "Program name must be at least 2 characters",
+              maxlength: "Program name must not exceed 50 characters",
+            },
+            entranceApplied: "Please enter the entrance exam date",
+            subjectApplied: {
+              required: "Please enter the subjects you are applying for",
+              minlength: "Subjects must be at least 2 characters",
+              maxlength: "Subjects must not exceed 50 characters",
+            },
+            reference: {
+              required: "Please enter the reference information",
+              minlength: "Reference must be at least 2 characters",
+              maxlength: "Reference must not exceed 50 characters",
+            },
+            submitDate: "Please enter the submission date",
+            declaration: "Please agree to the declaration",
+          },
+
+          errorPlacement: function (error, element) {
+  // Check if error message has already been displayed for this field
+  if (!element.data('error-shown')) {
+    // Set a data attribute to mark that the error message has been displayed
+    element.data('error-shown', true);
+
+    // Customize error placement if needed
+    // Custom position: gender
+    if (element.attr("name") === "gender") {
+      $("#gender").after('<div class="error-message fs-4 fw">' + error.text() + '</div>');
+    }
+    // Custom position: hostel
+    else if (element.attr("name") === "hostel") {
+      $("#hostel").after('<div class="error-message fs-4 fw">' + error.text() + '</div>');
+    }
+    // Custom position: declaration
+    else if (element.attr("name") === "declaration") {
+      $("#declaration").after('<div class="error-message fs-4 fw">' + error.text() + '</div>');
+    }
+    // Default position: if no match is met (other fields)
+    else {
+      $('<div class="error-message fs-4 fw">' + error.text() + '</div>').insertAfter(element);
+    }
+  }
+},
+
+          submitHandler: function (form, event) {
+            alert("hi")
+            event.preventDefault()
+            // console.log($(form).serialize())
+            $.ajax({
+              type: "POST",
+              url: "/counselling",
+              data: $(form).serialize(),
+              success: function (data, status) {
+                console.log("DataReturn:", data);
+                console.log("Status:", status);
+
+                // Remove previous error messages
+                $('.error-message').remove();
+                $('.success').remove();
+
+                if (data.errors) {
+                  data.errors.forEach(err => {
+                    var inputName = err.path;
+                    var errorMessage = err.msg;
+                    $('[name="' + inputName + '"]').after('<div class="error-message">' + errorMessage + '</div>');
+                  });
+                }
+
+                if (data.msg && status === "success") {
+                  const message = data.msg;
+
+                  // Check for specific messages related to email and phone duplication
+                  if (message === "Email already exists") {
+                    $('#addRegisterForm').append('<div class="error-message fs-4 fw-bold">' + message + '</div>');
+                  } else if (message === "Mobile number already exists") {
+                    $('#addRegisterForm').append('<div class="error-message fs-4 fw-bold">' + message + '</div>');
+                  } else if (message === "Email and Mobile number already exist") {
+                    // Handle the case where both email and mobile are duplicated
+                    $('#addRegisterForm').append('<div class="error-message fs-4 fw-bold">' + message + '</div>');
+                  } else {
+                    // Display success message for other cases
+                    $('#addRegisterForm').append('<h4 class="success">' + message + '</h4>');
+                  }
+                }
+              },
+              error: function (xhr, status, error) {
+                console.error("Error:", error);
+              }
+            });
+
+          }
+        });
+ 
+      });
+
+
+    </script>
+
+    <%- include('partials/copyright') %>

@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "database_development",
+    "password": "4585",
+    "database": "educationStudies",
     "host": "127.0.0.1",
-    "dialect": "sqlite3"
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
+    "password":"4585",
+    "database": "educationStudies",
     "host": "127.0.0.1",
-    "dialect": "sqlite3"
+    "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
+    "password": "4585",
+    "database": "educationStudies",
     "host": "127.0.0.1",
-    "dialect": "sqlite3"
+    "dialect": "mysql"
   }
 }

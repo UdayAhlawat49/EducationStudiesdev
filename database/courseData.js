@@ -2,7 +2,7 @@
 
 const courseData = [
   {
-    collegeCode: "074",
+    collegeCode: "mba",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
@@ -119,1566 +119,441 @@ const courseData = [
   
   },
   {
-    collegeCode: "075",
+    collegeCode: "btech",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
-      name: "Dewan VS Group of Institutions India",
+      name: "BTech Courses",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
-      rating: "4.5/5",
-      star : 5,
-      reviewCount: 245,
-      topRated : true,
-      term: "Private",
-      approval: "Approved by: AICTE, Government of Haryana",
-      enquiryButtonText: "Enquiry Now",
-      address: "NH-58, By-Pass Road, Partapur, Meerut-250103 Uttar Pradesh, INDIA",
-      website: "www.dewaninstitutes.com",
-      businessHours: "9:00 AM to 5:00 PM"
     },
-    overviewTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "Admissions are open for 2023 batch. Candidates can visit the official website to apply."
-      },
-      {
+   
+   
+    overviewTabData : {
         id: "Overview",
-        type : "overview",
-        title: "Dewan V.S Group of Institutions Highlights 2023",
-        content: "Dewan V.S Group of Institutions is a Private college established in year 1996. The college is located in Meerut, Uttar Pradesh. Dewan V.S Group of Institutions is approved by the All India Council for Technical Education, Ministry of HRD, New Delhi, NCTE, NCHMCT, Ministry of Tourism, New Delhi and Bar Council of India,New Delhi. Moreover, the courses of the institute are also affiliated to Dr. A.P.J. Abdul Kalam Technical University, Uttar Pradesh, Lucknow, CCS University, Meerut The institute offers undergraduate, postgraduate, and certificate programmes. The courses provided by the innstitute include B.Tech., BBA, BCA, B.Sc.(HHA), BHMCT, B.A.LL.B., B.Com.LL.B, LL.B., B.Ed., MCA, MBA, PGDM & LL.M. These Degree programmes are in the streams of Hospitality & Travel, IT & Software, Engineering, Business & Management Studies, Teaching & Education and Law. All these programmes are offered in Full Time mode. Below are the major highlights of Dewan V.S Group of Institutions:"
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Dewan V.S Group of Institutions Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "12 Courses", fee: "1.65 L - 2.8 L" },
-          { name: "B.Ed", count: "1 Courses", fee: "81.25 K" },
-          { name: "MBA/PGDM", count: "2 Courses", fee: "1.70 L- 2.4 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "Accepting Exams: JEE Main, UPTAC"
+        type : "Overview",
+        content: "BTech, or Bachelor of Technology, is a sought-after undergraduate engineering degree in India. With over 10 lakh graduates annually, BTech offers diverse career paths, covering traditional fields like civil and mechanical engineering, as well as cutting-edge domains such as artificial intelligence. Admissions rely on exams like JEE Main, JEE Advanced, and others, with eligibility typically requiring a Class 12 qualification in Physics, Chemistry, and Mathematics. Top institutions like IITs and NITs attract talent with rigorous academic programs., or Master of Business Administration, is a sought-after postgraduate course globally. Spanning two years, it enhances leadership, strategic thinking, and problem-solving skills. Applicants typically need over 50% in undergrad studies, with admissions based on exams like CAT, CMAT, XAT, and MAH MBA CET. Renowned institutions like IIMs, XLRI, and ISB offer MBA programs, with fees ranging from INR 10 to 25 lakh. Graduates secure roles like Finance Manager or Marketing Manager, earning salaries from INR 5 to 25 LPA. An MBA is increasingly popular among BTech, BBA, BCom, BA, BSc, and BCA graduates for managerial-level career advancement.",
+        Particularstable : [
+          {Particulars	: "Course Level" ,  CourseDetails : "Undergraduate"},
+          {Particulars	: "Course Name" ,  CourseDetails : "Bachelor of Technology"},
+          {Particulars	: "Course Duration" ,  CourseDetails : "4 years"},
+          {Particulars	: "Examination Type" ,  CourseDetails : "Semester-wise"},
+          {Particulars	: "Course fee" ,  CourseDetails : "INR 5- 9 lakh"},
+          {Particulars	: "Top Colleges" ,  CourseDetails : "IIT Bombay, IIT Delhi, DTU, Jadavpur University, Jamia Millia Islamia"},
+          {Particulars	: "Average Salary" ,  CourseDetails : "INR 4 - 10 LPA"},
+          {Particulars	: "Job Scope" ,  CourseDetails : "Chemical Engineer, Mechanical Engineer, Computer Science Engineer, Research Associate, Professor"},
+          {Particulars	: "Entrance Exam" ,  CourseDetails : "JEE Main, JEE Advanced, WBJEE, KEAM, AP EAMCET, TS EAMCET"},
+          {Particulars	: "Top Recruiters" ,  CourseDetails : "Google, Apple, Hindustan Unilever Ltd, ISRO,"},
+          {Particulars	: "Specialisations" ,  CourseDetails : "Civil Engineering, Mechanical Engineering, Computer Engineering, Electrical Engineering, Marine Engineering"},
         ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "B.Tech. in Computer Science and Engineering", year2021: "603126", year2022: "646505", year2023: "756099" },
-          { course: "B.Tech. in Artificial Intelligence (AI) and Data Science", year2021: "– / –", year2022: "– / –", year2023: "351961" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    admissionsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "Admissions are open for 2023 batch. Candidates can visit the official website to apply."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "DVSGI ADMISSION PROCESS 2023", childContent: "DVSGI admission procedure comprises merit in the qualifying examination or entrance exam scores. Dewan V.S Group of Institutions offers 28 undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at DVSGI is online. DVSGI provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-          {childTitle: "DVSGI ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "Dewan V.S Group of Institutions offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. It accepts the scores of various state and national level entrance exams like UPSEE, JEE Main, CAT, MAT, and others. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "criteria",
-          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR DVSGI COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
-          cutOffs: [
-            { course: "B.E./B.Tech", Eligibility: "10+2 : 45 % Exams : JEE MainUPTAC" },
-            { course: "B.Ed.", Eligibility: "Exams : UP B.Ed JEE" },
-            { course: "BCA", Eligibility: "10+2 : 45 % Exams : CBSE 12th UP 12th ISC" },
-            { course: "MBA/PGDM", Eligibility: "Graduation : 50 % Exams : NTACUET-PG" },
-            { course: "MCA", Eligibility: "Exams : NTACUET-PG" },
-            { course: "B.A. LL.B.", Eligibility: "10+2 : 45 % Exams : CBSE 12th UP 12th ISC" },
-            { course: "BBA", Eligibility: "10+2 : 45 % Exams : CBSE 12th UP 12th ISC" },
-            // ... add more cut offs as needed
-          ]
-        },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Dewan V.S Group of Institutions Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "12 Courses", fee: "1.65 L - 2.8 L" },
-          { name: "B.Ed", count: "1 Courses", fee: "81.25 K" },
-          { name: "MBA/PGDM", count: "2 Courses", fee: "1.70 L- 2.4 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "Accepting Exams: JEE Main, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "B.Tech. in Computer Science and Engineering", year2021: "603126", year2022: "646505", year2023: "756099" },
-          { course: "B.Tech. in Artificial Intelligence (AI) and Data Science", year2021: "– / –", year2022: "– / –", year2023: "351961" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    coursesTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "Admissions are open for 2023 batch. Candidates can visit the official website to apply."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "DVSGI ADMISSION PROCESS 2023", childContent: "DVSGI admission procedure comprises merit in the qualifying examination or entrance exam scores. Dewan V.S Group of Institutions offers 28 undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at DVSGI is online. DVSGI provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "CourseEligibility",
-          title : "COURSE AND FEES 2023",
-          cutOffs: [
-            { course: "B.E / BTech (12 courses )",TuitionFees : "1.6 L - 2.8 L", Eligibility: "10+2 : 45 % Exams : JEE Main UPTAC" },
-            { course: "B.Ed (1 courses )",TuitionFees : "81.3 K", Eligibility: "Exams : UP B.Ed JEE" },
-            { course: "MBA/PGDM (2 courses )",TuitionFees : "1.7 L - 2.4 L", Eligibility: "Graduation : 50 % Exams : NTACUET-PG" },
-            { course: "MCA (3 courses )",TuitionFees : "1.4 L", Eligibility: "Exams : NTACUET-PG" },
-            { course: "BCA (1 courses )",TuitionFees : "1.6 L", Eligibility: "10+2 : 45 % Exams : CBSE 12th UP 12th ISC" },
-            { course: "B.A. LL.B. (1 courses )",TuitionFees : "2 L", Eligibility: "10+2 : 45 % Exams : CBSE 12th UP 12th ISC" },
-            { course: "B.Sc. ( 1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : NCHMCT JEE" },
-            { course: "BBA (1 courses )",TuitionFees : "1.6 L", Eligibility: "10+2 : 45 % Exams : CBSE 12th UP 12th ISC" },
-        
-            // ... add more cut offs as needed
-          ]
-        },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Dewan VS Group of Institutions India Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "12 Courses", fee: "1.65 L - 2.8 L" },
-          { name: "B.Ed", count: "1 Courses", fee: "81.25 K" },
-          { name: "MBA/PGDM", count: "2 Courses", fee: "1.70 L- 2.4 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "Accepting Exams: JEE Main, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "B.Tech. in Computer Science and Engineering", year2021: "603126", year2022: "646505", year2023: "756099" },
-          { course: "B.Tech. in Artificial Intelligence (AI) and Data Science", year2021: "– / –", year2022: "– / –", year2023: "351961" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    cutOffsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "Admissions are open for 2023 batch. Candidates can visit the official website to apply."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        title: "Dewan V.S Group of Institutions Highlights 2023",
-        content: "Dewan V.S Group of Institutions is a Private college established in year 1996. The college is located in Meerut, Uttar Pradesh. Dewan V.S Group of Institutions is approved by the All India Council for Technical Education, Ministry of HRD, New Delhi, NCTE, NCHMCT, Ministry of Tourism, New Delhi and Bar Council of India,New Delhi. Moreover, the courses of the institute are also affiliated to Dr. A.P.J. Abdul Kalam Technical University, Uttar Pradesh, Lucknow, CCS University, Meerut The institute offers undergraduate, postgraduate, and certificate programmes. The courses provided by the innstitute include B.Tech., BBA, BCA, B.Sc.(HHA), BHMCT, B.A.LL.B., B.Com.LL.B, LL.B., B.Ed., MCA, MBA, PGDM & LL.M. These Degree programmes are in the streams of Hospitality & Travel, IT & Software, Engineering, Business & Management Studies, Teaching & Education and Law. All these programmes are offered in Full Time mode. Below are the major highlights of Dewan V.S Group of Institutions:"
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Dewan VS Group of Institutions India Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "12 Courses", fee: "1.65 L - 2.8 L" },
-          { name: "B.Ed", count: "1 Courses", fee: "81.25 K" },
-          { name: "MBA/PGDM", count: "2 Courses", fee: "1.70 L- 2.4 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "Accepting Exams: JEE Main, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "B.Tech. in Computer Science and Engineering", year2021: "603126", year2022: "646505", year2023: "756099" },
-          { course: "B.Tech. in Artificial Intelligence (AI) and Data Science", year2021: "– / –", year2022: "– / –", year2023: "351961" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    // Add more tab content arrays as needed
-  },
-  {
-    collegeCode: "076",
-    collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
-      name: "JP Institute of Engineering and Technology",
-      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
-      rating: "3.1/5",
-      star : 5,
-      reviewCount: 42,
-      topRated : true,
-      term: "Private",
-      approval: "Approved by: AICTE, Government of Haryana",
-      enquiryButtonText: "Enquiry Now",
-      address: "Mawana Road P.O Rajpura Meerut Uttar Pradesh Meerut ( Uttar Pradesh)",
-      website: "http://www.jpiet.in",
-      businessHours: "9:00 AM to 5:00 PM"
-    },
-    overviewTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        title: "JP Institute of Engineering and Technology Highlights 2023",
-        content: "JP Institute of Engineering & Technology was established in 2007 by JP Education trust. It is located in Meerut, Uttar Pradesh. It offers various courses in various streams of Engineering, Management and Computer Application courses. It aims to provide a broad range of undergraduate programmes in technology, business administration and education. It is approved by AICTE, New Delhi. It is affiliated to Uttar Pradesh Technical University, Lucknow."
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "JP Institute of Engineering and Technology Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "6 Courses", fee: "1.6 L - 2.4 L" },
-          { name: "MCA", count: "1 Courses", fee: "1.2 L" },
-          { name: "MBA/PGDM", count: "1 Courses", fee: "1.3 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "Accepting Exams: JEE Main, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "B.Tech. in Computer Science and Engineering", year2021: "278727", year2022: "897386", year2023: "533167" },
-          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "– / –", year2022: "– / –", year2023: "848002" },
-          { course: "B.Tech. Information Technology", year2021: "568988", year2022: "799466", year2023: "920935" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    admissionsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "JP INSTITUTE OF ENGINEERING AND TECHNOLOGY ADMISSION PROCESS 2023", childContent: "JP Institute of Engineering and Technology admission procedure comprises merit in the qualifying examination or entrance exam scores. JP Institute of Engineering and Technology offers undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at JP Institute of Engineering and Technology of  is online. JP Institute of Engineering and Technology provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-          {childTitle: "JP INSTITUTE OF ENGINEERING AND TECHNOLOGY ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "JP Institute of Engineering and Technology offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. It accepts the scores of various state and national level entrance exams like UPSEE, JEE Main, CAT, MAT, and others. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "criteria",
-          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR JP INSTITUTE OF ENGINEERING AND TECHNOLOGY COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
-          cutOffs: [
-            { course: "B.E./B.Tech", Eligibility: "Exams : JEE MainUPTAC" },
-            { course: "MCA", Eligibility: "Exams : NTACUET-PG" },
-            { course: "After 10th Diploma", Eligibility: "Exams : JEECUP" },
-            { course: "MBA/PGDM", Eligibility: "Graduation : 50 % Exams : NTA CUET-PG" },
-            { course: "M.E./M.Tech", Eligibility: "– / –" },
-            // ... add more cut offs as needed
-          ]
-        },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "JP Institute of Engineering and Technology Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "6 Courses", fee: "1.6 L - 2.4 L" },
-          { name: "MCA", count: "1 Courses", fee: "1.2 L" },
-          { name: "MBA/PGDM", count: "1 Courses", fee: "1.3 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "Accepting Exams: JEE Main, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "B.Tech. in Computer Science and Engineering", year2021: "278727", year2022: "897386", year2023: "533167" },
-          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "– / –", year2022: "– / –", year2023: "848002" },
-          { course: "B.Tech. Information Technology", year2021: "568988", year2022: "799466", year2023: "920935" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    coursesTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "JP INSTITUTE OF ENGINEERING AND TECHNOLOGY ADMISSION PROCESS 2023", childContent: "JP Institute of Engineering and Technology admission procedure comprises merit in the qualifying examination or entrance exam scores. JP Institute of Engineering and Technology offers undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at DVSGI is online. DVSGI provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "CourseEligibility",
-          title : "COURSE AND FEES 2023",
-          cutOffs: [
-            { course: "B.E / BTech (6 courses )",TuitionFees : "1.6 L - 2.4 L", Eligibility: "Exams : JEE Main UPTAC" },
-            { course: "MBA/PGDM (1 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : NTA CUET-PG" },
-            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTA CUET-PG" },
-            { course: "After 10th Diploma (4 courses )",TuitionFees : "1 L", Eligibility: "Exams : JEECUP" },
-            { course: "M.E./M.Tech (1 courses )",TuitionFees : "1.3 L", Eligibility: "– / –" },
-        
-            // ... add more cut offs as needed
-          ]
-        },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "JP Institute of Engineering and Technology Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "6 Courses", fee: "1.6 L - 2.4 L" },
-          { name: "MCA", count: "1 Courses", fee: "1.2 L" },
-          { name: "MBA/PGDM", count: "1 Courses", fee: "1.3 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "Accepting Exams: JEE Main, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "B.Tech. in Computer Science and Engineering", year2021: "278727", year2022: "897386", year2023: "533167" },
-          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "– / –", year2022: "– / –", year2023: "848002" },
-          { course: "B.Tech. Information Technology", year2021: "568988", year2022: "799466", year2023: "920935" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    cutOffsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        title: "JP Institute of Engineering and Technology Highlights 2023",
-        content: "JP Institute of Engineering & Technology was established in 2007 by JP Education trust. It is located in Meerut, Uttar Pradesh. It offers various courses in various streams of Engineering, Management and Computer Application courses. It aims to provide a broad range of undergraduate programmes in technology, business administration and education. It is approved by AICTE, New Delhi. It is affiliated to Uttar Pradesh Technical University, Lucknow."
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "JP Institute of Engineering and Technology Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "6 Courses", fee: "1.6 L - 2.4 L" },
-          { name: "MCA", count: "1 Courses", fee: "1.2 L" },
-          { name: "MBA/PGDM", count: "1 Courses", fee: "1.3 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "Accepting Exams: JEE Main, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "B.Tech. in Computer Science and Engineering", year2021: "278727", year2022: "897386", year2023: "533167" },
-          { course: "B.Tech. in Electronics and Communication Engineering", year2021: "– / –", year2022: "– / –", year2023: "848002" },
-          { course: "B.Tech. Information Technology", year2021: "568988", year2022: "799466", year2023: "920935" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    // Add more tab content arrays as needed
-  },
-  {
-    collegeCode: "127",
-    collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
-      name: "IIMT Group of Colleges",
-      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
-      rating: "4.0/5",
-      star : 5,
-      reviewCount: 15,
-      topRated : true,
-      term: "Private",
-      approval: "Approved by: AICTE, Government of Haryana",
-      enquiryButtonText: "Enquiry Now",
-      address: "IIMT Nagar, ‘O’ Pocket, Ganga Nagar Colony, Mawana Road Meerut ( Uttar Pradesh)",
-      website: "https://iimtcollege.edu.in",
-      businessHours: "9:00 AM to 5:00 PM"
-    },
-    overviewTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        title: "IIMT Group of Colleges Highlights 2023",
-        content: "IIMT Engineering College, Meerut is one of the leading institutions under the aegis of IIMT Group of Colleges, IIMT Engineering College is affiliated to AKTU Lucknow. It has achieved excellence in both scholastic & non scholastic development of its students and is committed to contribute innovatively in the field of technical and professional education. The college is known for imparting high quality professional qualification in the field of engineering and management. Hon’able Chairman, Shri. Yogesh Mohanji Gupta, founder of the institution started this journey in 1994 with a belief to promote Indian culture and research based education to the new generation. Since then the college has achieved many milestones and set high records of producing meritorious students in these fields. IIMT Engineering College welcomes all aspirants who are willing to excel in the fields of engineering & technology and scale their career to greater heights. Our Extended family is an integral part of our lives and we at IIMT welcome you with open arms!"
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "IIMT Group of Colleges Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "11 Courses", fee: "3.05 L" },
-          { name: "MCA", count: "1 Courses", fee: "2.8 L" },
-          { name: "MBA/PGDM", count: "2 Courses", fee: "2.8 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "Accepting Exams: CBSE 12th, UP 12th, ISC, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      // ... add more sections as needed
-    ],
-    admissionsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "IIMT ADMISSION PROCESS 2023", childContent: "IIMT admission procedure comprises merit in the qualifying examination or entrance exam scores. IIMT offers undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at IIMT is online. IIMT provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-          {childTitle: "IIMT ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "IIMT Group of Colleges offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. It accepts the scores of various state and national level entrance exams like UPSEE, JEE Main, CAT, MAT, and others. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "criteria",
-          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR IIMT COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
-          cutOffs: [
-            { course: "B.E./B.Tech", Eligibility: "10+2 : 45 % Exams :CBSE 12th UP 12th UPTAC ISC" },
-            { course: "MBA/PGDM", Eligibility: "Graduation : 50 % Exams : NTA CUET-PG" },
-            { course: "MCA", Eligibility: "Exams : NTA CUET-PG" },
-            { course: "M.E./T.Tech", Eligibility: "Graduation : 55-60 % Exams : JEE Main" },
-            { course: "B.Sc. (Post Basic)", Eligibility: "Exams : CBSE 12th UP 12th" },
-            // ... add more cut offs as needed
-          ]
-        },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "IIMT Group of Colleges Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "11 Courses", fee: "3.05 L" },
-          { name: "MCA", count: "1 Courses", fee: "2.8 L" },
-          { name: "MBA/PGDM", count: "2 Courses", fee: "2.8 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "Accepting Exams: CBSE 12th, UP 12th, ISC, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      // ... add more sections as needed
-    ],
-    coursesTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "The JEE Main Admit Card 2024 is available for download. Further, JEE Main exam 2024 for session 1 will be held between Jan 24, 2024 to Feb 1, 2024. Additionally, JEE Main Session 2 exam will be held between Apr 1, 2024 and Apr 15, 2024."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "IIMT ADMISSION PROCESS 2023", childContent: "IIMT admission procedure comprises merit in the qualifying examination or entrance exam scores. IIMT offers undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at IIMT is online. IIMT provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "CourseEligibility",
-          title : "COURSE AND FEES 2023",
-          cutOffs: [
-            { course: "B.E / BTech (11 courses )",TuitionFees : "1.8 L - 2.4 L", Eligibility: "10+2 : 45 % Exams :CBSE 12th UP 12th UPTAC ISC" },
-            { course: "MBA/PGDM (2 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : NTA CUET-PG" },
-            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "Exams : NTA CUET-PG" },
-            { course: "M.E./M.Tech (3 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 55-60 % Exams : JEE Main" },
-            { course: "B.Sc. (Post Basic) (1 courses )",TuitionFees : "– / –", Eligibility: "Exams : CBSE 12th UP 12th" },
-        
-            // ... add more cut offs as needed
-          ]
-        },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "IIMT Group of Colleges Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "11 Courses", fee: "3.05 L" },
-          { name: "MCA", count: "1 Courses", fee: "2.8 L" },
-          { name: "MBA/PGDM", count: "2 Courses", fee: "2.8 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "Accepting Exams:CBSE 12th, UP 12th, ISC, UPTAC"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      // ... add more sections as needed
-    ],
-    // Add more tab content arrays as needed
-  },
-  {
-    collegeCode: "080",
-    collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
-      name: "Sanskriti University",
-      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
-      rating: "4.3/5",
-      star : 5,
-      reviewCount: 191,
-      topRated : true,
-      term: "Private",
-      approval: "Approved by: AICTE, Government of Haryana",
-      enquiryButtonText: "Enquiry Now",
-      address: "28 K. M. Stone, Mathura - Delhi Highway, Chhata Mathura ( Uttar Pradesh)",
-      website: "www.sanskriti.edu.in",
-      businessHours: "9:00 AM to 5:00 PM"
-    },
-    overviewTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username. CUET PG 2024 registration is ongoing and the last date to apply is Jan 24, 2024. Further, the CUET PG exam will be held between Mar 11, 2024 and Mar 28, 2024"
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        title: "Sanskriti University Highlights 2023",
-        content: "Sanskriti University is a private university that was established in 2016 in Mathura. It is recognised by the University Grants Commission (UGC) and is also a member of the Association of Indian Universities (AIU). The University is approved by the Bar Council of India (BCI), the Rehabilitation Council of India (RCI), the Pharmacy Council of India (PCI) and the National Council for Teacher Education (NCTE). The university also offers international opportunities to students. It has signed MoUs with various prestigious international universities, namely the University of Cambridge, HELP University, Malaysia, Universidad Abierta Interamericana Argentina, etc. The University has a Placement Cell that coordinates with companies for placement drives. It has an overall placement record of 91% with a participation of more than 100 companies. A few of the important highlights regarding Sanskriti University (SU) are mentioned in the table below:"
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Sanskriti University popular programmes 2023",
-        courses: [
-          { name: "M.Sc.", count: "11 Courses", fee: "60 K - 1.4 L" },
-          { name: "B.Sc.", count: "14 Courses", fee: "1.35 L - 6 L" },
-          { name: "B.Pharma", count: "2 Courses", fee: "2.82 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "M.Sc. Admissions 2024",
-        eligibility: [
-          "Undergraduate Degree with 50% aggregate",
-          "Accepting Exams: CUET-PG"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      // ... add more sections as needed
-    ],
-    admissionsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "CUET UG 2024 exam date announced. The exam will be held from May 15, 2024 to May 31, 2024. CUET 2024 application form is expected to be released in the first week of February 2024.CUET PG 2024 registration is ongoing and the last date to apply is Jan 24, 2024. Further, the CUET PG exam will be held between Mar 11, 2024 and Mar 28, 2024."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "SANSKRITI UNIVERSITY ADMISSION PROCESS 2023", childContent: "Sanskriti University admission procedure comprises merit in the qualifying examination or entrance exam scores. Sanskriti University offers undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at Sanskriti University is online. Sanskriti University provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-          {childTitle: "SANSKRITI UNIVERSITY ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "Sanskriti University offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. It accepts the scores of various state and national level entrance exams like UPSEE, JEE Main, CAT, MAT, and others. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "criteria",
-          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR SANSKRITI UNIVERSITY COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
-          cutOffs: [
-            { course: "B.E./B.Tech", Eligibility: "10+2 : 45-60 % Exams : CBSE 12thJEE Main CUET" },
-            { course: "B.Pharma", Eligibility: "Exams : CUET" },
-            { course: "M.E./M.Tech", Eligibility: "Graduation : 55 % Exams : CUET-PG" },
-            { course: "MBA/PGDM", Eligibility: "10+2 : 50 % Graduation : 50 % Exams : MAT CAT NMAT XAT NAT CBSE 12th UP 12th" },
-            { course: "MCA", Eligibility: "10+2 : 50 % Exams : CUET-PG" },
-            { course: "BCA", Eligibility: "	10+2 : 50 % Exams : CBSE 12thCUET" },
-            { course: "PhD", Eligibility: "– / –" },
-            // ... add more cut offs as needed
-          ]
-        },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Sanskriti University popular programmes 2023",
-        courses: [
-          { name: "M.Sc.", count: "11 Courses", fee: "60 K - 1.4 L" },
-          { name: "B.Sc.", count: "14 Courses", fee: "1.35 L - 6 L" },
-          { name: "B.Pharma", count: "2 Courses", fee: "2.82 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "M.Sc. Admissions 2024",
-        eligibility: [
-          "Undergraduate Degree with 50% aggregate",
-          "Accepting Exams: CUET-PG"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      // ... add more sections as needed
-    ],
-    coursesTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "CUET UG 2024 exam date announced. The exam will be held from May 15, 2024 to May 31, 2024. CUET 2024 application form is expected to be released in the first week of February 2024.CUET PG 2024 registration is ongoing and the last date to apply is Jan 24, 2024. Further, the CUET PG exam will be held between Mar 11, 2024 and Mar 28, 2024."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "SANSKRITI UNIVERSITY ADMISSION PROCESS 2023", childContent: "Sanskriti University admission procedure comprises merit in the qualifying examination or entrance exam scores. Sanskriti University offers undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at Sanskriti University is online. Sanskriti University provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "CourseEligibility",
-          title : "COURSE AND FEES 2023",
-          cutOffs: [
-            { course: "B.E / BTech (10 courses )",TuitionFees : "2.4 L - 4.6 L", Eligibility: "10+2 : 45-60 % Exams : CBSE 12th JEE Main CUET" },
-            { course: "B.Pharma (1 courses )",TuitionFees : "2.8 L", Eligibility: "Exams : CUET" },
-            { course: "B.Sc (14 courses )",TuitionFees : "1.4 L - 6 L", Eligibility: "10+2 : 45-60 % Exams : CBSE 12thUP 12th CUET ISC" },
-            { course: "MCA (1 courses )",TuitionFees : "1.2 L", Eligibility: "10+2 : 50 % Exams : CUET-PG" },
-            { course: "MBA/PGDM (5 courses )",TuitionFees : "1.3 L - 1.4 L", Eligibility: "10+2 : 50 % Graduation : 50 % Exams : MAT CAT NMAT XAT NAT CBSE 12th UP 12th" },
-            { course: "M.E/M.Tech (5 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 55 % Exams : CUET-PG" },
-            { course: "BCA ( 4 courses )",TuitionFees : "1.8 L - 2.7 L", Eligibility: "10+2 : 50 % Exams : CBSE 12thCUET" },
-            { course: "M.Sc (11 courses )",TuitionFees : "60 K - 1.4 L", Eligibility: "Graduation : 50 % Exams : CUET-PG" },
-        
-            // ... add more cut offs as needed
-          ]
-        },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Sanskriti University popular programmes 2023",
-        courses: [
-          { name: "M.Sc.", count: "11 Courses", fee: "60 K - 1.4 L" },
-          { name: "B.Sc.", count: "14 Courses", fee: "1.35 L - 6 L" },
-          { name: "B.Pharma", count: "2 Courses", fee: "2.82 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "M.Sc. Admissions 2024",
-        eligibility: [
-          "Undergraduate Degree with 50% aggregate",
-          "Accepting Exams: CUET-PG"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "JEE Main 2024 Admit Card" },
-          { date: "24 Jan '24 - 1 Feb '24", event: "JEE Main 2024 Exam Date Session 1" },
-          { date: "12 Feb '24", event: "JEE Main 2024 Result Session 1" },
-          // ... add more dates as needed
-        ]
-      },
-      // ... add more sections as needed
-    ],
-    // Add more tab content arrays as needed
-  },
-  {
-    collegeCode: "081",
-    collegeDetails: {
-      imageSrc: "/assets/images/miet.jpg",
-      logoSrc: "/assets/images/mietLogo.jpg",
-      name: "Asia-Pacific Institute of Management, New Delhi",
-      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
-      rating: "4.1/5",
-      star : 5,
-      reviewCount: 85,
-      topRated : true,
-      term: "Private",
-      approval: "Approved by: AICTE, Government of Haryana",
-      enquiryButtonText: "Enquiry Now",
-      address: "3&4, GD Birla Marg, Institutional Area, Delhi",
-      website: "www.asiapacific.edu",
-      businessHours: "9:00 AM to 5:00 PM"
-    },
-    overviewTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        title: "Asia-Pacific Institute of Management Highlights 2023",
-        content: "Established in 1996, the Asia-Pacific Institute of Management is one of the premier management institutes located in Jasola Vihar, New Delhi. Asia Pacific Institute of Management offers students limitless opportunities to pursue their broad interests and career prospects. APIM New Delhi is approved by the All India Council for Technical Education (AICTE), Ministry of Human Resource and Development (MHRD), Government of India and The Institute of Management Accountants (IMA) quality assurance. The Asia-Pacific Institute of Management provides various PGDM programmes in specialisations such as General (Dual Specialisation), Healthcare Management, Big Data Analysis, Banking & Financial Services, and Marketing. Below are some of the key facts about the Asia-Pacific Institute of Management New Delhi:"
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Asia-Pacific Institute of Management Popular Programmes",
-        courses: [
-          { name: "MBA/PGDM", count: "6 Courses", fee: "9.9 L - 11.4 L" },
-          { name: "M.Sc.", count: "1 Courses", fee: "13.5 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "MBA/PGDM Admissions 2024",
-        eligibility: [
-          "Undergraduate Degree with 45% aggregate",
-          "Accepting Exams: MAT, XAT, CAT, CMAT"
-        ],
-        importantDates: [
-          { date: "Jan '24", event: "XAT 2024 Result" },
-          { date: "Feb '24", event: "XAT 2023 Cut Offs Release" },
-          { date: "22 Feb '24", event: "MAT 2024 Admit Card PBT Download" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "Post Graduate Diploma in Management (PGDM) (General) (OVERALL)", year2020: "70", year2021: "70", year2022: "70" },
 
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    admissionsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "ASIA PACIFIC INSTITUTE OF MANAGEMENT ADMISSION PROCESS 2023", childContent: "The institute offers 12 courses under three programmes MBA, PGDM and MSc. Asia Pacific Institute of Management admission 2024 for New Delhi campus is merit-based and national-based entrance exam scores for PG courses. The institute accepts national-level entrance exams such as CMAT/CAT/MAT/XAT for admission to APIM course admissions. Students can check the table below to know the overall admission and application status for the year 2023:" },
-          {childTitle: "ASIA PACIFIC INSTITUTE OF MANAGEMENT ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "Asia-Pacific Institute of Management offers several PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. It accepts the scores of various state and national level entrance exams like UPSEE, JEE Main, CAT, MAT, and others. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "criteria",
-          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR ASIA PACIFIC INSTITUTE OF MANAGEMENT COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
-          cutOffs: [
-            { course: "MBA/PGDM (General)", Eligibility: "Graduation : 45-50 % Exams Accepted: CAT MAT XAT CMAT" },
-            { course: "M.Sc.", Eligibility: "Graduation : 50 %" },
-            { course: "PGDM in Healthcare Management", Eligibility: "Graduation : 45-50 % Exams Accepted: CAT MAT XAT CMAT" },
-            { course: "PGDM in Banking and Financial Services", Eligibility: "Graduation : 45-50 % Exams Accepted: CAT MAT XAT CMAT" },
-            { course: "PGDM in Marketing Management", Eligibility: "Graduation : 45-50 % Exams Accepted: CAT MAT XAT CMAT" },
-            { course: "PGDM in Big Data Analytics", Eligibility: "Graduation : 45-50 % Exams Accepted: CAT MAT XAT CMAT" },
-            // ... add more cut offs as needed
-          ]
+        Eligibility : {
+          heading : "BTech Eligibility Criteria",
+          content : "Eligibility for BTech requires candidates to pass the 12th class with Physics, Chemistry, and Mathematics, securing a minimum of 60% aggregate. Admissions are primarily based on entrance exam performance. Regular entry is after Class 12, while Lateral-Entry allows diploma holders to join in the second year. Criteria may vary by institute. MBA eligibility criteria vary from one institution to another, but there are some common requirements that prospective students must meet. Meeting the eligibility criteria for an MBA is the first step towards pursuing an MBA course and ensures that candidates have the necessary foundation to excel in their studies."
         },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Asia-Pacific Institute of Management Popular Programmes",
-        courses: [
-          { name: "MBA/PGDM", count: "6 Courses", fee: "9.9 L - 11.4 L" },
-          { name: "M.Sc.", count: "1 Courses", fee: "13.5 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "MBA/PGDM Admissions 2024",
-        eligibility: [
-          "Undergraduate Degree with 45% aggregate",
-          "Accepting Exams: MAT, XAT, CAT, CMAT"
+        CourseTypeTable : [
+          {CourseType	: "Qualification" ,  EligibilityCriteria  : "Pass 12th class with Physics, Chemistry, and Mathematics"},
+          {CourseType	: "Aggregate Marks" ,  EligibilityCriteria  : "Minimum 60% in the above subjects combined"},
+          {CourseType	: "Admission Mode" ,  EligibilityCriteria  : "Entrance exam performance"},
+          {CourseType	: "Entry Modes" ,  EligibilityCriteria  : "Regular after Class 12 or Lateral-Entry for diploma holders (second year)"},
+          {CourseType	: "Variation" ,  EligibilityCriteria  : "Criteria may vary by institute"},
+          
         ],
-        importantDates: [
-          { date: "Jan '24", event: "XAT 2024 Result" },
-          { date: "Feb '24", event: "XAT 2023 Cut Offs Release" },
-          { date: "22 Feb '24", event: "MAT 2024 Admit Card PBT Download" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "Post Graduate Diploma in Management (PGDM) (General) (OVERALL)", year2020: "70", year2021: "70", year2022: "70" },
-
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    coursesTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "Asia-Pacific Institute of Management admissions 2024 is currently open for PGDM courses. Candidates can apply online through the official website."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "ASIA PACIFIC INSTITUTE OF MANAGEMENT PROCESS 2023", childContent: "The institute offers 12 courses under three programmes MBA, PGDM and MSc. Asia Pacific Institute of Management admission 2024 for New Delhi campus is merit-based and national-based entrance exam scores for PG courses. The institute accepts national-level entrance exams such as CMAT/CAT/MAT/XAT for admission to APIM course admissions. Students can check the table below to know the overall admission and application status for the year 2023:" },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "CourseEligibility",
-          title : "COURSE AND FEES 2023",
-          cutOffs: [
-            { course: "MBA/PGDM (6 courses )",TuitionFees : "9.9 L - 11.4 L", Eligibility: "Graduation : 45-50 % Exams Accepted: CAT MAT XAT CMAT" },
-            { course: "M.Sc. (1 courses )",TuitionFees : "13.5 L", Eligibility: "Graduation : 50 %" },
-        
-            // ... add more cut offs as needed
-          ]
+        EntranceExams : {
+          heading : "B.tech Entrance Exams 2024",
+          content : "In India, BTech courses, governed by the All India Council for Technical Education (AICTE) and the National Board of Accreditation (NBA), follow a standardized admission process. Students enter through national/state/institute-level engineering entrance exams. Key exams include MBA Entrance Exams 2023 in India are highly anticipated by aspiring candidates seeking admission to prestigious business schools. These MBA entrance exams serve as a gateway to secure a seat in renowned MBA courses across the country. MBA aspiring candidates should thoroughly prepare and strategize for these exams to enhance their chances of securing admission to esteemed MBA courses in India."
         },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Asia-Pacific Institute of Management Popular Programmes",
-        courses: [
-          { name: "MBA/PGDM", count: "6 Courses", fee: "9.9 L - 11.4 L" },
-          { name: "M.Sc.", count: "1 Courses", fee: "13.5 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "MBA/PGDM Admissions 2024",
-        eligibility: [
-          "Undergraduate Degree with 45% aggregate",
-          "Accepting Exams: MAT, XAT, CAT, CMAT"
+        EntranceTable : [
+          {EntranceExams		: "JEE Main" ,  ExamDates : "JEE Main 2024 Exam Date Session 1-> 24 Jan '24 - 1 Feb '24 |JEE Main 2024 Exam Date Session 2-> 1 Apr '24 - 15 Apr '24"},
+          {EntranceExams		: "JEE Advance" ,  ExamDates : "Jun '24 (Tentative)"},
+          {EntranceExams		: "MHTCET" ,  ExamDates : "PCM and PCB- May '24 (Tentative)"},
+          {EntranceExams		: "CUET" ,  ExamDates : "15 May '24 - 31 May '24"},
+          {EntranceExams		: "TS EAMCET" ,  ExamDates : "TS EAMCET 2024 exam for AM and Eng stream- May ’24 (Tentative)"},
+          {EntranceExams		: "BITSAT" ,  ExamDates : "May '24 (Tentative)"},
+          {EntranceExams		: "COMEDK UGET" ,  ExamDates : "12 May '24"},
+          {EntranceExams		: "KCET" ,  ExamDates : "20 Apr '24 - 21 Apr '24"},
+          {EntranceExams		: "KEAM" ,  ExamDates : "May '24 (Tentative)"},
+          {EntranceExams		: "WBJEE" ,  ExamDates : "28 Apr '24"},
+          {EntranceExams		: "VITEEE" ,  ExamDates : "19 Apr '24 - 30 Apr '24"},
+          
         ],
-        importantDates: [
-          { date: "Jan '24", event: "XAT 2024 Result" },
-          { date: "Feb '24", event: "XAT 2023 Cut Offs Release" },
-          { date: "22 Feb '24", event: "MAT 2024 Admit Card PBT Download" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "Post Graduate Diploma in Management (PGDM) (General) (OVERALL)", year2020: "70", year2021: "70", year2022: "70" },
-
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    cutOffsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        title: "Asia-Pacific Institute of Management Highlights 2023",
-        content: "Established in 1996, the Asia-Pacific Institute of Management is one of the premier management institutes located in Jasola Vihar, New Delhi. Asia Pacific Institute of Management offers students limitless opportunities to pursue their broad interests and career prospects. APIM New Delhi is approved by the All India Council for Technical Education (AICTE), Ministry of Human Resource and Development (MHRD), Government of India and The Institute of Management Accountants (IMA) quality assurance. The Asia-Pacific Institute of Management provides various PGDM programmes in specialisations such as General (Dual Specialisation), Healthcare Management, Big Data Analysis, Banking & Financial Services, and Marketing. Below are some of the key facts about the Asia-Pacific Institute of Management New Delhi:"
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Asia-Pacific Institute of Management Popular Programmes",
-        courses: [
-          { name: "MBA/PGDM", count: "6 Courses", fee: "9.9 L - 11.4 L" },
-          { name: "M.Sc.", count: "1 Courses", fee: "13.5 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "MBA/PGDM Admissions 2024",
-        eligibility: [
-          "Undergraduate Degree with 45% aggregate",
-          "Accepting Exams: MAT, XAT, CAT, CMAT"
+        Cutoff  : {
+          heading : "B.Tech Cutoff 2023",
+          content : "JEE Main, a qualifying exam for NITs, IIITs, and GFTIs, has its 2023 cutoff released by the NTA. Check here for details."
+        },
+        IIMsTable : [
+          {IIMs		: "Common Rank List" ,  Percentile : "90.7788642"},
+          {IIMs		: "Gen-EWS" ,  Percentile : "75.6229025"},
+          {IIMs		: "OBC-NCL" ,  Percentile : "73.6114227"},
+          {IIMs		: "SC" ,  Percentile : "51.9776027"},
+          {IIMs		: "ST" ,  Percentile : "37.2348772"},
+          {IIMs		: "PwD" ,  Percentile : "0.0013527"}, 
         ],
-        importantDates: [
-          { date: "Jan '24", event: "XAT 2024 Result" },
-          { date: "Feb '24", event: "XAT 2023 Cut Offs Release" },
-          { date: "22 Feb '24", event: "MAT 2024 Admit Card PBT Download" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "Post Graduate Diploma in Management (PGDM) (General) (OVERALL)", year2020: "70", year2021: "70", year2022: "70" },
-
-          // ... add more cut offs as needed
-        ]
-      }
+      } ,
+      
       // ... add more sections as needed
-    ],
-    // Add more tab content arrays as needed
+   
+      syllabusTabContentData :  {
+        id: "Syllabus",
+        type : "Syllabus",
+        title: "Syllabus",
+        content: "In BTech, each specialisation has a unique course curriculum. Initial subjects in the first year are common, with specific branch electives. From the third semester onwards, students delve into branch-specific courses. Explore key subjects for popular BTech specialisations below:",
+        coreSubjecttable : [
+          {Subject	: "Artificial Intelligence and Machine Learning" ,  SubjectDetails :  "View More"  },
+          {Subject	: "Nanotechnology " ,  SubjectDetails : "View More"},
+          {Subject	: "Computer Science Engineering" ,  SubjectDetails : "View More"},
+          {Subject	: "Electronics and Communication Engineering" ,  SubjectDetails : "View More"},
+          {Subject	: "Chemical Engineering" ,  SubjectDetails : "View More"},
+          {Subject	: "Food Technology" ,  SubjectDetails : "View More"},
+          {Subject	: "Data Science" ,  SubjectDetails : "View More"},
+          {Subject	: "Mechanical Engineering" ,  SubjectDetails : "View More"},
+          {Subject	: "Civil Engineering" ,  SubjectDetails : "View More"},
+
+           
+        ],
+        selectedSubjecttable : [
+          {Subject	: "" ,  SubjectDetails : ""},
+           
+        ],
+     
+      },
+     
+      carrerTabContentData :  {
+        id: "carrer",
+        type : "carrer",
+        title: "BTech Job Profiles",
+        content: [
+          "Upon completing a 4-year BTech, graduates face diverse career choices. Many opt for an MBA, while others pursue higher studies through GATE. Some venture into entrepreneurship, launching startups. BTech graduates find abundant job opportunities across sectors. Besides engineering roles, they excel as consultants, subject matter experts, researchers, and managers. Popular job profiles include" 
+        ],
+        Careerstable : [
+          {Profiles	: "Software Engineer" ,  Salary : "7.7 LPA"},
+          {Profiles	: "Data Scientist" ,  Salary : "13.4 LPA"},
+          {Profiles	: "Data Analyst" ,  Salary : "6 LPA"},
+          {Profiles	: "Data Engineer" ,  Salary : "10.1 LPA"},
+          {Profiles	: "Civil Engineer" ,  Salary : "4.6 LPA"},
+          {Profiles	: "Chemical Enginee" ,  Salary : "5.1 LPA"},
+          {Profiles	: "Petroleum Engineer" ,  Salary : "12.1 LPA"},
+          {Profiles	: "Electrical Engineer" ,  Salary : "4.4 LPA"},
+          {Profiles	: "Electronics Engineer" ,  Salary : "3.4 LPA"},
+          {Profiles	: "Biomedical Engineer" ,  Salary : "3.3 LPA"},
+          {Profiles	: "Aeronautical Engineer" ,  Salary : "4 LPA"},
+          {Profiles	: "Industrial Engineer" ,  Salary : "4.3 LPA"},
+          {Profiles	: "Mechanical Engineer" ,  Salary : "4.3 LPA"},
+
+
+           
+        ] 
+     
+      },
+      admissionTabContentData :  {
+        id: "admission",
+        type : "admission",
+        title: "MBA 2024 Admission Process",
+        content: [
+          "Stage 1: Check Eligibility",
+          "Stage 2: Choose Entrance Exams",
+          "Stage 3: Prepare and Appear for Entrance Exams",
+          "Stage 4: Await Results",
+          "Stage 5: Participate in Counseling/Admission Process",
+          "Stage 6: Secure Admission"  
+        ],
+        admissiontable : [
+          {Exams	: "JEE Main" ,  Date : "JEE Main 2024 Exam Date Session 1-> -24 Jan '24 - 1 Feb '24 | JEE Main 2024 Exam Date Session 2-> 1 Apr '24 - 15 Apr '24"},
+          {Exams		: "JEE Main" ,  Date : "JEE Main 2024 Exam Date Session 1-> 24 Jan '24 - 1 Feb '24 |JEE Main 2024 Exam Date Session 2-> 1 Apr '24 - 15 Apr '24"},
+          {Exams		: "JEE Advance" ,  Date : "Jun '24 (Tentative)"},
+          {Exams		: "MHTCET" ,  Date : "PCM and PCB- May '24 (Tentative)"},
+          {Exams		: "CUET" ,  Date : "15 May '24 - 31 May '24"},
+          {Exams		: "TS EAMCET" ,  Date : "TS EAMCET 2024 exam for AM and Eng stream- May ’24 (Tentative)"},
+          {Exams		: "BITSAT" ,  Date : "May '24 (Tentative)"},
+          {Exams		: "COMEDK UGET" ,  Date : "12 May '24"},
+          {Exams		: "KCET" ,  Date : "20 Apr '24 - 21 Apr '24"},
+          {Exams		: "KEAM" ,  Date : "May '24 (Tentative)"},
+          {Exams		: "WBJEE" ,  Date : "28 Apr '24"},
+          {Exams		: "VITEEE" ,  Date : "19 Apr '24 - 30 Apr '24"},
+           
+        ] 
+     
+      } 
+  
   },
-  {
-    collegeCode: "082",
+ {
+    collegeCode: "mtech",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
-      name: "Maharishi University of Information Technology",
+      name: "Mtech Course",
       description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
-      rating: "3.8/5",
-      star : 5,
-      reviewCount: 17,
-      topRated : true,
-      term: "Private",
-      approval: "Approved by: AICTE, Government of Haryana",
-      enquiryButtonText: "Enquiry Now",
-      address: "Sector 110, PO- Maharishi Nagar, Distt. Gautam Budh Nagar Noida ( Uttar Pradesh)",
-      website: "www.muitnoida.edu.in",
-      businessHours: "9:00 AM to 5:00 PM"
     },
-    overviewTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "Maharishi University of Information Technology Admissions 2024 are open to all the courses. Candidates can apply through the official website."
-      },
-      {
+   
+   
+    overviewTabData : {
         id: "Overview",
-        type : "overview",
-        title: "Maharishi University Highlights 2023",
-        content: "The Maharishi University of Information Technology (MUIT) was established in 2001. The university is approved by the Pharmacy Council of India and the Bar Council of India. The university provides Bachelor, Master, and Doctoral programmes in one of the widest disciplines, including Science, Commerce, Management, Humanities, Pharmacy, Engineering, Animation, Journalism & Mass Communication, Law, and Enrichment Courses. Some of the courses offered include MBA, BTech, LLM, BSc, BCA, BBA LLB, BCom, BBA, BA, MA, MCom, MCA, etc."
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Maharishi University Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "4 Courses", fee: "5 L - 6 L" },
-          { name: "BCA", count: "3 Courses", fee: "2.25 L - 3 L" },
-          { name: "B.Sc.", count: "11 Courses", fee: "1.8 L - 6 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "CBSE 12th UP 12th"
+        type : "Overview",
+        content: "MTech, or Master of Technology, is a postgraduate engineering program spanning two years. Offered in various specializations like Civil, Computer Science, Chemical, and more, it caters to diverse fields like Cyber Security, Aeronautical Engineering, and Artificial Intelligence. MTech has full-time, part-time, online, and sponsored options. Admissions, regulated by UGC, AICTE, and NBA, involve national/state/institute-level entrance exams. Eligibility mandates a 60% aggregate in a related Bachelor's degree. Premier institutes like IITs and NITs are top choices, with admissions based on competitive exams, academics, and interviews.",
+        Particularstable : [
+          
+            { Particulars: "Course Level", CourseDetails: "Post Graduation" },
+  { Particulars: "Course Name", CourseDetails: "Master of Technology" },
+  { Particulars: "Eligibility", CourseDetails: "BTech + GATE" },
+  { Particulars: "Duration", CourseDetails: "2 years" },
+  { Particulars: "Examination Type", CourseDetails: "Semester-wise" },
+  { Particulars: "Course Fee", CourseDetails: "Up to INR 3 lakh" },
+  { Particulars: "Top Colleges", CourseDetails: ["DTU", "IIT Kharagpur", "IIT Bombay", "IIT Madras", "IIT Delhi", "IIT Kanpur"] },
+  { Particulars: "Online Courses", CourseDetails: ["M.Tech. Software Engineering by BITS Pilani", "M.Tech. Cloud Computing by BITS Pilani", "M.Tech. in Electric Vehicle (EV) Technology by IIT Hyderabad"] },
+  { Particulars: "Average Salary", CourseDetails: "Up to INR 7 lakh" },
+  { Particulars: "Top Recruiters", CourseDetails: ["Google", "Apple", "Microsoft", "Qualcomm", "EXL", "Amazon", "ICICI"] },
+  { Particulars: "Top Exams", CourseDetails: ["GATE", "OJEE", "CUCET", "GUJCET"] },
+  { Particulars: "Job Positions", CourseDetails: ["Assistant Engineer", "Production Engineer", "Mining Engineer", "Researcher", "Software Developer"] },
+  { Particulars: "Specialisations", CourseDetails: ["Mining", "Civil", "Electronics", "Mechanical", "Computer Science", "Biotechnology"] }
+          
         ],
-      },
-      // ... add more sections as needed
-    ],
-    admissionsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "Maharishi University of Information Technology Admissions 2024 are open to all the courses. Candidates can apply through the official website."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "MAHARISHI UNIVERSITY ADMISSION PROCESS 2023", childContent: "Maharishi University of Information Technology, Noida has been recognised by the UGC and AICTE. The university offers various UG and PG programmes in various streams such as Data Science, Animation, Law, Consciousness and Journalism and mass Communication. The duration of all these programmes is between one and five years. The application form for MUIT can be submitted either at the Admission cell, Noida campus or through the website. Direct admission will be offered based on your JEE score/ CUET score/ CLAT score or if you score 90% in class 12 from a recognized board." },
-          {childTitle: "MAHARISHI UNIVERSITY ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "Maharishi University offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. It accepts the scores of various state and national level entrance exams like UPSEE, JEE Main, CAT, MAT, and others. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "criteria",
-          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR MAHARISHI UNIVERSITY COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
-          cutOffs: [
-            { course: "B.E./B.Tech", Eligibility: "10+2 : 45 % Exams : CBSE 12thUP 12th" },
-            { course: "BPharma", Eligibility: "10+2 with 50% Exams: CBSE 12th UP 12th ISC" },
-            { course: "M.Sc", Eligibility: "Graduation : 40-45 %" },
-            { course: "MBA/PGDM", Eligibility: "Graduation : 50 %" },
-            { course: "MCA", Eligibility: "	 Graduation : 50 %" },
-            { course: "D.Pharma", Eligibility: "	10+2 : 50 % Exams : CBSE 12th UP 12th ISC" },
-            // ... add more cut offs as needed
-          ]
+
+        Eligibility : {
+          heading : "MTech Eligibility Criteria",
+          content : "Candidates who have completed their BE/BTech degree with a valid score in GATE are eligible for MTech degree course. Candidates who have completed a 5-year program in Science or Applied Sciences resulting in the award of a Master of Science degree are also eligible for Master of Engineering course.Admission is based on rank obtained in the entrance test conducted for MTech "
         },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Maharishi University Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "4 Courses", fee: "5 L - 6 L" },
-          { name: "BCA", count: "3 Courses", fee: "2.25 L - 3 L" },
-          { name: "B.Sc.", count: "11 Courses", fee: "1.8 L - 6 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "CBSE 12th UP 12th"
+       
+        CourseTypeTable : [
+          {CourseType	: "Educational Qualification" ,  EligibilityCriteria  : "Completion of BE/BTech degree with a valid score in GATE.<br> - Completion of a 5-year program in Science or Applied Sciences resulting in the award of a Master of Science degree."},
+          {CourseType	: "Admission Criteria" ,  EligibilityCriteria  : "Eligibility is determined based on the completion of the above-mentioned degrees.<br> - Valid GATE score for BE/BTech graduates.<br> - Entrance test rank for candidates with a Master of Science degree."},
+          {CourseType	: "Additional Information (if any)" ,  EligibilityCriteria  : "Admission is primarily based on the rank obtained in the entrance test conducted for MTech."},  
         ],
-      },
-      // ... add more sections as needed
-    ],
-    coursesTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "Maharishi University of Information Technology Admissions 2024 are open to all the courses. Candidates can apply through the official website."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "MAHARISHI UNIVERSITY ADMISSION PROCESS 2023", childContent: "Maharishi University of Information Technology, Noida has been recognised by the UGC and AICTE. The university offers various UG and PG programmes in various streams such as Data Science, Animation, Law, Consciousness and Journalism and mass Communication. The duration of all these programmes is between one and five years. The application form for MUIT can be submitted either at the Admission cell, Noida campus or through the website. Direct admission will be offered based on your JEE score/ CUET score/ CLAT score or if you score 90% in class 12 from a recognized board." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "CourseEligibility",
-          title : "COURSE AND FEES 2023",
-          cutOffs: [
-            { course: "B.E / BTech (4 courses )",TuitionFees : "5 L - 6 L", Eligibility: "10+2 : 45 % Exams : CBSE 12th UP 12th" },
-            { course: "B.Pharma (1 courses )",TuitionFees : "4.8 L", Eligibility: "10+2 : 50 % Exams : CBSE 12th UP 12th ISC" },
-            { course: "B.Sc (11 courses )",TuitionFees : "1.8 L - 6 L", Eligibility: "10+2 : 50 % Exams : CBSE 12th UP 12th ISC" },
-            { course: "MCA (1 courses )",TuitionFees : "– / –", Eligibility: "Graduation : 50 %" },
-            { course: "MBA/PGDM (1 courses )",TuitionFees : "2 L", Eligibility: "Graduation : 50 % " },
-            { course: "LL.M. (20 courses)",TuitionFees : "80 K - 1.6 L", Eligibility: "Graduation : 50 % Exams : CBSE 12th" },
-            { course: "D.Pharma (1 courses )",TuitionFees : "2.4 L", Eligibility: "10+2 : 50 % Exams : CBSE 12th UP 12th ISC" },
-            { course: "M.Sc (2 courses )",TuitionFees : "1.4 L - 4 L", Eligibility: "Graduation : 40-45 %" },
+        EntranceExams : {
+          heading : "MTech Entrance Exams 2024",
+          content : "GATE, or the Graduate Aptitude Test in Engineering, is an annual national-level entrance exam for admission to MTech and PhD programs at leading institutions like IITs, NITs, and IIITs across India. Jointly conducted by seven IITs and IISc Bangalore, GATE is a crucial qualifier for postgraduate engineering studies. Successful candidates gain access to top-tier academic opportunities, making GATE a key element in the pursuit of advanced engineering education in India"
+        },
+        EntranceTable : [
+          {EntranceExams		: "JEE Main" ,  ExamDates : "JEE Main 2024 Exam Date Session 1-> 24 Jan '24 - 1 Feb '24 |JEE Main 2024 Exam Date Session 2-> 1 Apr '24 - 15 Apr '24"},
+          {EntranceExams		: "JEE Advance" ,  ExamDates : "Jun '24 (Tentative)"},
+          {EntranceExams		: "MHTCET" ,  ExamDates : "PCM and PCB- May '24 (Tentative)"},
+          {EntranceExams		: "CUET" ,  ExamDates : "15 May '24 - 31 May '24"},
+          {EntranceExams		: "TS EAMCET" ,  ExamDates : "TS EAMCET 2024 exam for AM and Eng stream- May ’24 (Tentative)"},
+         ],
+        Cutoff  : {
+          heading : "Mtech Cutoff 2023",
+          content : "JEE Main, a qualifying exam for NITs, IIITs, and GFTIs, has its 2023 cutoff released by the NTA. Check here for details."
+        },
+        IIMsTable : [
         
-            // ... add more cut offs as needed
-          ]
-        },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Maharishi University Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "4 Courses", fee: "5 L - 6 L" },
-          { name: "BCA", count: "3 Courses", fee: "2.25 L - 3 L" },
-          { name: "B.Sc.", count: "11 Courses", fee: "1.8 L - 6 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "CBSE 12th UP 12th"
         ],
-      },
-      // ... add more sections as needed
-    ],
-    cutOffsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "Maharishi University of Information Technology Admissions 2024 are open to all the courses. Candidates can apply through the official website."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        title: "Maharishi University Highlights 2023",
-        content: "The Maharishi University of Information Technology (MUIT) was established in 2001. The university is approved by the Pharmacy Council of India and the Bar Council of India. The university provides Bachelor, Master, and Doctoral programmes in one of the widest disciplines, including Science, Commerce, Management, Humanities, Pharmacy, Engineering, Animation, Journalism & Mass Communication, Law, and Enrichment Courses. Some of the courses offered include MBA, BTech, LLM, BSc, BCA, BBA LLB, BCom, BBA, BA, MA, MCom, MCA, etc."
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "Maharishi University Popular Programmes",
-        courses: [
-          { name: "B.E./B.Tech", count: "4 Courses", fee: "5 L - 6 L" },
-          { name: "BCA", count: "3 Courses", fee: "2.25 L - 3 L" },
-          { name: "B.Sc.", count: "11 Courses", fee: "1.8 L - 6 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "B.E. / B.Tech Admissions 2024",
-        eligibility: [
-          "10+2 with 45% aggregate",
-          "CBSE 12th UP 12th"
+      } ,
+      
+     
+   
+      syllabusTabContentData :  {
+        id: "Syllabus",
+        type : "Syllabus",
+        title: "Syllabus",
+        content: "MTech, a common abbreviation for Master of Technology, is a two-year professional technical degree pursued after completing BTech/BE or BSc. Popular specializations include Information Technology, Data Science, Artificial Intelligence, Machine Learning, and Information Security. Students can choose between part-time and regular MTech programs based on their convenience.",
+        coreSubjecttable : [
+          {Subject	: "MTech in Chemical Engineering: Advanced Momentum Transfer, Advanced Mass Transfer Operations" ,  SubjectDetails :  "These subjects introduce the students to the following concepts – <br> 1)Turbulent flow, Bernoulli's equation and its applications, Gas-liquid and solid-liquid fluidised bed, etc. <br> 2) Characterisation of Separation processes, Multistage separation processes, Binary multistage separation, Energy requirements of a separation process, etc."  },
+          {Subject	: "MTech in Civil Engineering: Matrix1)Methods of Structural Analysis <br> 2)Finite Element Analysis" ,  SubjectDetails : "These subjects introduce the students to the following concepts 1) It involves matrix methods like Direct Flexibility, Generalised Flexibility, Direct Stiffness, Generalised Stiffness, etc. 2) FEM & Approximate Methods, One Dimensional FE Analysis, FE Analysis by Direct Approach, Two Dimensional FE Analysis, etc."},
+          {Subject	: "MTech Software Engineering: 1)Machine Learning 2)Software Architecture" ,  SubjectDetails : "These subjects introduce the students to the following concepts- 1) Basic definitions, types of learning, hypothesis space and inductive bias, evaluation, cross-validation, Perceptron, introduction to the deep neural network, k-means, adaptive hierarchical clustering, Gaussian mixture model, etc. 2) Architecture Documentation: SEI Framework, Module View, Component and Connector View, Deployment View, Pattern-Oriented Software Architecture: Layer, MVC, Pipe-Filter, etc."},
+          {Subject	: "MTech in Electrical Engineering POWER SYSTEM MODELLING" ,  SubjectDetails : "The subject introduces the students to the concepts of Modelling Power System Components, Synchronous machine modelling and its analysis, Excitation system modelling, etc."},   
         ],
+        selectedSubjecttable : [
+          {Subject	: "MTech in Chemical Engineering: 1)Advanced Heat Transfer 2) Bioprocess Engineering" ,  SubjectDetails : "These subjects introduce the students to the following concepts 1)Steady-state heat conduction, Unsteady state condition, Natural Convection, Forced Convection, and Radiation Heat transfer. 2) Enzyme & Cell Kinetics, Transport Phenomena in Bioprocess Systems, Bioreactor Design, and Analysis."},
+          {Subject	: "MTech in Civil Engineering: 1)Structural Health Monitoring, 2)Design of Masonry Structures" ,  SubjectDetails : "These subjects introduce the students to the following concepts – 1) SHM & Smart Materials, Vibration Control & SHM, Electrical Impedance Methods in SHM, Advanced signal processing methods in SHM, etc. 2) Strength of Masonry in Compression, Flexural, Shear and Bond Strength, Designing of Load Bearing Masonry Buildings, Earthquake Resistant Masonry Buildings, etc."},
+          {Subject	: "MTech Software Engineering: 1) Software Performance Engineering 2)Software Language Engineering" ,  SubjectDetails : "These subjects introduce the students to the following concepts - 1) Performance Metrics, Basic Performance Analysis, Workload Identification and Characterisation, From Workloads to Business Aspects of Performance Requirements, Qualitative and Quantitative Types of Performance Requirements, etc.2) Introduction, Grammars and parsing, Language processing, Attribute grammars, Rewriting & strategies, Automated refactoring, Domain-specific languages, Domain-specific language design, etc."},
+          {Subject	: "MTech in Electrical Engineering 1) Advanced Digital Signal Processing 2) Power Sector Economics, Regulation & Restructuring" ,  SubjectDetails : "These subjects introduce the students to the concepts of Discrete 1)Time Signals, Digital FIR And IIR Filter Design, Adaptive Digital Filters, Multi-Rate Digital Signal Processing, etc. 2) Power Sector in India, Power sector economics and regulation, Power Tariff, Electricity Markets Pricing, Non-price issues, Power sector restructuring, market reform, etc."},
+           
+        ],
+     
       },
-      // ... add more sections as needed
-    ],
-    // Add more tab content arrays as needed
+     
+      carrerTabContentData :  {
+        id: "carrer",
+        type : "carrer",
+        title: "MTech Job Profiles",
+        content: [
+          "ME/MTech graduates have abundant job opportunities across various technical fields. With a successfully completed ME/MTech degree, graduates can secure positions in diverse sectors throughout India. Beyond traditional engineering roles, ME/MTech graduates are sought after for positions such as consultants, subject matter experts, researchers, and managers. Here are some popular job profiles for ME/MTech graduates." 
+        ],
+        Careerstable : [
+          {Profiles	: "Software Developer" ,  Salary : "6-12 LPA"},
+          {Profiles	: "Data Scientist" ,  Salary : "7-15 LPA"},
+          {Profiles	: "Machine Learning Engineer" ,  Salary : "8-18 LPA"},
+          {Profiles	: "Electronics Engineer" ,  Salary : "4-8 LPA"},
+          {Profiles	: "Communications Engineer" ,  Salary : "5-9 LPA"},
+          {Profiles	: "VLSI Design Engineer" ,  Salary : "6-12 LPA"},
+          {Profiles	: "Embedded Systems Engineer" ,  Salary : "5-8 LPA"},
+          {Profiles	: "Mechanical Engineer" ,  Salary : "4-8 LPA"},
+          {Profiles	: "Design Engineer" ,  Salary : "4-7 LPA"},
+          {Profiles	: "Production Engineer" ,  Salary : "5-8 LPA"},
+          {Profiles	: "Quality Control Engineer" ,  Salary : "4-6LPA"},
+          {Profiles	: "Electrical Engineer" ,  Salary : "4-8  LPA"},
+          {Profiles	: "Civil Engineer" ,  Salary : "5-9 LPA"},
+          {Profiles	: "Power Systems Engineer" ,  Salary : "4-8 LPA"},
+          {Profiles	: "Structural Engineer" ,  Salary : "5-9 LPA"},
+          {Profiles	: "Geotechnical Engineer" ,  Salary : "4-7 LPA"},
+          {Profiles	: "Transportation Engineer" ,  Salary : "5-8 LPA"},
+          {Profiles	: "Project Engineer" ,  Salary : "6-10 LPA"},
+
+
+
+           
+        ] 
+     
+      },
+      admissionTabContentData :  {
+        id: "admission",
+        type : "admission",
+        title: "M.Tech 2024 Admission Process",
+        content: [
+          "Stage 1: Check Eligibility",
+          "Stage 2: Choose Entrance Exams",
+          "Stage 3: Prepare and Appear for Entrance Exams",
+          "Stage 4: Await Results",
+          "Stage 5: Participate in Counseling/Admission Process",
+          "Stage 6: Secure Admission"  
+        ],
+        admissiontable : [
+          {Exams	: "JEE Main" ,  Date : "JEE Main 2024 Exam Date Session 1-> -24 Jan '24 - 1 Feb '24 | JEE Main 2024 Exam Date Session 2-> 1 Apr '24 - 15 Apr '24"},
+          {Exams		: "JEE Main" ,  Date : "JEE Main 2024 Exam Date Session 1-> 24 Jan '24 - 1 Feb '24 |JEE Main 2024 Exam Date Session 2-> 1 Apr '24 - 15 Apr '24"},
+          {Exams		: "JEE Advance" ,  Date : "Jun '24 (Tentative)"},
+          {Exams		: "MHTCET" ,  Date : "PCM and PCB- May '24 (Tentative)"},
+          {Exams		: "CUET" ,  Date : "15 May '24 - 31 May '24"},
+          {Exams		: "TS EAMCET" ,  Date : "TS EAMCET 2024 exam for AM and Eng stream- May ’24 (Tentative)"},
+           
+        ] 
+     
+      } 
+  
   },
   {
-    collegeCode: "083",
+    collegeCode: "mbbs",
     collegeDetails: {
       imageSrc: "/assets/images/miet.jpg",
       logoSrc: "/assets/images/mietLogo.jpg",
-      name: "IAMR Group of Institutions",
-      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities",
-      rating: "4.5/5",
-      star : 5,
-      reviewCount: 4,
-      topRated : true,
-      term: "Private",
-      approval: "Approved by: AICTE, Government of Haryana",
-      enquiryButtonText: "Enquiry Now",
-      address: "9th Km Stone, NH-58, Delhi-Meerut Road Ghaziabad ( Uttar Pradesh",
-      website: "www.iamr.ac.in",
-      businessHours: "9:00 AM to 5:00 PM"
+      name: "MBBS Course",
+      description: "Explore 2024 Admission Details, Fees, Courses, Ranking, and Placement Opportunities"
     },
-    overviewTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "XAT result 2024 will be announced on Jan 31, 2024. The MAT 2024 registration process is ongoing for the PBT exam and the last date to apply is Feb 20, 2024. For the IBT Phase 1 and CBT exams, the last date to register is Feb 21, 2024 and Mar 5, 2024, respectively. CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username."
-      },
-      {
+   
+   
+    overviewTabData : {
         id: "Overview",
-        type : "overview",
-        title: "IAMR Group of Institutions Highlights 2023",
-        content: "A premier Institute in higher education, IAMR Group of Institutions is grounded in Ghaziabad, Uttar Pradesh. A student can pursue any program from the Institute which Degree courses including 7 UG and 8 PG courses. These programs are offerred in Full Time mode. IAMR Group of Institutions is a reputed institute for MBA/PGDM, BBA, BCA, B.Sc., BPT, M.Sc., MPT, B.A., B.Ed courses. Students can chose from these programs to persue their career in higher studies. Institute enjoys a good reputation for courses like MBA/PGDM, BBA, BCA, B.Sc., BPT, M.Sc., MPT, B.A., B.Ed in the streams of Business & Management Studies, IT & Software, Science, Medicine & Health Sciences, Mass Communication & Media, Teaching & Education Students can opt courses from these. IAMR Group of Institutions gave you offer to gained expertize through its trained and experienced faculty in the fields of Biotechnology, Microbiology, Orthopaedics, Neurology. Institue offered courses that are approved by AICTE. Courses offered by IAMR Group of Institutions for total of 1030 candidates. Courses offered by the Institute are in the fee range of INR 132,000-295,000 for a total of 1030 candidates. Institute has a well supported campus with facilities like Auditorium, Boys Hostel, Cafeteria, Convenience Store, Girls Hostel, Hospital / Medical Facilities, Hostel, Labs, Library, Moot Court (Law), Shuttle Service, Sports Complex, Wi-Fi Campus."
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "IAMR Group of Institutions Popular Programmes",
-        courses: [
-          { name: "MBA/PGDM", count: "2 Courses", fee: "1.3 L" },
-          { name: "M.Sc.", count: "2 Courses", fee: "1.3 L - 1.4 L" },
-          { name: "B.Sc.", count: "2 Courses", fee: "1.6 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "MBA/PGDM Admissions 2024",
-        eligibility: [
-          "Graduation score 50%",
-          "Accepting Exams: NTA CUET-PG MAT XAT CAT CUET"
+        type : "Overview",
+        content: "MBBS stands for Bachelor of Medicine, Bachelor of Surgery, a 5-year undergraduate course for aspiring doctors. To enroll, candidates must pass Class 12 in the Science stream with PCB subjects, be over 17 years old, and clear NEET. Average course fees range from INR 25,000 to INR 1.15 Crore. Popular colleges include AIIMS Delhi, Christian Medical College, Kasturba Medical College (Manipal), and Sri Ramachandra Institute.",
+        Particularstable : [
+          
+            { Particulars: "Course Name", CourseDetails: "MBBS" },
+            { Particulars: "Full Form", CourseDetails: "Bachelor of Medicine, Bachelor of Surgery" },
+            { Particulars: "Course Level", CourseDetails: "Undergraduate" },
+            { Particulars: "Course Type", CourseDetails: "Full Time" },
+            { Particulars: "Course Duration ", CourseDetails: "5 years" },
+            { Particulars: "Admission Process", CourseDetails: "NEET" },
+            { Particulars: "Course Fees", CourseDetails: ["INR 25,000 to INR 1.15 crore"] },
+            { Particulars: "Entrance Exam", CourseDetails: ["NEET"] },
+            { Particulars: "Top MBBS Colleges", CourseDetails: "AIIMS Delhi, Christian Medical College Vellore, Banaras Hindu University, JIPMER Puducherry, etc." },
+            { Particulars: "Job Profiles", CourseDetails: ["Medical Surgeon, Medical officers, Paediatrician, General Physician, Medical Assistant (Surgery), etc."] },
+            { Particulars: "Average Salary", CourseDetails: ["INR 2.5 LPA - INR 15 LPA "] },
+            { Particulars: "Top MBBS Specialisations", CourseDetails: ["Medicine, General Surgery, Cardiology, Paediatrics, Oncology, Nephrology, etc."] },
         ],
-        importantDates: [
-          { date: "26 Dec '23 - 24 Jan '24", event: "CUET PG 2024 Application Process" },
-          { date: "Jan '24", event: "XAT 2024 result" },
-          { date: "Feb '24", event: "XAT 2023 Cut Offs Release" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "Master of Business Administration (MBA)", year2021: "– / –", year2022: "16394", year2023: "– / –" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    admissionsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "XAT result 2024 will be announced on Jan 31, 2024. The MAT 2024 registration process is ongoing for the PBT exam and the last date to apply is Feb 20, 2024. For the IBT Phase 1 and CBT exams, the last date to register is Feb 21, 2024 and Mar 5, 2024, respectively. CAT Result 2023 has been released. The window to download the scorecard has been made live on the official website. Candidates will be able to download it by using their login ID and username."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "IAMR ADMISSION PROCESS 2023", childContent: "IAMR admission procedure comprises merit in the qualifying examination or entrance exam scores.IAMR Group of Institutions offers undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at IAMR is online. IAMR Group of Institutions provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-          {childTitle: "IAMR ADMISSION 2023: ELIGIBILITY & SELECTION CRITERIA", childContent: "IAMR Group of Institutions offers several UG and PG courses, admission to which is granted basis the merit in the qualifying examination and scores in the entrance exam. It accepts the scores of various state and national level entrance exams like UPSEE, JEE Main, CAT, MAT, and others. The applicants must meet the basic eligibility for the desired courses before applying for the course." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "criteria",
-          title: "THE TABLE BELOW LISTS PRESENTS THE ADMISSION STATUS OF POPULAR IAMR COURSES ALONG WITH THEIR ELIGIBILITY AND FEE DETAILS:",
-          cutOffs: [
-            { course: "MBA/PGDM", Eligibility: "Graduation : 50 % Exams : NTA CUET-PG MAT XAT CAT CUET" },
-            { course: "M.Sc.", Eligibility: " Graduation : 60 %" },
-            { course: "BPT", Eligibility: "10+2 : 50 % Exams : CBSE 12th" },
-            { course: "BCA", Eligibility: "10+2 : 50 % Exams : CBSE 12th" },
-            { course: "B.Sc.", Eligibility: "10+2 : 50 % Exams : CBSE 12th" },
-            { course: "MPT", Eligibility: "Graduation : 50 %" },
-            { course: "BBA", Eligibility: "10+2 : 50 % Exams : CBSE 12th" },
-            // ... add more cut offs as needed
-          ]
+
+        Eligibility : {
+          heading : "MBBS Eligibility Criteria",
+          content : "To qualify for MBBS studies, candidates need a minimum of 50% in the intermediate test, with variations in the minimum mark criterion. Successful completion of NEET, administered by the National Testing Agency (NTA), is mandatory for MBBS admission. The exam, conducted annually in 13 languages, requires candidates to have completed Class 12 with Physics, Chemistry, and Biology. Reserved category candidates need a minimum of 40%."
         },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "IAMR Group of Institutions Popular Programmes",
-        courses: [
-          { name: "MBA/PGDM", count: "2 Courses", fee: "1.3 L" },
-          { name: "M.Sc.", count: "2 Courses", fee: "1.3 L - 1.4 L" },
-          { name: "B.Sc.", count: "2 Courses", fee: "1.6 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "MBA/PGDM Admissions 2024",
-        eligibility: [
-          "Graduation score 50%",
-          "Accepting Exams: NTA CUET-PG MAT XAT CAT CUET"
+       
+        CourseTypeTable : [
+          {CourseType	: "Minimum Marks in Intermediate Test" ,  EligibilityCriteria  : "At least 50%, with variations in minimum mark criterion."},
+          {CourseType	: "NEET Qualification" ,  EligibilityCriteria  : "Successful completion of the National Eligibility Cumulative Entrance Test (NEET), administered by NTA."},
+          {CourseType	: "Class 12 Completion with Specific Disciplines (Physics, Chemistry, Biology)" ,  EligibilityCriteria  : "Completion of Class 12 with Physics, Chemistry, and Biology."}, 
+          {CourseType	: "Reserved Category Percentage" ,  EligibilityCriteria  : "Minimum of 40% for candidates in the reserved category."},   
         ],
-        importantDates: [
-          { date: "26 Dec '23 - 24 Jan '24", event: "CUET PG 2024 Application Process" },
-          { date: "Jan '24", event: "XAT 2024 result" },
-          { date: "Feb '24", event: "XAT 2023 Cut Offs Release" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "Master of Business Administration (MBA)", year2021: "– / –", year2022: "16394", year2023: "– / –" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    coursesTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "IAMR Group of Institutions admissions 2023 are open to all the courses. Candidates can apply through the official website."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        content : [
-          {      childTitle: "IAMR ADMISSION PROCESS 2023", childContent: "IAMR Group of Institutions admission procedure comprises merit in the qualifying examination or entrance exam scores. IAMR Group of Institutions offers undergraduate and postgraduate programmes in Engineering & Technology, Applied Science, Pharmacy, Education, Computer Applications, and Management. The institute also offers vocational courses in Engineering and Management. Besides this, it offers additional training for adding value to the courses.The mode of application for all the courses at IAMR Group of Institutions is online. IAMR Group of Institutions provides numerous placement opportunities to students in top-recruiting companies like Accenture, Genpact, Axis Bank, TCS, Tech Mahindra, and Cognizant Technologies." },
-        ]
-      },
-      { 
-          id: "Reservation1",
-          type : "CourseEligibility",
-          title : "COURSE AND FEES 2023",
-          cutOffs: [
-            { course: "MBA/PGDM (2 courses )",TuitionFees : "1.3 L", Eligibility: "Graduation : 50 % Exams : NTA CUET-PG MAT XAT CAT CUET" },
-            { course: "M.Sc. (2 courses )",TuitionFees : "1.3 L - 1.4 L", Eligibility: "Graduation : 60 %" },
-            { course: "B.Sc (2 courses )",TuitionFees : "1.6 L", Eligibility: "10+2 : 50 % Exams : CBSE 12th" },
-            { course: "BCA (1 courses )",TuitionFees : "1.8 L", Eligibility: "10+2 : 50 % Exams : CBSE 12th" },
-            { course: "BPT (1 courses )",TuitionFees : "3 L", Eligibility: "10+2 : 50 % Exams : CBSE 12th" },
-            { course: "MPT (4 courses )",TuitionFees : "1.9 L", Eligibility: "Graduation : 50 %" },
-            { course: "BBA ( 1 courses )",TuitionFees : "1.8 L", Eligibility: "	10+2 : 50 % Exams : CBSE 12th" },
-            { course: "BA (1 courses )",TuitionFees : "1.8 L", Eligibility: "10+2 : 50 % Exams : CBSE 12th" },
-        
-            // ... add more cut offs as needed
-          ]
+        EntranceExams : {
+          heading : "MBBS Entrance Exams 2024",
+          content : "The MBBS admission process involves two stages. To secure admission, students must appear for the National Eligibility cum Entrance Test (NEET), the sole entrance exam accepted by both government and private institutions for MBBS courses in India. Those meeting the NEET cutoff qualify for counselling, which occurs at two levels. The Medical Counselling Committee (MCC) oversees national-level counselling for the 15% All India Quota (AIQ) seats, while State Medical Admission Authorities handle counselling for the remaining 85% State Quota seats."
         },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "IAMR Group of Institutions Popular Programmes",
-        courses: [
-          { name: "MBA/PGDM", count: "2 Courses", fee: "1.3 L" },
-          { name: "M.Sc.", count: "2 Courses", fee: "1.3 L - 1.4 L" },
-          { name: "B.Sc.", count: "2 Courses", fee: "1.6 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "MBA/PGDM Admissions 2024",
-        eligibility: [
-          "Graduation score 50%",
-          "Accepting Exams: NTA CUET-PG MAT XAT CAT CUET"
+        EntranceTable : [
+          {EntranceExams		: "NEET" ,  ExamDates : "NA"},
+          
+         ],
+        Cutoff  : {
+          heading : "NEET Cutoff for MBBS 2023",
+          content : "The cutoff for the National Eligibility cum Entrance Test (NEET) for MBBS admissions in India is subject to variation each year. Determined by factors such as exam difficulty, the number of applicants, and seat availability in medical colleges, the NEET cutoff serves as a crucial benchmark. Aspirants can refer to the table below to check the NEET cutoff for MBBS in the year 2023."
+        },
+        IIMsTable : [
+          
+            {IIMs		: "General/EWS" ,  Percentile : "	50"},
+            {IIMs		: "OBC, SC, ST" ,  Percentile : "40"},
+            {IIMs		: "General/EWS/PH" ,  Percentile : "45"},
+            {IIMs		: "OBC & PH" ,  Percentile : "40"},
+            {IIMs		: "SC & PH" ,  Percentile : "40"},
+            {IIMs		: "ST & PH" ,  Percentile : "40"}, 
+         
         ],
-        importantDates: [
-          { date: "26 Dec '23 - 24 Jan '24", event: "CUET PG 2024 Application Process" },
-          { date: "Jan '24", event: "XAT 2024 result" },
-          { date: "Feb '24", event: "XAT 2023 Cut Offs Release" },
-          // ... add more dates as needed
-        ]
-      },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "Master of Business Administration (MBA)", year2021: "– / –", year2022: "16394", year2023: "– / –" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    cutOffsTabContentData : [
-      {
-        id: "latestUpdate",
-        type : "latestUpdate",
-        title: "What’s new?",
-        content: "IAMR Group of Institutions admissions 2023 are open to all the courses. Candidates can apply through the official website."
-      },
-      {
-        id: "Overview",
-        type : "overview",
-        title: "IAMR Group of Institutions Highlights 2023",
-        content: "A premier Institute in higher education, IAMR Group of Institutions is grounded in Ghaziabad, Uttar Pradesh. A student can pursue any program from the Institute which Degree courses including 7 UG and 8 PG courses. These programs are offerred in Full Time mode. IAMR Group of Institutions is a reputed institute for MBA/PGDM, BBA, BCA, B.Sc., BPT, M.Sc., MPT, B.A., B.Ed courses. Students can chose from these programs to persue their career in higher studies. Institute enjoys a good reputation for courses like MBA/PGDM, BBA, BCA, B.Sc., BPT, M.Sc., MPT, B.A., B.Ed in the streams of Business & Management Studies, IT & Software, Science, Medicine & Health Sciences, Mass Communication & Media, Teaching & Education Students can opt courses from these. IAMR Group of Institutions gave you offer to gained expertize through its trained and experienced faculty in the fields of Biotechnology, Microbiology, Orthopaedics, Neurology. Institue offered courses that are approved by AICTE. Courses offered by IAMR Group of Institutions for total of 1030 candidates. Courses offered by the Institute are in the fee range of INR 132,000-295,000 for a total of 1030 candidates. Institute has a well supported campus with facilities like Auditorium, Boys Hostel, Cafeteria, Convenience Store, Girls Hostel, Hospital / Medical Facilities, Hostel, Labs, Library, Moot Court (Law), Shuttle Service, Sports Complex, Wi-Fi Campus."
-      },
-      {
-        id: "Fees",
-        type : "courses",
-        title: "IAMR Group of Institutions Popular Programmes",
-        courses: [
-          { name: "MBA/PGDM", count: "2 Courses", fee: "1.3 L" },
-          { name: "M.Sc.", count: "2 Courses", fee: "1.3 L - 1.4 L" },
-          { name: "B.Sc.", count: "2 Courses", fee: "1.6 L" },
-          // ... add more courses as needed
-        ]
-      },
-      {
-        id: "Ranking",
-        type : "admission",
-        title: "MBA/PGDM Admissions 2024",
-        eligibility: [
-          "Graduation score 50%",
-          "Accepting Exams: NTA CUET-PG MAT XAT CAT CUET"
+      } ,
+      
+     
+   
+      syllabusTabContentData :  {
+        id: "Syllabus",
+        type : "Syllabus",
+        title: "Syllabus",
+        content: "Aspiring doctors delve into a comprehensive MBBS syllabus, covering diverse aspects of the medical and healthcare industry. Beyond technical knowledge, the curriculum emphasizes ethical practices, providing students with valuable insights. Internships with hospitals and participation in volunteer projects further enrich their practical experience.",
+        coreSubjecttable : [
+          {Subject	: "Introduction to Embryology and Histology" ,  SubjectDetails :  "Semester 1"  },
+          {Subject	: "Introduction to Molecular Medicine" ,  SubjectDetails : "Semester 1"},
+          {Subject	: "Neuroscience I (Peripheral System)" ,  SubjectDetails : "Semester 2"},
+          {Subject	: "Respiratory System" ,  SubjectDetails : "Semester 2"},   
+          {Subject	: "General Pathology" ,  SubjectDetails :  "Semester 3"  },
+          {Subject	: "Environment Pathology" ,  SubjectDetails : "Semester 3"},
+          {Subject	: "Systematic Pathology" ,  SubjectDetails : "Semester 4"},
+          {Subject	: "	Alimentary System " ,  SubjectDetails : "Semester 4"},   
+          {Subject	: "Special Pathology" ,  SubjectDetails : "Semester 5"},
+          {Subject	: "Growth Disturbance and Neoplasia" ,  SubjectDetails : "Semester 5"},   
+          {Subject	: "Epidemiology of communicable diseases" ,  SubjectDetails : "Semester 6"},
+          {Subject	: "Reproductive and child health " ,  SubjectDetails : "Semester 6"},   
+          {Subject	: "Infectious Diseases" ,  SubjectDetails : "Semester 7"},
+          {Subject	: "Diseases of the immune system" ,  SubjectDetails : "Semester 7"},   
+          {Subject	: "Endocrine Disease" ,  SubjectDetails : "Semester 8"},
+          {Subject	: "Brain Death" ,  SubjectDetails : "Semester 8"},  
+          {Subject	: "Nervous System" ,  SubjectDetails : "Semester 9"},
+          {Subject	: "Environmental Disorders" ,  SubjectDetails : "Semester 9"}, 
         ],
-        importantDates: [
-          { date: "26 Dec '23 - 24 Jan '24", event: "CUET PG 2024 Application Process" },
-          { date: "Jan '24", event: "XAT 2024 result" },
-          { date: "Feb '24", event: "XAT 2023 Cut Offs Release" },
-          // ... add more dates as needed
-        ]
+        selectedSubjecttable : [
+         ],
+     
       },
-      { 
-        id: "Reservation",
-        type : "cutoffs",
-        title: "Cut Offs 2023",
-        cutOffs: [
-          { course: "Master of Business Administration (MBA)", year2021: "– / –", year2022: "16394", year2023: "– / –" },
-          // ... add more cut offs as needed
-        ]
-      }
-      // ... add more sections as needed
-    ],
-    // Add more tab content arrays as needed
+     
+      carrerTabContentData :  {
+        id: "carrer",
+        type : "carrer",
+        title: "MBBS Job Profiles",
+        content: [
+          "MBBS jobs in India are both challenging and prestigious, extending beyond clinical practice and teaching. The healthcare sector's growth, amplified by the pandemic, has heightened demand for medical professionals, making it a key employment source. Besides hospitals, opportunities abound in biomedical companies, health centers, laboratories, nursing homes, polyclinics, and private practice. After completing MBBS, graduates often undertake internships, paving the way for private practice or roles in prominent public sector entities like railways, military forces, and state hospitals. Explore further for insights into MBBS careers." 
+        ],
+        Careerstable : [
+          {Profiles	: "Chief Medical Officer" ,  Salary : "16 lakh"},
+          {Profiles	: "Paediatricians" ,  Salary : "12 lakh"},
+          {Profiles	: "Cardiologists" ,  Salary : "12 lakh"},
+          {Profiles	: "Surgeons" ,  Salary : "11 lakh"},
+          {Profiles	: "Dermatologists" ,  Salary : "10 lakh"},
+          {Profiles	: "General Physicians" ,  Salary : "7.3 lakh"},  
+        ] 
+     
+      },
+      admissionTabContentData :  {
+        id: "admission",
+        type : "admission",
+        title: "M.Tech 2024 Admission Process",
+        content: [
+          "Stage 1: Check Eligibility",
+          "Stage 2: Choose Entrance Exams",
+          "Stage 3: Prepare and Appear for Entrance Exams",
+          "Stage 4: Await Results",
+          "Stage 5: Participate in Counseling/Admission Process",
+          "Stage 6: Secure Admission"  
+        ],
+        admissiontable : [
+          {Exams	: "NEET" ,  Date : "May 5 '24"},
+          
+           
+        ] 
+     
+      } 
+  
   },
+ 
   // Add more college objects as needed
 ];
 

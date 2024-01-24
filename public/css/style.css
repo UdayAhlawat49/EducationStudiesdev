@@ -81,7 +81,7 @@ span, i, a {
 
 span {
   font-size: 1.2rem;
-  color: white;
+  color: black;
   font-weight: 400;
   line-height: 15px;
 }
@@ -3951,4 +3951,8 @@ button.accordion-button.border-0.bg-white:focus {
 .course-tab-section table tbody {
   font-size: 14px;
   padding: 10px;
+}
+
+.admin .sidebar {
+  background-color: var(--primary-color);
 }/*# sourceMappingURL=style.css.map */
