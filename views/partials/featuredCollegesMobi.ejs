@@ -1,7 +1,9 @@
  
      <% collegeData.forEach( college => { %>
   <div class="recentColleges_collegeView">
+    <div class="img-box">
     <img src="<%= college.collegeDetails.logoSrc %>" alt="">
+    </div>
     <p class="semi-bold">
         <%= college.collegeDetails.name %>
     </p>

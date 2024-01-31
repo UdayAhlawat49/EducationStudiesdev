@@ -493,13 +493,14 @@ button:hover {
 }
 .heroSection1 .middleContent .mainHead {
   font-size: 5rem;
-  line-height: 70px;
+  line-height: 100%;
   font-weight: 900;
 }
 .heroSection1 .middleContent .mainHead span {
   font-size: 7.5rem;
   font-weight: 800;
   letter-spacing: -1px;
+  line-height: 120%;
   color: var(--primary-color);
   text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
@@ -908,8 +909,11 @@ button:hover {
   margin: 0px;
 }
 .mobileMenu .offcanvas .offcanvas-body ul .accordion .accordion-item .accordion-header button {
-  margin-top: 10px;
-  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  padding-left: 0px;
   font-size: 1.4rem;
   font-weight: 700;
   box-shadow: none;
@@ -930,6 +934,7 @@ button:hover {
 .mobileMenu .offcanvas .offcanvas-body ul .accordion .accordion-item .accordion-body p {
   padding: 0px;
   font-size: 1.4rem;
+  margin-left: 5px;
   color: #47c341;
   font-weight: 700;
 }
@@ -3017,6 +3022,7 @@ button.accordion-button.border-0.bg-white:focus {
   height: 200px;
 }
 .innerContent .Banner .carousel-inner {
+  position: relative;
   border-radius: 10px;
   height: 200px;
 }
@@ -3024,6 +3030,19 @@ button.accordion-button.border-0.bg-white:focus {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.innerContent .Banner .carousel-inner .banner-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .innerContent .colleges {
   position: relative;
@@ -3060,12 +3079,11 @@ button.accordion-button.border-0.bg-white:focus {
   margin: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1803921569);
   border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.2196078431);
   padding: 0;
   padding-bottom: 14px;
 }
 .innerContent .recentCollegList .recentColleges .recentColleges_collegeView button {
-  margin: 0;
+  margin: 10px 0px 0px 0px;
   font-size: 1.2rem;
   margin-left: 11px;
   padding: 5px 10px;
@@ -3073,20 +3091,22 @@ button.accordion-button.border-0.bg-white:focus {
 .innerContent .recentCollegList .recentColleges .recentColleges_collegeView > p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  overflow: hidden;
-  -webkit-line-clamp: 2; /* Limit to two lines */
-  white-space: normal; /* Allow wrapping within the lines */
-  overflow: hidden;
-  text-overflow: ellipsis;
+  min-height: 48px;
+  font-size: 1.4rem;
   font-weight: 500;
-  font-size: 1.6rem;
-  padding: 9px 8px 20px;
+  overflow: auto;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /* Limit to two lines */
+  margin: 0px 10px;
 }
-.innerContent .recentCollegList .recentColleges .recentColleges_collegeView img {
+.innerContent .recentCollegList .recentColleges .recentColleges_collegeView .img-box {
+  padding: 10px;
+}
+.innerContent .recentCollegList .recentColleges .recentColleges_collegeView .img-box img {
+  height: 100px;
   width: 150px;
   object-fit: contain;
-  height: 100px;
-  border-radius: 10px;
+  border-radius: 10px; /* You can adjust or remove the border-radius based on your preference */
 }
 .innerContent .studyAbroad .studyAbroad_card {
   background: rgb(47, 32, 125);
