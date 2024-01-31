@@ -262,7 +262,7 @@
       </div>
 
       <!-- mobile view -->
-      <div class="row d-block d-md-none">
+      <div class="row  d-block d-md-none">
          
           <div id="mobileView ">
             <!-- logo -->
@@ -271,12 +271,11 @@
               <div class="row navigation shadow-lg m-0  p-2  ">
                 <div class="col-10 col-lg-7 col-md-8">
                   <div class="logo">
-                    <img
-                      width="60"
+                    <a href="/"><img
                       src="/assets/images/LOGO.png"
                       alt="Educaiton Studies"
                       class="img-fluid"
-                    />
+                    /></a>
         
                     <span class="ms-3">EDUCATION STUDIES</span>
                   </div>
@@ -328,13 +327,13 @@
                     >
                       <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-                          <div class="logo">
+                         <a href=""><div class="logo">
                             <img
                               width="60"
                               src="/assets/images/LOGO.png"
                               alt="Educaiton Studies"
                               class="img-fluid"
-                            />
+                            /></a>
         
                             <span class="ms-3">EDUCATION STUDIES</span>
                           </div>
@@ -349,138 +348,60 @@
                       <div class="offcanvas-body">
 
                         <ul>
-                          <li>
-
-                    
-                            <a href="/">HOME</a> 
+                          <li><a href="/">HOME</a> 
                           </li>
                           <li>
-
-                       
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                        
-                        
-                          <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Colleges
-                              </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">
-                              <a href="/collegeslist/engineering/1"><p class="border m-0 ">Engineering</p></a> <br>
-                              <a href="/collegeslist/Management/1"><p class="border m-0  ">Management</p></a> <br>
-                              <a href="/collegeslist/Medical/1"><p class="border m-0   ">Medical</p></a> <br>
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                          Colleges
+                                      </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                          <a href="/collegeslist/engineering/1">Engineering</a>
+                                          <a href="/collegeslist/Management/1">Management</a>
+                                          <a href="/collegeslist/Medical/1">Medical</a>
+                                      </div>
+                                  </div>
                               </div>
-                            </div>
+                          
+                              <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          Courses
+                                      </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                          <p>ENGINEERING</p>
+                                          <a href="/courseview/btech">B.Tech/BE</a>
+                                          <a href="/courseview/mtech">M.Tech</a>
+                                          <p>MANAGEMENT</p>
+                                          <a href="/courseview/mba">MBA</a>
+                                          <p>Medical</p>
+                                          <a href="/courseview/mbbs">MBBS</a>
+                                      </div>
+                                  </div>
+                              </div>
                           </div>
                         
-                        
-                          <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                Courses
-                              </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body">
-                                <div class="accordion accordion-flush" id="nestedAccordionOne">
-                                  <div class="accordion-item">
-                                    <h2 class="accordion-header" id="nested-headingOne">
-                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nested-collapseOne" aria-expanded="false" aria-controls="nested-collapseOne">
-                                        ENGINEERING
-                                      </button>
-                                    </h2>
-                                    <div id="nested-collapseOne" class="accordion-collapse collapse" aria-labelledby="nested-headingOne" data-bs-parent="#nestedAccordionOne">
-                                      <div class="accordion-body">
-                                        <a href="/courseview/btech"><p>B.Tech/BE</p></a><br>
-                                        <a href="/courseview/mtech"><p>M.Tech</p></a><br>
-                                        </div>
-                                    </div>
-                                  </div>
-                                  <div class="accordion-item">
-                                    <h2 class="accordion-header" id="nested-headingTwo">
-                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nested-collapseTwo" aria-expanded="false" aria-controls="nested-collapseTwo">
-                                          MANAGEMENT
-                                      </button>
-                                    </h2>
-                                    <div id="nested-collapseTwo" class="accordion-collapse collapse" aria-labelledby="nested-headingTwo" data-bs-parent="#nestedAccordionOne">
-                                      <div class="accordion-body">
-                                        <a href="/courseview/mba"><p>MBA</p></a><br>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="accordion-item">
-                                    <h2 class="accordion-header" id="nested-headingThree">
-                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nested-collapseThree" aria-expanded="false" aria-controls="nested-collapseThree">
-                                          Madical
-                                      </button>
-                                    </h2>
-                                    <div id="nested-collapseThree" class="accordion-collapse collapse" aria-labelledby="nested-headingThree" data-bs-parent="#nestedAccordionOne">
-                                      <div class="accordion-body">
-                                        <a href="/courseview/mbbs"><p>MBBS</p></a><br>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                          
+                          
                       </li>
-                      <li>
-
-                    
-                        <a href="/counseling">COUNSELLING</a> 
+                      <li><a href="/counseling">COUNSELLING</a> 
                       </li>
-                      <li>
-
-                        <a href="/abroad">STUDY ABROAD</a>
+                      <li><a href="/abroad">STUDY ABROAD</a>
                       </li>
-                      <li>
-                        <a href="/ABOUT">ABOUT</a>
+                      <li><a href="/ABOUT">ABOUT</a>
                       </li>
-                    <li>
-
-                    
-                        <a href="/contact">CONTACT US</a>
+                    <li><a href="/contact">CONTACT US</a>
                       </li>
                       </ul>
                       </div>
                       
-                      <div class="row">
-                        <div class="col mx-md-5">
-                          <ul class="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li>
-                              <label for="subMenu_1_check" href="#">Home +</label>
-        
-                              <input id="subMenu_1_check" type="checkbox" />
-                              <ul class="subMenu_1">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Home</a></li>
-                                <li>
-                                  <label for="subMenu_2_check" href="#">Home +</label>
-                                  <input id="subMenu_2_check" type="checkbox" />
-                                  <ul class="subMenu_2">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Home</a></li>
-                                    <li>
-                                      <a href="#">Home +</a>
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                          </ul>
-                        </div>
-                      </div>
+
                     </div>
                   </div>
                 </div>

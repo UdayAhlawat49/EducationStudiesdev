@@ -845,6 +845,9 @@ position: relative;
     background-color: white;
     width: 100%;
     left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   .menuIcon {
     height: 100%;
@@ -888,23 +891,85 @@ position: relative;
   .offcanvas {
    .offcanvas-body{
     border-top: 1px solid rgba(0, 0, 0, 0.164);
-    p{
-      font-weight: 600;
-      text-transform: uppercase;
-      padding: 12px;
+    ul{
+      a{
+        font-size: 1.4rem;
+        font-weight: $bold;
+      }
+      p{
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 12px;
+      }
+      .accordion{
+        .accordion-item{
+          border: none;
+          margin: 0px;
+      .accordion-header{
+   
+       
+          
+         button{
+          margin-top: 10px;
+          padding: 5px 0px;
+         font-size: 1.4rem;
+         font-weight: $bold;
+         box-shadow: none;
+         color: #000000;
+         border: none;
+         &:focus{
+          outline: none;
+          
+         }
+         }
+        
+        
+          }
+          .accordion-body{
+             margin: 0px;
+             padding: 0px;
+            a{
+              display: block;
+               margin-left: 10px;
+            }
+  
+            p{
+              padding: 0px;
+              font-size: 1.4rem;
+              color: $accent-color;
+              font-weight: $bold;
+            }
+          }
+        }
+      }
     }
+   
    }
     .btn-close{
       font-size: 16px;
     }
   }
+
+  .menuIcon{
+    font-weight: $bold;
+  }
 }
 @media (max-width: 576px) {
   
   .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
     height: 100%;
     img {
-      width: 50px;
+      width: 40px;
+      height: 40px;
+    }
+    span{
+      font-size: 2.0rem;
+     letter-spacing: .5px;
+     font-weight: $bold;
     }
   }
 }
