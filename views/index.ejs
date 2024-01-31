@@ -422,8 +422,8 @@
                     <!-- </div> -->
                     <!--end row-->
       
-                    <div class="buttonAbout">
-                      <button>READ MORE</button>
+                    <div class="buttonAbout ">
+                     <a href="/abroad"> <button class="primary-button">READ MORE</button></a>
                     </div>
                   </div>
                 </div>
@@ -454,7 +454,7 @@
                           </p>
                         </div>
                       </div>
-                      <!--end col-->
+                      <!--end col-->  
                     </div>
                     <!--end row-->
       
@@ -535,12 +535,12 @@
           <section class="cta">
             <div
               class="cta-inner overlay section"
-              style="background-image: url('./assets/images/banner.png')"
+              
               data-stellar-background-ratio="0.5"
             >
               <div class="container">
                 <div class="row">
-                  <div class="col-lg-8 col-md-8 col-12">
+                  <div class="  col-12">
                     <div class="text-content">
                       <h2 class="bold">
                         TRANSFORM YOUR ACADEMIC VISION WITH EDUCATION STUDIES</h2>
@@ -549,10 +549,10 @@
                         <strong>Join us today!</strong>
                       </p>
                       <!-- CTA Button -->
-                      <div class="button">
-                        <button>Join Now</button>
-                        >
-                      </div>
+                       
+                        <button class="exploreNow">Join Now</button>
+                    
+                       
                       <!--/ End CTA Button -->
                     </div>
                   </div>
@@ -739,7 +739,7 @@
                 <div class="accordion" id="buyingquestion">
                   <div class="row">
                     <div class="col">
-                      <div class="accordion-item rounded border-0 shadow">
+                      <div class="accordion-item rounded  ">
                         <h2 class="accordion-header" id="headingOne">
                           <button
                             class="accordion-button border-0 bg-white collapsed"
@@ -765,7 +765,7 @@
                         </div>
                       </div>
       
-                      <div class="accordion-item rounded border-0 shadow mt-3">
+                      <div class="accordion-item rounded border  mt-3">
                         <h2 class="accordion-header" id="headingTwo">
                           <button
                             class="accordion-button border-0 bg-white collapsed"
@@ -791,7 +791,7 @@
                         </div>
                       </div>
       
-                      <div class="accordion-item rounded border-0 shadow mt-3">
+                      <div class="accordion-item rounded border  mt-3">
                         <h2 class="accordion-header" id="headingThree">
                           <button
                             class="accordion-button border-0 bg-white"
@@ -818,7 +818,7 @@
                       </div>
       
                    
-                      <div class="accordion-item rounded border-0 shadow mt-3">
+                      <div class="accordion-item rounded border  mt-3">
                         <h2 class="accordion-header" id="headingsix">
                           <button
                             class="accordion-button border-0 bg-white collapsed"
@@ -843,7 +843,7 @@
                         </div>
                       </div>
       
-                      <div class="accordion-item rounded border-0 shadow mt-3">
+                      <div class="accordion-item rounded border  mt-3">
                         <h2 class="accordion-header" id="headingseven">
                           <button
                             class="accordion-button border-0 bg-white collapsed"
@@ -1162,7 +1162,7 @@
 
                     if (data.errors) {
                         data.errors.forEach(err => {
-                            var inputName = err.param;
+                            var inputName = err.path;
                             var errorMessage = err.msg;
                             $('[name="' + inputName + '"]').after('<div class="error-message">' + errorMessage + '</div>');
                         });

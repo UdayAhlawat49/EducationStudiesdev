@@ -1003,6 +1003,142 @@ button:hover {
     width: 50px;
   }
 }
+.primary-button {
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) -3px -3px 9px inset, rgba(255, 255, 255, 0.15) 0 3px 9px inset, rgba(255, 255, 255, 0.6) 0 1px 1px inset, rgba(0, 0, 0, 0.3) 0 -8px 36px inset, rgba(255, 255, 255, 0.6) 0 1px 5px inset, rgba(0, 0, 0, 0.2) 2px 19px 31px;
+          box-shadow: rgba(255, 255, 255, 0.1) -3px -3px 9px inset, rgba(255, 255, 255, 0.15) 0 3px 9px inset, rgba(255, 255, 255, 0.6) 0 1px 1px inset, rgba(0, 0, 0, 0.3) 0 -8px 36px inset, rgba(255, 255, 255, 0.6) 0 1px 5px inset, rgba(0, 0, 0, 0.2) 2px 19px 31px;
+  background-color: #7F00FF;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.primary-button:hover {
+  background-color: #00671e;
+  color: #fff;
+}
+
+.secondary-button {
+  padding: 12px 26px;
+  border: 0;
+  font-size: 16px;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  border-radius: 14px;
+  border: 1px solid #8BB33D;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.07) 0 1px 1px, rgba(0, 0, 0, 0.07) 0 2px 2px, rgba(0, 0, 0, 0.07) 0 4px 4px;
+          box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.07) 0 1px 1px, rgba(0, 0, 0, 0.07) 0 2px 2px, rgba(0, 0, 0, 0.07) 0 4px 4px;
+  color: #000000;
+  font-weight: 600;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B4E84E), to(#8BB33D));
+  background-image: linear-gradient(180deg, #B4E84E 0%, #8BB33D 100%);
+  text-shadow: -1px 0 1px #B4E84E, 0 1px 1px #B4E84E, 1px 0 1px #B4E84E, 0 -1px 1px #B4E84E;
+}
+.secondary-button:hover {
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #FFA500;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.cta-button:hover {
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
+.buyNow {
+  background: #7fd12f;
+  border: 1px solid #629921;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 #8ff339;
+          box-shadow: inset 0 1px 0 #8ff339;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  outline: 0;
+  padding: 10px 35px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #629921;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7fd12f), to(#629921));
+  background: linear-gradient(to bottom, #7fd12f 0%, #629921 100%);
+  -webkit-transition: padding 50ms ease-in-out, border-top-width 50ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  transition: padding 50ms ease-in-out, border-top-width 50ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  transition: padding 50ms ease-in-out, border-top-width 50ms ease-in-out, box-shadow 150ms ease-in-out;
+  transition: padding 50ms ease-in-out, border-top-width 50ms ease-in-out, box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+}
+.buyNow:hover {
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
+.exploreNow {
+  background-color: #8c9cbf;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8c9cbf), color-stop(50%, #546a9e), color-stop(50%, #36518f), to(#3d5691));
+  background-image: linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+  border: 1px solid #172d6e;
+  border-bottom: 1px solid #0e1d45;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 0 0 #b1b9cb;
+  box-shadow: inset 0 1px 0 0 #b1b9cb;
+  color: #fff;
+  font: bold 16px "helvetica neue", helvetica, arial, sans-serif;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 -1px 1px #000f4d;
+  width: 150px;
+}
+.exploreNow:hover {
+  background-color: #7f8dad;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7f8dad), color-stop(50%, #4a5e8c), color-stop(50%, #2f477d), to(#364c80));
+  background-image: linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
+  cursor: pointer;
+}
+
+.outline-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.226);
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.outline-button:hover {
+  border: 1px solid #2f207d;
+  color: #333;
+}
+
+.badge {
+  font-size: 1.4rem;
+}
+
 .service_area {
   padding-top: 20px;
   padding-bottom: 0px;
@@ -1228,7 +1364,8 @@ button:hover {
 
 .cta {
   padding-top: 62px;
-  background-position: 50% -212.914px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(254, 190, 88)), to(rgb(222, 43, 174))) !important;
+  background-image: linear-gradient(rgb(254, 190, 88), rgb(222, 43, 174)) !important;
 }
 .cta .cta-inner {
   background-size: cover;
@@ -1241,6 +1378,21 @@ button:hover {
   z-index: 1;
   position: relative;
   border-radius: 5px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 @media (max-width: 991px) {
   .cta .text-content {
@@ -1249,7 +1401,7 @@ button:hover {
 }
 .cta .text-content h2 {
   margin-bottom: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .cta .text-content h2 span {
   font-weight: 900;
@@ -1257,7 +1409,7 @@ button:hover {
   color: blue;
 }
 .cta .text-content p {
-  color: rgb(0, 0, 0);
+  color: rgba(253, 253, 253, 0.863);
 }
 .cta .button {
   margin-top: 20px;

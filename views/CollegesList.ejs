@@ -229,7 +229,7 @@
       </div>
       <div class="col-md-3 mt-3 d-none d-md-block">
         <div class="blog_right_sidebar shadow-lg">
-          <aside class="single_sidebar_widget search_widget">
+          <!-- <div class="single_sidebar_widget search_widget">
             <form action="#">
               <div class="form-group">
                 <div class="input-group mb-3">
@@ -254,7 +254,7 @@
                 Search
               </button>
             </form>
-          </aside>
+          </div> -->
 
           <aside class="single_sidebar_widget post_category_widget">
             <h5 class="widget_title bold">Category</h5>
@@ -280,14 +280,14 @@
           <aside class="single_sidebar_widget popular_post_widget">
             <h5 class="widget_title bold">Popural Colleges</h5>
             <% collegeListDataByTag.forEach(college => { %>
-
+              <%= console.log("home" , college) %>
             <div class="media post_item">
-              <img width="40" src="./assets/images/lokpok_.webp" alt="post" />
+              <img  height="40" width="40" src="<%= college.collegeDetails.logoSrc %>" alt="post" />
               <div class="media-body">
-                <a href="single-blog.html">
+                <a href="/collegeView/<%= college.collegeCode %>">
                   <h5 class="bold"><%= college.collegeDetails.name %></h5>
                 </a>
-                <p><%= college.collegeDetails.website %></p>
+                <p><%= college.collegeDetails.address %></p>
               </div>
             </div>
 
@@ -297,33 +297,22 @@
             <h5 class="widget_title bold">Courses</h5>
             <ul class="list">
               <li>
-                <a href="#">B.tech</a>
+                <a href="/courseview/btech">B.tech</a>
               </li>
               <li>
-                <a href="#">MBA</a>
+                <a href="/courseview/mba">MBA</a>
               </li>
               <li>
-                <a href="#">MBBS</a>
+                <a href="/courseview/mbbs">MBBS</a>
               </li>
               <li>
-                <a href="#">BSC</a>
+                <a href="/courseview/mtech">M.Tech</a>
               </li>
-              <li>
-                <a href="#">BCA</a>
-              </li>
-              <li>
-                <a href="#">B.Com</a>
-              </li>
-              <li>
-                <a href="#">MSC</a>
-              </li>
-              <li>
-                <a href="#">BBA</a>
-              </li>
+              
             </ul>
           </aside>
 
-          <aside class="single_sidebar_widget instagram_feeds">
+          <!-- <aside class="single_sidebar_widget instagram_feeds">
             <h5 class="widget_title bold">Featured Colleges</h5>
             <ul class="instagram_row d-flex">
               <li>
@@ -367,9 +356,9 @@
                 </a>
               </li>
             </ul>
-          </aside>
+          </aside> -->
 
-          <aside class="single_sidebar_widget newsletter_widget">
+          <!-- <aside class="single_sidebar_widget newsletter_widget">
             <h5 class="widget_title bold">Newsletter</h5>
 
             <form action="#">
@@ -390,7 +379,7 @@
                 Subscribe
               </button>
             </form>
-          </aside>
+          </aside> -->
         </div>
       </div>
     </div>

@@ -4,8 +4,15 @@ const userValidationRules = () => {
   return [
     body('firstName').notEmpty().withMessage('First name is required'),
     body('email').isEmail().withMessage('Invalid email address'),
-    body('mobileNum').isMobilePhone('any', { strictMode: false }).withMessage('Invalid or missing mobile number'),
-    body('Courses').notEmpty().withMessage('Courses information is required'),
+    body('mobileNum').isMobilePhone('any', { strictMode: false }).withMessage('Invalid or missing mobile number')  .custom((value) => {
+      // Additional custom validation for 10 digits
+      const isTenDigits = /^\d{10}$/.test(value);
+      if (!isTenDigits) {
+          throw new Error('Mobile number must be 10 digits');
+      }
+      return true;
+  }),    
+  body('Courses').notEmpty().withMessage('Courses information is required'),
     body('Address').notEmpty().withMessage('Address is required'),
   ];
 }
