@@ -65,14 +65,18 @@ $bold: 700;
 $bolder: 900;
 
  
-// Global Reset
-ul,
-p {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  line-height: 30px;
-}
+// // Global Reset
+// ul,
+// p {
+//   margin: 0;
+//   padding: 0;
+//   list-style: none;
+//   line-height: 30px;
+//   @media #{$small_mobile}{
+//     font-size: 1.6rem;
+//   }
+
+// }
 
 // Common Styles for Inline Elements
 span, i, a {
@@ -112,7 +116,7 @@ h2 {
   letter-spacing: -.5px;
   text-transform: uppercase;
   @media #{$small_mobile}{
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
  }
 
@@ -121,7 +125,7 @@ h3 {
    letter-spacing: 0;
    text-transform: uppercase;
    @media #{$small_mobile}{
-    font-size: 4rem;
+    font-size: 2.4rem;
   }
 }
 
@@ -863,7 +867,7 @@ position: relative;
         width: 40px;
       }
       span{
-        font-size: 2.4rem;
+        font-size: 2rem;
         font-weight: $bold;
         line-height: 100%;
     
@@ -923,7 +927,6 @@ position: relative;
       a{
         font-size: 2.5rem;
         font-weight: $bold;
-        background-color: green;
       
       }
       p{

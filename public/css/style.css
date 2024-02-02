@@ -66,14 +66,6 @@ p {
   list-style: none;
 }
 
-ul,
-p {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  line-height: 30px;
-}
-
 span, i, a {
   text-decoration: none;
 }
@@ -108,7 +100,7 @@ h2 {
 }
 @media (max-width: 576px) {
   h2 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 }
 
@@ -119,7 +111,7 @@ h3 {
 }
 @media (max-width: 576px) {
   h3 {
-    font-size: 4rem;
+    font-size: 2.4rem;
   }
 }
 
@@ -876,7 +868,7 @@ button:hover {
     width: 40px;
   }
   .navigation .logo span {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 100%;
   }
@@ -918,7 +910,6 @@ button:hover {
 .mobileMenu .offcanvas .offcanvas-body ul a {
   font-size: 2.5rem;
   font-weight: 700;
-  background-color: green;
 }
 .mobileMenu .offcanvas .offcanvas-body ul p {
   font-weight: 600;
@@ -1551,7 +1542,6 @@ button.accordion-button.border-0.bg-white:focus {
 }
 .latest_coures_area::before {
   position: absolute;
-  background-image: url(../img/causes/1.png);
   left: 0;
   content: "";
   width: 60%;
@@ -1611,7 +1601,6 @@ button.accordion-button.border-0.bg-white:focus {
   content: "";
   background-size: cover;
   background-position: center center;
-  background-image: url(../img/causes/2.png);
 }
 @media (max-width: 767px) {
   .latest_coures_area .latest_coures_inner::before {
@@ -1687,8 +1676,7 @@ button.accordion-button.border-0.bg-white:focus {
 }
 .admission_area::before {
   position: absolute;
-  background-image: url(../img/admission/1.png);
-  right: 0;
+   right: 0;
   content: "";
   width: 60%;
   top: 0;
@@ -2220,7 +2208,7 @@ button.accordion-button.border-0.bg-white:focus {
   width: 100%;
   height: 150px;
   padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.123);
+  border: 1px solid #f5f5f5;
 }
 @media (max-width: 991px) {
   .mietViewPage .collegeViewImage {
@@ -2243,10 +2231,10 @@ button.accordion-button.border-0.bg-white:focus {
   padding: 30px 50px;
   display: block;
   justify-content: left;
-  color: rgb(160, 25, 25);
+  color: #003366;
   position: relative;
   z-index: 2;
-  border: 1px solid rgba(0, 0, 0, 0.103);
+  border: 1px solid #f5f5f5;
   margin: 10px;
   border-radius: 10px;
   background-color: white;
@@ -2302,7 +2290,7 @@ button.accordion-button.border-0.bg-white:focus {
   align-items: center;
 }
 .mietViewPage .CVmiddleContent ul li .rating span:first-child {
-  border: 1px solid rgba(0, 0, 0, 0.116);
+  border: 1px solid #f5f5f5;
   padding: 4px;
   border-radius: 5px;
   background-color: #E8E3E8;
@@ -2315,16 +2303,14 @@ button.accordion-button.border-0.bg-white:focus {
 @media (max-width: 991px) {
   .mietViewPage .CVmiddleContent ul li {
     margin: 1px 5px;
-    font-size: 1rem;
     font-weight: 100;
   }
 }
 .mietViewPage .CVmiddleContent ul li .rating {
-  color: rgb(255, 110, 0);
+  color: 1px solid #f5f5f5;
 }
 .mietViewPage .CVmiddleContent ul li span {
   color: black;
-  font-size: 1.2rem;
   margin: 0 5px;
   font-weight: 400;
 }
@@ -2337,11 +2323,10 @@ button.accordion-button.border-0.bg-white:focus {
   width: 100%;
 }
 .mietViewPage .collegeViewBtn .call1 {
-  background-color: var(--primary-color);
+  background-color: #2f207d;
   padding: 10px;
   margin-top: 10px;
   width: 100%;
-  font-size: 1.4rem;
   text-align: center;
 }
 .mietViewPage .CollegeViewtabConent {
@@ -2352,11 +2337,9 @@ button.accordion-button.border-0.bg-white:focus {
 }
 .mietViewPage .CollegeViewtabConent h3 {
   margin: 10px 0;
-  font-size: 1.3rem;
   font-weight: 600;
 }
 .mietViewPage .CollegeViewtabConent p {
-  font-size: 1.2rem;
   line-height: 20px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.849);
@@ -2369,7 +2352,6 @@ button.accordion-button.border-0.bg-white:focus {
   margin: 10px 0;
 }
 .mietViewPage .CollegeViewtabConent .overview p {
-  font-size: 1.2rem;
   line-height: 20px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.849);
@@ -2387,14 +2369,12 @@ button.accordion-button.border-0.bg-white:focus {
   padding: 10px;
 }
 .mietViewPage .CollegeViewtabConent .overview1 .innerOverview1 .subContent p {
-  font-size: 1.3rem;
   line-height: 19px;
   font-weight: 300;
 }
 .mietViewPage .CollegeViewtabConent .overview1 .innerOverview1 .subContent p:first-child {
   line-height: 19px;
-  font-size: 1.2rem;
-  color: rgba(255, 0, 0, 0.733);
+  color: #2f207d;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .allCourses {
   display: flex;
@@ -2406,13 +2386,12 @@ button.accordion-button.border-0.bg-white:focus {
   color: white;
   font-weight: 600;
   padding: 5px 30px;
-  font-size: 1.4rem;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+  border-bottom: 1px solid #f5f5f5;
   border-width: 50%;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName {
@@ -2421,26 +2400,19 @@ button.accordion-button.border-0.bg-white:focus {
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName span:first-child {
   color: blue;
-  font-size: 1.6rem;
-}
-.mietViewPage .CollegeViewtabConent .feesStructure .courseFees .courseName span:last-child {
-  font-size: 1rem;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee {
   display: flex;
   flex-direction: column;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee span:first-child {
-  font-size: 1.2rem;
   font-weight: 600;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .annualFee span:last-child {
   color: orange;
-  font-size: 1.4rem;
   font-weight: 600;
 }
 .mietViewPage .CollegeViewtabConent .feesStructure .courseFees .Apply {
-  font-size: 1.4rem;
   background-color: #f37921;
   color: white;
   display: flex;
@@ -2479,21 +2451,29 @@ button.accordion-button.border-0.bg-white:focus {
   left: 5px;
 }
 .mietViewPage .CollegeViewtabConent .TableOfContent ol li::marker {
-  font-size: 1.6rem;
-  border: 1px solid black;
+  border: 1px solid #f5f5f5;
 }
 .mietViewPage .CollegeViewtabConent .TableOfContent ol li a {
   color: black;
-  font-size: 1.2rem;
   font-weight: 600;
 }
 .mietViewPage .CollegeViewtabConent .TableOfContent ol li a:hover {
   color: blue;
 }
+.mietViewPage .CollegeViewtabConent .Ranking {
+  margin: 20px 0px;
+}
 .mietViewPage .CollegeViewtabConent .Ranking ul {
+  margin: 0;
+  padding: 0;
+}
+.mietViewPage .CollegeViewtabConent .Ranking ul li {
   list-style: disc;
-  padding: 0 20px;
-  font-size: 1.2rem;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.mietViewPage .CollegeViewtabConent h3 {
+  margin: 30px 0px 20px 0px;
 }
 .mietViewPage .address {
   display: flex;
@@ -2501,7 +2481,6 @@ button.accordion-button.border-0.bg-white:focus {
 .mietViewPage .address i {
   border-radius: 5px;
   align-items: center;
-  font-size: 2.6rem;
   justify-content: center;
   display: flex;
   color: black;
@@ -2525,7 +2504,11 @@ button.accordion-button.border-0.bg-white:focus {
   height: max-content;
 }
 .mietViewPage .tabLinks button {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+}
+.mietViewPage .tabLinks button:hover {
+  background-color: #00671e;
+  color: #fff;
 }
 
 .dewanViewPage {
@@ -3030,17 +3013,12 @@ button.accordion-button.border-0.bg-white:focus {
   }
 }
 .innerContent p {
-  font-size: 1.2rem;
-  font-weight: 600;
   color: black;
-  word-wrap: break-word;
-  line-height: 15px;
 }
 .innerContent a {
   color: black;
 }
 .innerContent h6 {
-  font-size: 1.6rem;
   font-weight: 700;
 }
 .innerContent .Banner {
@@ -3211,11 +3189,15 @@ button.accordion-button.border-0.bg-white:focus {
   border-radius: 10px;
 }
 .innerContent .CollegeMobileList .CollegeMobileList_list .CollegeMobileList_listData .image {
-  height: 100px;
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
 }
 .innerContent .CollegeMobileList .CollegeMobileList_list .CollegeMobileList_listData .image img {
-  width: 100%;
-  height: 100%;
+  height: 80px;
+  width: 80px;
   object-fit: cover;
 }
 .innerContent .CollegeMobileList .CollegeMobileList_list .CollegeMobileList_listData .CollegeMobileList_data {
@@ -3644,6 +3626,8 @@ button.accordion-button.border-0.bg-white:focus {
   flex-direction: row;
   justify-content: start;
   align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 .course-hero .course-tabs ul li {
   margin-right: 8px;
@@ -3654,6 +3638,7 @@ button.accordion-button.border-0.bg-white:focus {
   color: #2f207d;
   border-color: #2f207d;
   border-radius: 0px;
+  width: max-content;
 }
 .course-hero .course-tabs ul li button:hover {
   background-color: #00671e;
@@ -3694,4 +3679,4 @@ button.accordion-button.border-0.bg-white:focus {
   background-color: var(--primary-color);
 }
 
-/*# sourceMappingURL=style.min.css.map */
+/*# sourceMappingURL=style.css.map */
