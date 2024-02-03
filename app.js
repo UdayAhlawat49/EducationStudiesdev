@@ -4,10 +4,20 @@ const path = require('path');
  const   collegeData   = require('./database/collegeData'); // Adjust the path accordingly
  const collegeDataStore = require("./database/collegeDataStore");
 const session = require('express-session');
+// const helmet = require('helmet');
+// const compression = require('compression');
+// const cors = require('cors'); // Add this line if needed
 
 
 const app = express();
  
+
+// // Security middleware
+// app.use(helmet());
+
+// // Compression middleware
+// app.use(compression());
+
 app.use((req, res, next) => {
   res.locals.collegeData = collegeData;
   res.locals.collegeDataStore = collegeDataStore;
