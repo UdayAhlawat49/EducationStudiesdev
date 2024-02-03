@@ -1,1113 +1,1075 @@
 <%- include('partials/header') %>
 
+<style>
+  /* Add your website styles here */
+  
+/* Form Pop-up Styles */
+.popup-container {
+  display: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50vw;
+  text-align: center;
+  @media screen and (max-width: 768px) {
+    width: auto;
+  }
+  .content {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    span {
+      margin-left: 10px;
+      font-weight: 300;
+      opacity: 0.7;
+      /* margin-top: 49px; */
+      font-size: 20px;
+      line-height: 30px;
+    }
+    strong {
+      font-size: 42px;
+      font-weight: 600;
+      color: var(--primary-color);
+      line-height: 60px;
+    }
+  }
+  .image {
+    width: 300px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.close-btn1 {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 20px;
+  z-index: 55;
+  cursor: pointer;
+}
+
+
+</style>
 <div id="index" style="background-color:   white;">
-
-
-<!-- Your specific page content goes here -->
-<div class="container-fluid">
-    <!-- desktop viw -->
-    <div class="row d-none d-md-block">
-      <div class="col m-0 p-0">
-        <div id="desktopView ">
-     
-          <div class="heroSection">
-            <div class="container-fluid hero">
-            </div>
-          </div>
-          <div class="heroSection1">
-           <!-- middle content -->
-         
-           <div class="Banner  ">
-         
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col">
-          
-  
-                  <!-- crousel start  -->
-                  <div id="carouselExampleIndicators" class="carousel slide"   data-bs-interval="2000" data-bs-wrap="true" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="img-fluid " src="https://images.collegedunia.com/public/asset/img/homepage/banner/Shri1642233244.webp?mode=stretch" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img  class="img-fluid "src="https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232499.webp?mode=stretch" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="img-fluid "  src="https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232971.webp?mode=stretch" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-               
+   <!-- Your specific page content goes here -->
+   <div class="container-fluid">
+      <!-- desktop viw -->
+      <div class="row d-none d-md-block">
+         <div class="col m-0 p-0">
+            <div id="desktopView ">
+               <div class="heroSection">
+                  <div class="container-fluid hero">
                   </div>
-                  <!-- crousel end  -->
-
+               </div>
+               <div class="heroSection1">
                   <!-- middle content -->
-                  <div class="container">
-
-                  
-                  <div class="middleContent">
-                    <div class="row">
-                      <div class="col-md-8">
-                          
-                    <div class="upperHead">
-             
-                    </div>
-                    <div class="mainHead">
-                      Discover <br> Your Dream College with <br> <span>EDUCATIONAL STUDIES</span>
-
-                    </div>
-                    <div class="subHead">
-                      Education Studies is dedicated to guiding you on your educational journey with expert support and services. Our commitment to excellence ensures you access the best study options, both in India and abroad. We strive for success by providing seamless admission processes and facilitating scholarship opportunities.
-                      
-                    </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <!-- forms -->
-
-                        <div class="registerForm">
-                          <div class="container">
-                           <div class="logo">
-                            <img   src="/assets/images/LOGO.png" alt="">
-                           </div>
-                          <form   action="/admin" method="POST" id="addRegisterForm">
-                            
-                            <div>
-                              <label for="firstName">Name</label>  <br>
-                              <input id="firstName" name="firstName" placeholder="Enter First Name" type="text" required>
-                            </div>
- 
-                            <div>
-                              <label for="email">Email</label> <br>
-                              <input id="email" name="email" placeholder="Enter Email" type="text" required>
-                            </div>
-
-                            <div >
-                              <label for="mobileNum">Mobile No</label>  <br>
-                              <input id="mobileNum" placeholder="Enter Phone" name="mobileNum" type="number" required>
-                            </div>
-
-                            <div >
-                              <label for="Courses">Courses</label>  <br>
-                              <input id="Courses" placeholder="Enter Course" name="Courses" type="text" required>
-                            </div>
-
-                            <div >
-                              <label for="Address">Address</label>  <br>
-                              <textarea style="width: 100%;" id="Address" placeholder="Enter Address" name="Address" required></textarea>
-                            </div>
-                            <div>
-                              <input type="submit" value="Submit">
-                            </div>
-                           
-                          </form>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-       </div>
-
-          <!-- Stat Section Start -->
-          <!-- service_area_start(College Section header Start)  -->
-          <div class="service_area gray_bg">  
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                  <div class="single_service shadow shadow    d-flex align-items-center">
-                    <div class="icon">
-                      <i class="bi bi-bookmark-check"></i>
-                    </div>
-                    <div class="service_info">
-                      <h4>500+</h4>
-                      <p>Applications filled</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="single_service shadow d-flex align-items-center">
-                    <div class="icon">
-                      <i class="bi bi-bookmark-check"></i>
-                    </div>
-                    <div class="service_info">
-                      <h4>1,000+</h4>
-                      <p>Admissions done</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="single_service shadow d-flex align-items-center">
-                    <div class="icon">
-                      <i class="bi bi-bookmark-check"></i>
-                    </div>
-                    <div class="service_info">
-                      <h4>1500+</h4>
-                      <p>Expert Counsellors</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--/ service_area_start(College Section Header End)  -->
-          
-        
-          <!-- College Section Start -->
-          <div
-            class="popular_program_area section__padding  popular_program_area1"
-          >
-            <div class="container ">
-             
-              <div class="row mb-3">
-                <div class="col-md-6 text-center d-flex align-items-center   ">
-                  <div class="section_title text-center">
-                    <h2 class="bold">Our Featured Colleges</h2>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <nav class="custom_tabs text-end ">
-                    <div class="nav nav-tabs" id="myTab" role="tablist">
-                     
-      
-                      <a
-                        class="nav-item active "
-                        role="presentation"
-                        id="engineering-tab"
-                        data-bs-toggle="tab"
-                        data-bs-target="#engineering"
-                        type="button"
-                        role="tab"
-                        aria-controls="engineering"
-                        aria-selected="true"
-                        >Engineering</a
-                      >
-      
-                      <a
-                        class="nav-item"
-                        role="presentation"
-                        id="mangement-tab"
-                        data-bs-toggle="tab"
-                        data-bs-target="#mangement"
-                        type="button"
-                        role="tab"
-                        aria-controls="mangement"
-                        aria-selected="false"
-                        >Management</a
-                      >
-      
-                      <a
-                        class="nav-item"
-                        role="presentation"
-                        id="medical-tab"
-                        data-bs-toggle="tab"
-                        data-bs-target="#medical"
-                        type="button"
-                        role="tab"
-                        aria-controls="medical"
-                        aria-selected="false"
-                        >Medical</a
-                      >
-                    </div>
-                  </nav>
-                </div>
-              </div>
-      
-              <!-- Tab panes -->
-              <div class="tab-content   ">
-                <!-- All -->
-                <div
-                  class="tab-pane "
-                  id="all"
-                  role="tabpanel"
-                  aria-labelledby="all-tab"
-                >
-                  <!-- <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                      <div class="single__program">
-                        <div class="program_thumb">
-                          <img src="assets/images/College/miet-thumb.webp" alt="" />
-                        </div>
-                        <div class="program__content">
-                          <h2 class="bold">Management</h2>
-                          <h4 class="semi-bold">
-                            Meerut Institute of Engineering and Technology
-                          </h4>
-                          <p class="light">
-                            Meerut Institute of Engineering & Technology (MIET) is a
-                            prestigious institution Meerut offers a quality education
-                            at a higher level.
-                          </p>
-      
-                          <button><a href="/CollegesList">LERAN MORE</a></button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                      <div class="single__program">
-                        <div class="program_thumb">
-                          <img
-                            src="./assets/images/College/dewan-thumb.jpeg"
-                            alt=""
-                          />
-                        </div>
-                        <div class="program__content">
-                          <h2 class="bold">Engineering</h2>
-                          <h4 class="semi-bold">
-                            Dewan VS Group of Institutions India
-                          </h4>
-                          <p class="light">
-                            Dewan V.S Group of Institutions is a Private college
-                            established in year 1996. The college is located in
-                            Meerut, Uttar Pradesh.
-                          </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                      <div class="single__program">
-                        <div class="program_thumb">
-                          <img src="assets/images/College/iimt-thumb.png" alt="" />
-                        </div>
-                        <div class="program__content">
-                          <h2 class="bold">Medical</h2>
-                          <h4 class="semi-bold">IIMT Meerut</h4>
-                          <p class="light">
-                            IIMT University (IIMTU), Meerut is a private university
-                            established in 2016. This university offers undergraduate,
-                            postgraduate and doctoral programmes
-                          </p>
-                          <button><a href="/collegeslist">LEARN MORE</a></button>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-                </div>
-      
-                <!-- Engineering -->
-                <div
-                  class="tab-pane active"
-                  id="engineering"
-                  role="tabpanel"
-                  aria-labelledby="engineering"
-                >
-                <div class="engineeringColleges">
-
-                
-                <%- include('partials/engineeringColleges') %>
-              </div>
-                </div>
-      
-                <!-- Management -->
-                <div
-                  class="tab-pane"
-                  id="mangement"
-                  role="tabpanel"
-                  aria-labelledby="mangement-tab"
-                >
-                <div class="engineeringColleges">
-
-                
-                  <%- include('partials/managementColleges') %>
-                </div>
-                </div>
-      
-                <!-- Medical -->
-                <div
-                  class="tab-pane"
-                  id="medical"
-                  role="tabpanel"
-                  aria-labelledby="medical-tab"
-                >
-                <div class="engineeringColleges">
-
-                
-                  <%- include('partials/medicalColleges') %>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- College Section Start -->
-      
-        <!-- courses Section Start -->
- 
-       <!-- courses Section Start -->
-       
-   
-       <!-- popular colleges -->
-       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h4 class="bold my-3">Top Colleges list</h4>
-            <%- include('partials/featuredColleges') %>
-
-          </div>
-        </div>
-       </div>
-          <!-- study abroad section -->
-          <section>
-            <!-- recent_event_area_strat(Admission Section Start)  -->
-            <div class="container about shadow p-5  my-5">
-              <div class="row align-items-center h-100">
-                <div class="col-lg-5 col-md-6 ">
-                  <img  style="object-fit: cover;"
-                    src="/assets/images/about/about-us-1.jpg"
-                    class="shadow"
-                    alt=""
-                  />
-                </div>
-                <!--end col-->
-      
-                <div class="col-lg-7 col-md-6">
-                  <div class="section-title ms-lg-5 my-5 my-md-0">
-                    <h2 class="bold mb-3">Educate Globally, Thrive Locally</h2>
-                   
-                    <p class="regular">
-                      Unlock a world of opportunities with Education Studies Abroad. Our commitment to excellence in international education sets the stage for your global success. Here's why you should consider studying abroad:
-                    </p>
-                    <p class="regular">
-                      Explore direct admissions in renowned institutions and
-                      universities globally across various streams:
-                    </p>
-                    <div class="row my-5">
-                      <div class="col">
+                  <div class="Banner  ">
+                     <div class="container-fluid">
                         <div class="row">
-                          <div class="col-md-6">
-                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Quality learning</p></li>
-                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Cutting-edge infrastructure</p></li>
-                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Scholarships offered</p></li>
-                            
-                          </div>
-                          <div class="col-md-6">
-                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Programs in MBA, B.Tech</p></li>
-                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>NEET mandatory for medical</p></li>
-                            <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Affordable MBBS abroad</p></li>
-  
-                          </div>
-                        </div>
-                        
-                        
-                      </div>
-                    </div>
-                    <!-- <div class="row my-5">
-                      <div class="col-lg-12 col-12">
-                        <ul class="mb-0 list-unstyled">
-                          <li class="mb-0">
-                            <span class="   me-2"><i class="uil uil-check-circle align-middle"></i></span>
-                            <strong>Medical:</strong> MBBS, BDS, BAMS, etc.
-                          </li>
-                          <li class="mb-0">
-                            <span class="   me-2"><i class="uil uil-check-circle align-middle"></i></span>
-                            <strong>Management:</strong> MBA, PGDM, etc
-                          </li>
-                          <li class="mb-0">
-                            <span class="   me-2"><i class="uil uil-check-circle align-middle"></i></span>
-                            <strong>Engineering:</strong> B.Tech, etc
-                          </li>
-                        </ul>
-                      </div>
-                      <!--end col-->
-                    <!-- </div> -->
-                    <!--end row-->
-      
-                    <div class="buttonAbout ">
-                     <a href="/abroad"> <button class="primary-button">READ MORE</button></a>
-                    </div>
-                  </div>
-                </div>
-                <!--end col-->
-              </div>
-              <!--end row-->
-            </div>
-            <!-- recent_event_area_end(Admission Section End)  -->
-          </section>
-      
-          <!-- admission section -->
-          <section
-            class="Addsection  py-5"
-          
-          >
-            <div class="container">
-              <div class="row align-items-center">
-                <div class="col-12">
-                  <div class="me-lg-5">
-                    <div class="row justify-content-center">
-                      <div class="col-12">
-                        <div
-                          class="section-title text-center text-md-start mb-4 pb-2"
-                        >
-                          <h2 class="bold mb-4">Admission Process</h2>
-                          <p class="regular">
-                            Education Studies: Your Gateway to Academic Excellence
-                          </p>
-                        </div>
-                      </div>
-                      <!--end col-->  
-                    </div>
-                    <!--end row-->
-      
-                    <div class="row">
-                      <div class="col-md-6 r p-2 ">
-                        <div class="features feature-primary rounded shadow   p-5 d-flex">
-                          <i class="bi bi-1-circle-fill" "></i>
-      
-                          <div class="content flex-1 ms-3">
-                            <h4 class="bold">Consultation and Goal Alignment:</h4>
-                            <p class="regular ">
-                            Personalized guidance for your academic goals, whether for domestic or international studies. <br> &nbsp;
+                           <div class="col">
+                              <!-- crousel start  -->
+                              <div id="carouselExampleIndicators" class="carousel slide"   data-bs-interval="2000" data-bs-wrap="true" data-bs-ride="carousel">
+                                 <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                 </div>
+                                 <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                       <img class="img-fluid " src="https://images.collegedunia.com/public/asset/img/homepage/banner/Shri1642233244.webp?mode=stretch" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                       <img  class="img-fluid "src="https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232499.webp?mode=stretch" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                       <img class="img-fluid "  src="https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232971.webp?mode=stretch" class="d-block w-100" alt="...">
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- crousel end  -->
+                              <!-- middle content -->
+                              <div class="container">
+                                 <div class="middleContent">
+                                    <div class="row">
+                                       <div class="col-md-8 d-flex justify-content-center  flex-column ">
+                                          <div class="upperHead">
+                                          </div>
+                                          <div class="mainHead">
+                                             Discover <br> Your Dream College with <br> <span>EDUCATIONAL STUDIES</span>
+                                          </div>
+                                          <div class="subHead">
+                                             Education Studies is dedicated to guiding you on your educational journey with expert support and services. Our commitment to excellence ensures you access the best study options, both in India and abroad. We strive for success by providing seamless admission processes and facilitating scholarship opportunities.
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4">
+                                          <!-- forms -->
+                                          <div id="formsData">
 
-                            </p>
-                          </div>
+                                            <%- include("partials/registerForm.ejs")%>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                      </div>
-                      <!--end col-->
-      
-                      <div class="col-md-6  p-2 ">
-                        <div class="features feature-primary rounded shadow   p-5 d-flex">
-                          <i class="bi bi-2-circle-fill"></i>
-      
-                          <div class="content flex-1 ms-3">
-                            <h4 class="bold">Unified Application Support</h4>
-                            <p class="regular">
-                              Comprehensive assistance in preparing and submitting applications for institutions within the country or abroad.
-                            </p>
-                          </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Stat Section Start -->
+               <!-- service_area_start(College Section header Start)  -->
+               <div class="service_area gray_bg">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6">
+                           <div class="single_service shadow shadow    d-flex align-items-center">
+                              <div class="icon">
+                                 <i class="bi bi-bookmark-check"></i>
+                              </div>
+                              <div class="service_info">
+                                 <h4>500+</h4>
+                                 <p>Applications filled</p>
+                              </div>
+                           </div>
                         </div>
-                      </div>
-                      <!--end col-->
-      
-                      <div class="col-md-6  p-2 ">
-                        <div class="features feature-primary rounded shadow  p-5 d-flex">
-                          <i class="bi bi-3-circle-fill"></i>
-      
-                          <div class="content flex-1 ms-3">
-                            <h4 class="bold">Effortless Documentation Management</h4>
-                            <p class="regular">
-                              Navigate documentation seamlessly, adhering to standards for both domestic and international applications
-                            </p>
-                          </div>
+                        <div class="col-lg-4 col-md-6">
+                           <div class="single_service shadow d-flex align-items-center">
+                              <div class="icon">
+                                 <i class="bi bi-bookmark-check"></i>
+                              </div>
+                              <div class="service_info">
+                                 <h4>1,000+</h4>
+                                 <p>Admissions done</p>
+                              </div>
+                           </div>
                         </div>
-                      </div>
-                      <!--end col-->
-                      <div class="col-md-6  p-2 ">
-                        <div class="features feature-primary rounded shadow   p-5 d-flex">
-                          <i class="bi bi-4-circle-fill"></i>
-      
-                          <div class="content flex-1 ms-3">
-                            <h4 class="bold">Success-oriented Guidance</h4>
-                            <p class="regular">
-                              Ongoing support for a successful academic journey, providing insights and strategies for your chosen field of study.
-                            </p>
-                          </div>
+                        <div class="col-lg-4 col-md-6">
+                           <div class="single_service shadow d-flex align-items-center">
+                              <div class="icon">
+                                 <i class="bi bi-bookmark-check"></i>
+                              </div>
+                              <div class="service_info">
+                                 <h4>1500+</h4>
+                                 <p>Expert Counsellors</p>
+                              </div>
+                           </div>
                         </div>
-                      </div>
-                      <!--end col-->
-                    </div>
-                    <!--end row-->
+                     </div>
                   </div>
-                </div>
-                <!--end col-->
-      
-                <!-- <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                  <div class="img-fluid-responsive position-relative">
-                    <img src="./assets/images/pngwing.com.png" class="mx-auto d-block" alt="">
+               </div>
+               <!--/ service_area_start(College Section Header End)  -->
+               <!-- College Section Start -->
+               <div
+                  class="popular_program_area section__padding  popular_program_area1"
+                  >
+                  <div class="container ">
+                     <div class="row mb-3">
+                        <div class="col-md-6 text-center d-flex align-items-center   ">
+                           <div class="section_title text-center">
+                              <h2 class="bold">Our Featured Colleges</h2>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <nav class="custom_tabs text-end ">
+                              <div class="nav nav-tabs" id="myTab" role="tablist">
+                                 <a
+                                    class="nav-item active "
+                                    role="presentation"
+                                    id="engineering-tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#engineering"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="engineering"
+                                    aria-selected="true"
+                                    >Engineering</a
+                                    >
+                                 <a
+                                    class="nav-item"
+                                    role="presentation"
+                                    id="mangement-tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#mangement"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="mangement"
+                                    aria-selected="false"
+                                    >Management</a
+                                    >
+                                 <a
+                                    class="nav-item"
+                                    role="presentation"
+                                    id="medical-tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#medical"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="medical"
+                                    aria-selected="false"
+                                    >Medical</a
+                                    >
+                              </div>
+                           </nav>
+                        </div>
+                     </div>
+                     <!-- Tab panes -->
+                     <div class="tab-content   ">
+                        <!-- All -->
+                        <div
+                           class="tab-pane "
+                           id="all"
+                           role="tabpanel"
+                           aria-labelledby="all-tab"
+                           >
+                           <!-- <div class="row">
+                              <div class="col-lg-4 col-md-6">
+                                <div class="single__program">
+                                  <div class="program_thumb">
+                                    <img src="assets/images/College/miet-thumb.webp" alt="" />
+                                  </div>
+                                  <div class="program__content">
+                                    <h2 class="bold">Management</h2>
+                                    <h4 class="semi-bold">
+                                      Meerut Institute of Engineering and Technology
+                                    </h4>
+                                    <p class="light">
+                                      Meerut Institute of Engineering & Technology (MIET) is a
+                                      prestigious institution Meerut offers a quality education
+                                      at a higher level.
+                                    </p>
+                              
+                                    <button><a href="/CollegesList">LERAN MORE</a></button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-6">
+                                <div class="single__program">
+                                  <div class="program_thumb">
+                                    <img
+                                      src="./assets/images/College/dewan-thumb.jpeg"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <div class="program__content">
+                                    <h2 class="bold">Engineering</h2>
+                                    <h4 class="semi-bold">
+                                      Dewan VS Group of Institutions India
+                                    </h4>
+                                    <p class="light">
+                                      Dewan V.S Group of Institutions is a Private college
+                                      established in year 1996. The college is located in
+                                      Meerut, Uttar Pradesh.
+                                    </p>
+                                    <button><a href="/collegeslist">LEARN MORE</a></button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-6">
+                                <div class="single__program">
+                                  <div class="program_thumb">
+                                    <img src="assets/images/College/iimt-thumb.png" alt="" />
+                                  </div>
+                                  <div class="program__content">
+                                    <h2 class="bold">Medical</h2>
+                                    <h4 class="semi-bold">IIMT Meerut</h4>
+                                    <p class="light">
+                                      IIMT University (IIMTU), Meerut is a private university
+                                      established in 2016. This university offers undergraduate,
+                                      postgraduate and doctoral programmes
+                                    </p>
+                                    <button><a href="/collegeslist">LEARN MORE</a></button>
+                                  </div>
+                                </div>
+                              </div>
+                              </div> -->
+                        </div>
+                        <!-- Engineering -->
+                        <div
+                           class="tab-pane active"
+                           id="engineering"
+                           role="tabpanel"
+                           aria-labelledby="engineering"
+                           >
+                           <div class="engineeringColleges">
+                              <%- include('partials/engineeringColleges') %>
+                           </div>
+                        </div>
+                        <!-- Management -->
+                        <div
+                           class="tab-pane"
+                           id="mangement"
+                           role="tabpanel"
+                           aria-labelledby="mangement-tab"
+                           >
+                           <div class="engineeringColleges">
+                              <%- include('partials/managementColleges') %>
+                           </div>
+                        </div>
+                        <!-- Medical -->
+                        <div
+                           class="tab-pane"
+                           id="medical"
+                           role="tabpanel"
+                           aria-labelledby="medical-tab"
+                           >
+                           <div class="engineeringColleges">
+                              <%- include('partials/medicalColleges') %>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div> -->
-                <!--end col-->
-              </div>
-              <!--end row-->
-            </div>
-          </section>
-          
-          <!-- Call To Action -->
-          <section class="cta">
-            <div
-              class="cta-inner overlay section"
-              
-              data-stellar-background-ratio="0.5"
-            >
-              <div class="container">
-                <div class="row">
-                  <div class="  col-12">
-                    <div class="text-content">
-                      <h2 class="bold">
-                        TRANSFORM YOUR ACADEMIC VISION WITH EDUCATION STUDIES</h2>
-                      <p class="regular">
-                        Seamless applications, expert guidance, and ongoing support for your academic success. <br>
-                        <strong>Join us today!</strong>
-                      </p>
-                      <!-- CTA Button -->
-                       
-                        <button class="exploreNow">Join Now</button>
-                    
-                       
-                      <!--/ End CTA Button -->
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-12">
-                    <!-- Cta Image -->
-      
-                    <!--/ End Cta Image -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!--/ End Call To Action -->
-      
-          <!-- testimonial  -->
-          <section>
-            <div class="testimonial text-center">
-              <h2 class=" semi-bold my-3">TESTIMONIALS</h2>
-              <h2 class="bold">What People Say About Us !</h2>
-      
-              <div class="owl-carousel owl-theme">
-                <div class="item shadow">
-                  <div class="innerTes ">
-                    <div class="rating">
-                      <span>4.5/5</span>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p class="testimonial-text">
-                      Education Studies made my international application process a breeze. Their team provided invaluable guidance, ensuring a smooth transition to my dream university
-                    </p>
-                    <div class="testimonial-author">
-                      <div class="avatarImg rounded-circle">
-                        <img
-                          src="/assets/images/testimonial/avtar-b.jpg"
-                          alt="Testimonial Author"
-                          class="testimonial-author-img"
-                        />
-                      </div>
-                      <div class="intro">
-                        <span class="testimonial-author-name">Rahul Sharma</span>
-                        <span class="testimonial-author-position">International Student</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="item shadow">
-                  <div class="innerTes ">
-                    <div class="rating">
-                      <span>4.5/5</span>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p class="testimonial-text">
-                      "I appreciate Education Studies for their meticulous documentation management. The zero-processing-fee policy made my application stress-free. Highly recommended"
-                    </p>
-                    <div class="testimonial-author">
-                      <div class="avatarImg rounded-circle">
-                        <img
-                          src="/assets/images/testimonial/avtar-b.jpg"
-                          alt="Testimonial Author"
-                          class="testimonial-author-img"
-                        />
-                      </div>
-                      <div class="intro">
-                        <span class="testimonial-author-name">Rohan Gupta</span>
-                        <span class="testimonial-author-position">International Student</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="item shadow">
-                  <div class="innerTes ">
-                    <div class="rating">
-                      <span>4.5/5</span>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p class="testimonial-text">
-                      "The personalized consultation at Education Studies aligned my academic goals. Their support from application to admission was instrumental in my success."
-                    </p>
-                    <div class="testimonial-author">
-                      <div class="avatarImg rounded-circle">
-                        <img
-                          src="/assets/images/testimonial/avtar-g.jpg"
-                          alt="Testimonial Author"
-                          class="testimonial-author-img"
-                        />
-                      </div>
-                      <div class="intro">
-                        <span class="testimonial-author-name">Mahak Rathi</span>
-                        <span class="testimonial-author-position">Domestic Student</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="item shadow">
-                  <div class="innerTes ">
-                    <div class="rating">
-                      <span>4.5/5</span>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p class="testimonial-text">
-                      "Education Studies doesn't just assist; they empower. The ongoing guidance post-admission has been crucial in shaping my academic journey."
-                    </p>
-                    <div class="testimonial-author">
-                      <div class="avatarImg rounded-circle">
-                        <img
-                          src="/assets/images/testimonial/avtar-b.jpg"
-                          alt="Testimonial Author"
-                          class="testimonial-author-img"
-                        />
-                      </div>
-                      <div class="intro">
-                        <span class="testimonial-author-name">Piyush Singh</span>
-                        <span class="testimonial-author-position">International Student</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="item shadow">
-                  <div class="innerTes ">
-                    <div class="rating">
-                      <span>4.5/5</span>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p class="testimonial-text">
-                      "Effortless applications and expert support—Education Studies exceeded my expectations. Grateful for their role in my academic achievement."
-                    </p>
-                    <div class="testimonial-author">
-                      <div class="avatarImg rounded-circle">
-                        <img
-                          src="/assets/images/testimonial/avtar-g.jpg"
-                          alt="Testimonial Author"
-                          class="testimonial-author-img"
-                        />
-                      </div>
-                      <div class="intro">
-                        <span class="testimonial-author-name">Ankita Rastogi</span>
-                        <span class="testimonial-author-position">Domestic Student</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Faqs Section Start -->
-      
-          <!-- FAQ Container Start -->
-          <div class="container mt-100 mt-60 faqs">
-            <div class="row justify-content-center">
-              <div class="col-12">
-                <div class="section-title mb-4 pb-2 text-center">
-                  <h2 class="bold mb-3">Frequently Asked Questions</h2>
-                  <p class="semi-bold">
-                    Quick answers to common queries about our services and support. Your academic success simplified.
-                  </p>
-                </div>
-              </div>
-              <!--end col-->
-            </div>
-            <!--end row-->
-      
-            <div class="row justify-content-center">
-              <div class="col-lg-10 mt-4 pt-2">
-                <div class="accordion" id="buyingquestion">
+               </div>
+               <!-- College Section Start -->
+               <!-- courses Section Start -->
+               <!-- courses Section Start -->
+               <!-- popular colleges -->
+               <div class="container">
                   <div class="row">
-                    <div class="col">
-                      <div class="accordion-item rounded  ">
-                        <h2 class="accordion-header" id="headingOne">
-                          <button
-                            class="accordion-button border-0 bg-white collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne"
-                            aria-expanded="false"
-                            aria-controls="collapseOne"
-                          >
-                          What services does Education Studies offer?
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseOne"
-                          class="accordion-collapse border-0 collapse"
-                          aria-labelledby="headingOne"
-                          data-bs-parent="#buyingquestion"
-                       
-                        >
-                          <div class="accordion-body text-muted bg-white">
-                            Education Studies provides personalized consultation, application support, documentation management, and ongoing guidance for academic excellence, both domestically and internationally.
-                          </div>
+                     <div class="col-12">
+                        <h4 class="bold my-3">Top Colleges list</h4>
+                        <%- include('partials/featuredColleges') %>
+                     </div>
+                  </div>
+               </div>
+               <!-- study abroad section -->
+               <section>
+                  <!-- recent_event_area_strat(Admission Section Start)  -->
+                  <div class="container about shadow p-5  my-5">
+                     <div class="row align-items-center h-100">
+                        <div class="col-lg-5 col-md-6 ">
+                           <img  style="object-fit: cover;"
+                              src="/assets/images/about/about-us-1.jpg"
+                              class="shadow"
+                              alt=""
+                              />
                         </div>
-                      </div>
-      
-                      <div class="accordion-item rounded border  mt-3">
-                        <h2 class="accordion-header" id="headingTwo">
-                          <button
-                            class="accordion-button border-0 bg-white collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo"
-                            aria-expanded="false"
-                            aria-controls="collapseTwo"
-                          >
-                          How can I schedule a personalized consultation with Education Studies?
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseTwo"
-                          class="accordion-collapse border-0 collapse"
-                          aria-labelledby="headingTwo"
-                          data-bs-parent="#buyingquestion"
-                        
-                        >
-                          <div class="accordion-body text-muted bg-white">
-                            You can easily schedule a consultation by contacting our team through the provided contact details on our website or visiting our offices.
-                          </div>
+                        <!--end col-->
+                        <div class="col-lg-7 col-md-6">
+                           <div class="section-title ms-lg-5 my-5 my-md-0">
+                              <h2 class="bold mb-3">Educate Globally, Thrive Locally</h2>
+                              <p class="regular">
+                                 Unlock a world of opportunities with Education Studies Abroad. Our commitment to excellence in international education sets the stage for your global success. Here's why you should consider studying abroad:
+                              </p>
+                              <p class="regular">
+                                 Explore direct admissions in renowned institutions and
+                                 universities globally across various streams:
+                              </p>
+                              <div class="row my-5">
+                                 <div class="col">
+                                    <div class="row">
+                                       <div class="col-md-6">
+                                          <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Quality learning</p>
+                                          </li>
+                                          <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Cutting-edge infrastructure</p>
+                                          </li>
+                                          <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Scholarships offered</p>
+                                          </li>
+                                       </div>
+                                       <div class="col-md-6">
+                                          <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Programs in MBA, B.Tech</p>
+                                          </li>
+                                          <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>NEET mandatory for medical</p>
+                                          </li>
+                                          <p class="bold py-1"><i class="bi bi-check-square-fill mx-3 " style="color: #47c341;"></i>Affordable MBBS abroad</p>
+                                          </li>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- <div class="row my-5">
+                                 <div class="col-lg-12 col-12">
+                                   <ul class="mb-0 list-unstyled">
+                                     <li class="mb-0">
+                                       <span class="   me-2"><i class="uil uil-check-circle align-middle"></i></span>
+                                       <strong>Medical:</strong> MBBS, BDS, BAMS, etc.
+                                     </li>
+                                     <li class="mb-0">
+                                       <span class="   me-2"><i class="uil uil-check-circle align-middle"></i></span>
+                                       <strong>Management:</strong> MBA, PGDM, etc
+                                     </li>
+                                     <li class="mb-0">
+                                       <span class="   me-2"><i class="uil uil-check-circle align-middle"></i></span>
+                                       <strong>Engineering:</strong> B.Tech, etc
+                                     </li>
+                                   </ul>
+                                 </div>
+                                 <!--end col-->
+                              <!-- </div> -->
+                              <!--end row-->
+                              <div class="buttonAbout ">
+                                 <a href="/abroad"> <button class="primary-button">READ MORE</button></a>
+                              </div>
+                           </div>
                         </div>
-                      </div>
-      
-                      <div class="accordion-item rounded border  mt-3">
-                        <h2 class="accordion-header" id="headingThree">
-                          <button
-                            class="accordion-button border-0 bg-white"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree"
-                            aria-expanded="true"
-                            aria-controls="collapseThree"
-                          >
-                          Does Education Studies assist with scholarships and financial aid?
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseThree"
-                          class="accordion-collapse border-0 collapse show"
-                          aria-labelledby="headingThree"
-                          data-bs-parent="#buyingquestion"
-                        
-                        >
-                          <div class="accordion-body text-muted bg-white">
-                            Yes, our team at Education Studies provides information and guidance on available scholarships and financial aid options to support your academic journey.
-                          </div>
+                        <!--end col-->
+                     </div>
+                     <!--end row-->
+                  </div>
+                  <!-- recent_event_area_end(Admission Section End)  -->
+               </section>
+               <!-- admission section -->
+               <section
+                  class="Addsection  py-5"
+                  >
+                  <div class="container">
+                     <div class="row align-items-center">
+                        <div class="col-12">
+                           <div class="me-lg-5">
+                              <div class="row justify-content-center">
+                                 <div class="col-12">
+                                    <div
+                                       class="section-title text-center text-md-start mb-4 pb-2"
+                                       >
+                                       <h2 class="bold mb-4">Admission Process</h2>
+                                       <p class="regular">
+                                          Education Studies: Your Gateway to Academic Excellence
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!--end col-->  
+                              </div>
+                              <!--end row-->
+                              <div class="row">
+                                 <div class="col-md-6 r p-2 ">
+                                    <div class="features feature-primary rounded shadow   p-5 d-flex">
+                                       <i class="bi bi-1-circle-fill" "></i>
+                                       <div class="content flex-1 ms-3">
+                                          <h4 class="bold">Consultation and Goal Alignment:</h4>
+                                          <p class="regular ">
+                                             Personalized guidance for your academic goals, whether for domestic or international studies. <br> &nbsp;
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!--end col-->
+                                 <div class="col-md-6  p-2 ">
+                                    <div class="features feature-primary rounded shadow   p-5 d-flex">
+                                       <i class="bi bi-2-circle-fill"></i>
+                                       <div class="content flex-1 ms-3">
+                                          <h4 class="bold">Unified Application Support</h4>
+                                          <p class="regular">
+                                             Comprehensive assistance in preparing and submitting applications for institutions within the country or abroad.
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!--end col-->
+                                 <div class="col-md-6  p-2 ">
+                                    <div class="features feature-primary rounded shadow  p-5 d-flex">
+                                       <i class="bi bi-3-circle-fill"></i>
+                                       <div class="content flex-1 ms-3">
+                                          <h4 class="bold">Effortless Documentation Management</h4>
+                                          <p class="regular">
+                                             Navigate documentation seamlessly, adhering to standards for both domestic and international applications
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!--end col-->
+                                 <div class="col-md-6  p-2 ">
+                                    <div class="features feature-primary rounded shadow   p-5 d-flex">
+                                       <i class="bi bi-4-circle-fill"></i>
+                                       <div class="content flex-1 ms-3">
+                                          <h4 class="bold">Success-oriented Guidance</h4>
+                                          <p class="regular">
+                                             Ongoing support for a successful academic journey, providing insights and strategies for your chosen field of study.
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!--end col-->
+                              </div>
+                              <!--end row-->
+                           </div>
                         </div>
-                      </div>
-      
-                   
-                      <div class="accordion-item rounded border  mt-3">
-                        <h2 class="accordion-header" id="headingsix">
-                          <button
-                            class="accordion-button border-0 bg-white collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapsesix"
-                            aria-expanded="false"
-                            aria-controls="collapsesix"
-                          >
-                          Can Education Studies help with both domestic and international admissions?
-                          </button>
-                        </h2>
-                        <div
-                          id="collapsesix"
-                          class="accordion-collapse border-0 collapse"
-                          aria-labelledby="headingsix"
-                          data-bs-parent="#buyingquestion"
-                        >
-                          <div class="accordion-body text-muted bg-white">
-                            Absolutely. Education Studies specializes in both domestic and international admissions, catering to a diverse range of academic goals and preferences.
-                          </div>
+                        <!--end col-->
+                        <!-- <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                           <div class="img-fluid-responsive position-relative">
+                             <img src="./assets/images/pngwing.com.png" class="mx-auto d-block" alt="">
+                           </div>
+                           </div> -->
+                        <!--end col-->
+                     </div>
+                     <!--end row-->
+                  </div>
+               </section>
+               <!-- Call To Action -->
+               <section class="cta">
+                  <div
+                     class="cta-inner overlay section"
+                     data-stellar-background-ratio="0.5"
+                     >
+                     <div class="container">
+                        <div class="row">
+                           <div class="  col-12">
+                              <div class="text-content">
+                                 <h2 class="bold">
+                                    TRANSFORM YOUR ACADEMIC VISION WITH EDUCATION STUDIES
+                                 </h2>
+                                 <p class="regular">
+                                    Seamless applications, expert guidance, and ongoing support for your academic success. <br>
+                                    <strong>Join us today!</strong>
+                                 </p>
+                                 <!-- CTA Button -->
+                                 <button class="exploreNow">Join Now</button>
+                                 <!--/ End CTA Button -->
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-md-4 col-12">
+                              <!-- Cta Image -->
+                              <!--/ End Cta Image -->
+                           </div>
                         </div>
-                      </div>
-      
-                      <div class="accordion-item rounded border  mt-3">
-                        <h2 class="accordion-header" id="headingseven">
-                          <button
-                            class="accordion-button border-0 bg-white collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseseven"
-                            aria-expanded="false"
-                            aria-controls="collapseseven"
-                          >
-                          How does Education Studies ensure the accuracy of documentation?
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseseven"
-                          class="accordion-collapse border-0 collapse"
-                          aria-labelledby="headingseven"
-                          data-bs-parent="#buyingquestion"
-                        >
-                          <div class="accordion-body text-muted bg-white">
-                            Our team navigates documentation effortlessly, adhering to the highest standards. We verify and cross-check all documents to ensure accuracy and completeness.
-                          </div>
+                     </div>
+                  </div>
+               </section>
+               <!--/ End Call To Action -->
+               <!-- testimonial  -->
+               <section>
+                  <div class="testimonial text-center">
+                     <h2 class=" semi-bold my-3">TESTIMONIALS</h2>
+                     <h2 class="bold">What People Say About Us !</h2>
+                     <div class="owl-carousel owl-theme">
+                        <div class="item shadow">
+                           <div class="innerTes ">
+                              <div class="rating">
+                                 <span>4.5/5</span>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                              </div>
+                              <p class="testimonial-text">
+                                 Education Studies made my international application process a breeze. Their team provided invaluable guidance, ensuring a smooth transition to my dream university
+                              </p>
+                              <div class="testimonial-author">
+                                 <div class="avatarImg rounded-circle">
+                                    <img
+                                       src="/assets/images/testimonial/avtar-b.jpg"
+                                       alt="Testimonial Author"
+                                       class="testimonial-author-img"
+                                       />
+                                 </div>
+                                 <div class="intro">
+                                    <span class="testimonial-author-name">Rahul Sharma</span>
+                                    <span class="testimonial-author-position">International Student</span>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                      </div>
-                    </div>
-      
-                    <!--end col-->
+                        <div class="item shadow">
+                           <div class="innerTes ">
+                              <div class="rating">
+                                 <span>4.5/5</span>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                              </div>
+                              <p class="testimonial-text">
+                                 "I appreciate Education Studies for their meticulous documentation management. The zero-processing-fee policy made my application stress-free. Highly recommended"
+                              </p>
+                              <div class="testimonial-author">
+                                 <div class="avatarImg rounded-circle">
+                                    <img
+                                       src="/assets/images/testimonial/avtar-b.jpg"
+                                       alt="Testimonial Author"
+                                       class="testimonial-author-img"
+                                       />
+                                 </div>
+                                 <div class="intro">
+                                    <span class="testimonial-author-name">Rohan Gupta</span>
+                                    <span class="testimonial-author-position">International Student</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item shadow">
+                           <div class="innerTes ">
+                              <div class="rating">
+                                 <span>4.5/5</span>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                              </div>
+                              <p class="testimonial-text">
+                                 "The personalized consultation at Education Studies aligned my academic goals. Their support from application to admission was instrumental in my success."
+                              </p>
+                              <div class="testimonial-author">
+                                 <div class="avatarImg rounded-circle">
+                                    <img
+                                       src="/assets/images/testimonial/avtar-g.jpg"
+                                       alt="Testimonial Author"
+                                       class="testimonial-author-img"
+                                       />
+                                 </div>
+                                 <div class="intro">
+                                    <span class="testimonial-author-name">Mahak Rathi</span>
+                                    <span class="testimonial-author-position">Domestic Student</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item shadow">
+                           <div class="innerTes ">
+                              <div class="rating">
+                                 <span>4.5/5</span>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                              </div>
+                              <p class="testimonial-text">
+                                 "Education Studies doesn't just assist; they empower. The ongoing guidance post-admission has been crucial in shaping my academic journey."
+                              </p>
+                              <div class="testimonial-author">
+                                 <div class="avatarImg rounded-circle">
+                                    <img
+                                       src="/assets/images/testimonial/avtar-b.jpg"
+                                       alt="Testimonial Author"
+                                       class="testimonial-author-img"
+                                       />
+                                 </div>
+                                 <div class="intro">
+                                    <span class="testimonial-author-name">Piyush Singh</span>
+                                    <span class="testimonial-author-position">International Student</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item shadow">
+                           <div class="innerTes ">
+                              <div class="rating">
+                                 <span>4.5/5</span>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                              </div>
+                              <p class="testimonial-text">
+                                 "Effortless applications and expert support—Education Studies exceeded my expectations. Grateful for their role in my academic achievement."
+                              </p>
+                              <div class="testimonial-author">
+                                 <div class="avatarImg rounded-circle">
+                                    <img
+                                       src="/assets/images/testimonial/avtar-g.jpg"
+                                       alt="Testimonial Author"
+                                       class="testimonial-author-img"
+                                       />
+                                 </div>
+                                 <div class="intro">
+                                    <span class="testimonial-author-name">Ankita Rastogi</span>
+                                    <span class="testimonial-author-position">Domestic Student</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- Faqs Section Start -->
+               <!-- FAQ Container Start -->
+               <div class="container mt-100 mt-60 faqs">
+                  <div class="row justify-content-center">
+                     <div class="col-12">
+                        <div class="section-title mb-4 pb-2 text-center">
+                           <h2 class="bold mb-3">Frequently Asked Questions</h2>
+                           <p class="semi-bold">
+                              Quick answers to common queries about our services and support. Your academic success simplified.
+                           </p>
+                        </div>
+                     </div>
+                     <!--end col-->
                   </div>
                   <!--end row-->
-                </div>
-                <!--end -->
-              </div>
-              <!--end col-->
-            </div>
-            <!--end row-->
-          </div>
-          <!--FAQ Container End-->
-       
-      
-        </div>
-    
-      </div>
-    </div>
-
-    <!-- mobile view -->
-    <div class="row d-block d-md-none">
-       
-        <div id="mobileView ">
-         
-    <div class="innerContent">
-         <!-- Banner  -->
-    
-         <div class="Banner  ">
-         
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col">
-        
-
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/images/banner/Indian1642232499.webp" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/banner/Indian1642232971.webp" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/banner/Shri1642233244.webp" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="banner-text">
-                      <div class="banner-heading">
-                        <span>Discover</span> <br>Your Dream College <br>with <span>EDUCATIONAL STUDIES</span>
-  
-                      </div>
-                    </div>
-                  </div>
-                  
-             
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    
-      <!--  colleges -->
-        <div class="colleges">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col mx-3 mt-5 ">
-                <h6 class="bold">Colleges By Categories</h6>
-              </div>
-             
-            </div>
-            <div class="row my-4 ">
-             
-              <div class="col-4 ">
-                  <a href="/collegeslist/engineering/1">
-                    <div class="collegesCat shadow ">
-                      <img src="./assets/images/engineers.png" alt="">
-                        <p class="bold">Engineering</p> 
+                  <div class="row justify-content-center">
+                     <div class="col-lg-10 mt-4 pt-2">
+                        <div class="accordion" id="buyingquestion">
+                           <div class="row">
+                              <div class="col">
+                                 <div class="accordion-item rounded  ">
+                                    <h2 class="accordion-header" id="headingOne">
+                                       <button
+                                          class="accordion-button border-0 bg-white collapsed"
+                                          type="button"
+                                          data-bs-toggle="collapse"
+                                          data-bs-target="#collapseOne"
+                                          aria-expanded="false"
+                                          aria-controls="collapseOne"
+                                          >
+                                       What services does Education Studies offer?
+                                       </button>
+                                    </h2>
+                                    <div
+                                       id="collapseOne"
+                                       class="accordion-collapse border-0 collapse"
+                                       aria-labelledby="headingOne"
+                                       data-bs-parent="#buyingquestion"
+                                       >
+                                       <div class="accordion-body text-muted bg-white">
+                                          Education Studies provides personalized consultation, application support, documentation management, and ongoing guidance for academic excellence, both domestically and internationally.
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="accordion-item rounded border  mt-3">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                       <button
+                                          class="accordion-button border-0 bg-white collapsed"
+                                          type="button"
+                                          data-bs-toggle="collapse"
+                                          data-bs-target="#collapseTwo"
+                                          aria-expanded="false"
+                                          aria-controls="collapseTwo"
+                                          >
+                                       How can I schedule a personalized consultation with Education Studies?
+                                       </button>
+                                    </h2>
+                                    <div
+                                       id="collapseTwo"
+                                       class="accordion-collapse border-0 collapse"
+                                       aria-labelledby="headingTwo"
+                                       data-bs-parent="#buyingquestion"
+                                       >
+                                       <div class="accordion-body text-muted bg-white">
+                                          You can easily schedule a consultation by contacting our team through the provided contact details on our website or visiting our offices.
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="accordion-item rounded border  mt-3">
+                                    <h2 class="accordion-header" id="headingThree">
+                                       <button
+                                          class="accordion-button border-0 bg-white"
+                                          type="button"
+                                          data-bs-toggle="collapse"
+                                          data-bs-target="#collapseThree"
+                                          aria-expanded="true"
+                                          aria-controls="collapseThree"
+                                          >
+                                       Does Education Studies assist with scholarships and financial aid?
+                                       </button>
+                                    </h2>
+                                    <div
+                                       id="collapseThree"
+                                       class="accordion-collapse border-0 collapse show"
+                                       aria-labelledby="headingThree"
+                                       data-bs-parent="#buyingquestion"
+                                       >
+                                       <div class="accordion-body text-muted bg-white">
+                                          Yes, our team at Education Studies provides information and guidance on available scholarships and financial aid options to support your academic journey.
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="accordion-item rounded border  mt-3">
+                                    <h2 class="accordion-header" id="headingsix">
+                                       <button
+                                          class="accordion-button border-0 bg-white collapsed"
+                                          type="button"
+                                          data-bs-toggle="collapse"
+                                          data-bs-target="#collapsesix"
+                                          aria-expanded="false"
+                                          aria-controls="collapsesix"
+                                          >
+                                       Can Education Studies help with both domestic and international admissions?
+                                       </button>
+                                    </h2>
+                                    <div
+                                       id="collapsesix"
+                                       class="accordion-collapse border-0 collapse"
+                                       aria-labelledby="headingsix"
+                                       data-bs-parent="#buyingquestion"
+                                       >
+                                       <div class="accordion-body text-muted bg-white">
+                                          Absolutely. Education Studies specializes in both domestic and international admissions, catering to a diverse range of academic goals and preferences.
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="accordion-item rounded border  mt-3">
+                                    <h2 class="accordion-header" id="headingseven">
+                                       <button
+                                          class="accordion-button border-0 bg-white collapsed"
+                                          type="button"
+                                          data-bs-toggle="collapse"
+                                          data-bs-target="#collapseseven"
+                                          aria-expanded="false"
+                                          aria-controls="collapseseven"
+                                          >
+                                       How does Education Studies ensure the accuracy of documentation?
+                                       </button>
+                                    </h2>
+                                    <div
+                                       id="collapseseven"
+                                       class="accordion-collapse border-0 collapse"
+                                       aria-labelledby="headingseven"
+                                       data-bs-parent="#buyingquestion"
+                                       >
+                                       <div class="accordion-body text-muted bg-white">
+                                          Our team navigates documentation effortlessly, adhering to the highest standards. We verify and cross-check all documents to ensure accuracy and completeness.
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--end col-->
+                           </div>
+                           <!--end row-->
+                        </div>
+                        <!--end -->
                      </div>
-                  </a>
-              </div>
-              <div class="col-4">
-                <a href="collegeslist/medical/1">
-                  <div class="collegesCat shadow">
-                    <img src="./assets/images/medical-history.png" alt="">
-                      <p class="bold">Medical</p> 
-                   </div>
-                </a>
- 
-           </div>
-           <div class="col-4">
-            <a href="/collegeslist/management/1">
-            <div class="collegesCat shadow">
-    <img src="./assets/images/project-manager.png" alt="">
-              <p class="bold">Management</p> 
-           </div>
-          </a>
-       </div>
-       
-             </div>
-          </div>
-        </div>
-        <!--  courses -->
-        <div class="colleges">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col mx-3 mt-0 ">
-                <h6 class="bold">Featured Coureses</h6>
-              </div>
-             
-            </div>
-            <div class="row my-4 ">
-             
-              <div class="col-4 ">
-                <a href="/courseview/btech"> 
-                   <div class="collegesCat shadow ">
-                    <img src="./assets/images/engineers.png" alt="">
-                     <p class="bold">B.Tech</p>
+                     <!--end col-->
                   </div>
-                </a>
-              </div>
-              <div class="col-4">
-                <a href="/courseview/mbbs">
-                <div class="collegesCat shadow">
-                 <img src="./assets/images/medical-history.png" alt="">
-                  <p class="bold">MBBS</p> 
+                  <!--end row-->
                </div>
-              </a>
-           </div>
-           <div class="col-4">
-            <a href="/courseview/management">
-            <div class="collegesCat shadow">
-             <img src="./assets/images/project-manager.png" alt="">
-              <p class="bold">MBA</p> 
-           </div>
-          </a>
-       </div>
-       
-             </div>
-          </div>
-        </div>
-      
-
-        <!-- top colleges list area start-->
-        <div class="recentCollegList">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-8   mt-4 ">
-                <h6 class="bold">Top Colleges</h6>
-              </div>
-              <div class="col-4   mt-4 text-end  ">
-                <p class="bold"><a href="/collegeslist/engineering/1">See All</a></p>
-              </div>
+               <!--FAQ Container End-->
             </div>
-            <div class="row">
-              
-              <div class="col">
-                <div class="recentColleges">
-                  <%- include('partials/engineeringCollegesMobi.ejs')%>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-            <!-- top colleges list area end -->
-           
-
-<!--Our Feature colleges list area start -->
-<div class="recentCollegList">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-8   mt-4 ">
-        <h6 class="bold">Featured Colleges</h6>
+         </div>
       </div>
-      <div class="col-4  mt-4 text-end  ">
-        <p class="bold"><a href="/collegeslist/medical/1">See All</a></p>
-      </div>
-    </div>
-    <div class="row">
-      
-      <div class="col">
-        <div class="recentColleges">
-        <%- include('partials/featuredCollegesMobi')%>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Our Feature colleges list area end -->
-
-    <!-- study Abroad Area start -->
-        <div class="studyAbroad">
-              <div class="cotainer-fluid">
-                <div class="row mx-3 ">
-                  <div class="col">
-                    <div class="studyAbroad_card">
-                        <h5>Study Abroad With US</h5>
-                        <p class="light">Unlocking Global Opportunities: Your Path to International Education with US Study Abroad</p>
-                        <a href="/abroad"><button>Read More</button></a>
-                    </div iv>
+      <!-- mobile view -->
+      <div class="row d-block d-md-none">
+         <div id="mobileView ">
+            <div class="innerContent">
+               <!-- Banner  -->
+               <div class="Banner  ">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col">
+                           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-indicators">
+                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                              <div class="carousel-inner">
+                                 <div class="carousel-item active">
+                                    <img src="./assets/images/banner/Indian1642232499.webp" class="d-block w-100" alt="...">
+                                 </div>
+                                 <div class="carousel-item">
+                                    <img src="./assets/images/banner/Indian1642232971.webp" class="d-block w-100" alt="...">
+                                 </div>
+                                 <div class="carousel-item">
+                                    <img src="./assets/images/banner/Shri1642233244.webp" class="d-block w-100" alt="...">
+                                 </div>
+                                 <div class="banner-text">
+                                    <div class="banner-heading">
+                                       <span>Discover</span> <br>Your Dream College <br>with <span>EDUCATIONAL STUDIES</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
+               </div>
+               <!--  colleges -->
+               <div class="colleges">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col mx-3 mt-5 ">
+                           <h6 class="bold">Colleges By Categories</h6>
+                        </div>
+                     </div>
+                     <div class="row my-4 ">
+                        <div class="col-4 ">
+                           <a href="/collegeslist/engineering/1">
+                              <div class="collegesCat shadow ">
+                                 <img src="./assets/images/engineers.png" alt="">
+                                 <p class="bold">Engineering</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-4">
+                           <a href="collegeslist/medical/1">
+                              <div class="collegesCat shadow">
+                                 <img src="./assets/images/medical-history.png" alt="">
+                                 <p class="bold">Medical</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-4">
+                           <a href="/collegeslist/management/1">
+                              <div class="collegesCat shadow">
+                                 <img src="./assets/images/project-manager.png" alt="">
+                                 <p class="bold">Management</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--  courses -->
+               <div class="colleges">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col mx-3 mt-0 ">
+                           <h6 class="bold">Featured Coureses</h6>
+                        </div>
+                     </div>
+                     <div class="row my-4 ">
+                        <div class="col-4 ">
+                           <a href="/courseview/btech">
+                              <div class="collegesCat shadow ">
+                                 <img src="./assets/images/engineers.png" alt="">
+                                 <p class="bold">B.Tech</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-4">
+                           <a href="/courseview/mbbs">
+                              <div class="collegesCat shadow">
+                                 <img src="./assets/images/medical-history.png" alt="">
+                                 <p class="bold">MBBS</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col-4">
+                           <a href="/courseview/management">
+                              <div class="collegesCat shadow">
+                                 <img src="./assets/images/project-manager.png" alt="">
+                                 <p class="bold">MBA</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- top colleges list area start-->
+               <div class="recentCollegList">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-8   mt-4 ">
+                           <h6 class="bold">Top Colleges</h6>
+                        </div>
+                        <div class="col-4   mt-4 text-end  ">
+                           <p class="bold"><a href="/collegeslist/engineering/1">See All</a></p>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col">
+                           <div class="recentColleges">
+                              <%- include('partials/engineeringCollegesMobi.ejs')%>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- top colleges list area end -->
+               <!--Our Feature colleges list area start -->
+               <div class="recentCollegList">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-8   mt-4 ">
+                           <h6 class="bold">Featured Colleges</h6>
+                        </div>
+                        <div class="col-4  mt-4 text-end  ">
+                           <p class="bold"><a href="/collegeslist/medical/1">See All</a></p>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col">
+                           <div class="recentColleges">
+                              <%- include('partials/featuredCollegesMobi')%>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Our Feature colleges list area end -->
+               <!-- study Abroad Area start -->
+               <div class="studyAbroad">
+                  <div class="cotainer-fluid">
+                     <div class="row mx-3 ">
+                        <div class="col">
+                           <div class="studyAbroad_card">
+                              <h5>Study Abroad With US</h5>
+                              <p class="light">Unlocking Global Opportunities: Your Path to International Education with US Study Abroad</p>
+                              <a href="/abroad"><button>Read More</button></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- study Abroad Area end -->
+         </div>
+      </div>
+   </div>
+</div>
+ 
+
+
+
+   <!-- Form Pop-up Container -->
+   <div id="formPopup" class="popup-container">
+    <div class="popup-content">
+        <div class="close-btn1" onclick="closeFormPopup()">&times; </div>
+     
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-none d-md-flex flex-column  justify-content-center  align-items-start    m-0 p-0  ">
+              <div class="content">
+                <p><strong>WELCOME  !</strong> <br> <span>join us to find your Dream <br> &nbsp; College </span> </p>
+              </div>
+              <div class="image mx-auto ">
+                <img src="./assets/images/banner/formBanner2.jpg" alt="">
               </div>
             </div>
-    </div>
-     <!-- study Abroad Area end -->
-    
-    
+            <div class="col-md-6 m-0 p-0 ">
+              <%- include("partials/registerForm.ejs") %>
+            </div>
+          </div>
+        </div>
 
-    </div>
-  </div>
-     
+   
+        <!-- Your form goes here -->
+        <!-- <form>
+    
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form> -->
     </div>
 </div>
 
-</div>
 
 <script>
 
-//   $("#addRegisterForm").submit(function(event){
-//     event.preventDefault()
-
-//     $.post("/admin", 
-//     {
-//       data : $(this).serialize(),
-//       op : "registerForm"
-//     },
-//     function(data , status){
-//       console.log("data" ,data)
-//       console.log("status", status)
-//     })
-//   })
- 
-// </script>
+   //   $("#addRegisterForm").submit(function(event){
+   //     event.preventDefault()
    
-
+   //     $.post("/admin", 
+   //     {
+   //       data : $(this).serialize(),
+   //       op : "registerForm"
+   //     },
+   //     function(data , status){
+   //       console.log("data" ,data)
+   //       console.log("status", status)
+   //     })
+   //   })
+    
+   // 
+</script>
 <%- include('partials/footer') %>
 
 

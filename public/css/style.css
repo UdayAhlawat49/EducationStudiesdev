@@ -299,8 +299,9 @@ button:hover {
 
 .error {
   color: red;
-  font-size: 1.4rem;
+  font-size: 1rem !important;
   margin-top: 0;
+  font-weight: 400 !important;
 }
 
 .topBar {
@@ -473,7 +474,7 @@ button:hover {
   justify-content: center;
   align-items: start;
   height: 100%;
-  top: 120px;
+  top: 0px;
   z-index: 3;
   left: 0;
 }
@@ -536,77 +537,6 @@ button:hover {
     text-align: start;
     font-weight: 300;
   }
-}
-.heroSection1 .middleContent .registerForm {
-  background-color: var(--primary-color);
-  margin: auto;
-  width: 90%;
-  position: relative;
-  padding: 30px 10px;
-  top: -90px;
-  border: 1px solid rgba(0, 0, 0, 0.199);
-}
-.heroSection1 .middleContent .registerForm .logo {
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-  border: 3px solid white;
-}
-.heroSection1 .middleContent .registerForm .logo img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-.heroSection1 .middleContent .registerForm form {
-  margin-top: 30px;
-}
-.heroSection1 .middleContent .registerForm form textarea {
-  width: 100%;
-  font-size: 1.6rem;
-  margin: 4px 0;
-}
-.heroSection1 .middleContent .registerForm form textarea::placeholder {
-  font-size: 1.2rem;
-  color: rgba(0, 0, 0, 0.5254901961);
-  padding-left: 5px;
-}
-.heroSection1 .middleContent .registerForm form textarea:focus {
-  outline: none;
-}
-.heroSection1 .middleContent .registerForm form input {
-  width: 100%;
-  height: 40px;
-  font-size: 1.6rem;
-  margin: 4px 0;
-}
-.heroSection1 .middleContent .registerForm form input::placeholder {
-  font-size: 1.2rem;
-  color: rgba(0, 0, 0, 0.5254901961);
-  padding-left: 5px;
-}
-.heroSection1 .middleContent .registerForm form input:focus {
-  outline: none;
-}
-.heroSection1 .middleContent .registerForm form label {
-  font-size: 1.4rem;
-}
-.heroSection1 .middleContent .registerForm form button {
-  background-color: var(--accent-color) !important;
-  font-size: 1.8rem;
-  color: rgb(255, 255, 255);
-  border-radius: 0;
-  font-weight: 600;
-  padding: 5px 40px;
-  display: flex;
-  justify-content: flex-end;
-  letter-spacing: 1px;
-  margin-top: 30px;
 }
 .heroSection1 .middleContent .ctaButton {
   margin: 50px 0;
@@ -1003,6 +933,78 @@ button:hover {
     font-weight: 700;
   }
 }
+.registerForm {
+  background-color: #F5F5F5;
+  margin: auto;
+  position: relative;
+  padding: 30px 10px;
+  color: #000;
+}
+.registerForm .logo {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border: 3px solid white;
+}
+.registerForm .logo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.registerForm form input, .registerForm form textarea {
+  font-size: 16px;
+  padding: 8px 8px;
+  width: 100%;
+  min-height: 10px;
+  border: unset;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  outline-color: rgba(84, 105, 212, 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.registerForm form input::placeholder, .registerForm form textarea::placeholder {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5254901961);
+  padding-left: 5px;
+}
+.registerForm form input:focus, .registerForm form textarea:focus {
+  outline: none;
+}
+.registerForm form input[type=submit] {
+  background-color: rgb(84, 105, 212);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(84, 105, 212) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.registerForm form label {
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: block;
+  opacity: 0.7;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.registerForm form button {
+  background-color: var(--accent-color) !important;
+  font-size: 1.8rem;
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+  font-weight: 600;
+  padding: 5px 40px;
+  display: flex;
+  justify-content: flex-end;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
 .primary-button {
   color: #fff;
   padding: 15px 25px;
@@ -3701,4 +3703,4 @@ button.accordion-button.border-0.bg-white:focus {
   background-color: var(--primary-color);
 }
 
-
+/*# sourceMappingURL=style.css.map */

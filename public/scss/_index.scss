@@ -217,8 +217,9 @@ button {
 }
 .error{
   color: red;
-  font-size: 1.4rem;
+  font-size: 1rem !important;
   margin-top: 0;
+  font-weight: 400 !important;
 }
 // ----------------------------------- header -------------------
 // header navigation
@@ -429,7 +430,7 @@ position: relative;
     justify-content: center;
     align-items: start;
     height: 100%;
-    top:120px;
+    top:0px;
     z-index: 3;
     left: 0;
     @media #{$tab} {
@@ -500,79 +501,7 @@ position: relative;
       }
     }
 
-    .registerForm{
-    
-      background-color:var(--primary-color);
-      margin: auto;
-      width: 90%;
-      position: relative;
-      padding: 30px 10px;
-      top:  -90px;
-      border: 1px solid rgba(0, 0, 0, 0.199);
-      .logo{
-        border-radius: 50%;
-        height: 80px;
-        width: 80px;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translate(-50% , -50%);
-        overflow: hidden;
-        border: 3px solid white;
-        img{
-          object-fit: cover;
-          width: 100%;
-          height: 100%;
-        }
-      }
-      form{
-        margin-top: 30px;
-        textarea{
-          width: 100%;
   
-          font-size: 1.6rem;
-          margin: 4px  0;
-          &::placeholder{
-            font-size: 1.2rem;
-            color: #00000086;
-            padding-left: 5px;
-          }
-          &:focus{
-            outline: none;
-          }
-        }
-        input{
-          width: 100%;
-          height: 40px;
-          font-size: 1.6rem;
-          margin: 4px  0;
-          &::placeholder{
-            font-size: 1.2rem;
-            color: #00000086;
-            padding-left: 5px;
-          }
-          &:focus{
-            outline: none;
-          }
-        }
-        label{
-          font-size: 1.4rem;
-        }
-        button{
-          background-color: var(--accent-color)!important;
-          font-size: 1.8rem;
-          color: rgb(255, 255, 255);
-          border-radius: 0;
-          font-weight: 600;
-          padding: 5px 40px;
-          display: flex;
-          justify-content: flex-end;
-          letter-spacing: 1px;
-          margin-top: 30px;
-        }
-      }
-    }
     .ctaButton {
       margin: 50px 0;
         @media #{$tab}{
@@ -1038,3 +967,170 @@ position: relative;
     }
   }
 }
+.registerForm{
+    
+  background-color:#F5F5F5;
+  margin: auto;
+   
+  position: relative;
+  padding: 30px 10px;
+  // top:  -90px;
+  color: #000;
+  // border: 1px solid rgba(0, 0, 0, 0.199);
+  // box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+  .logo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    overflow: hidden;
+    border: 3px solid white;
+    img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  form{
+     
+  
+    input,textarea{
+      font-size: 16px;
+       
+      padding: 8px 8px;
+      width: 100%;
+      min-height: 10px;
+      border: unset;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      outline-color: rgb(84 105 212 / 0.5);
+      background-color: rgb(255, 255, 255);
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+      &::placeholder{
+        font-size: 1.2rem;
+        color: #00000086;
+        padding-left: 5px;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+    input[type="submit"] {
+      background-color: rgb(84, 105, 212);
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                  rgb(84, 105, 212) 0px 0px 0px 1px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+      color: #fff;
+      font-weight: 600;
+      cursor: pointer;
+  }
+    label{
+      font-size: 1.4rem;
+      font-weight: 600;
+      display: block;
+      opacity: 0.7;
+      margin-bottom: 8px;
+      text-align: left;
+    }
+    button{
+      background-color: var(--accent-color)!important;
+      font-size: 1.8rem;
+      color: rgb(255, 255, 255);
+      border-radius: 0;
+      font-weight: 600;
+      padding: 5px 40px;
+      display: flex;
+      justify-content: flex-end;
+      letter-spacing: 1px;
+      margin-top: 30px;
+    }
+  }
+}
+
+// .registerForm{
+    
+//   background-color:var(--primary-color);
+//   margin: auto;
+//   width: 90%;
+//   position: relative;
+//   padding: 30px 10px;
+//   // top:  -90px;
+//   border: 1px solid rgba(0, 0, 0, 0.199);
+//   .logo{
+//     border-radius: 50%;
+//     height: 80px;
+//     width: 80px;
+//     padding: 0;
+//     position: absolute;
+//     top: 0;
+//     left: 50%;
+//     transform: translate(-50% , -50%);
+//     overflow: hidden;
+//     border: 3px solid white;
+//     img{
+//       object-fit: cover;
+//       width: 100%;
+//       height: 100%;
+//     }
+//   }
+//   form{
+//     margin-top: 30px;
+//     textarea{
+//       width: 100%;
+
+//       font-size: 1.6rem;
+//       margin: 4px  0;
+//       &::placeholder{
+//         font-size: 1.2rem;
+//         color: #00000086;
+//         padding-left: 5px;
+//       }
+//       &:focus{
+//         outline: none;
+//       }
+//     }
+//     input{
+//       width: 100%;
+//       height: 40px;
+//       font-size: 1.6rem;
+//       margin: 4px  0;
+//       &::placeholder{
+//         font-size: 1.2rem;
+//         color: #00000086;
+//         padding-left: 5px;
+//       }
+//       &:focus{
+//         outline: none;
+//       }
+//     }
+//     label{
+//       font-size: 1.4rem;
+//     }
+//     button{
+//       background-color: var(--accent-color)!important;
+//       font-size: 1.8rem;
+//       color: rgb(255, 255, 255);
+//       border-radius: 0;
+//       font-weight: 600;
+//       padding: 5px 40px;
+//       display: flex;
+//       justify-content: flex-end;
+//       letter-spacing: 1px;
+//       margin-top: 30px;
+//     }
+//   }
+// }
