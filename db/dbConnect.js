@@ -6,13 +6,13 @@ const sequelize = new Sequelize("educationStudies", "root", "4585", {
   host: "localhost",
 });
 
+// Test the connection
+sequelize.authenticate()
+  .then(() => {
+    console.log("Database connection has been established successfully.");
+  })
+  .catch(err => {
+    console.error("Unable to connect to the database:", err);
+  });
+
 module.exports = sequelize;
-
-// const sequelize = new Sequelize({
-//   dialect: "sqlite.",
-//   storage: "mydatabase.sqlite", // Specify the path to your SQLite file
-// });
-
-// module.exports = sequelize;
-
-

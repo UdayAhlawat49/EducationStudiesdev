@@ -50,6 +50,7 @@ const abroadRoute = require('./routes/abroadRoute');
 const adminRoute = require('./routes/adminRoute');
 const counselingRoute = require('./routes/counselingRoute');
 const coursesViewRoute = require('./routes/coursesViewRoute');
+const adminPageRoute = require('./routes/admin/index.js');
 const notfoundRoute = require('./routes/notfoundRoute');
   
 // Use routes
@@ -64,6 +65,7 @@ app.use('/', adminRoute);
 app.use('/', counselingRoute);
 app.use('/', coursesListRoute);
 app.use('/', coursesViewRoute);
+app.use('/', adminPageRoute);
 app.use('/', notfoundRoute);
 
 
