@@ -1,0 +1,26 @@
+ 
+
+
+<table class="" style="width: 100%; " >
+    <thead>
+        
+    </thead>
+    <tbody>
+        <% collegeData.forEach( college => { %>
+
+            <tr class="border  ">
+                <td class="p-3"><img  height="40" width="40" src="<%= college.collegeDetails.logoSrc %>" ></td>
+                <td><p><%= college.collegeDetails.name %></p></td>
+                <!-- <td>
+                    <% for(let i=1 ; i<= college.collegeDetails.star ; i++){ %>
+                        <i class="bi bi-star-fill"></i>
+                    <% } %>
+                </td> -->
+                <td><p class="  badge rounded-pill bg-success"><%= college.collegeDetails.term %></p></td>
+              
+                <td><a  href="/collegeView/<%= college.collegeCode %>"><button class="px-3 py-1 m-0 buyNow"><span>View More</span></button></a></td>
+             
+            </tr>
+      <%  })%>
+    </tbody>
+</table>

@@ -1,0 +1,83 @@
+.section-padding{
+    padding-top: 50px;
+}
+
+.course-hero{
+    
+    padding: 20px ;
+    // border: 1px solid black;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    .course-tabs{
+        
+        ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    
+        li{
+           margin-right: 8px;
+            button{
+                font-size: 14px;
+                font-weight: 500;
+                color: $primary-color;
+                border-color: $primary-color;
+                border-radius: 0px;
+                width: max-content;
+                &:hover{
+                    background-color: $secondary-color;
+                    color: white;
+                    border-color:  $secondary-color;
+                }
+                &:focus{
+                    background-color: $accent-color;
+                  color: white;
+                  border-color:  $accent-color;
+                }
+            }
+            
+        }
+        }
+    }
+}
+
+.course-tab-section{
+ 
+    padding: 20px ;
+    // border: 1px solid black;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    .course-content{
+       
+    }
+
+    .course-table{
+        margin-top: 20px;
+        .course-table-content{
+
+        }
+    }
+    
+    table{
+          margin-top: 20px;
+          
+        thead{
+           
+            color: $base-color;
+            th{
+                background-color: $primary-color;
+                padding: 10px 10px;
+                font-size: 14px;
+                color: $base-color;
+            }    
+        }
+        tbody{
+            font-size: 14px;
+            padding: 10px;
+        }
+    }
+
+}
+
+

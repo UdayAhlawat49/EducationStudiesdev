@@ -3,25 +3,32 @@ $color_2: #eee;
 
 .cta {
 	padding-top: 62px;
-	background: #F8F8F8;
-	background-position: 50% -212.914px;
-	.cta-inner {
+	background-image: linear-gradient(rgb(254, 190, 88), rgb(222, 43, 174))!important;
+	
+ 	.cta-inner {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		position: relative;
 		padding: 30px 0;
+ 
 	}
 	.text-content {
  		z-index: 1;
 		position: relative;
 		border-radius: 5px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
  		@media #{$tab}{
 			padding: 20px;
 		  }
 		h2 {
  			margin-bottom: 20px;
-			color: black;
+			color: rgb(255, 255, 255);
 		
 			span {
 				font-weight: 900;
@@ -30,7 +37,7 @@ $color_2: #eee;
 			}
 		}
 		p {
-			color:rgb(0, 0, 0);
+			color:rgba(253, 253, 253, 0.863);
  		}
 	}
 	.button {

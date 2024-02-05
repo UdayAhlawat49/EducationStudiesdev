@@ -1,0 +1,36 @@
+ 
+     <% collegeData.forEach( college => { %>
+  <div class="recentColleges_collegeView">
+    <div class="img-box">
+    <img src="<%= college.collegeDetails.logoSrc %>" alt="">
+    </div>
+    <p class="semi-bold">
+        <%= college.collegeDetails.name %>
+    </p>
+   
+    <a  href="/collegeView/<%= college.collegeCode %>"><button>Learn more</button></a>
+  </div>
+  <%  })%>
+<!-- <table class="" style="width: 100%; " >
+    <thead>
+        
+    </thead>
+    <tbody>
+        <% collegeData.forEach( college => { %>
+
+            <tr class="border  ">
+                <td class="p-3"><img  height="40" width="40" src="<%= college.collegeDetails.logoSrc %>" ></td>
+                <td><p><%= college.collegeDetails.name %></p></td>
+                <td>
+                    <% for(let i=1 ; i<= college.collegeDetails.star ; i++){ %>
+                        <i class="bi bi-star-fill"></i>
+                    <% } %>
+                </td>
+                <td><p><%= college.collegeDetails.website %></p></td>
+              
+                <td><a  href="/collegeView/<%= college.collegeCode %>"><button class="px-3 py-1 m-0"><span>View More</span></button></a></td>
+             
+            </tr>
+      <%  })%>
+    </tbody>
+</table> -->

@@ -1,70 +1,88 @@
 <%- include('partials/header') %>
-   
 
-    <div class="innerContent">
-      <div class="Banner">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="./assets/images/7958341-removebg-preview (1).png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./assets/images/7958341-removebg-preview (1).png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./assets/images/7958341-removebg-preview (1).png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                </div>
+<div class="innerContent">
+  <div class="Banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/assets/images/banner/Indian1642232499.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/assets/images/banner/Indian1642232971.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/assets/images/banner/Shri1642233244.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="CollegeMobileList">
-        <div class="container-fluid">
-          <div class="row my-4">
+  
+      <div class="middleContent">
+        <p>
+          Being one of the most in demand courses in India, the engineering
+          colleges in India are plenty. These colleges offer admission in
+          various areas of engineering namely civil engineering, aeronautical
+          engineering, mechanical engineering, electrical engineering etc. As it
+          is one of the most sought after career options in India, the demand
+          for individuals skilled in engineering is at an all time high with big
+          shot multinational companies looking to hire technically adept
+          employees. While there are almost 4200 B.Tech colleges in India, it is
+          difficult to decide the best. Some of the popular states in India such
+          as Tamil Nadu, Maharashtra, Andhra, Karnataka, Telangana, Uttar
+          Pradesh, Delhi and Madhya Pradesh have a maximum number of engineering
+          colleges (300+ in each state).
+        </p>
+      </div>
+  
+
+  <div class="CollegeMobileList">
+    <div class="container-fluid">
+      <!-- <div class="row my-4">
             <div class="col">
               <div class="CollegeMobileList_filter">
                 <div class="CollegeMobileList_filterList">
@@ -92,65 +110,301 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
+      <div class="row">
+        <h4 class="  bold">
+          Best <%= category %> Colleges in Decemeber ( 2023 )
+        </h4>
+      </div>
+      <div class="row my-4 mx-auto">
+        <div class="col-md-9">
+          <div class="row">
+       
+             <!-- <% console.log("currentPage" ,currentPage) %>  -->
+             <!-- <% console.log("collegeListData" ,collegeListData) %>  -->
+            <% collegeListData.forEach(college => { %>
 
-          <% console.log("hii",collegeData) %>
-          <% collegeData.forEach(college => { %>
-            <div class="row my-4">
-              <div class="col">
-                <div class="CollegeMobileList_list shadow">
-                  <div class="CollegeMobileList_listData">
-                    <div class="row">
-                      <div class="col-3">
-                        <div class="image">
-                          <img src="<%= college.collegeDetails.imageSrc %>" alt="logo" />
-                        </div>
-                      </div>
-                      <div class="col-9">
-                        <div class="CollegeMobileList_data">
-                          <% if (college.collegeDetails.topRated) { %>
-                            <p class="border px-2 mb-1"><i class="bi bi-star-fill"></i> &nbsp; Top Rated</p>
-                          <% } %>
-                          <h6><%= college.collegeDetails.name %></h6>
-                          <ul>
-                            <li class="d-flex align-items-center">
-                              <p>( <%= college.collegeDetails.rating %> )&nbsp; </p>
-                              <div>
-                                <% for (let i = 0; i < college.collegeDetails.star; i++) { %>
-                                  <i class="bi bi-star-fill"></i>
-                                <% } %>
-                              </div>
-                              <p>&nbsp;&nbsp; <%= college.collegeDetails.reviewCount %></p>
-                            </li>
-                            <li>
-                              <div><i class="bi bi-geo-alt-fill"></i> </div>
-                              <div><p> <%= college.collegeDetails.address %></p></div>
-                            </li>
-                          </ul>
-                        </div>
+            <div class="col-md-6">
+              <div class="CollegeMobileList_list shadow mt-3">
+                <div class="CollegeMobileList_listData">
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="image">
+                        <img
+                          src="<%= college.collegeDetails.logoSrc %>"
+                          alt="logo"
+                        />
                       </div>
                     </div>
-                    <div class="row mt-4">
-                      <div class="col-6">
-                        <div class="callNow">
-                          <button><i class="bi bi-telephone-fill"></i> &nbsp; Call Now</button>
-                        </div>
+                    <div class="col-9">
+                      <div class="CollegeMobileList_data ms-4 ">
+                        <% if (college.collegeDetails.topRated) { %>
+                        <p class="border px-2 mb-1 ">
+                          <i class="bi bi-star-fill"></i> &nbsp; Top Rated
+                        </p>
+                        <% } %>
+                        <!-- <% console.log("college.collegeDetails.name" ,college.collegeDetails.name) %>  -->
+
+                        <p class="bold my-2"><%= college.collegeDetails.name %></p>
+                        <ul>
+                          <li class="d-flex align-items-center">
+                            <p>
+                              ( <%= college.collegeDetails.rating %> )&nbsp;
+                            </p>
+                            <div>
+                              <% for (let i = 0; i <
+                              college.collegeDetails.star; i++) { %>
+                              <i class="bi bi-star-fill"></i>
+                              <% } %>
+                            </div>
+                            <p>
+                              &nbsp;&nbsp; <%=
+                              college.collegeDetails.reviewCount %>
+                            </p>
+                          </li>
+                          <!-- <li>
+                            <div><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                              <p><%= college.collegeDetails.address %></p>
+                            </div>
+                          </li> -->
+                        </ul>
                       </div>
-                      <div class="col-6">
-                        <div class="Enquiry">
-                          <button><a href="/collegeView/<%= college.collegeCode %>">Send Enquiry</a></button>
-                        </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-6">
+                      <div class="callNow">
+                        <button>
+                          <a href="tel:+918449511111"
+                            ><i class="bi bi-telephone-fill"></i> &nbsp; Call
+                            Now</a
+                          >
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="Enquiry">
+                        <button>
+                          <a href="/collegeView/<%= college.collegeCode %>"
+                            >Learn More</a
+                          >
+                        </button>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          <% }); %>
 
+            <% }); %>
+          </div>
 
-        
+          <div class="row my-5">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center">
+          
+                
+                <li class="page-item <%= currentPage === 1 ? 'disabled' : '' %>">
+                  <a class="page-link" href="/collegeslist/<%= category %>/<%= prevPage %>"   tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+          
+                <% for (let page = 1; page <= totalPages; page++) { %>
+
+                  <li class="page-item <%= currentPage === page ? 'active' : '' %>">
+                    <a class="page-link" href="/collegeslist/<%= category %>/<%= page %>"   ><%= page %></a>
+                  </li>
+                <% } %>
+                
+          
+                <li class="page-item <%= currentPage === totalPages ? 'disabled' : '' %>">
+                  <a class="page-link"  href="/collegeslist/<%= category %>/<%= nextPage %>"   >Next</a>
+                </li>
+          
+              </ul>
+            </nav>
+          
+        </div>
+       
+      </div>
+      <div class="col-md-3 mt-3 d-none d-md-block">
+        <div class="blog_right_sidebar shadow-lg">
+          <!-- <div class="single_sidebar_widget search_widget">
+            <form action="#">
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search Keyword"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Search Keyword'"
+                  />
+                  <div class="input-group-append">
+                    <button class="btn" type="button">
+                      <i class="ti-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div> -->
+
+          <aside class="single_sidebar_widget post_category_widget">
+            <h5 class="widget_title bold">Category</h5>
+            <ul class="list cat-list">
+              <li>
+                <a href="/collegeslist/engineering/1" class="d-flex">
+                  <p>Engineering</p>
+                </a>
+              </li>
+              <li>
+                <a href="/collegeslist/management/1" class="d-flex">
+                  <p>Managment</p>
+                </a>
+              </li>
+              <li>
+                <a href="/collegeslist/medical/1" class="d-flex">
+                  <p>Medical</p>
+                </a>
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="single_sidebar_widget popular_post_widget">
+            <h5 class="widget_title bold">Popural Colleges</h5>
+            <% collegeListDataByTag.forEach(college => { %>
+              <%= console.log("home" , college) %>
+            <div class="media post_item">
+              <img  height="40" width="40" src="<%= college.collegeDetails.logoSrc %>" alt="post" />
+              <div class="media-body">
+                <a href="/collegeView/<%= college.collegeCode %>">
+                  <h5 class="bold"><%= college.collegeDetails.name %></h5>
+                </a>
+                <p><%= college.collegeDetails.address %></p>
+              </div>
+            </div>
+
+            <% }) %>
+          </aside>
+          <aside class="single_sidebar_widget tag_cloud_widget">
+            <h5 class="widget_title bold">Courses</h5>
+            <ul class="list">
+              <li>
+                <a href="/courseview/btech">B.tech</a>
+              </li>
+              <li>
+                <a href="/courseview/mba">MBA</a>
+              </li>
+              <li>
+                <a href="/courseview/mbbs">MBBS</a>
+              </li>
+              <li>
+                <a href="/courseview/mtech">M.Tech</a>
+              </li>
+              
+            </ul>
+          </aside>
+
+          <!-- <aside class="single_sidebar_widget instagram_feeds">
+            <h5 class="widget_title bold">Featured Colleges</h5>
+            <ul class="instagram_row d-flex">
+              <li>
+                <a href="#">
+                  <img
+                    width="50"
+                    class="img-fluid"
+                    src="./assets/images/lokpok_.webp"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    width="50"
+                    class="img-fluid"
+                    src="./assets/images/lokpok_.webp"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    width="50"
+                    class="img-fluid"
+                    src="./assets/images/lokpok_.webp"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    width="50"
+                    class="img-fluid"
+                    src="./assets/images/lokpok_.webp"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+          </aside> -->
+
+          <!-- <aside class="single_sidebar_widget newsletter_widget">
+            <h5 class="widget_title bold">Newsletter</h5>
+
+            <form action="#">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Enter email'"
+                  placeholder="Enter email"
+                  required
+                />
+              </div>
+              <button
+                class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                type="submit"
+              >
+                Subscribe
+              </button>
+            </form>
+          </aside> -->
         </div>
       </div>
     </div>
-    <%- include('partials/footer') %>
+  </div>
+</div>
+</div>
+<script>
+  // function changePage( page) {
+   
+    
+    
+  //   console.log("currentPageee" ,page  )
+  
+  //    // Make an AJAX request to the server for pagination
+ 
+  //    $.ajax({
+  //   url: `/collegesList/engineering/${page}`,
+  //   method: "get",
+    
+  //   success: function (data) {
+  //     alert(data.query + "\n" + data.page)
+  //   }
+  // });
+
+  //  }
+</script>
+<%- include('partials/footer') %>
+<%- include('partials/copyright') %>

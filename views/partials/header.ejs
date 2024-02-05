@@ -10,24 +10,31 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
     />
-
+    <!-- datatable -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+ 
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+   
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.7.0/css/select.dataTables.min.css">
+ 
     <!-- owl Crousel -->
     <link rel="stylesheet" href="/css/owl/owl.carousel.min.css" />
     <link rel="stylesheet" href="/css/owl/owl.theme.default.min.css" />
     <link rel="stylesheet" href="/css/owl/owl.theme.green.min.css" />
-    <!-- custom styles -->
-    <link rel="stylesheet" href="/css/style.min.css" />
-
+     
     <!-- select -->
-    <link rel="stylesheet" href="/css/vselect.min.css" />
-    <title>Education Studeis</title>
+ 
+
+        <!-- custom styles -->
+        <link rel="stylesheet" href="/css/style.css" />
+        <title>Education Studeis</title>
   </head>
   <body>
  
     <div class="container-fluid">
       <!-- desktop viw -->
       <div class="row d-none d-md-block">
-        <div class="col">
+        <div class="col m-0 p-0">
           <div id="desktopView ">
             <section>
               <header>
@@ -35,18 +42,31 @@
                 <div class="topBar">
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-6">
-                        <ul>
+                      <div class="col">
+                        <marquee behavior="scroll" direction="left">
+                          Exciting News! 🚨 Join our upcoming comprehensive course designed to prepare you for the upcoming UP Police recruitment! 🎓 Unleash your potential, acquire essential skills, and boost your chances of success in the selection process. 🌟
+                
+                          📆 Course Start Date: [Insert Start Date]
+                          🕒 Timings: [Insert Timings]
+                          📍 Location: [Insert Location]
+                
+                          Don't miss this golden opportunity to receive top-notch guidance from experienced instructors, comprehensive study materials, and personalized coaching to excel in the UP Police joining process. 🏆
+                
+                          Secure your spot today! Limited seats available. Enroll now and take a significant step towards a rewarding career in law enforcement. 🚔💼
+                
+                          For more details and registration, visit our website: [Your Website URL]
+                        </marquee>
+                        <!-- <ul>
                           <li>
                             <i class="bi bi-envelope"></i>
-                            <span> contact@educationstudies.com </span>
+                            <span> <a href="mailto:">contact@educationstudies.com</a> </span>
                           </li>
                           <li>
-                            <i class="bi bi-telephone"></i> <span>8449511111</span>
+                            <i class="bi bi-telephone"></i> <span><a href="tel:">+ 918449511111</a></span>
                           </li>
-                        </ul>
+                        </ul> -->
                       </div>
-                      <div class="col-6">
+                      <!-- <div class="col-6">
                         <ul class="socialIcons">
                           <li>
                             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -58,7 +78,7 @@
                             <a href="#"><i class="bi bi-linkedin"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
@@ -66,11 +86,12 @@
                 <!-- logo -->
                 <div class="container-fluid">
                   <!-- Navigation -->
-                  <div class="row navigation p-2 px-5">
-                    <div class="col-10 col-lg-7 col-md-8">
-                      <div class="logo">
+                  <div class="row navigation p-0 px-5 pe-0">
+                    <div class="col-10 col-lg-7 col-md-8 my-auto">
+                    <a href="/">
+                        <div class="logo">
                         <img
-                          width="60"
+                          width="80"
                           src="/assets/images/LOGO.png"
                           alt="Educaiton Studies"
                           class="img-fluid"
@@ -78,11 +99,12 @@
         
                         <span class="ms-3">EDUCATION STUDIES</span>
                       </div>
+                    </a>
                     </div>
-                    <div class="col-2 col-lg-5 col-md-4">
+                    <div class="col-2 col-lg-5 col-md-4 me-0 pe-0">
                       <!-- social contact-->
                       <div class="socialContact">
-                        <ul>
+                        <!-- <ul>
                           <li>
                             <a>HOME</a>
                           </li>
@@ -95,8 +117,46 @@
                           <li>
                             <a>CONTACT</a>
                           </li>
-                        </ul>
-                     
+                        </ul> -->
+                  
+                        <!-- <div class="Appointment" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          <div class="book_btn d-none d-lg-block">
+                              <a data-scroll-nav="1" href="#">Apply NOw</a>
+                          </div>
+            </div> -->
+        
+            <ul >
+              <!-- <div class="d-flex ">
+                <li>
+                  <span> <a href="#"><i class="bi bi-facebook"></i></a></span>
+                 </li>
+                 <li>
+                   <span><a href="#"><i class="bi bi-instagram"></i></a></span>
+                 </li>
+                 <li>
+                   <span><a href="#"><i class="bi bi-linkedin"></i></a></span>
+                 </li>
+              </div> -->
+              <li class="num">
+                <i class="bi bi-telephone-fill"></i><a href="tel:">+ 91 8449511111</a> 
+              </li>
+              <li class="email">
+                <i class="bi bi-envelope-fill"></i>
+              <a href="mailto:">contact@educationstudies.com</a> 
+              </li>
+            
+          
+            </ul>
+        
+            <ul>
+              <li>
+                <i class="bi bi-geo-alt-fill"></i>
+              <span> <a href="/contact"> Paradise mall, 5, Baghpat Rd Sabun Godam, 
+                Jwala Nagar,Naval Vihar, Meerut, Uttar Pradesh  
+                250002</a></span>
+              </li>
+         
+            </ul>
                       </div>
         
                       
@@ -109,43 +169,84 @@
               <div class="container-fluid hero">
                 <!-- desktop menu -->
                 <div class="row">
-                  <div class="col">
+                  <div class="col m-0 p-0">
                     <div id="stickyMenu" class="menu">
                       <ul>
+                        <li><a href="/">Home</a></li>
                         <li>
                           <a href="#">Courses <i class="bi bi-caret-down-fill"></i></a>
                           <ul>
-                            <li><a href="#">Engineering</a></li>
-                            <li><a href="#">Management</a></li>
-                            <li><a href="#">Medical</a></li>
+                            <li><a href="#">Engineering 
+                              <i class="bi bi-caret-right-fill"></i></a>
+                          <ul>
+                            <li><a href="/courseview/btech">B.Tech/B.E</a></li>
+                             <li><a href="/courseview/mtech">M.Tech</a></li>
+                            <!-- <li><a href="#">ME</a></li>
+                            <li><a href="#">PH.D</a></li>
+                            <li><a href="#">Diploma Courses</a></li>
+                            <li><a href="#">Distance Courses</a></li> -->
+
+
+
+                         
+                          </ul>
+                        </li>
+                            </a></li>
+                            <li><a href="#">Management
+                              <i class="bi bi-caret-right-fill"></i></a>
+                          <ul>
+                            <li><a href="/courseview/mba">MBA</a></li>
+                            <!-- <li><a href="#">PGDM</a></li> -->
+                            <!-- <li><a href="#">PGP</a></li>
+                            <li><a href="#">Executive MBA</a></li>
+                            <li><a href="#">Distance MBA</a></li>
+                            <li><a href="#">Online MBA</a></li>
+                            <li><a href="#">Part Time MBA</a></li> -->
+
+                         
+                          </ul>
+                            </a></li>
+                            <li><a href="#">Medical
+                              <i class="bi bi-caret-right-fill"></i></a>
+                          <ul>
+                            <li><a href="/courseview/mbbs">MBBS</a></li>
+                            <!-- <li><a href="#">MD(Internal Medicine)</a></li>
+                            <li><a href="#">MS(General Surgery)</a></li>
+                            <li><a href="#">BDS</a></li>
+                            <li><a href="#">B.Sc. Nursing</a></li>
+                            <li><a href="#">B.Pharm</a></li>
+                            <li><a href="#">M.Pharm</a></li>
+                            <li><a href="#">BMLT</a></li>
+                            <li><a href="#">Doctor of Medicine(MD)</a></li>
+                            <li><a href="#">M.Sc Nursing</a></li>
+                            <li><a href="#">Master of Physiotherapy(MPT)</a></li> -->
+                   
+                         
+                          </ul>
+                            </a></li>
                           </ul>
                         </li>
                         <li>
                           <a href="#">Colleges <i class="bi bi-caret-down-fill"></i></a>
                           <ul>
                             <li>
-                              <a href="#"
-                                >Engineering <i class="bi bi-caret-right-fill"></i
-                              ></a>
-                              <ul>
-                                <li><a href="./College.html">Top Ranked</a></li>
-                              </ul>
+                              <a href="/collegeslist/engineering/1"
+                                >Engineering  
+                               </a>
+                              
                             </li>
-                            <li><a href="#">Management</a></li>
-                            <li><a href="#">Medical</a></li>
+                            <li><a href="/collegeslist/management/1">Management</a></li>
+                            <li><a href="/collegeslist/medical/1">Medical</a></li>
                           </ul>
                         </li>
+                        <li><a href="/counseling">Counseling</a></li>
                         <li>
-                          <a href="#">Study Abroad</a>
-                          <ul>
-                            <li><a href="#">Countries</a></li>
-                            <li><a href="#">Offering</a></li>
-                            <li><a href="#">Exam</a></li>
-                          </ul>
+                          <a href="/abroad">Study Abroad  </a>
+                        
                         </li>
-                        <li><a href="#">Counseling</a></li>
-                        <li><a href="#">Exam</a></li>
-                        <li><a href="#">Updates</a></li>
+                      
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
                       </ul>
                     </div>
                   </div>
@@ -161,7 +262,7 @@
       </div>
 
       <!-- mobile view -->
-      <div class="row d-block d-md-none">
+      <div class="row  d-block d-md-none">
          
           <div id="mobileView ">
             <!-- logo -->
@@ -169,16 +270,16 @@
               <!-- Navigation -->
               <div class="row navigation shadow-lg m-0  p-2  ">
                 <div class="col-10 col-lg-7 col-md-8">
-                  <div class="logo">
+                  <a href="/"><div class="logo">
                     <img
-                      width="60"
                       src="/assets/images/LOGO.png"
                       alt="Educaiton Studies"
                       class="img-fluid"
                     />
         
-                    <span class="ms-3">EDUCATION STUDIES</span>
+                    <span >EDUCATION STUDIES</span>
                   </div>
+                </a>
                 </div>
                 <div class="col-2 col-lg-5 col-md-4">
                   <!-- social contact-->
@@ -227,13 +328,13 @@
                     >
                       <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-                          <div class="logo">
+                         <a href=""><div class="logo">
                             <img
                               width="60"
                               src="/assets/images/LOGO.png"
                               alt="Educaiton Studies"
                               class="img-fluid"
-                            />
+                            /></a>
         
                             <span class="ms-3">EDUCATION STUDIES</span>
                           </div>
@@ -246,139 +347,62 @@
                         ></div>
                       </div>
                       <div class="offcanvas-body">
-                        <div
-                          class="accordion accordion-flush"
-                          id="accordionFlushExample"
-                        >
-                          <!-- Accordion Item #1 -->
-                          <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                              <div
-                                class="accordion-button collapsed"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne"
-                                aria-expanded="false"
-                                aria-controls="flush-collapseOne"
-                              >
-                                <!-- <p>Accordion Item #1</p> -->
-                                <p>Colleges</p>
-                              </div>
-                            </h2>
-                            <div
-                              id="flush-collapseOne"
-                              class="accordion-collapse collapse"
-                              aria-labelledby="flush-headingOne"
-                              data-bs-parent="#accordionFlushExample"
-                            >
-                              <div class="accordion-body">
-                                <!-- Nested Accordion Level 1 -->
-                                <div
-                                  class="accordion accordion-flush"
-                                  id="nestedAccordionLevel1"
-                                >
-                                  <!-- Nested Accordion Level 1, Item #1 -->
-                                  <div class="accordion-item">
-                                    <h2
-                                      class="accordion-header"
-                                      id="nested-headingOneLevel1"
-                                    >
-                                      <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#nested-collapseOneLevel1"
-                                        aria-expanded="false"
-                                        aria-controls="nested-collapseOneLevel1"
-                                      >
-                                        <!-- Nested Accordion Level 1, Item #1 -->
-                                        <p>Engineering</p>
+
+                        <ul>
+                          <li><a href="/">HOME</a> 
+                          </li>
+                          <li>
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                          Colleges
                                       </button>
-                                    </h2>
-                                    <div
-                                      id="nested-collapseOneLevel1"
-                                      class="accordion-collapse collapse"
-                                      aria-labelledby="nested-headingOneLevel1"
-                                      data-bs-parent="#nestedAccordionLevel1"
-                                    >
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                       <div class="accordion-body">
-                                        <!-- Content for Nested Accordion Level 1, Item #1 -->
-                                        <a href="/College.html"><p>Top Colleges</p></a>
+                                          <a href="/collegeslist/engineering/1">Engineering</a>
+                                          <a href="/collegeslist/Management/1">Management</a>
+                                          <a href="/collegeslist/Medical/1">Medical</a>
                                       </div>
-                                    </div>
                                   </div>
-        
-                                  <!-- Nested Accordion Level 1, Item #2 -->
-                                  <div class="accordion-item">
-                                    <h2
-                                      class="accordion-header"
-                                      id="nested-headingTwoLevel1"
-                                    >
-                                      <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#nested-collapseTwoLevel1"
-                                        aria-expanded="false"
-                                        aria-controls="nested-collapseTwoLevel1"
-                                      >
-                                        <!-- Nested Accordion Level 1, Item #2 -->
-                                        <p>Medical</p>
-                                      </button>
-                                    </h2>
-                                    <div
-                                      id="nested-collapseTwoLevel1"
-                                      class="accordion-collapse collapse"
-                                      aria-labelledby="nested-headingTwoLevel1"
-                                      data-bs-parent="#nestedAccordionLevel1"
-                                    >
-                                      <div class="accordion-body">
-                                        <!-- Content for Nested Accordion Level 1, Item #2 -->
-                                        <a href="#"><p>Top Colleges</p></a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <!-- End of Nested Accordion Level 1 -->
                               </div>
-                            </div>
+                          
+                              <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          Courses
+                                      </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                          <p>ENGINEERING</p>
+                                          <a href="/courseview/btech">B.Tech/BE</a>
+                                          <a href="/courseview/mtech">M.Tech</a>
+                                          <p>MANAGEMENT</p>
+                                          <a href="/courseview/mba">MBA</a>
+                                          <p>Medical</p>
+                                          <a href="/courseview/mbbs">MBBS</a>
+                                      </div>
+                                  </div>
+                              </div>
                           </div>
-                          <!-- End of Accordion Item #1 -->
-                        </div>
+                        
+                          
+                          
+                      </li>
+                      <li><a href="/counseling">COUNSELLING</a> 
+                      </li>
+                      <li><a href="/abroad">STUDY ABROAD</a>
+                      </li>
+                      <li><a href="/ABOUT">ABOUT</a>
+                      </li>
+                    <li><a href="/contact">CONTACT US</a>
+                      </li>
+                      </ul>
                       </div>
-                      <div class="row">
-                        <div class="col mx-md-5">
-                          <ul class="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li>
-                              <label for="subMenu_1_check" href="#">Home +</label>
-        
-                              <input id="subMenu_1_check" type="checkbox" />
-                              <ul class="subMenu_1">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Home</a></li>
-                                <li>
-                                  <label for="subMenu_2_check" href="#">Home +</label>
-                                  <input id="subMenu_2_check" type="checkbox" />
-                                  <ul class="subMenu_2">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Home</a></li>
-                                    <li>
-                                      <a href="#">Home +</a>
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                      
+
                     </div>
                   </div>
                 </div>
@@ -390,7 +414,101 @@
        
       </div>
     </div>
- 
-
+    <!-- registration modal -->
+    <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body p-0">
+                  <!-- latest_coures_area_start  -->
+                  <div class="admission_area">
+                    <div class="admission_inner">
+                      <div class="container">
+                        <div class="row justify-content-end">
+                          <div class="col-lg-12">
+                            <div class="admission_form">
+                              <h3>Apply for Admission</h3>
+                              <form action="#">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="single_input">
+                                      <input type="text" placeholder="First Name" />
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="single_input">
+                                      <input type="text" placeholder="Last Name" />
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="single_input">
+                                      <input type="text" placeholder="Phone Number" />
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="single_input">
+                                      <input
+                                        type="text"
+                                        placeholder="Email Address"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="single_input">
+                                      <textarea
+                                        cols="30"
+                                        placeholder="Write an Application"
+                                        rows="10"
+                                      ></textarea>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12 mx-auto text-center">
+                                    <div class="apply_btn">
+                                      <button class="boxed-btn3" type="submit">
+                                        Apply Now
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <div class="col-lg-12 mt-3 mx-auto w-100">
+                            <div class="terms text-center">
+                              <p>
+                                By submitting this form, you accept and agree to our ,
+                                <a href="@">Term and Conditions</a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/ latest_coures_area_end -->
+                </div>
+                <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+              </div>
+            </div>
+          </div>
+        
     
  

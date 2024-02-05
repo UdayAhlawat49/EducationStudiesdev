@@ -1,51 +1,62 @@
 //about hero style
 .contact-hero-section{
-    background-color: $primary-color;
+   padding : 50px 0; 
+   margin: 0;
+   background-color: $nutral-color;
     .contact-hero-content{
-        height: 250px;
+      padding-top: 0px; 
+      margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: $base-color;
+        color: rgb(255, 255, 255);
+       background-color: $nutral-color;
     }
  }
 
  //contact iconbox style
  .contact-iconbox-section{
-   padding: 100px 0px;
+   
    .contact-iconbox{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
-       background-color: $secondary-color;
-       height: 300px;
-       color: $base-color;
-       text-align: center;
-       i{
-        font-size: 40px;
-       }
-       h4{
-        margin-top: 16px;
-       }
-       p{
-        margin: 16px 0px;
-       }
+     
+      background-color: white;
+      border: 1px solid rgba(0, 0, 0, 0.103);
+      padding: 30px;
+      i{
+         font-size: 25px;
+      }
        
-  
-    
+     align-items: center;
+      }
+      a{
+         color: black;
+         display: flex;
+         align-items: center;
+         h4{
+            display: flex;
+            margin: 00;
+           
+            padding: 0;
+            margin-left: 25px;
+      }
  }
 }
-
+ 
 //contact form style
 .contact-contact-form-section{
-    padding: 100px 0px;
+    padding: 50px;
+     
+    background-color: white;
+    max-width: 700px;
+    color: rgba(0, 0, 0, 0.877);
+    h2{
+      color: rgba(0, 0, 0, 0.877);
+   }
     form{
      label{
-        color: $primary-color;
-        font-weight: 600;
+      color: rgba(0, 0, 0, 0.877);
+      font-weight: 600;
         font-size: 14px;
      }
      .form-text{
@@ -58,15 +69,18 @@
       
      }
      button{
-        background-color: $primary-color;
+      background-color: $primary-color;
         color: $base-color;
         border-radius: 0px;
         font-size: 12px;
         padding: 10px 20px;
-
+      border: none;
 
         &:hover{
-            background-color: $secondary-color;
+         border: none;
+
+       
+            background-color: $accent-color;
             border-color: $secondary-color;
         }
      }

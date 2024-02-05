@@ -1,9 +1,10 @@
 .service_area{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom:0px;
     .single_service{
         background: var(--primary-color);
-          padding:10px;
+        //   padding:10px;
+     
          margin-bottom: 30px;
          @media #{$mobile_device} {
             
@@ -17,7 +18,7 @@
             text-align: center;
             line-height: 70px;
             background: #fff;
-             font-size: 30px;
+             font-size: 10px;
             display: inline-block;
             margin-right: 20px;
             i{

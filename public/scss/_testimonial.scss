@@ -4,7 +4,7 @@
     @media #{$tab}{
         padding: 20px;
       }
-     background-color: #F8F9FA;
+      
     //  @media #{$mobile_device} {
     //     margin: 50px 0;
     //     padding: 0px;
@@ -36,7 +36,7 @@
             margin-top: 80px;
          // background: gray;
          background-color: white;
-
+         margin: 18px 0;
         @media #{$small_mobile}{
             margin-top: 20px;
             background-color: white;
@@ -69,6 +69,9 @@
                 text-transform: initial;
                 font-style: italic;
                 word-wrap: break-word;
+                min-height: 158px;
+                max-height: 158px;
+
             }
             .testimonial-author {
                 display: flex;

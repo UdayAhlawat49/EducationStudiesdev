@@ -4,11 +4,10 @@
 
     <section>
       <div class="container mietViewPage">
-        <% collegeData.forEach(college => { %>
-          <div class="row">
+            <div class="row">
             <div class="col">
               <div class="collegeViewImage">
-                <img src="<%= college.collegeDetails.imageSrc %>" alt="" />
+                <img src="<%= collegeViewData.collegeDetails.imageSrc %>" alt="" />
               </div>
             </div>
           </div>
@@ -17,12 +16,12 @@
               <div class="collgeViewHeading">
                 <div class="collegeViewMainHead">
                   <div class="collegeLogo">
-                    <img width="70" src="<%= college.collegeDetails.logoSrc %>" alt="" />
+                    <img width="70" src="<%= collegeViewData.collegeDetails.logoSrc %>" alt="" />
                   </div>
                   <div class="subheading">
-                    <h3><%= college.collegeDetails.name %></h3>
-                    <p><%= college.collegeDetails.description %></p>
-                  </div>0
+                    <h3><%= collegeViewData.collegeDetails.name %></h3>
+                    <p><%= collegeViewData.collegeDetails.description %></p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -33,29 +32,28 @@
               <p class="bold">Address</p>
               <div class="address">
                 <i class="bi bi-geo-alt-fill"></i>
-                <p><%= college.collegeDetails.address %></p>
+                <p><%= collegeViewData.collegeDetails.address %></p>
               </div>
             </div>
             <div class="col-md-4 border p-md-4 pt-4">
               <p class="bold">Website</p>
               <div class="address">
                 <i class="bi bi-browser-edge"></i>
-                <p><%= college.collegeDetails.website %></p>
+                <p><%= collegeViewData.collegeDetails.website %></p>
               </div>
             </div>
             <div class="col-md-4 border p-md-4 pt-4">
               <p class="bold">Business Hours</p>
               <div class="address">
                 <i class="bi bi-alarm"></i>
-                <p><%= college.collegeDetails.businessHours %></p>
+                <p><%= collegeViewData.collegeDetails.businessHours %></p>
               </div>
             </div>
           </div>
-          <!-- ... Other content ... -->
-        <% }); %>
+  
         
         <!-- tabs -->
-        <% console.log(tabLinksDataForAllColleges) %>
+    
 
      <!-- Nav tabs -->
      <div class="row tabLinks">
@@ -63,11 +61,11 @@
         <div class="innerTabs">
      
 
-     <% tabLinksDataForAllColleges.forEach(tabData => {  %>
+     
       <ul class="nav nav-tabs" id="myTab" role="tablist">
 
         <% tabData.forEach(tab => { %>
-         <%  console.log("tabId" ,tab.id) %>
+      
           <li class="nav-item" role="presentation">
             <button
               class="nav-link <%= tab.active ? 'active' : '' %>"
@@ -85,15 +83,17 @@
         <% }); %>
       </ul>
       
-      <%   }) %>
+    
     </div>
   </div>
   </div>
 <!-- Tab panes -->
-<% tabLinksDataForAllColleges.forEach(tabData => {  %>
+ 
+ 
+  
   <div class="tab-content">
     <% tabData.forEach(tab => { %>
-      <%  console.log("tabId22" ,tab.id) %>
+ 
       <div
         class="tab-pane <%= tab.active ? 'active' : '' %>"
         id="<%= tab.id %>"
@@ -104,12 +104,12 @@
       <div class="CollegeViewtabConent"> 
         <!-- Check if innerContent is an array (for dynamic content) -->
         <% if (Array.isArray(tab.innerContent)) { %>
-          <% console.log("data",tab.innerContent) %>
+        
           <!-- Iterate over innerContent array -->
           <% tab.innerContent.forEach(innerContentItem => { %>
             <!-- Check the type of innerContentItem (overview, admission, courses, etc.) -->
             <div class="row">
-              <div class="col-md-8">
+              <div class="col ">
             <% if (innerContentItem.type === 'latestUpdate') { %>
                <!-- Iterate over innerContentItem.sections if needed -->
                <div id="latestUpdate" class="overview1 card card-body">
@@ -236,11 +236,11 @@
                         <span>Annual Fee</span>
                         <span><i class="bi bi-currency-rupee"></i> &nbsp;<%= section.fee %></span>
                       </div>
-                      <div class="Apply">
+                      <!-- <div class="Apply">
                         <span>
                           Apply
                         </span>
-                      </div>
+                      </div> -->
                     </div>
                    
                      
@@ -260,7 +260,7 @@
               <% innerContentItem.eligibility.forEach(section => { %>
                 
                 <ul>
-                 <li><%= section %>
+                 <li><P><%= section %></P>
                  </li>
                 </ul>
               
@@ -346,7 +346,7 @@
     <% }); %>
   </div>
   
-  <%   }) %>
+ 
 
         
         </div>
@@ -357,3 +357,4 @@
 
     <!-- regustration form end  -->
     <%- include('partials/footer') %>
+    <%- include('partials/copyright') %>

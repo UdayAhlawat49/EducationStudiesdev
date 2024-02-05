@@ -1,0 +1,83 @@
+//abroad hero style
+.abroad-hero-section{
+   background-color: $bg-color-1;
+   padding: 100px 0px;
+   .abroad-hero-content{
+    text-align: center;
+    }
+}
+
+//abroad intro style
+.aborad-intro-section{
+    padding: 100px 0px;
+    background-color: $bg-color-2;
+    .abroad-intro-content{
+      
+        ul{
+  
+         li{
+            color: $secondary-color;
+            font-size: 16px;
+            font-weight: 600;
+            i{
+                font-size: 20px;
+                margin-right:8px;
+
+            }
+            
+         }
+      }
+    }
+
+    img{
+        object-fit: cover;
+    }
+}
+
+//abroad mba start
+.abroad-mba-section{
+    padding: 100px 0px;
+    background-color: $bg-color-3;
+    .abroad-mba-content{
+        text-align: center;
+    }
+    .abroad-mba-item{
+        margin-top: 20px;
+        background-color: $bg-color-1;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 20px;
+
+    }
+}
+
+//abroad btech start
+.abroad-btech-section{
+    padding: 100px 0px;
+    background-color: $bg-color-1;
+    .abroad-btech-content{
+        text-align: center;
+    }
+    .abroad-btech-item{
+        margin-top: 20px;
+        background-color: $bg-color-3;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 20px;
+
+    }
+}
+
+//abroad mbbs start
+.abroad-mbbs-section{
+    padding: 100px 0px;
+    background-color: $bg-color-3;
+    .abroad-mbbs-content{
+        text-align: center;
+    }
+    .abroad-mbbs-item{
+        margin-top: 20px;
+        background-color: $bg-color-1;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 20px;
+
+    }
+}
