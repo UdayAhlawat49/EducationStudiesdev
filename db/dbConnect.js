@@ -3,9 +3,9 @@ const Sequelize = require("sequelize");
 // mysql
 const sequelize = new Sequelize("educationStudies", "root", "4585", {
   dialect: "mysql",
-  host: "localhost",
+  host: "127.0.0.1",
 });
-
+ 
 // Test the connection
 sequelize.authenticate()
   .then(() => {
